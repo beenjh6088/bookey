@@ -1,0 +1,56 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul, ol {list-style :none;}
+a {text-decoration : none;}
+a:link, a:visited, a:hover, a:focus {
+  color: #444;
+}
+.hdd {
+  position: absolute;
+  left: -9999em;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: -1px;
+  color: #444;
+}
+.clear:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+.cetner {
+	width: 1440px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+:root {
+	--main-bg-white: #FBFBFB;
+	--main-bg-red: #C83156;
+	--sub-bg-red: #9A1F3D;
+	--main-txt-black: #333333;
+}
+
+
+
+
+/* background */
+#background {
+	width: 100%;
+	height: calc(100vh + 125px);
+	position: relative;
+	z-index: -1;
+	background: url("../image/background/libraryBackground01.jpg") no-repeat center/cover;
+}
+#background .curtain {
+	width: 100%;
+	height: 100%;
+	background-color : #EDBCC8;
+	opacity: 0.8;
+}
