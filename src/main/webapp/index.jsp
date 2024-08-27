@@ -29,11 +29,13 @@
 <%-- 			<jsp:include page="/jsp/common/main.jsp"></jsp:include> --%>
 			<section id="background">
 				<div class="container">
-					<div class="top">
-						<h1>Bookey</h1>
-						<h2>A book must be the axe for the frozen sea inside us.</h2>
+					<div class="grouper">
+						<div class="top">
+							<h1>Bookey</h1>
+							<h2>A book must be the axe for the frozen sea inside us.</h2>
+						</div>
+						<div class="bottom"></div>
 					</div>
-					<div class="bottom"></div>
 				</div>
 			</section>
 		</main>
