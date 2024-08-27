@@ -68,5 +68,24 @@
 			<button class='icon'></button>
 		</div>
 		<div class="navibg"></div>
+		
+		<div class="searchArea ">
+			<div class="container">
+				<div class="grouper">
+					<div class="inputArea">
+						<input type="text" name="keyword" class="searchInput">
+						<button class="searchIcon"></button>
+					</div>
+					<ul class="popularList">
+						<li><span class="indicator">Trends</span></li>
+						<li><a href="javascript:;" class="popularItem">test01</a></li>
+						<li><a href="javascript:;" class="popularItem">test02</a></li>
+						<li><a href="javascript:;" class="popularItem">test03</a></li>
+						<li><a href="javascript:;" class="popularItem">test04</a></li>
+						<li><a href="javascript:;" class="popularItem">test05</a></li>				
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>

@@ -10,8 +10,8 @@ a:link, a:visited, a:hover, a:focus {
   color: #444;
 }
 .hdd {
-  position: absolute;
-  left: -9999em;
+  position: absolute !important;
+  left: -9999em !important;
 }
 body {
   font-family: "Noto Sans", sans-serif;
@@ -31,10 +31,10 @@ body {
 	position: relative;
 }
 :root {
-	--main-bg-white: #FBFBFB;
-	--main-bg-red: #C83156;
-	--sub-bg-red: #9A1F3D;
-	--main-txt-black: #333333;
+	--main-white: #FBFBFB;
+	--main-red: #C83156;
+	--sub-red: #9A1F3D;
+	--main-black: #333333;
 }
 
 

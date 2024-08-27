@@ -1,7 +1,7 @@
 /* header */
 header {
 	padding: 0 16px;
-	background-color: var(--main-bg-white);
+	background-color: var(--main-white);
 	width: 100%;
 	position: fixed;
 }
@@ -69,17 +69,17 @@ header .center .bottom .mainMenu > li {
 	position: relative;
 }
 header .center .bottom .mainMenu > li:hover {
-	background-color: var(--main-bg-red);
+	background-color: var(--main-red);
 	
 }
 header .center .bottom .mainMenu > li:hover > a {
-	color: var(--main-bg-white);
+	color: var(--main-white);
 }
 header .center .bottom .mainMenu > li:hover > .subMenu {
-	background-color: var(--main-bg-red);
+	background-color: var(--main-red);
 }
 header .center .bottom .mainMenu > li:hover > .subMenu a {
-	color: var(--main-bg-white);	
+	color: var(--main-white);	
 }
 header .center .bottom .mainMenu > li > a {
 	font-size: 32px;
@@ -95,7 +95,7 @@ header .center .bottom .mainMenu > li > .subMenu {
 	width: 100%;
 	height: 200px;
 	padding: 16px;
-  background-color: var(--main-bg-white);
+  background-color: var(--main-white);
 }
 header .center .bottom .mainMenu > li > .subMenu > li {
     padding: 0;
@@ -141,9 +141,75 @@ header .center .bottom .search .icon:active {
 header .center .bottom .navibg {
   width: 100vw;
 	height: 0px;
-  background-color: var(--main-bg-white);
+  background-color: var(--main-white);
   position: absolute;
   top: 60px;
   z-index: 9;
   border-radius: 0 0 40px 40px;
+}
+header .center .bottom .searchArea {
+/* 	display:none; */
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0, 0.6);
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+header .center .bottom .searchArea .container {
+	width: 100%;
+	height: 325px;
+	background-color: var(--main-white);
+	border-radius: 0 0 40px 40px;
+}
+header .center .bottom .searchArea .container .grouper {
+	width: 60%;
+	height: 100%;
+	padding: 8% 0;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+header .center .bottom .searchArea .container .grouper .inputArea {
+	display: flex;
+}
+header .center .bottom .searchArea .container .grouper .inputArea .searchInput {
+	display: inline-block;
+	width: 100%;
+}
+header .center .bottom .searchArea .container .grouper .inputArea .searchIcon {
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	background: url('../image/icon/search.png') no-repeat center/cover;
+	background-size: 28px 28px;
+	border: 0px;
+	cursor : pointer;
+	transition: all 0.3s;
+}
+header .center .bottom .searchArea .container .grouper .inputArea .searchIcon:hover {
+	opacity: 0.6;
+}
+header .center .bottom .searchArea .container .grouper .inputArea .searchIcon:active {
+	transform: scale(0.9);
+}
+header .center .bottom .searchArea .container .grouper .popularList {
+	display: flex;
+	gap: 8px;
+}
+header .center .bottom .searchArea .container .grouper .popularList .indicator {
+	display:block;
+	padding: 8px;
+	border-radius: 50px;
+	background-color: var(--main-red);
+	color: var(--main-white);
+	font-weight: bold;
+}
+header .center .bottom .searchArea .container .grouper .popularList .popularItem {
+	display:block;
+	padding: 8px;
+	border-radius: 50px;
+	border: 1px solid var(--main-black);
+	color: var(--main-black);
 }
