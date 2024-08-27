@@ -69,7 +69,7 @@
 		</div>
 		<div class="navibg"></div>
 		
-		<div class="searchArea ">
+		<div class="searchArea hdd">
 			<div class="container">
 				<div class="grouper">
 					<div class="inputArea">

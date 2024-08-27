@@ -27,11 +27,17 @@
 		<main id="centre">
 <%-- 			<jsp:include page="/jsp/common/aside.jsp"></jsp:include> --%>
 <%-- 			<jsp:include page="/jsp/common/main.jsp"></jsp:include> --%>
+			<section id="background">
+				<div class="container">
+					<div class="top">
+						<h1>Bookey</h1>
+						<h2>A book must be the axe for the frozen sea inside us.</h2>
+					</div>
+					<div class="bottom"></div>
+				</div>
+			</section>
 		</main>
 		
-		<section id="background">
-			<div class="curtain"></div>
-		</section>
 		
 		<footer id="footer">
 			<jsp:include page="/jsp/common/footer.jsp"></jsp:include>
