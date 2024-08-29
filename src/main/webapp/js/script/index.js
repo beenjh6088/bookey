@@ -1,7 +1,7 @@
 const trendingList = document.querySelector(".trendingList")
 const trendingItemHeight = trendingList.children[0].offsetHeight;
 let sliderIntervalID = null;
-let dayOffsMap;
+
 
 function initIndexEvent() {
 	event_trending_moveSlide(".trending");

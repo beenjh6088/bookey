@@ -76,13 +76,9 @@
 						<input type="text" name="keyword" class="searchInput">
 						<button class="searchIcon"></button>
 					</div>
+					<span class="indicator">Trends</span>
 					<ul class="trendingList">
-						<li><span class="indicator">Trends</span></li>
-						<li><a href="javascript:;" class="trendingItem">test01</a></li>
-						<li><a href="javascript:;" class="trendingItem">test02</a></li>
-						<li><a href="javascript:;" class="trendingItem">test03</a></li>
-						<li><a href="javascript:;" class="trendingItem">test04</a></li>
-						<li><a href="javascript:;" class="trendingItem">test05</a></li>				
+						<li class="trendingItem">test01</li>
 					</ul>
 				</div>
 			</div>

@@ -2,10 +2,13 @@ const domain = window.location.hostname;
 const port = window.location.port;
 const pathName = window.location.pathname.split("/")[1];
 const rootURL = `http://${domain}:${port}/${pathName}`
+let dayOffsMap;
+let keywordsMap;
 
 
 function initCommonEvent() {
 	letsMoveWithMouse();
+	getAllKeyword();
 }
 
 function letsMoveWithMouse() {
@@ -53,4 +56,34 @@ function letsMoveWithMouse() {
       circleBox.scrollLeft = scrollLeft - walk;
     });
   }
+}
+
+
+function getAllKeyword() {
+	$.ajax({
+		type:"post",
+		async: false,
+		url:`${rootURL}/keyword/getAllKeyword.do`,
+		success: function(data, status) {
+			keywordsMap = JSON.parse(data);
+			setAllKeyword();
+		}
+	})
+}
+
+function setAllKeyword() {
+	let _keywordsList = keywordsMap.keywordsList;
+	const trendingList = document.querySelectorAll(".trendingList");
+	trendingList.forEach(function(obj, idx) {
+		obj.innerHTML = "";
+		for(let i = 0; i < _keywordsList.length; i++){
+			let trendingItem = document.createElement("li");
+			trendingItem.classList.add("trendingItem");
+			let aTag =  document.createElement("a");
+			aTag.textContent = _keywordsList[i].RECNUM+". "+_keywordsList[i].KEYWORD;
+			aTag.href = "javascript:;";
+			trendingItem.appendChild(aTag);
+			obj.appendChild(trendingItem);	
+		}
+	})
 }

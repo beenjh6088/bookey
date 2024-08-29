@@ -123,7 +123,7 @@
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingList .trendingItem span {
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingList .trendingItem a {
 	font-size: 20px;
 	text-shadow: none;
 	font-weight: 100;
@@ -221,6 +221,7 @@
 	padding: 8px 8px;
 	width: calc(100% - 116px);
 	overflow: hidden;
+	border-left: 1px solid var(--main-white);
 }
 #background .container .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsAmount {
 	font-weight: bold;

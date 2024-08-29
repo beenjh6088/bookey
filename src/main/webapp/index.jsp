@@ -56,15 +56,6 @@
 											<div class="trendingSlider">
 												<ul class="trendingList">
 													<li class="trendingItem"><span>test01</span></li>
-													<li class="trendingItem"><span>test02</span></li>
-													<li class="trendingItem"><span>test03</span></li>
-													<li class="trendingItem"><span>test04</span></li>
-													<li class="trendingItem"><span>test05</span></li>
-													<li class="trendingItem"><span>test06</span></li>
-													<li class="trendingItem"><span>test07</span></li>
-													<li class="trendingItem"><span>test08</span></li>
-													<li class="trendingItem"><span>test09</span></li>
-													<li class="trendingItem"><span>test10</span></li>
 												</ul>
 											</div>
 											<div class="trendingController">

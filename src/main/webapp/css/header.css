@@ -168,9 +168,15 @@ header .center .bottom .searchArea .container .grouper {
 	height: 100%;
 	padding: 8% 0;
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
+/* 	display: flex; */
+/* 	flex-direction: column; */
+/* 	gap: 16px; */
+}
+header .center .bottom .searchArea .container .grouper > * {
+	margin-bottom : 16px;
+}
+header .center .bottom .searchArea .container .grouper > *:last-child {
+	margin-bottom : 0;
 }
 header .center .bottom .searchArea .container .grouper .inputArea {
 	display: flex;
@@ -196,22 +202,25 @@ header .center .bottom .searchArea .container .grouper .inputArea .searchIcon:ho
 header .center .bottom .searchArea .container .grouper .inputArea .searchIcon:active {
 	transform: scale(0.9);
 }
-header .center .bottom .searchArea .container .grouper .trendingList {
-	display: flex;
-	gap: 8px;
-}
-header .center .bottom .searchArea .container .grouper .trendingList .indicator {
-	display:block;
+header .center .bottom .searchArea .container .grouper .indicator {
+	display: inline-block;
 	padding: 8px;
 	border-radius: 50px;
 	background-color: var(--main-red);
 	color: var(--main-white);
 	font-weight: bold;
+	flex-grow: 0;
+}
+header .center .bottom .searchArea .container .grouper .trendingList {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	width: 100%;
 }
 header .center .bottom .searchArea .container .grouper .trendingList .trendingItem {
 	display:block;
 	padding: 8px;
-	border-radius: 50px;
+	border-radius: 20px;
 	border: 1px solid var(--main-black);
 	color: var(--main-black);
 }
