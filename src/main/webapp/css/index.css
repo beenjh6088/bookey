@@ -1,0 +1,269 @@
+/* background */
+#background {
+	width: 100%;
+	height: calc(100vh + 125px);
+	position: relative;
+/* 	position: absolute; */
+	background: url("../image/background/libraryBackground01.jpg") no-repeat center/cover;
+}
+#background .container {
+	width: 100%;
+	height: 100%;
+/* 	background-color : #EDBCC8; */
+/* 	opacity: 0.8; */
+	background-color: rgba(237, 188, 200, 0.8);
+	position: relative;
+	z-index: 0;
+}
+#background .container .grouper {
+	padding: 0 32px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+#background .container .grouper > .top {
+	width: 100%;
+	padding: 24px 0;
+}
+#background .container .grouper > .top > * {
+	font-weight: bold;
+	color: var(--real-white);
+	text-shadow: 1px 1px 4px rgba(0,0,0,1);
+	text-align: center;
+}
+#background .container .grouper > .top h1 {
+	font-size: 64px;
+}
+#background .container .grouper > .top h2 {
+	font-size: 40px;
+}
+#background .container .grouper > .bottom {
+	width: 100%;
+	display: flex;
+	gap: 16px;
+	position: abssolute;
+	z-index: 1;
+}
+#background .container .grouper > .bottom .utils {
+	width: 65.33%;
+	border-radius: 24px;
+	overflow: hidden;
+}
+#background .container .grouper > .bottom .utils > .top {
+	width: 100%;
+	height: 84px;
+	display: flex;
+}
+#background .container .grouper > .bottom .utils > .top > .left {
+/* 	width: 60.06%; */
+	flex-grow :1;
+	height: 100%;
+	background-color: var(--real-white);
+}
+#background .container .grouper > .bottom .utils > .top > .left .inputArea {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+#background .container .grouper > .bottom .utils > .top > .left .inputArea .searchInput {
+	display: block;
+	width: 100%;
+	padding: 4px;
+/* 	border: 1px solid var(--main-black); */
+	border: 0px;
+	height: 100%;
+	border-top-left-radius: 24px;
+}
+#background .container .grouper > .bottom .utils > .top > .left .inputArea .searchIcon {
+	display: block;
+	width: 44px;
+	height: 44px;
+	background: url('../image/icon/search.png') no-repeat center/cover;
+	background-size: 28px 28px;
+	border: 0px;
+	cursor : pointer;
+	transition: all 0.3s;
+}
+#background .container .grouper > .bottom .utils > .top > .left .inputArea .searchIcon:hover {
+	opacity: 0.6;
+}
+#background .container .grouper > .bottom .utils > .top > .left .inputArea .searchIcon:active {
+	transform: scale(0.9);
+}
+#background .container .grouper > .bottom .utils > .top > .right {
+	width: 39.93%;
+/* 	flex-grow :1; */
+	background-color: var(--main-red);
+	padding: 10px 27px;
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending {
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	padding: 8px;
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingSlider {
+	width: 69.08%;
+	height: 43px;
+	overflow: hidden;
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingList {
+	width: 100%;
+	height: auto;
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingList .trendingItem {
+	height: 43px;
+	line-height: 43px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingList .trendingItem span {
+	font-size: 20px;
+	text-shadow: none;
+	font-weight: 100;
+	color: var(--main-white);
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingController .operator {
+	width:24px;
+	height: 24px;
+	cursor: pointer;
+	transition: all 0.3s;	
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingController .operator:active {
+	transform: scale(0.9);
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingController .goUp {
+	background: url('../image/icon/chevron-up-white.png') no-repeat center/cover;
+}
+#background .container .grouper > .bottom .utils > .top > .right .trending .trendingController .goDown {
+	background: url('../image/icon/chevron-down-white.png') no-repeat center/cover;
+}
+
+#background .container .grouper > .bottom .utils > .bottom {
+	width: 100%;
+	height: 250px;
+	background-color: var(--sub-red);
+	padding: 16px;
+	display: flex;
+	overflow: hidden;
+}
+#background .container .grouper > .bottom .utils > .bottom > div {
+	width: 50%;
+	height: 100%;
+	color: var(--main-white);
+	overflow: hidden;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff {
+	border-right: 1px solid var(--main-white);
+	display: flex;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	padding: 48px 0;
+	width: 116px;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left > .title {
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--main-white);
+	text-align: center;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .yyyy {
+	font-size: 20px;
+	font-weight: bold;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span {
+	cursor: pointer;
+	transition: all 0.3s;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img{
+	display: block;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img:hover {
+	opacity:0.6;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img:active {
+	transform: scale(0.9);
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller .mm {
+	font-size: 24px;
+	font-weight: bold;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .right {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 16px;
+	padding: 8px 8px;
+	width: calc(100% - 116px);
+	overflow: hidden;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsAmount {
+	font-weight: bold;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsList {
+	display:flex;
+	gap: 16px;
+	width: 100%;
+}
+#background .container .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsList .circleText {
+	flex-shrink: 0;
+}
+
+#background .container .grouper > .bottom .utils > .bottom .businessHour {
+	padding-left: 8px;
+	position: relative;
+}
+#background .container .grouper > .bottom .utils > .bottom .businessHour section {
+	width: 100%;
+	min-width: 360px;
+	clear: both;
+	overflow: hidden;
+	position: absolute;
+/* 	left: 8px; */
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 0 16px;
+}
+#background .container .grouper > .bottom .utils > .bottom .businessHour section article {
+	height: auto;
+}
+#background .container .grouper > .bottom .utils > .bottom .businessHour section > .left {
+	float: left;
+}
+#background .container .grouper > .bottom .utils > .bottom .businessHour section > .right {
+	float: right;
+}
+#background .container .grouper > .bottom .utils > .bottom .businessHour section article > p {
+	margin-bottom: 8px;
+}
+#background .container .grouper > .bottom .utils > .bottom .businessHour section article > p:last-child {
+	margin-bottom: 0;
+}
+#background .container .grouper > .bottom .utils > .bottom .businessHour section > .right .time {
+	display: block;
+}

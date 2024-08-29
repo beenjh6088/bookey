@@ -178,6 +178,7 @@ header .center .bottom .searchArea .container .grouper .inputArea {
 header .center .bottom .searchArea .container .grouper .inputArea .searchInput {
 	display: inline-block;
 	width: 100%;
+	padding: 4px;
 }
 header .center .bottom .searchArea .container .grouper .inputArea .searchIcon {
 	display: inline-block;

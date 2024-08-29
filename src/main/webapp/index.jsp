@@ -1,6 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="/jsp/config/setting.jsp" %>
+<c:set var="contextPath" value="${pageContext.request.contextPath }"></c:set>
+<%
+	request.setCharacterEncoding("utf-8");
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,15 +12,19 @@
 	<title>Insert title here</title>
 	<link rel="stylesheet" href="${contextPath }/css/common.css" type="text/css">
 	<link rel="stylesheet" href="${contextPath }/css/header.css" type="text/css">
-   <link rel="icon" href="favicon.ico" type="image/x-icon">
-	<script type="text/javascript" src="js/jquery/jquery-1.12.3.js"></script>
-  <script defer src="js/class/RoundedButton.js"></script>
-  <script defer src="js/script/header.js"></script>
+	<link rel="stylesheet" href="${contextPath }/css/index.css" type="text/css">
+  <link rel="icon" href="${contextPath }/favicon.ico" type="image/x-icon">
+	<script type="text/javascript" src="${contextPath }/js/jquery/jquery-3.7.1.min.js"></script>
+  <script defer src="${contextPath }/js/class/RoundedButton.js"></script>
+  <script defer src="${contextPath }/js/script/common.js"></script>
+  <script defer src="${contextPath }/js/script/header.js"></script>
+  <script defer src="${contextPath }/js/script/index.js"></script>
   <script>
   	$(function() {
   		initHeaderEvent();
+  		initIndexEvent();
+  		initCommonEvent();
   	})
-  	
   </script>
 </head>
 <body>
@@ -34,13 +42,87 @@
 							<h1>Bookey</h1>
 							<h2>A book must be the axe for the frozen sea inside us.</h2>
 						</div>
-						<div class="bottom"></div>
+						<div class="bottom">
+							<div class="utils">
+								<div class="top">
+									<div class="left">
+										<div class="inputArea">
+											<input type="text" class="searchInput" placeholder="Input your keywords"/>
+											<button class="searchIcon"></button>
+										</div>
+									</div>
+									<div class="right">
+										<div class="trending">
+											<div class="trendingSlider">
+												<ul class="trendingList">
+													<li class="trendingItem"><span>test01</span></li>
+													<li class="trendingItem"><span>test02</span></li>
+													<li class="trendingItem"><span>test03</span></li>
+													<li class="trendingItem"><span>test04</span></li>
+													<li class="trendingItem"><span>test05</span></li>
+													<li class="trendingItem"><span>test06</span></li>
+													<li class="trendingItem"><span>test07</span></li>
+													<li class="trendingItem"><span>test08</span></li>
+													<li class="trendingItem"><span>test09</span></li>
+													<li class="trendingItem"><span>test10</span></li>
+												</ul>
+											</div>
+											<div class="trendingController">
+												<p class="operator goUp"></p>
+												<p class="operator goDown"></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="bottom">
+									<div class="dayOff">
+										<div class="left">
+											<div class="title"><span>Day off</span></div>
+											<div class="yyyymm">
+												<p class="yyyy"></p>
+												<p class="controller">
+													<span class="prev"><img src="./image/icon/chevron-left-white.png" alt="left button" /></span>
+													<span class="mm"></span>
+													<span class="next"><img src="./image/icon/chevron-right-white.png" alt="right button" /></span>
+												</p>
+											</div>
+										</div>
+										<div class="right">
+											<div class="dayOffsAmount"><span></span> Days</div>
+											<div class="dayOffsList circleTextBox">
+<!-- 												<span class="circleText">11</span> -->
+											</div>
+											<div class="desc">Every 2nd and 4th Monday is a day off</div>
+										</div>
+									</div>
+									<div class="businessHour">
+										<section>
+											<article class="left">
+												<p class="place">(Mon-Sun) Reading room</p>
+												<p class="place">(Weekdays) Intergrate reference room</p>
+												<p class="place">(Weekdays) Reference room</p>
+												<p class="place">(Weekdays) Digital reference room</p>
+											</article>
+											<article class="right">
+												<p class="time">07:00~22:00</p>
+												<p class="time">09:00~22:00</p>
+												<p class="time">09:00~18:00</p>
+												<p class="time">09:00~22:00</p>
+											</article>
+										</section>
+									</div>
+								</div>
+							</div>
+							<div class="login"></div>
+						</div>
 					</div>
 				</div>
 			</section>
 		</main>
 		
+		<p class="output">
 		
+		</p>
 		<footer id="footer">
 			<jsp:include page="/jsp/common/footer.jsp"></jsp:include>
 		</footer>
