@@ -1,56 +1,55 @@
-const trendingList = document.querySelector("#background .trendingList");
+const trendingList = document.querySelector(".trendingList")
 const trendingItemHeight = trendingList.children[0].offsetHeight;
-const $trendingList = $(".trendingList");
 let sliderIntervalID = null;
 let dayOffsMap;
 
 function initIndexEvent() {
-	event_trending_moveSlide();
-	event_trending_stopSlide();
-	event_trending_move();
+	event_trending_moveSlide(".trending");
+	event_trending_stopSlide(".trending");
+	event_trending_move(".trending");
 	getAllDayOffs();
 	updateDate();
 	event_dayOff_move();
 }
 
-function event_trending_moveSlide() {
+function event_trending_moveSlide(selector) {
 	if(sliderIntervalID == null) {
 		sliderIntervalID = setInterval(() => {
-			$trendingList.animate({
+			$(`${selector} .trendingList`).animate({
 				'marginTop':-trendingItemHeight
 			}, function() {
-				$(".trendingItem:first", this).appendTo(".trendingList");
+				$(".trendingItem:first", this).appendTo(`${selector} .trendingList`);
 				$(this).css({"marginTop": "0"});
 			})
 		}, 2000)		
 	}
 }
 
-function event_trending_stopSlide() {
-	$(".trending").mouseenter(function(event) {
+function event_trending_stopSlide(selector) {
+	$(`${selector}`).mouseenter(function(event) {
 		clearInterval(sliderIntervalID);
 		sliderIntervalID = null;
 	})
 	
-	$(".trending").mouseleave(function() {
-		event_trending_moveSlide();
+	$(`${selector}`).mouseleave(function() {
+		event_trending_moveSlide(".trending");
 	})
 }
 
-function event_trending_move() {
-	$(".trendingController .goUp").click(function() {
-		$trendingList.stop().animate({
+function event_trending_move(selector) {
+	$(`${selector} .trendingController .goUp`).click(function() {
+		$(`${selector} .trendingList`).stop().animate({
 			'marginTop':-trendingItemHeight
 		}, function() {
-			$(".trendingItem:first", this).appendTo(".trendingList");
+			$(".trendingItem:first", this).appendTo(`${selector} .trendingList`);
 			$(this).css({"marginTop": "0"});
 		})
 	})
-	$(".trendingController .goDown").click(function() {
-		$trendingList.stop().animate({
+	$(`${selector} .trendingController .goDown`).click(function() {
+		$(`${selector} .trendingList`).stop().animate({
 			'marginTop':trendingItemHeight
 		}, function() {
-			$(".trendingItem:last", this).prependTo(".trendingList");
+			$(".trendingItem:last", this).prependTo(`${selector} .trendingList`);
 			$(this).css({"marginTop": "0"});
 		})
 	})

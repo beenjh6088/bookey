@@ -196,11 +196,11 @@ header .center .bottom .searchArea .container .grouper .inputArea .searchIcon:ho
 header .center .bottom .searchArea .container .grouper .inputArea .searchIcon:active {
 	transform: scale(0.9);
 }
-header .center .bottom .searchArea .container .grouper .popularList {
+header .center .bottom .searchArea .container .grouper .trendingList {
 	display: flex;
 	gap: 8px;
 }
-header .center .bottom .searchArea .container .grouper .popularList .indicator {
+header .center .bottom .searchArea .container .grouper .trendingList .indicator {
 	display:block;
 	padding: 8px;
 	border-radius: 50px;
@@ -208,7 +208,7 @@ header .center .bottom .searchArea .container .grouper .popularList .indicator {
 	color: var(--main-white);
 	font-weight: bold;
 }
-header .center .bottom .searchArea .container .grouper .popularList .popularItem {
+header .center .bottom .searchArea .container .grouper .trendingList .trendingItem {
 	display:block;
 	padding: 8px;
 	border-radius: 50px;

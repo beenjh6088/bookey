@@ -76,13 +76,13 @@
 						<input type="text" name="keyword" class="searchInput">
 						<button class="searchIcon"></button>
 					</div>
-					<ul class="popularList">
+					<ul class="trendingList">
 						<li><span class="indicator">Trends</span></li>
-						<li><a href="javascript:;" class="popularItem">test01</a></li>
-						<li><a href="javascript:;" class="popularItem">test02</a></li>
-						<li><a href="javascript:;" class="popularItem">test03</a></li>
-						<li><a href="javascript:;" class="popularItem">test04</a></li>
-						<li><a href="javascript:;" class="popularItem">test05</a></li>				
+						<li><a href="javascript:;" class="trendingItem">test01</a></li>
+						<li><a href="javascript:;" class="trendingItem">test02</a></li>
+						<li><a href="javascript:;" class="trendingItem">test03</a></li>
+						<li><a href="javascript:;" class="trendingItem">test04</a></li>
+						<li><a href="javascript:;" class="trendingItem">test05</a></li>				
 					</ul>
 				</div>
 			</div>
