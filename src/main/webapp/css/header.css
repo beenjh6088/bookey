@@ -8,6 +8,8 @@ header {
 }
 header .center {
 	padding-top: 5px;
+	max-width: 1440px;
+	width: auto;
 }
 header .center .top {
 	width: 100%;
@@ -56,7 +58,7 @@ header .center .bottom {
 	position: relative;
 }
 header .center .bottom .mainMenu {
-	width: calc(100% - 44px);
+	width: calc(100% - 60px);
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -68,6 +70,7 @@ header .center .bottom .mainMenu > li {
 	line-height: 60px;
 	text-align: center;
 	position: relative;
+	min-width: 190px;
 }
 header .center .bottom .mainMenu > li:hover {
 	background-color: var(--main-red);
@@ -124,6 +127,8 @@ header .center .bottom .mainMenu > li > .subMenu > li > a {
 header .center .bottom .search {
 	padding: 8px;
 	height: 100%;
+	position: absolute;
+	right: 0;
 }
 header .center .bottom .search .icon {
 	display: inline-block;
