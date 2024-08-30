@@ -104,7 +104,35 @@
 									</div>
 								</div>
 							</div>
-							<div class="login"></div>
+							<div class="login">
+								<div class="top">
+									<p class="title">Login</p>
+								</div>
+								<div class="bottom">
+									<div class="form">
+										<div class="input">
+											<div class="id">
+												<div class="icon">
+													<img src="./image/icon/user.png" alt="userIcon"  />
+												</div>
+												<input type="text" class="input_id" placeholder="ID" />
+											</div>
+											<div class="pw">
+												<div class="icon">
+													<img src="./image/icon/lock.png" alt="lockIcon"  />
+												</div>
+												<input type="password" class="input_pw" placeholder="Password" />
+											</div>
+										</div>
+										<div class="button"><button>Login</button></div>
+									</div>
+									<ul class="help">
+										<li class="access"><a href="javascript:;">Look for ID</a></li>
+										<li class="access"><a href="javascript:;">Look for Password</a></li>
+										<li class="access"><a href="javascript:;">Join</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

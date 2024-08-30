@@ -99,10 +99,13 @@ header .center .bottom .mainMenu > li > .subMenu {
   background-color: var(--main-white);
 }
 header .center .bottom .mainMenu > li > .subMenu > li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
 	margin-bottom: 12px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 header .center .bottom .mainMenu > li > .subMenu > li:last-child {
 	margin-bottom: 0;
