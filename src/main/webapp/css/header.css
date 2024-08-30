@@ -83,8 +83,9 @@ header .center .bottom .mainMenu > li:hover > .subMenu a {
 	color: var(--main-white);	
 }
 header .center .bottom .mainMenu > li > a {
+	display: block;
+	height: 100%;
 	font-size: 32px;
-	padding: 8px 32px;
 	font-weight: bold;
 }
 header .center .bottom .mainMenu > li > .subMenu {
@@ -121,18 +122,13 @@ header .center .bottom .mainMenu > li > .subMenu > li > a {
 	line-height: 32px;
 }
 header .center .bottom .search {
+	padding: 8px;
 	height: 100%;
-	position: relative;
 }
 header .center .bottom .search .icon {
 	display: inline-block;
 	width: 44px;
 	height: 44px;
-	position: absolute;
-	padding: 8px;
-	top: 8px;
-/* 	top: 50%; */
-/* 	transform: translate(0, -50%); */
 	background: url('../image/icon/search.png') no-repeat center/cover;
 	background-size: 28px 28px;
 	border: 0px;
