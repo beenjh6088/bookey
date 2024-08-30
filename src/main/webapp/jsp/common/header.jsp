@@ -76,10 +76,12 @@
 						<input type="text" name="keyword" class="searchInput">
 						<button class="searchIcon"></button>
 					</div>
-					<span class="indicator">Trends</span>
-					<ul class="trendingList">
-						<li class="trendingItem">test01</li>
-					</ul>
+					<div class="trendings">
+						<span class="indicator">Trends</span>
+						<ul class="trendingList">
+							<li class="trendingItem">test01</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>

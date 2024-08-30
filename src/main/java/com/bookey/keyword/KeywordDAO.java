@@ -29,15 +29,15 @@ public class KeywordDAO {
 		JSONArray keywordList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
-			String query = "SELECT ROWNUM RECNUM, A.*"
+			String query = "SELECT RANK() OVER(PARTITION BY 1 ORDER BY CNT DESC, KEYWORD) RECNUM, A.*"
 					+ "  FROM ("
 					+ "        SELECT COUNT(KEYWORD) OVER(PARTITION BY KEYWORD ORDER BY KEYWORD) CNT"
-					+ "             , RANK() OVER(PARTITION BY KEYWORD ORDER BY ID DESC) RNK"
+					+ "             , RANK() OVER(PARTITION BY KEYWORD ORDER BY ID DESC) PRIORITY"
 					+ "             , A.*"
 					+ "          FROM TBL_KEYWORD A "
 					+ "       ) A"
 					+ " WHERE 1=1"
-					+ "   AND RNK = 1"
+					+ "   AND PRIORITY = 1"
 					+ "   AND ROWNUM <= 10"
 					+ " ORDER BY CNT DESC, KEYWORD";
 			pstmt = conn.prepareStatement(query);

@@ -169,17 +169,12 @@ header .center .bottom .searchArea .container {
 header .center .bottom .searchArea .container .grouper {
 	width: 60%;
 	height: 100%;
-	padding: 8% 0;
+	padding: 16px 0;
 	margin: 0 auto;
-/* 	display: flex; */
-/* 	flex-direction: column; */
-/* 	gap: 16px; */
-}
-header .center .bottom .searchArea .container .grouper > * {
-	margin-bottom : 16px;
-}
-header .center .bottom .searchArea .container .grouper > *:last-child {
-	margin-bottom : 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 24px;
 }
 header .center .bottom .searchArea .container .grouper .inputArea {
 	display: flex;
@@ -206,6 +201,7 @@ header .center .bottom .searchArea .container .grouper .inputArea .searchIcon:ac
 	transform: scale(0.9);
 }
 header .center .bottom .searchArea .container .grouper .indicator {
+	width: auto;
 	display: inline-block;
 	padding: 8px;
 	border-radius: 50px;
@@ -213,6 +209,8 @@ header .center .bottom .searchArea .container .grouper .indicator {
 	color: var(--main-white);
 	font-weight: bold;
 	flex-grow: 0;
+	align-self: flex-start;
+	margin-bottom: 8px;
 }
 header .center .bottom .searchArea .container .grouper .trendingList {
 	display: flex;

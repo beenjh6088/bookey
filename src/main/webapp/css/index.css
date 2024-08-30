@@ -6,7 +6,12 @@
 /* 	position: absolute; */
 	background: url("../image/background/libraryBackground01.jpg") no-repeat center/cover;
 }
-#background .container {
+#background .main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#background .cover {
 	width: 100%;
 	height: 100%;
 /* 	background-color : #EDBCC8; */
@@ -15,7 +20,7 @@
 	position: relative;
 	z-index: 0;
 }
-#background .container .grouper {
+#background .cover .grouper {
 	padding: 0 32px;
 	position: absolute;
 	width: 100%;
@@ -23,23 +28,23 @@
 	top: 50%;
 	transform: translate(0, -50%);
 }
-#background .container .grouper > .top {
+#background .cover .grouper > .top {
 	width: 100%;
 	padding: 24px 0;
 }
-#background .container .grouper > .top > * {
+#background .cover .grouper > .top > * {
 	font-weight: bold;
 	color: var(--real-white);
 	text-shadow: 1px 1px 4px rgba(0,0,0,1);
 	text-align: center;
 }
-#background .container .grouper > .top h1 {
+#background .cover .grouper > .top h1 {
 	font-size: 64px;
 }
-#background .container .grouper > .top h2 {
+#background .cover .grouper > .top h2 {
 	font-size: 40px;
 }
-#background .container .grouper > .bottom {
+#background .cover .grouper > .bottom {
 	width: 100%;
 	display: flex;
 	gap: 16px;
@@ -48,31 +53,31 @@
 }
 
 /* utils */
-#background .container .grouper > .bottom .utils {
+#background .cover .grouper > .bottom .utils {
 	width: 65.33%;
 	border-radius: 24px;
 	overflow: hidden;
 	flex-grow: 1;
 	flex-shrink: 0.5;
 }
-#background .container .grouper > .bottom .utils > .top {
+#background .cover .grouper > .bottom .utils > .top {
 	width: 100%;
 	height: 84px;
 	display: flex;
 }
-#background .container .grouper > .bottom .utils > .top > .left {
+#background .cover .grouper > .bottom .utils > .top > .left {
 /* 	width: 60.06%; */
 	flex-grow :1;
 	height: 100%;
 	background-color: var(--real-white);
 }
-#background .container .grouper > .bottom .utils > .top > .left .inputArea {
+#background .cover .grouper > .bottom .utils > .top > .left .inputArea {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 }
-#background .container .grouper > .bottom .utils > .top > .left .inputArea .searchInput {
+#background .cover .grouper > .bottom .utils > .top > .left .inputArea .searchInput {
 	display: block;
 	width: 100%;
 	padding: 4px;
@@ -81,7 +86,7 @@
 	height: 100%;
 	border-top-left-radius: 24px;
 }
-#background .container .grouper > .bottom .utils > .top > .left .inputArea .searchIcon {
+#background .cover .grouper > .bottom .utils > .top > .left .inputArea .searchIcon {
 	display: block;
 	width: 44px;
 	height: 44px;
@@ -91,19 +96,19 @@
 	cursor : pointer;
 	transition: all 0.3s;
 }
-#background .container .grouper > .bottom .utils > .top > .left .inputArea .searchIcon:hover {
+#background .cover .grouper > .bottom .utils > .top > .left .inputArea .searchIcon:hover {
 	opacity: 0.6;
 }
-#background .container .grouper > .bottom .utils > .top > .left .inputArea .searchIcon:active {
+#background .cover .grouper > .bottom .utils > .top > .left .inputArea .searchIcon:active {
 	transform: scale(0.9);
 }
-#background .container .grouper > .bottom .utils > .top > .right {
+#background .cover .grouper > .bottom .utils > .top > .right {
 	width: 39.93%;
 /* 	flex-grow :1; */
 	background-color: var(--main-red);
 	padding: 10px 27px;
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending {
+#background .cover .grouper > .bottom .utils > .top > .right .trending {
 	width:100%;
 	display: flex;
 	justify-content: center;
@@ -111,44 +116,44 @@
 	gap: 16px;
 	padding: 8px;
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingSlider {
+#background .cover .grouper > .bottom .utils > .top > .right .trending .trendingSlider {
 	width: 69.08%;
 	height: 43px;
 	overflow: hidden;
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingList {
+#background .cover .grouper > .bottom .utils > .top > .right .trending .trendingList {
 	width: 100%;
 	height: auto;
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingList .trendingItem {
+#background .cover .grouper > .bottom .utils > .top > .right .trending .trendingList .trendingItem {
 	height: 43px;
 	line-height: 43px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingList .trendingItem a {
+#background .cover .grouper > .bottom .utils > .top > .right .trending .trendingList .trendingItem a {
 	font-size: 20px;
 	text-shadow: none;
 	font-weight: 100;
 	color: var(--main-white);
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingController .operator {
+#background .cover .grouper > .bottom .utils > .top > .right .trending .trendingController .operator {
 	width:24px;
 	height: 24px;
 	cursor: pointer;
 	transition: all 0.3s;	
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingController .operator:active {
+#background .cover .grouper > .bottom .utils > .top > .right .trending .trendingController .operator:active {
 	transform: scale(0.9);
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingController .goUp {
+#background .cover .grouper > .bottom .utils > .top > .right .trending .trendingController .goUp {
 	background: url('../image/icon/chevron-up-white.png') no-repeat center/cover;
 }
-#background .container .grouper > .bottom .utils > .top > .right .trending .trendingController .goDown {
+#background .cover .grouper > .bottom .utils > .top > .right .trending .trendingController .goDown {
 	background: url('../image/icon/chevron-down-white.png') no-repeat center/cover;
 }
-#background .container .grouper > .bottom .utils > .bottom {
+#background .cover .grouper > .bottom .utils > .bottom {
 	width: 100%;
 	height: 250px;
 	background-color: var(--sub-red);
@@ -156,17 +161,17 @@
 	display: flex;
 	overflow: hidden;
 }
-#background .container .grouper > .bottom .utils > .bottom > div {
+#background .cover .grouper > .bottom .utils > .bottom > div {
 	width: 50%;
 	height: 100%;
 	color: var(--main-white);
 	overflow: hidden;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff {
 	border-right: 1px solid var(--main-white);
 	display: flex;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
@@ -175,46 +180,46 @@
 	padding: 48px 0;
 	width: 116px;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left > .title {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left > .title {
 	font-size: 24px;
 	font-weight: bold;
 	color: var(--main-white);
 	text-align: center;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 4px;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .yyyy {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .yyyy {
 	font-size: 20px;
 	font-weight: bold;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller {
 	display: flex;
 	justify-content: center;
 	align-items: center;	
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span {
 	cursor: pointer;
 	transition: all 0.3s;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img{
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img{
 	display: block;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img:hover {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img:hover {
 	opacity:0.6;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img:active {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller > span > img:active {
 	transform: scale(0.9);
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller .mm {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .left .yyyymm .controller .mm {
 	font-size: 24px;
 	font-weight: bold;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .right {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .right {
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
@@ -226,22 +231,22 @@
 	overflow: hidden;
 	border-left: 1px solid var(--main-white);
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsAmount {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsAmount {
 	font-weight: bold;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsList {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsList {
 	display:flex;
 	gap: 16px;
 	width: 100%;
 }
-#background .container .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsList .circleText {
+#background .cover .grouper > .bottom .utils > .bottom .dayOff > .right .dayOffsList .circleText {
 	flex-shrink: 0;
 }
-#background .container .grouper > .bottom .utils > .bottom .businessHour {
+#background .cover .grouper > .bottom .utils > .bottom .businessHour {
 	padding-left: 8px;
 	position: relative;
 }
-#background .container .grouper > .bottom .utils > .bottom .businessHour section {
+#background .cover .grouper > .bottom .utils > .bottom .businessHour section {
 	width: 100%;
 	min-width: 360px;
 	clear: both;
@@ -251,27 +256,27 @@
 	transform: translate(0, -50%);
 	padding: 0 16px;
 }
-#background .container .grouper > .bottom .utils > .bottom .businessHour section article {
+#background .cover .grouper > .bottom .utils > .bottom .businessHour section article {
 	height: auto;
 }
-#background .container .grouper > .bottom .utils > .bottom .businessHour section > .left {
+#background .cover .grouper > .bottom .utils > .bottom .businessHour section > .left {
 	float: left;
 }
-#background .container .grouper > .bottom .utils > .bottom .businessHour section > .right {
+#background .cover .grouper > .bottom .utils > .bottom .businessHour section > .right {
 	float: right;
 }
-#background .container .grouper > .bottom .utils > .bottom .businessHour section article > p {
+#background .cover .grouper > .bottom .utils > .bottom .businessHour section article > p {
 	margin-bottom: 8px;
 }
-#background .container .grouper > .bottom .utils > .bottom .businessHour section article > p:last-child {
+#background .cover .grouper > .bottom .utils > .bottom .businessHour section article > p:last-child {
 	margin-bottom: 0;
 }
-#background .container .grouper > .bottom .utils > .bottom .businessHour section > .right .time {
+#background .cover .grouper > .bottom .utils > .bottom .businessHour section > .right .time {
 	display: block;
 }
 
 /* login */
-#background .container .grouper > .bottom .login {
+#background .cover .grouper > .bottom .login {
 	width: 449px;
 	border-radius: 24px;
 	overflow: hidden;
@@ -279,11 +284,11 @@
 	flex-direction: column;
 	flex-shrink: 1.5;
 }
-#background .container .grouper > .bottom .login > .top {
+#background .cover .grouper > .bottom .login > .top {
 	width: 100%;
 	text-align: center;
 }
-#background .container .grouper > .bottom .login > .top > .title {
+#background .cover .grouper > .bottom .login > .top > .title {
 	width: 100%;
 	height: 85px;
 	line-height: 85px;
@@ -292,7 +297,7 @@
 	color: var(--real-white);
 	background-color: var(--sub-red);
 }
-#background .container .grouper > .bottom .login > .bottom {
+#background .cover .grouper > .bottom .login > .bottom {
 	width: 100%;
 	background-color: var(--real-white);
 	padding: 24px;
@@ -301,16 +306,16 @@
 	flex-direction: column;
 	gap: 16px;
 }
-#background .container .grouper > .bottom .login > .bottom .form {
+#background .cover .grouper > .bottom .login > .bottom .form {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	gap: 8px;
 }
-#background .container .grouper > .bottom .login > .bottom .form .input {
+#background .cover .grouper > .bottom .login > .bottom .form .input {
 	flex-grow: 1;
 }
-#background .container .grouper > .bottom .login > .bottom .form .input > div {
+#background .cover .grouper > .bottom .login > .bottom .form .input > div {
 	background-color: var(--main-white);
 	display: flex;
 	justify-content: flex-start;
@@ -318,29 +323,29 @@
 	margin-bottom: 8px;
 	height: 53px;
 }
-#background .container .grouper > .bottom .login > .bottom .form .input > div:last-child {
+#background .cover .grouper > .bottom .login > .bottom .form .input > div:last-child {
 	margin-bottom: 0;
 }
-#background .container .grouper > .bottom .login > .bottom .form .input > div > .icon {
+#background .cover .grouper > .bottom .login > .bottom .form .input > div > .icon {
 	padding: 8px;
 }
-#background .container .grouper > .bottom .login > .bottom .form .input > div > .icon > img {
+#background .cover .grouper > .bottom .login > .bottom .form .input > div > .icon > img {
 	width: 24px;
 	height: 24px;
 }
-#background .container .grouper > .bottom .login > .bottom .form .input > div > input {
+#background .cover .grouper > .bottom .login > .bottom .form .input > div > input {
 	width: 100%;
 	height: 40px;
 	border: 0;
 	background-color: var(--main-white);
 	padding: 0 4px;
 }
-#background .container .grouper > .bottom .login > .bottom .form .button {
+#background .cover .grouper > .bottom .login > .bottom .form .button {
 	flex-grow: 0;
 	width: 114px;
 	height: 114px;
 }
-#background .container .grouper > .bottom .login > .bottom .form .button button {
+#background .cover .grouper > .bottom .login > .bottom .form .button button {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -351,27 +356,43 @@
 	transition: all 0.3s;
 	border: 0;
 }
-#background .container .grouper > .bottom .login > .bottom .form .button button:active {
+#background .cover .grouper > .bottom .login > .bottom .form .button button:active {
 /* 	transform: scale(0.9); */
 	box-shadow: 1px 1px 4px rgba(0,0,0,1);
 }
 
 /* help */
-#background .container .grouper > .bottom .help {
+#background .cover .grouper > .bottom .help {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
-#background .container .grouper > .bottom .help .access {
+#background .cover .grouper > .bottom .help .access {
 	padding: 0 8px;
 	border-right: 1px solid var(--main-lightGray);
 	text-overflow: ellipse;
 	white-space: nowrap;
 	overflow: hidden;
 }
-#background .container .grouper > .bottom .help .access:first-child {
+#background .cover .grouper > .bottom .help .access:first-child {
 	padding-left: 0;
 }
-#background .container .grouper > .bottom .help .access:last-child {
+#background .cover .grouper > .bottom .help .access:last-child {
 	border-right: 0;
+}
+
+/* 
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+frequent
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+*/
+
+#background .frequent {
+	width: 100%;
+	display: flex;
+}
+#background .frequent .cover {
+	width: 100%;
+	height: 187px;
+	background: rgba(104, 90, 90, 60);
 }
