@@ -12,6 +12,7 @@
 	<title>Insert title here</title>
 	<link rel="stylesheet" href="${contextPath }/css/common.css" type="text/css">
 	<link rel="stylesheet" href="${contextPath }/css/header.css" type="text/css">
+	<link rel="stylesheet" href="${contextPath }/css/footer.css" type="text/css">
 	<link rel="stylesheet" href="${contextPath }/css/index.css" type="text/css">
   <link rel="icon" href="${contextPath }/favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="${contextPath }/js/jquery/jquery-3.7.1.min.js"></script>

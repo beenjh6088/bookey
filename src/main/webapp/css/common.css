@@ -13,11 +13,15 @@ a:link, a:visited, a:hover, a:focus {
   position: absolute !important;
   left: -9999em !important;
 }
+html {
+	font-size: 16px;
+}
 body {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Noto Sans", "sans-serif";
   letter-spacing: -1px;
   color: #444;
+  overflow-x: hidden;
+  letter-spacing: 0.02rem;
 }
 .clear:after {
   content:"";
@@ -37,6 +41,7 @@ body {
 	--sub-red: #9A1F3D;
 	--main-black: #333333;
 	--main-lightGray: #CCCCCC;
+	--main-lightBlack: #545454;
 }
 .circleTextBox {
   width: 100%;

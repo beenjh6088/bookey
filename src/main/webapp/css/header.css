@@ -1,13 +1,12 @@
 /* header */
 header {
-	padding: 0 16px;
 	background-color: var(--main-white);
 	width: 100%;
 	position: fixed;
 	z-index: 1;
 }
 header .center {
-	padding-top: 5px;
+	padding: 5px 16px 0;
 	max-width: 1440px;
 	width: auto;
 }

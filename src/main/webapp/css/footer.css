@@ -1,0 +1,39 @@
+/* header */
+footer {
+	background-color: var(--main-lightBlack);
+	width: 100%;
+}
+footer .center {
+	height: 130px;
+	padding: 0 16px;
+}
+footer .center .container {
+	display: flex;
+	color: #939397;
+	gap: 48px;
+	justify-content: flex-start;
+	align-items: center;
+}
+footer .center .container .logo {
+	height: 130px;
+}
+footer .center .container .info {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-weight: bold;
+	font-size: 16px;
+}
+footer .center .container .info .contact {
+	display: flex;
+	gap: 16px;
+}
+footer .center .container .info .contact > li {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 8px;
+}
+footer .center .container .info .address {
+	font-size: 20px;
+}
