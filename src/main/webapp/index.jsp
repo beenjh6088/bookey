@@ -142,11 +142,34 @@
 					</div>
 				</div>
 <!-- 				■ frequent -->
-					<div class="frequent">
-						<div class="cover">
-						
+				<div class="frequent">
+					<div class="cover">
+						<div class="center">
+							<ul class="shortcutList">
+								<li class="shortcutItem">
+									<img src="./image/icon/icon_frequent_apply.png" alt="Apply" class="icon" />
+									<p class="text">Apply</p>
+								</li>
+								<li class="shortcutItem">
+									<img src="./image/icon/icon_frequent_schedules.png" alt="Schedules" class="icon" />
+									<p class="text">Schedules</p>
+								</li>
+								<li class="shortcutItem">
+									<img src="./image/icon/icon_frequent_notices.png" alt="Notices" class="icon" />
+									<p class="text">Notices</p>
+								</li>
+								<li class="shortcutItem">
+									<img src="./image/icon/icon_frequent_questions.png" alt="Questions" class="icon" />
+									<p class="text">Questions</p>
+								</li>
+								<li class="shortcutItem">
+									<img src="./image/icon/icon_frequent_directions.png" alt="Directions" class="icon" />
+									<p class="text">Directions</p>
+								</li>
+							</ul>						
 						</div>
 					</div>
+				</div>
 			</section>
 		</main>
 		
