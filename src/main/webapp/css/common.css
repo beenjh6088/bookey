@@ -1,4 +1,14 @@
 @charset "UTF-8";
+:root {
+	--main-white: #FBFBFB;
+	--real-white: #FFFFFF;
+	--main-red: #C83156;
+	--sub-red: #9A1F3D;
+	--main-black: #333333;
+	--main-lightGray: #CCCCCC;
+	--main-lightBlack: #545454;
+	--height-header: 125px;
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -19,7 +29,7 @@ html {
 body {
   font-family: "Noto Sans", "sans-serif";
   letter-spacing: -1px;
-  color: #444;
+  color: var(--main-black);
   overflow-x: hidden;
   letter-spacing: 0.02rem;
 }
@@ -34,16 +44,7 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-:root {
-	--main-white: #FBFBFB;
-	--real-white: #FFFFFF;
-	--main-red: #C83156;
-	--sub-red: #9A1F3D;
-	--main-black: #333333;
-	--main-lightGray: #CCCCCC;
-	--main-lightBlack: #545454;
-	--height-header: 125px;
-}
+
 .circleTextBox {
   width: 100%;
   overflow-x: hidden;

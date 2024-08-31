@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="/jsp/config/setting.jsp" %>
-<c:set var="contextPath" value="${pageContext.request.contextPath }"></c:set>
 <%
 	request.setCharacterEncoding("utf-8");
 %>
@@ -14,11 +13,11 @@
 	<link rel="stylesheet" href="${contextPath }/css/header.css" type="text/css">
 	<link rel="stylesheet" href="${contextPath }/css/footer.css" type="text/css">
 	<link rel="stylesheet" href="${contextPath }/css/login.css" type="text/css">
-  <link rel="icon" href="${contextPath }/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="${contextPath }/favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="${contextPath }/js/jquery/jquery-3.7.1.min.js"></script>
-  <script defer src="${contextPath }/js/class/RoundedButton.js"></script>
-  <script defer src="${contextPath }/js/script/common.js"></script>
-  <script defer src="${contextPath }/js/script/header.js"></script>
+	<script defer src="${contextPath }/js/class/RoundedButton.js"></script>
+	<script defer src="${contextPath }/js/script/common.js"></script>
+	<script defer src="${contextPath }/js/script/header.js"></script>
   <script>
   	$(function() {
   		initHeaderEvent();

@@ -1,4 +1,4 @@
-class RoundedButton extends HTMLElement {
+class SquaredButton extends HTMLElement {
   constructor() {
     super();
 
@@ -15,7 +15,6 @@ class RoundedButton extends HTMLElement {
 			  align-items: center;
 			  gap: 4px;
 			  padding: 4px 8px;
-			  border-radius: 50px;
 			  border: 2px solid #000;
 			  background-color: #fff;
 			  cursor: pointer;
@@ -27,11 +26,6 @@ class RoundedButton extends HTMLElement {
 			}
 			.rounded-button:hover {
 				opacity: 0.6;
-			}
-			.rounded-button img {
-			  width: 24px;
-			  height: 24px;
-			  display:inline-block;
 			}
 			.rounded-button span {
 			  font-size: 16px;
@@ -45,16 +39,11 @@ class RoundedButton extends HTMLElement {
     const buttonContainer = document.createElement('button');
     buttonContainer.setAttribute('class', 'rounded-button');
 
-    // Generate icon
-    const icon = document.createElement('img');
-    icon.src = this.getAttribute('icon') || '';
-
     // Generate text
     const label = document.createElement('span');
     label.textContent = this.getAttribute('label') || 'Button';
 
     // Append elemets on Shadow DOM
-    buttonContainer.appendChild(icon);
     buttonContainer.appendChild(label);
     shadow.appendChild(style);
     shadow.appendChild(buttonContainer);
@@ -67,9 +56,6 @@ class RoundedButton extends HTMLElement {
 
   attributeChangedCallback(name, oldValue, newValue) {
     const shadow = this.shadowRoot;
-    if(name === 'icon') {
-      shadow.querySelector('img').src = newValue;
-    }
     if(name === 'label') {
       shadow.querySelector('span').textContent = newValue;
     }
@@ -95,4 +81,4 @@ class RoundedButton extends HTMLElement {
 }
 
 // 커스텀 태그 등록
-customElements.define('bky-rounded-button', RoundedButton);
+customElements.define('bky-squared-button', SquaredButton);

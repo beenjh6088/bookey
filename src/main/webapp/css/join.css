@@ -6,10 +6,9 @@
 	background-color: rgba(237, 188, 200, 0.8);
 }
 
-/* login */
-#background .cover .center .frmJoin {
+/* join */
+#background .cover .center .container {
 	width: 90%;
-	height: 800px;
 	background: var(--main-white);
 	border-radius: 24px;
 	overflow: hidden;
@@ -19,5 +18,55 @@
 	left: 50%;
 	top: calc(50% + (var(--height-header) / 2));
 	transform: translate(-50%, -50%);
+}
+#background .cover .center .container .title {
+	background-color: var(--main-red);
+	color: var(--main-white);
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	height: 80px;
+	line-height: 80px;
+}
+#background .cover .center .container .frmJoin {
+	width: 100%;
 	padding: 24px;
+	height: 800px;
+}
+#background .cover .center .container .frmJoin .joinList {
+	width: 100%;
+}
+#background .cover .center .container .frmJoin .joinList .joinItem {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	gap: 16px;
+	padding: 16px;
+	border-bottom: 1px solid var(--main-lightGray);
+}
+#background .cover .center .container .frmJoin .joinList .joinItem .question {
+	text-align: right;
+	font-size: 20px;
+	font-weight: normal;
+	flex-grow: 1;
+}
+#background .cover .center .container .frmJoin .joinList .joinItem .answer {
+	width: 60%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: strech;
+	gap: 32px;
+}
+#background .cover .center .container .frmJoin .joinList .joinItem .answer > input:not([type='radio']){
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 8px;
+	background-color: var(--main-white);
+}
+#background .cover .center .container .frmJoin .buttons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	padding: 32px;
 }
