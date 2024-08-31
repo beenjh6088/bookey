@@ -10,8 +10,8 @@
 		</div>
 		<div class="right">
 			<div class="utils">
-				<bky-rounded-button icon="${contextPath }/image/icon/log-in.png" label="Login" onclick=""></bky-rounded-button>
-				<bky-rounded-button icon="${contextPath }/image/icon/plus-square.png" label="Join" onclick=""></bky-rounded-button>
+				<bky-rounded-button icon="${contextPath }/image/icon/log-in.png" label="Login" class="login"></bky-rounded-button>
+				<bky-rounded-button icon="${contextPath }/image/icon/plus-square.png" label="Join" class="join"></bky-rounded-button>
 			</div>
 		</div>
 	</div>

@@ -42,6 +42,7 @@ body {
 	--main-black: #333333;
 	--main-lightGray: #CCCCCC;
 	--main-lightBlack: #545454;
+	--height-header: 125px;
 }
 .circleTextBox {
   width: 100%;
@@ -79,4 +80,23 @@ body {
 .circleText:active {
   cursor: grabbing;
   cursor: -webkit-grabbing;
+}
+
+
+/* background */
+#background {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+#background .main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#background .main .cover {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 0;
 }

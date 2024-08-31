@@ -18,7 +18,7 @@
 				</li>
 			</ul>
 			<div class="address">
-				<p>(zipcode : 17057)  105, 2035, ButterCream St, WallStreets, New York, USA</p>
+				<p>(zipcode : 17057)  105, 2035, Wall St, New York, USA</p>
 			</div>
 			<div class="copyright">
 				<p>Copyright ⓒ Yongin Library Office. All Rights Reserved.</p>

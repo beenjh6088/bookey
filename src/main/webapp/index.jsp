@@ -117,13 +117,13 @@
 												<div class="input">
 													<div class="id">
 														<div class="icon">
-															<img src="./image/icon/user.png" alt="userIcon"  />
+															<img src="${contextPath }/image/icon/user.png" alt="userIcon"  />
 														</div>
 														<input type="text" class="input_id" placeholder="ID" />
 													</div>
 													<div class="pw">
 														<div class="icon">
-															<img src="./image/icon/lock.png" alt="lockIcon"  />
+															<img src="${contextPath }/image/icon/lock.png" alt="lockIcon"  />
 														</div>
 														<input type="password" class="input_pw" placeholder="Password" />
 													</div>
@@ -133,7 +133,7 @@
 											<ul class="help">
 												<li class="access"><a href="javascript:;">Look for ID</a></li>
 												<li class="access"><a href="javascript:;">Look for Password</a></li>
-												<li class="access"><a href="javascript:;">Join</a></li>
+												<li class="access"><a href="${contextPath }/jsp/user/join.jsp">Join</a></li>
 											</ul>
 										</div>
 									</div>

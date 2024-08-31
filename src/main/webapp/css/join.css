@@ -1,0 +1,23 @@
+/* background */
+#background {
+	background: url("../image/background/libraryBackground03.jpg") no-repeat center/cover;
+}
+#background .main .cover {
+	background-color: rgba(237, 188, 200, 0.8);
+}
+
+/* login */
+#background .cover .center .frmJoin {
+	width: 90%;
+	height: 800px;
+	background: var(--main-white);
+	border-radius: 24px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 50%;
+	top: calc(50% + (var(--height-header) / 2));
+	transform: translate(-50%, -50%);
+	padding: 24px;
+}

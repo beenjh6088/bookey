@@ -4,6 +4,7 @@ function initHeaderEvent() {
 	event_mainMenu_upDown();
 	event_search_showArea();
 	event_search_hideArea();
+	event_bkyRoundedButton_direct();
 }
 
 function event_mainMenu_upDown() {
@@ -37,5 +38,16 @@ function event_search_hideArea() {
 		if(!container.contains(event.target)){
 			searchArea.classList.add("hdd");
 		}
+	})
+}
+
+function event_bkyRoundedButton_direct() {
+	$("bky-rounded-button.login").click(function() {
+//		console.log(`${rootURL}`);
+		location.href = `${rootURL}/jsp/user/login.jsp`;
+	})
+	$("bky-rounded-button.join").click(function() {
+//		console.log(22);
+		location.href = `${rootURL}/jsp/user/join.jsp`;
 	})
 }
