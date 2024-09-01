@@ -4,6 +4,7 @@ const pathName = window.location.pathname.split("/")[1];
 const rootURL = `http://${domain}:${port}/${pathName}`
 let dayOffsMap;
 let keywordsMap;
+let usersMap;
 
 
 function initCommonEvent() {
