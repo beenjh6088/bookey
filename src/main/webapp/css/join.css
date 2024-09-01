@@ -118,4 +118,8 @@
 #background .cover .center .container .frmJoin .buttons > input.submit.disabled {
 	background-color: var(--main-lightGray);
 	color: var(--main-lightBlack);
+	cursor: not-allowed;
+}
+#background .cover .center .container .frmJoin .buttons > input.submit.disabled:active {
+	transform: scale(1);
 }

@@ -3,11 +3,12 @@ let isOkayWithPW = false;
 let isOkayWithEmail = false;
 
 function initJoinEvent() {
-	event_inputID_check();
-	event_inputPW_check();
+	event_ID_check();
+	event_PW_check();
+	event_email_authenticate();
 }
 
-function event_inputID_check() {
+function event_ID_check() {
 	$("#userID").blur(function(event) {
 		let userID = event.target.value;
 		$.ajax({
@@ -34,14 +35,14 @@ function event_inputID_check() {
 	})
 }
 
-function event_inputPW_check() {
+function event_PW_check() {
 	$("#userPW02").keyup(function(event) {
 		let userPW = $("#userPW").val();
 		let userPW02 = event.target.value;
 		let $resultForPW = $(".resultForPW");
 		$resultForPW.removeClass("hdd");
 		
-		if(userPW == userPW02) {
+		if(userPW == userPW02 && userPW != "" && userPW02 != "") {
 			$("span", $resultForPW).text("✓ It is available for your Password");
 			$('span', $resultForPW).css({"color": "green"});
 			isOkayWithPW = true;
@@ -51,4 +52,21 @@ function event_inputPW_check() {
 			isOkayWithPW = false;
 		}
 	});
+}
+
+function event_email_authenticate(){
+	$("#sendAuthentication").click(function(event) {
+		let userEmail = $("#userEmail").val();
+		$.ajax({
+			type:"post",
+			async: true,
+			data: {'userEmail': userEmail},
+			url:`${rootURL}/user/authenticateEmail.do`,
+			success: function(data, status) {
+				usersMap = JSON.parse(data);
+				let randomNumber = usersMap.randomNumber;
+				console.log(randomNumber);
+			}
+		})
+	})
 }

@@ -113,7 +113,7 @@
 <!-- 										<bky-squared-button label="reset" border="1px solid var(--main-black)" background-color="var(--main-white)" color="var(--main-black)" width="160px" height="24px" font-size="20px"></bky-squared-button> -->
 <!-- 										<bky-squared-button label="join" border="0px" background-color="var(--main-red)" color="var(--main-white)" width="160px" height="24px" font-size="20px"></bky-squared-button> -->
 										<input type="reset" value="Reset" class="reset"/>
-										<input type="submit" value="Join" class="submit disabled"/>
+										<input type="submit" value="Join" class="submit disabled" />
 									</div>
 								</form>
 							</div>

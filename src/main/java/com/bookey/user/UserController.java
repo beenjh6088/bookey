@@ -10,8 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+
+import com.bookey.utility.EmailController;
 
 @WebServlet("/user/*")
 public class UserController extends HttpServlet {
@@ -21,6 +22,7 @@ public class UserController extends HttpServlet {
 	 */
 	private static final long serialVersionUID = -8318923147672226562L;
 	private UserService userService;
+	private EmailController emailController;
 	private static final UserController user = new UserController();
 	private StringBuilder nextPage = new StringBuilder();
 	
@@ -35,6 +37,7 @@ public class UserController extends HttpServlet {
 	public void init() throws ServletException {
 		// TODO Auto-generated method stub
 		userService = new UserService();
+		emailController = new EmailController();
 	}
 	
 	@Override
@@ -56,15 +59,6 @@ public class UserController extends HttpServlet {
 		String action = request.getPathInfo();
 		
 		try {
-//			if(action == null || action.equals("/getAllKeyword.do")) {
-//				JSONObject resultMap = new JSONObject();
-//				JSONArray keywordsList = userService.getAllKeyword();
-//				resultMap.put("keywordsList", keywordsList);
-//				String strResultMap = resultMap.toJSONString();
-//				System.out.println(strResultMap);
-//				pw.print(strResultMap);
-//				return;
-//			}
 			if(action.equals("/checkForUserID.do")) {
 				String userID = request.getParameter("userID");
 				JSONObject resultMap = new JSONObject();
@@ -74,6 +68,19 @@ public class UserController extends HttpServlet {
 				System.out.println(strResultMap);
 				pw.print(strResultMap);
 				return;
+				
+			}else if(action.equals("/authenticateEmail.do")) {
+				String userEmail = request.getParameter("userEmail");
+				// Making 7 digits for an Authentication
+				int randomNumber = (int)(Math.random() * 9000000) + 1000000;
+				emailController.sendEmail(userEmail);
+				JSONObject resultMap = new JSONObject();
+				resultMap.put("randomNumber", randomNumber);
+				String strResultMap = resultMap.toJSONString();
+				System.out.println(strResultMap);
+				pw.print(strResultMap);
+				return;
+				
 			}
 			
 			RequestDispatcher dispatcher = request.getRequestDispatcher(nextPage.toString());
