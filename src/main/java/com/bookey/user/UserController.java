@@ -73,7 +73,7 @@ public class UserController extends HttpServlet {
 				String userEmail = request.getParameter("userEmail");
 				// Making 7 digits for an Authentication
 				int randomNumber = (int)(Math.random() * 9000000) + 1000000;
-				emailController.sendEmail(userEmail);
+				emailController.sendForEmail(userEmail);
 				JSONObject resultMap = new JSONObject();
 				resultMap.put("randomNumber", randomNumber);
 				String strResultMap = resultMap.toJSONString();

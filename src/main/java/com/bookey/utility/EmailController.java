@@ -14,7 +14,7 @@ public class EmailController {
 	private static String fromID = "beenjh6088@gmail.com";
 	private static String fromPW = "dshfgmijtuaqodgh";
 	
-	public static void sendEmail(String to) {
+	public static void sendForEmail(String to) {
 		// Setting a SMTP server information
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.gmail.com");

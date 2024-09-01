@@ -21,7 +21,7 @@ function event_ID_check() {
 				let userCNT = usersMap.userCNT;
 				const $resultForID = $(".resultForID");
 				$resultForID.removeClass("hdd");
-				if(userCNT == '0') {
+				if(userCNT == '0' && userID != "") {
 					$('span', $resultForID).text("✓ It is available for your ID");
 					$('span', $resultForID).css({"color": "green"});
 					isOkayWithID = true;
@@ -36,10 +36,26 @@ function event_ID_check() {
 }
 
 function event_PW_check() {
+	let userPW, userPW02;
+	let $resultForPW = $(".resultForPW");
+	$("#userPW").keyup(function(event) {
+		userPW = event.target.value;
+		userPW02 = $("#userPW02").val();
+		$resultForPW.removeClass("hdd");
+		
+		if(userPW == userPW02 && userPW != "" && userPW02 != "") {
+			$("span", $resultForPW).text("✓ It is available for your Password");
+			$('span', $resultForPW).css({"color": "green"});
+			isOkayWithPW = true;
+		}else {
+			$("span", $resultForPW).text("✕ It must be Same beteween Passwords");
+			$('span', $resultForPW).css({"color": "var(--sub-red)"});
+			isOkayWithPW = false;
+		}
+	});
 	$("#userPW02").keyup(function(event) {
 		let userPW = $("#userPW").val();
 		let userPW02 = event.target.value;
-		let $resultForPW = $(".resultForPW");
 		$resultForPW.removeClass("hdd");
 		
 		if(userPW == userPW02 && userPW != "" && userPW02 != "") {
