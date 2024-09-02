@@ -121,28 +121,12 @@
 													<p class="title">User Information</p>
 												</div>
 												<div class="bottom">
-													<form class="frmLogin" name="frmLogin">
-														<div class="input">
-															<div class="id">
-																<div class="icon">
-																	<img src="${contextPath }/image/icon/user.png" alt="userIcon"  />
-																</div>
-																<input type="text" class="userID" name="userID" value="${userVO.getUserID() }" disabled="disabled"/>
-															</div>
-															<div class="pw">
-																<div class="icon">
-																	<img src="${contextPath }/image/icon/lock.png" alt="lockIcon"  />
-																</div>
-																<input type="password" class="userPW" name="userPW" value="${userVO.getName() }" disabled="disabled" />
-															</div>
-														</div>
-<!-- 														<div class="button"><button class="loginButton">Login</button></div> -->
-													</form>
-<!-- 													<ul class="help"> -->
-<!-- 														<li class="access"><a href="javascript:;">Look for ID</a></li> -->
-<!-- 														<li class="access"><a href="javascript:;">Look for Password</a></li> -->
-<%-- 														<li class="access"><a href="${contextPath }/jsp/user/join.jsp">Join</a></li> --%>
-<!-- 													</ul> -->
+													<h1 class="userName">hey, ${userVO.getName() }!</h1>
+													<ul class="buttonList">
+														<li class="buttonItem"><bky-rounded-button icon="${contextPath }/image/icon/book-open.png" label="Check out" class="checkout" height="80px" ></bky-rounded-button></li>
+														<li class="buttonItem"><bky-rounded-button icon="${contextPath }/image/icon/flag.png" label="Reservations" class="reservations" height="80px"></bky-rounded-button></li>
+														<li class="buttonItem"><bky-rounded-button icon="${contextPath }/image/icon/file-text.png" label="My Articles" class="articles" height="80px"></bky-rounded-button></li>
+													</ul>
 												</div>
 											</div>
 										</c:when>

@@ -29,9 +29,8 @@ class SquaredButton extends HTMLElement {
 			}
 			.rounded-button span {
 			  font-size: 16px;
-			  height: 24px;
-			  line-height: 24px;
 			  display:inline-block;
+			  word-wrap: break-word;
 			}
     `;
 
@@ -69,10 +68,10 @@ class SquaredButton extends HTMLElement {
       shadow.querySelector('.rounded-button span').style.color = newValue;
     }
     if(name === 'width') {
-      shadow.querySelector('.rounded-button span').style.width = newValue;
+      shadow.querySelector('.rounded-button').style.width = newValue;
     }
     if(name === 'height') {
-      shadow.querySelector('.rounded-button span').style.height = newValue;
+      shadow.querySelector('.rounded-button').style.height = newValue;
     }
     if(name === 'font-size') {
       shadow.querySelector('.rounded-button span').style.fontSize = newValue;
