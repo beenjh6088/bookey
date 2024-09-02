@@ -44,4 +44,55 @@ public class UserDAO {
 		}
 		return userCNT;
 	}
+	
+	public void joinNewUser(UserVO userVO) {
+		try {
+			conn = dataFactory.getConnection();
+			String query = "INSERT INTO TBL_USER "
+					+ "( "
+					+ "USERID, "
+					+ "USERPW, "
+					+ "EMAIL, "
+					+ "NAME, "
+					+ "ADDRESS, "
+					+ "IS_OPEN_TO_MARKETING, "
+					+ "BIRTHDAY, "
+					+ "GENDER, "
+					+ "RANK, "
+					+ "AUTHNUM, "
+					+ "CREATED_USER "
+					+ ") "
+					+ "VALUES "
+					+ "( "
+					+ "?, "
+					+ "?, "
+					+ "?, "
+					+ "?, "
+					+ "?, "
+					+ "?, "
+					+ "?, "
+					+ "?, "
+					+ "'R', "
+					+ "?, "
+					+ "'USER' "
+					+ ")";
+			pstmt = conn.prepareStatement(query);
+			pstmt.setString(1, userVO.getUserID());
+			pstmt.setString(2, userVO.getUserPW());
+			pstmt.setString(3, userVO.getEmail());
+			pstmt.setString(4, userVO.getName());
+			pstmt.setString(5, userVO.getAddress());
+			pstmt.setString(6, userVO.getIsOpenToMarketing());
+			pstmt.setDate(7, userVO.getBirthday());
+			pstmt.setString(8, userVO.getGender());
+			pstmt.setString(9, userVO.getAuthNum());
+			pstmt.executeUpdate();
+			pstmt.close();
+			conn.close();
+			System.out.println(query);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
 }

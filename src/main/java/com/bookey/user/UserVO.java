@@ -1,6 +1,6 @@
 package com.bookey.user;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class UserVO {
 
@@ -13,6 +13,7 @@ public class UserVO {
 	private Date birthday;
 	private String gender;
 	private String rank;
+	private String authNum;
 	
 	public String getUserID() {
 		return userID;
@@ -67,6 +68,12 @@ public class UserVO {
 	}
 	public void setRank(String rank) {
 		this.rank = rank;
+	}
+	public String getAuthNum() {
+		return authNum;
+	}
+	public void setAuthNum(String authNum) {
+		this.authNum = authNum;
 	}
 	
 }

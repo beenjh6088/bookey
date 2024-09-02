@@ -41,16 +41,16 @@
 	flex-direction: column;
 	gap: 16px;
 }
-#background .cover .center .login > .bottom .form {
+#background .cover .center .login > .bottom .frmLogin {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	gap: 8px;
 }
-#background .cover .center .login > .bottom .form .input {
+#background .cover .center .login > .bottom .frmLogin .input {
 	flex-grow: 1;
 }
-#background .cover .center .login > .bottom .form .input > div {
+#background .cover .center .login > .bottom .frmLogin .input > div {
 	background-color: var(--main-white);
 	display: flex;
 	justify-content: flex-start;
@@ -58,29 +58,29 @@
 	margin-bottom: 8px;
 	height: 53px;
 }
-#background .cover .center .login > .bottom .form .input > div:last-child {
+#background .cover .center .login > .bottom .frmLogin .input > div:last-child {
 	margin-bottom: 0;
 }
-#background .cover .center .login > .bottom .form .input > div > .icon {
+#background .cover .center .login > .bottom .frmLogin .input > div > .icon {
 	padding: 8px;
 }
-#background .cover .center .login > .bottom .form .input > div > .icon > img {
+#background .cover .center .login > .bottom .frmLogin .input > div > .icon > img {
 	width: 24px;
 	height: 24px;
 }
-#background .cover .center .login > .bottom .form .input > div > input {
+#background .cover .center .login > .bottom .frmLogin .input > div > input {
 	width: 100%;
 	height: 40px;
 	border: 0;
 	background-color: var(--main-white);
 	padding: 0 4px;
 }
-#background .cover .center .login > .bottom .form .button {
+#background .cover .center .login > .bottom .frmLogin .button {
 	flex-grow: 0;
 	width: 114px;
 	height: 114px;
 }
-#background .cover .center .login > .bottom .form .button button {
+#background .cover .center .login > .bottom .frmLogin .button button {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -91,7 +91,7 @@
 	transition: all 0.3s;
 	border: 0;
 }
-#background .cover .center .login > .bottom .form .button button:active {
+#background .cover .center .login > .bottom .frmLogin .button button:active {
 	box-shadow: 1px 1px 4px rgba(0,0,0,1);
 }
 

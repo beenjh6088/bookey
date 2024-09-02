@@ -14,7 +14,7 @@ public class EmailController {
 	private static String fromID = "beenjh6088@gmail.com";
 	private static String fromPW = "dshfgmijtuaqodgh";
 	
-	public static void sendForEmail(String to) {
+	public static void sendForEmail(String to, int randomNumber) {
 		// Setting a SMTP server information
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.gmail.com");
@@ -82,7 +82,7 @@ public class EmailController {
 					+ "  <div style='background: linear-gradient(to right, #FBFBFB , #f7fff5);'>"
 					+ "    <p style='margin: 16px 0; padding-left: 16px;'>Hey "+to+"</p>"
 					+ "    <p style='margin: 16px 0; padding-left: 16px;'>We’re excited to welcome you to Bookey! Before you begin your journey, we need to verify your account. Please copy the below Number and paste to the blank in Join Form</p>"
-					+ "    <p style='margin: 16px 0; padding-left: 16px; color: red;'>an Authentication Number : 1234567</p>"
+					+ "    <p style='margin: 16px 0; padding-left: 16px; color: red;'>an Authentication Number : "+randomNumber+"</p>"
 					+ "    <p style='margin: 16px 0; padding-left: 16px;'>After verification, you’ll have access to all the amazing features on Bookey.<br>If you encounter any issues or have questions, our support team is here to help Simply reply to this email or reach out to us at 123-123-1234.</p>"
 					+ "    <p style='margin: 16px 0; padding-left: 16px;'>Sincerely,<br>"
 					+ "      Bookey</p>"

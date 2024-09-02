@@ -8,10 +8,11 @@ public class UserService {
 		userDAO = new UserDAO();
 	}
 	
-//	public JSONArray getAllKeyword() {
-//		return calendarDAO.getAllKeyword();
-//	}
 	public int checkForUserID(String userID) {
 		return userDAO.checkForUserID(userID);
+	}
+	
+	public void joinNewUser(UserVO userVO) {
+		userDAO.joinNewUser(userVO);
 	}
 }

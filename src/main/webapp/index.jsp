@@ -19,11 +19,13 @@
 	<script defer src="${contextPath }/js/script/common.js"></script>
 	<script defer src="${contextPath }/js/script/header.js"></script>
 	<script defer src="${contextPath }/js/script/index.js"></script>
+	<script defer src="${contextPath }/js/script/login.js"></script>
   <script>
   	$(function() {
   		initHeaderEvent();
   		initIndexEvent();
   		initCommonEvent();
+  		initLoginEvent();
   	})
   </script>
 </head>
@@ -112,7 +114,7 @@
 											<p class="title">Login</p>
 										</div>
 										<div class="bottom">
-											<div class="form">
+											<form class="frmLogin" name="frmLogin">
 												<div class="input">
 													<div class="id">
 														<div class="icon">
@@ -127,8 +129,8 @@
 														<input type="password" class="input_pw" placeholder="Password" />
 													</div>
 												</div>
-												<div class="button"><button>Login</button></div>
-											</div>
+												<div class="button"><button class="loginButton">Login</button></div>
+											</form>
 											<ul class="help">
 												<li class="access"><a href="javascript:;">Look for ID</a></li>
 												<li class="access"><a href="javascript:;">Look for Password</a></li>
@@ -147,23 +149,23 @@
 						<div class="center">
 							<ul class="shortcutList">
 								<li class="shortcutItem">
-									<img src="./image/icon/icon_frequent_apply.png" alt="Apply" class="icon" />
+									<img src="${contextPath }/image/icon/icon_frequent_apply.png" alt="Apply" class="icon" />
 									<p class="text">Apply</p>
 								</li>
 								<li class="shortcutItem">
-									<img src="./image/icon/icon_frequent_schedules.png" alt="Schedules" class="icon" />
+									<img src="${contextPath }/image/icon/icon_frequent_schedules.png" alt="Schedules" class="icon" />
 									<p class="text">Schedules</p>
 								</li>
 								<li class="shortcutItem">
-									<img src="./image/icon/icon_frequent_notices.png" alt="Notices" class="icon" />
+									<img src="${contextPath }/image/icon/icon_frequent_notices.png" alt="Notices" class="icon" />
 									<p class="text">Notices</p>
 								</li>
 								<li class="shortcutItem">
-									<img src="./image/icon/icon_frequent_questions.png" alt="Questions" class="icon" />
+									<img src="${contextPath }/image/icon/icon_frequent_questions.png" alt="Questions" class="icon" />
 									<p class="text">Questions</p>
 								</li>
 								<li class="shortcutItem">
-									<img src="./image/icon/icon_frequent_directions.png" alt="Directions" class="icon" />
+									<img src="${contextPath }/image/icon/icon_frequent_directions.png" alt="Directions" class="icon" />
 									<p class="text">Directions</p>
 								</li>
 							</ul>						

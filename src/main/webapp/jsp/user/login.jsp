@@ -18,10 +18,12 @@
 	<script defer src="${contextPath }/js/class/RoundedButton.js"></script>
 	<script defer src="${contextPath }/js/script/common.js"></script>
 	<script defer src="${contextPath }/js/script/header.js"></script>
+	<script defer src="${contextPath }/js/script/login.js"></script>
   <script>
   	$(function() {
   		initHeaderEvent();
   		initCommonEvent();
+  		initLoginEvent();
   	})
   </script>
 </head>
@@ -41,7 +43,7 @@
 									<p class="title">Login</p>
 								</div>
 								<div class="bottom">
-									<div class="form">
+									<form class="frmLogin" name="frmLogin">
 										<div class="input">
 											<div class="id">
 												<div class="icon">
@@ -56,8 +58,8 @@
 												<input type="password" class="input_pw" placeholder="Password" />
 											</div>
 										</div>
-										<div class="button"><button>Login</button></div>
-									</div>
+										<div class="button"><button class="loginButton">Login</button></div>
+									</form>
 									<ul class="help">
 										<li class="access"><a href="javascript:;">Look for ID</a></li>
 										<li class="access"><a href="javascript:;">Look for Password</a></li>

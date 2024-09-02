@@ -41,7 +41,7 @@
 						<div class="center">
 							<div class="container">
 								<h1 class="title">Application form to Join</h1>
-								<form class="frmJoin" method="post" action="">
+								<form class="frmJoin" method="post" name="frmJoin" action="${contextPath }/user/joinNewUser.do">
 									<ul class="joinList">
 										<li class="joinItem">
 											<label class="question" for="userID"><span>ID</span></label>
@@ -71,9 +71,10 @@
 													<input type="button" name="sendAuthentication" id="sendAuthentication" value="Send an Authentication number">												
 												</li>
 												<li>
-													<span>a AendAuthentication Number</span>
+													<span>a Authentication Number</span>
 													<input type="text" name="userAuthentication" id="userAuthentication" placeholder="Input 7 digits for an Authentication">												
 												</li>
+												<li class="resultForEmail hdd"><span></span></li>
 											</ul>
 										</li>
 										<li class="joinItem">
@@ -97,15 +98,15 @@
 										<li class="joinItem">
 											<label class="question"><span>Gender</span></label>
 											<div class="answer">
-												<span><input type="radio" name="_gender" value="1" checked>Man</span>
-												<span><input type="radio" name="_gender" value="2">Woman</span>
+												<span><input type="radio" name="userGender" value="1" checked>Man</span>
+												<span><input type="radio" name="userGender" value="2">Woman</span>
 											</div>
 										</li>
 										<li class="joinItem">
 											<label class="question"><span>Are you agree with receiving mails for Marketing </span></label>
 											<div class="answer">
-												<span><input type="radio" name="_marketing" value="Y" checked>Yes</span>
-												<span><input type="radio" name="_marketing" value="N">No</span>
+												<span><input type="radio" name="userMarketing" value="Y" checked>Yes</span>
+												<span><input type="radio" name="userMarketing" value="N">No</span>
 											</div>
 										</li>
 									</ul>
@@ -113,7 +114,7 @@
 <!-- 										<bky-squared-button label="reset" border="1px solid var(--main-black)" background-color="var(--main-white)" color="var(--main-black)" width="160px" height="24px" font-size="20px"></bky-squared-button> -->
 <!-- 										<bky-squared-button label="join" border="0px" background-color="var(--main-red)" color="var(--main-white)" width="160px" height="24px" font-size="20px"></bky-squared-button> -->
 										<input type="reset" value="Reset" class="reset"/>
-										<input type="submit" value="Join" class="submit disabled" />
+										<input type="button" value="Join" class="submit disabled" />
 									</div>
 								</form>
 							</div>
