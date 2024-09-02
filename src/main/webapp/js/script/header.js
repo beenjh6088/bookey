@@ -5,6 +5,7 @@ function initHeaderEvent() {
 	event_search_showArea();
 	event_search_hideArea();
 	event_bkyRoundedButton_direct();
+	event_logout_disconnect();
 }
 
 function event_mainMenu_upDown() {
@@ -49,5 +50,11 @@ function event_bkyRoundedButton_direct() {
 	$("bky-rounded-button.join").click(function() {
 //		console.log(22);
 		location.href = `${rootURL}/jsp/user/join.jsp`;
+	})
+}
+
+function event_logout_disconnect() {
+	$("bky-rounded-button.logout").click(function() {
+		location.href = `${rootURL}/user/logoutUser.do`;	
 	})
 }

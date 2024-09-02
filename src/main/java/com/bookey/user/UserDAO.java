@@ -95,4 +95,65 @@ public class UserDAO {
 			e.printStackTrace();
 		}
 	}
+	
+	public int isExistingUser(String userID, String userPW) {
+		int resultNum = -1;
+		try {
+			conn = dataFactory.getConnection();
+			String query = "SELECT COUNT(*) RESULT_NUM"
+					+ "  FROM TBL_USER"
+					+ " WHERE 1=1"
+					+ "   AND USERID = ?"
+					+ "   AND USERPW = ?";
+			pstmt = conn.prepareStatement(query);
+			pstmt.setString(1, userID);
+			pstmt.setString(2, userPW);
+			ResultSet rs = pstmt.executeQuery();
+			rs.next();
+			resultNum = rs.getInt("RESULT_NUM");
+			rs.close();
+			pstmt.close();
+			conn.close();
+			System.out.println(query);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return resultNum;
+	}
+	
+	public UserVO findUser(String userID, String userPW) {
+		UserVO userVO = new UserVO();
+		try {
+			conn = dataFactory.getConnection();
+			String query = "SELECT *"
+					+ "  FROM TBL_USER"
+					+ " WHERE 1=1"
+					+ "   AND USERID = ?"
+					+ "   AND USERPW = ?";
+			pstmt = conn.prepareStatement(query);
+			pstmt.setString(1, userID);
+			pstmt.setString(2, userPW);
+			ResultSet rs = pstmt.executeQuery();
+			rs.next();
+			userVO.setUserID(rs.getString("USERID"));
+			userVO.setUserPW(rs.getString("USERPW"));
+			userVO.setEmail(rs.getString("EMAIL"));
+			userVO.setName(rs.getString("NAME"));
+			userVO.setAddress(rs.getString("ADDRESS"));
+			userVO.setIsOpenToMarketing(rs.getString("IS_OPEN_TO_MARKETING"));
+			userVO.setBirthday(rs.getDate("BIRTHDAY"));
+			userVO.setGender(rs.getString("GENDER"));
+			userVO.setRank(rs.getString("RANK"));
+			userVO.setAuthNum(rs.getString("AUTHNUM"));
+			rs.close();
+			pstmt.close();
+			conn.close();
+			System.out.println(query);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return userVO;
+	}
 }

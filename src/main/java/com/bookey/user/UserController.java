@@ -4,10 +4,14 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -29,7 +33,9 @@ public class UserController extends HttpServlet {
 	private static final UserController user = new UserController();
 	private StringBuilder nextPage = new StringBuilder();
 	private SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-	private HttpSession session;
+	private ServletContext context;
+//	private HttpSession session;
+	List<String> userList;
 	
 	public UserController() {
 		getInstance();
@@ -43,6 +49,8 @@ public class UserController extends HttpServlet {
 		// TODO Auto-generated method stub
 		userService = new UserService();
 		emailController = new EmailController();
+		context = getServletContext();
+		userList = new ArrayList<>();
 	}
 	
 	@Override
@@ -62,6 +70,7 @@ public class UserController extends HttpServlet {
 		response.setContentType("text/html; charset=utf-8");
 		PrintWriter pw = response.getWriter();
 		String action = request.getPathInfo();
+		
 		
 		try {
 			if(action.equals("/checkForUserID.do")) {
@@ -112,10 +121,57 @@ public class UserController extends HttpServlet {
 						+ "</script>"
 						);
 				return;
+				
 			}else if(action.equals("/loginUser.do")) {
-				System.out.println("dddddd");
-				nextPage.setLength(0);
-				nextPage.append("/index.jsp");
+				String userID = request.getParameter("userID");
+				String userPW = request.getParameter("userPW");
+				HttpSession session = request.getSession();
+				UserVO userVO = userService.loginUser(userID, userPW);
+				if(userVO != null) {
+					// Login process completed Successfully
+//					if(session.isNew()) {
+						session.setAttribute("userVO", userVO);
+						userList.add(userID);
+						context.setAttribute("userList", userList);
+//					}
+//					nextPage.setLength(0);
+//					nextPage.append("/index.jsp");
+						
+						// the Reason why i use sendRedirect is to block requesting by user's mistake. if not, session overflow with same process(/user/loginUser.do)
+						response.sendRedirect(request.getContextPath()+"/index.jsp");
+						return;
+				}else {
+					// Login process completed Unsuccessfully
+					pw.print("<script>alert('You have entered incorrect login information. Please log in again.');"
+					+ " location.href='"+request.getContextPath()+"/jsp/user/login.jsp';"
+					+ "</script>"
+					);
+					return;
+				}
+			}else if(action.equals("/logoutUser.do")) {
+				HttpSession session = request.getSession(false);
+				if(session != null) {
+					UserVO userVO = (UserVO)session.getAttribute("userVO");
+					userList = (ArrayList<String>) context.getAttribute("userList");
+					if(userVO!=null) userList.remove(userVO.getUserID());
+					session.invalidate();
+				}
+				Cookie[] cookies = request.getCookies();
+				if(cookies != null) {
+					for(Cookie cookie : cookies) {
+						if(cookie.getName().equals("JSESSIONID")) {
+	            cookie.setMaxAge(0);
+	            cookie.setPath("/");
+	            response.addCookie(cookie);
+						}
+					}
+				}
+//				nextPage.setLength(0);
+//				nextPage.append("/index.jsp");
+				
+				// the Reason why i use sendRedirect is to block requesting by user's mistake. if not, session overflow with same process(/user/loginUser.do)
+				response.sendRedirect(request.getContextPath()+"/index.jsp");
+				return;
 			}
 			
 			RequestDispatcher dispatcher = request.getRequestDispatcher(nextPage.toString());

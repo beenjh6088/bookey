@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
 <%@ include file="/jsp/config/setting.jsp" %>
 <%
 	request.setCharacterEncoding("utf-8");
@@ -49,13 +49,13 @@
 												<div class="icon">
 													<img src="${contextPath }/image/icon/user.png" alt="userIcon"  />
 												</div>
-												<input type="text" class="input_id" placeholder="ID" />
+												<input type="text" class="userID" name="userID" placeholder="ID" />
 											</div>
 											<div class="pw">
 												<div class="icon">
 													<img src="${contextPath }/image/icon/lock.png" alt="lockIcon"  />
 												</div>
-												<input type="password" class="input_pw" placeholder="Password" />
+												<input type="password" class="userPW" name="userPW" placeholder="Password" />
 											</div>
 										</div>
 										<div class="button"><button class="loginButton">Login</button></div>

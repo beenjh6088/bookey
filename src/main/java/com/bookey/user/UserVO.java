@@ -2,7 +2,12 @@ package com.bookey.user;
 
 import java.sql.Date;
 
-public class UserVO {
+import javax.servlet.annotation.WebListener;
+import javax.servlet.http.HttpSessionEvent;
+import javax.servlet.http.HttpSessionListener;
+
+@WebListener
+public class UserVO implements HttpSessionListener {
 
 	private String userID;
 	private String userPW;
@@ -14,6 +19,23 @@ public class UserVO {
 	private String gender;
 	private String rank;
 	private String authNum;
+	private static int totalUser = 0;
+	
+	@Override
+	public void sessionCreated(HttpSessionEvent se) {
+		// TODO Auto-generated method stub
+		totalUser++;
+	}
+	
+	@Override
+	public void sessionDestroyed(HttpSessionEvent se) {
+		// TODO Auto-generated method stub
+		totalUser--;
+	}
+	
+	public static int getTotalUser() {
+		return totalUser;
+	}
 	
 	public String getUserID() {
 		return userID;
@@ -75,5 +97,4 @@ public class UserVO {
 	public void setAuthNum(String authNum) {
 		this.authNum = authNum;
 	}
-	
 }

@@ -60,7 +60,7 @@ class RoundedButton extends HTMLElement {
     shadow.appendChild(buttonContainer);
   }
 
-  // 속성 변경 감지
+  // Detecting change on Attributes
   static get observedAttributes() {
     return ['background-color', 'border', 'label', 'color', 'width', 'height', 'font-size'];
   }

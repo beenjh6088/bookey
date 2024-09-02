@@ -1,6 +1,8 @@
+<%@page import="com.bookey.user.UserVO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
 <%@ include file="/jsp/config/setting.jsp" %>
+<c:set var="userVO" value="${sessionScope.userVO}"></c:set>
 <div class="center">
 	<div class="top">
 		<div class="left">
@@ -10,8 +12,21 @@
 		</div>
 		<div class="right">
 			<div class="utils">
-				<bky-rounded-button icon="${contextPath }/image/icon/log-in.png" label="Login" class="login"></bky-rounded-button>
-				<bky-rounded-button icon="${contextPath }/image/icon/plus-square.png" label="Join" class="join"></bky-rounded-button>
+			<%
+				UserVO userVO = (UserVO)session.getAttribute("userVO");
+				if(userVO == null) {
+			%>
+					<bky-rounded-button icon="${contextPath }/image/icon/log-in.png" label="Login" class="login"></bky-rounded-button>
+					<bky-rounded-button icon="${contextPath }/image/icon/plus-square.png" label="Join" class="join"></bky-rounded-button>					
+			<%		
+				} else {
+			%>
+					<bky-rounded-button icon="${contextPath }/image/icon/book.png" label="Check out" class="checkout"></bky-rounded-button>
+					<bky-rounded-button icon="${contextPath }/image/icon/log-out.png" label="Logout" class="logout"></bky-rounded-button>
+					<bky-rounded-button icon="${contextPath }/image/icon/edit.png" label="Update" class="update"></bky-rounded-button>			
+			<%
+				}
+			%>
 			</div>
 		</div>
 	</div>

@@ -1,9 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
 <%@ include file="/jsp/config/setting.jsp" %>
 <%
 	request.setCharacterEncoding("utf-8");
 %>
+<c:set var="userList" value="${applicationScope.userList}"></c:set>
+<c:set var="userVO" value="${sessionScope.userVO}"></c:set> 
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,6 +28,9 @@
   		initIndexEvent();
   		initCommonEvent();
   		initLoginEvent();
+  		console.log(`${userList}`)
+  		console.log(`${userVO.getUserID()}`)
+  		console.log(`${userVO.getUserPW()}`)
   	})
   </script>
 </head>
@@ -77,9 +82,9 @@
 													<div class="yyyymm">
 														<p class="yyyy"></p>
 														<p class="controller">
-															<span class="prev"><img src="./image/icon/chevron-left-white.png" alt="left button" /></span>
+															<span class="prev"><img src="${contextPath }/image/icon/chevron-left-white.png" alt="left button" /></span>
 															<span class="mm"></span>
-															<span class="next"><img src="./image/icon/chevron-right-white.png" alt="right button" /></span>
+															<span class="next"><img src="${contextPath }/image/icon/chevron-right-white.png" alt="right button" /></span>
 														</p>
 													</div>
 												</div>
@@ -109,35 +114,72 @@
 											</div>
 										</div>
 									</div>
-									<div class="login">
-										<div class="top">
-											<p class="title">Login</p>
-										</div>
-										<div class="bottom">
-											<form class="frmLogin" name="frmLogin">
-												<div class="input">
-													<div class="id">
-														<div class="icon">
-															<img src="${contextPath }/image/icon/user.png" alt="userIcon"  />
-														</div>
-														<input type="text" class="input_id" placeholder="ID" />
-													</div>
-													<div class="pw">
-														<div class="icon">
-															<img src="${contextPath }/image/icon/lock.png" alt="lockIcon"  />
-														</div>
-														<input type="password" class="input_pw" placeholder="Password" />
-													</div>
+									<c:choose>
+										<c:when test="${userVO != null }">
+											<div class="login">
+												<div class="top">
+													<p class="title">User Information</p>
 												</div>
-												<div class="button"><button class="loginButton">Login</button></div>
-											</form>
-											<ul class="help">
-												<li class="access"><a href="javascript:;">Look for ID</a></li>
-												<li class="access"><a href="javascript:;">Look for Password</a></li>
-												<li class="access"><a href="${contextPath }/jsp/user/join.jsp">Join</a></li>
-											</ul>
-										</div>
-									</div>
+												<div class="bottom">
+													<form class="frmLogin" name="frmLogin">
+														<div class="input">
+															<div class="id">
+																<div class="icon">
+																	<img src="${contextPath }/image/icon/user.png" alt="userIcon"  />
+																</div>
+																<input type="text" class="userID" name="userID" value="${userVO.getUserID() }" disabled="disabled"/>
+															</div>
+															<div class="pw">
+																<div class="icon">
+																	<img src="${contextPath }/image/icon/lock.png" alt="lockIcon"  />
+																</div>
+																<input type="password" class="userPW" name="userPW" value="${userVO.getName() }" disabled="disabled" />
+															</div>
+														</div>
+<!-- 														<div class="button"><button class="loginButton">Login</button></div> -->
+													</form>
+<!-- 													<ul class="help"> -->
+<!-- 														<li class="access"><a href="javascript:;">Look for ID</a></li> -->
+<!-- 														<li class="access"><a href="javascript:;">Look for Password</a></li> -->
+<%-- 														<li class="access"><a href="${contextPath }/jsp/user/join.jsp">Join</a></li> --%>
+<!-- 													</ul> -->
+												</div>
+											</div>
+										</c:when>
+										<c:otherwise>
+											<div class="login">
+												<div class="top">
+													<p class="title">Login</p>
+												</div>
+												<div class="bottom">
+													<form class="frmLogin" name="frmLogin">
+														<div class="input">
+															<div class="id">
+																<div class="icon">
+																	<img src="${contextPath }/image/icon/user.png" alt="userIcon"  />
+																</div>
+																<input type="text" class="userID" name="userID" placeholder="ID" />
+															</div>
+															<div class="pw">
+																<div class="icon">
+																	<img src="${contextPath }/image/icon/lock.png" alt="lockIcon"  />
+																</div>
+																<input type="password" class="userPW" name="userPW" placeholder="Password" />
+															</div>
+														</div>
+														<div class="button"><button class="loginButton">Login</button></div>
+													</form>
+													<ul class="help">
+														<li class="access"><a href="javascript:;">Look for ID</a></li>
+														<li class="access"><a href="javascript:;">Look for Password</a></li>
+														<li class="access"><a href="${contextPath }/jsp/user/join.jsp">Join</a></li>
+													</ul>
+												</div>
+											</div>
+											<!-- end login -->
+										</c:otherwise>
+									</c:choose>
+
 								</div>
 							</div>
 						</div>
