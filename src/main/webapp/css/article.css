@@ -3,4 +3,6 @@
 	border: 1px dashed blue;
 	flex-grow: 1;
 	flex-shrink: 1;
+	background: linear-gradient(to bottom,  var(--main-whisper) 0%, var(--main-white) 20%, var(--main-white) 60%, var(--main-whisper) 100%);
 }
+
