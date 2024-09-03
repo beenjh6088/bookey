@@ -1,0 +1,12 @@
+/* background */
+#background {
+/* 	background: url("../image/background/libraryBackground02.jpg") no-repeat center/cover; */
+	background: none;
+}
+#background .main .cover {
+	background-color: rgba(237, 188, 200, 0.8);
+}
+
+#aside {
+	
+}
