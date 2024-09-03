@@ -15,6 +15,8 @@
 	<link rel="stylesheet" href="${contextPath }/css/header.css" type="text/css">
 	<link rel="stylesheet" href="${contextPath }/css/footer.css" type="text/css">
 	<link rel="stylesheet" href="${contextPath }/css/index.css" type="text/css">
+	<link rel="stylesheet" href="${contextPath }/css/aside.css" type="text/css">
+	<link rel="stylesheet" href="${contextPath }/css/article.css" type="text/css">
 	<link rel="icon" href="${contextPath }/favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="${contextPath }/js/jquery/jquery-3.7.1.min.js"></script>
 	<script defer src="${contextPath }/js/class/RoundedButton.js"></script>
@@ -22,10 +24,12 @@
 	<script defer src="${contextPath }/js/script/header.js"></script>
 	<script defer src="${contextPath }/js/script/index.js"></script>
 	<script defer src="${contextPath }/js/script/login.js"></script>
+	<script defer src="${contextPath }/js/script/aside.js"></script>
   <script>
   	$(function() {
   		initHeaderEvent();
   		initCommonEvent();
+  		initAsideEvent();
   	})
   </script>
 </head>
@@ -40,8 +44,8 @@
 				<div class="main">
 					<div class="cover">
 						<div class="center">
-<%-- 							<jsp:include page="/jsp/search/books/aside.jsp"></jsp:include> --%>
-<%-- 							<jsp:include page="/jsp/search/books/article.jsp"></jsp:include> --%>
+							<jsp:include page="/jsp/event/schedules/aside.jsp"></jsp:include>
+							<jsp:include page="/jsp/event/schedules/article.jsp"></jsp:include>
 						</div>
 					</div>
 				</div>
