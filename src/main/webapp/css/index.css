@@ -1,6 +1,6 @@
 /* background */
 #background {
-	background: url("../image/background/libraryBackground01.jpg") no-repeat center/cover;
+	background: url("../image/background/centre/bg_centre01.jpg") no-repeat center/cover;
 }
 #background .main .cover {
 	background-color: rgba(237, 188, 200, 0.8);
@@ -239,7 +239,7 @@
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%);
-	padding: 0 16px;
+	padding: 0 8px;
 }
 #background .cover .grouper > .bottom .utils > .bottom .businessHour section article {
 	height: auto;

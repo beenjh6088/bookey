@@ -1,0 +1,6 @@
+/* article */
+#article {
+	border: 1px dashed blue;
+	flex-grow: 1;
+	flex-shrink: 1;
+}

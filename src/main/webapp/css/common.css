@@ -1,12 +1,20 @@
 @charset "UTF-8";
 :root {
+	/* 	color */
 	--main-white: #FBFBFB;
 	--real-white: #FFFFFF;
+	--main-gainsboro: #DCDCDC;
+	--main-whisper: #E6E6E6;
+	--main-whiteSmoke: #F5F5F5;
+	--main-alabaster: #F2F0E6;
 	--main-red: #C83156;
 	--sub-red: #9A1F3D;
+	--main-dustyRose: #A46171;
 	--main-black: #333333;
 	--main-lightGray: #CCCCCC;
 	--main-lightBlack: #545454;
+	
+	/* 	figure */
 	--height-header: 125px;
 }
 * {
@@ -31,7 +39,7 @@ body {
   letter-spacing: -1px;
   color: var(--main-black);
   overflow-x: hidden;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.05rem;
 }
 .clear:after {
   content:"";

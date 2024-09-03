@@ -9,14 +9,14 @@ function initHeaderEvent() {
 }
 
 function event_mainMenu_upDown() {
-	$(".mainMenu > li").mouseover(function() {
-    $(".subMenu").show();
-    $(".navibg").css({
+	$("header .mainMenu > li").mouseover(function() {
+    $("header .subMenu").show();
+    $("header  .navibg").css({
       'height':'200px'
     });
 	}).mouseout(function() {
-    $(".subMenu").hide();
-    $(".navibg").css({
+    $("header  .subMenu").hide();
+    $("header  .navibg").css({
       'height':'0'
     });
 	})
@@ -51,7 +51,7 @@ function event_href_direct() {
 	})
 	
 	// setting links for all menus
-	$(".mainMenu > li > a").each(function(idx, obj) {
+	$(" .mainMenu > li > a").each(function(idx, obj) {
 		let mainMenu = obj.textContent.toLowerCase();
 		$(".subMenu a", this.parentNode).each(function(index, object) {
 			let rawSubMenu = object.textContent.toLowerCase();

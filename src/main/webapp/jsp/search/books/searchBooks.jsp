@@ -24,10 +24,12 @@
 	<script defer src="${contextPath }/js/script/header.js"></script>
 	<script defer src="${contextPath }/js/script/index.js"></script>
 	<script defer src="${contextPath }/js/script/login.js"></script>
+	<script defer src="${contextPath }/js/script/aside.js"></script>
   <script>
   	$(function() {
   		initHeaderEvent();
   		initCommonEvent();
+  		initAsideEvent();
   	})
   </script>
 </head>
