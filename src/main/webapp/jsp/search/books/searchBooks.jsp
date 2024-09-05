@@ -20,16 +20,19 @@
 	<link rel="icon" href="${contextPath }/favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="${contextPath }/js/jquery/jquery-3.7.1.min.js"></script>
 	<script defer src="${contextPath }/js/class/RoundedButton.js"></script>
+	<script defer src="${contextPath }/js/class/BookItem.js"></script>
 	<script defer src="${contextPath }/js/script/common.js"></script>
 	<script defer src="${contextPath }/js/script/header.js"></script>
 	<script defer src="${contextPath }/js/script/index.js"></script>
 	<script defer src="${contextPath }/js/script/login.js"></script>
 	<script defer src="${contextPath }/js/script/aside.js"></script>
+	<script defer src="${contextPath }/js/script/article.js"></script>
   <script>
   	$(function() {
   		initHeaderEvent();
   		initCommonEvent();
   		initAsideEvent();
+  		initArticleEvent();
   	})
   </script>
 </head>
