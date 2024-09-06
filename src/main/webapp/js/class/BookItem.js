@@ -11,9 +11,12 @@ class BookItem extends HTMLElement {
 		let isAvailable = this.getAttribute("isAvailable");
 		let isDisabled = this.getAttribute("isDisabled") || "";
 		
-		let elReturnDate = "";
+		let elAvailable = "";
 		if(isAvailable == "Check Out") {
-			elReturnDate = `<li class="returnDate"><label for="">Return Date</label><span>${returnDate}</span></li>`
+			elAvailable = `
+				<li class="queue"><label for="">Reservation for</label><span>${queue}</span></li>
+				<li class="returnDate"><label for="">Return Date</label><span>${returnDate}</span></li>
+			`
 		}
 		
 		this.classList.add("bookItem")
@@ -28,8 +31,7 @@ class BookItem extends HTMLElement {
 			      <li class="bookInfo"><label for="">Author</label><span>${author}</span></li>
 			      <li class="publishedDate"><label for="">Published Date</label><span>${publishedDate}</span></li>
 			      <li class="location"><label for="">Location</label><span>${location}</span></li>
-			      <li class="queue"><label for="">Reservation</label><span>${queue}</span></li>
-			      ${elReturnDate}
+			      ${elAvailable}
 			      <li class="isAvailable"><label for="">Status</label><span>${isAvailable}</span></li>
 			    </ul>
 			    <div class="buttons">

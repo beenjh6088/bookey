@@ -83,7 +83,7 @@ function event_submit_search() {
 					bookItem.setAttribute("author", bookList[i].AUTHOR);
 					bookItem.setAttribute("publishedDate", bookList[i].PUBLISHED_DATE);
 					bookItem.setAttribute("location", bookList[i].LIBRARY_NAME);
-					bookItem.setAttribute("queue", bookList[i].LIBRARY_NAME);
+					bookItem.setAttribute("queue", bookList[i].QUEUE);
 					bookItem.setAttribute("returnDate", bookList[i].RENTAL_DUE_DATE);
 					bookItem.setAttribute("isAvailable", bookList[i].BOOK_STATUS);
 					if(bookList[i].BOOK_STATUS != "Available") {

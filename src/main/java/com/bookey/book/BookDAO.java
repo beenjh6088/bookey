@@ -125,10 +125,28 @@ public class BookDAO {
 					+ "             , BOOK.PUBLISHER, BOOK.AUTHOR, BOOK.IMAGE_FILE_NAME, BOOK.PUBLISHED_DATE"
 					+ "             , LOCA.LOCATION_ID, LOCA_INFO.VALUE LIBRARY_NAME, LOCA.SHELF_NO, LOCA.ROW_NO"
 					+ "             , CATEGORY.CATGID, CATEGORY.CATG01, CATEGORY.CATG02, CATEGORY.CATG03"
-					+ "             , RENTAL.RENTALID AS RENTAL_STATUS_CODE, RENTAL.USERID AS RETAL_USER, RENTAL_STATUS.VALUE AS RENTAL_STATUS_VALUE, TO_CHAR(RENTAL.RENTAL_DATE, 'YYYY-MM-DD') AS RENTAL_DATE, TO_CHAR(RENTAL.DUE_DATE, 'YYYY-MM-DD') AS RENTAL_DUE_DATE"
+					+ "             , RENTAL.RENTALID AS RENTAL_STATUS_CODE, RENTAL.USERID AS RETAL_USER, RENTAL_STATUS.VALUE AS RENTAL_STATUS_VALUE, TO_CHAR(RENTAL.RENTAL_DATE, 'YYYY-MM-DD') AS RENTAL_DATE, TO_CHAR(RENTAL.DUE_DATE, 'YYYY-MM-DD') AS RENTAL_DUE_DATE, RENTAL.QUEUE"
 					+ "             , BOOK_STATUS.CODE BOOK_STATUS_CODE, BOOK_STATUS.VALUE BOOK_STATUS"
 					+ "          FROM TBL_BOOK BOOK"
-					+ "             , TBL_RENTAL RENTAL"
+					+ "             , ("
+					+ "                SELECT ONGOING.RENTALID, ONGOING.BOOKID, ONGOING.USERID, ONGOING.RENTAL_DATE, ONGOING.DUE_DATE, ONGOING.RETURN_DATE, ONGOING.STATUS"
+					+ "                     , RESERVED.QUEUE"
+					+ "                  FROM ("
+					+ "                        SELECT *"
+					+ "                          FROM TBL_RENTAL"
+					+ "                         WHERE 1=1"
+					+ "                           AND STATUS = 'G'"
+					+ "                       ) ONGOING"
+					+ "                     , ("
+					+ "                        SELECT BOOKID, MAX(QUEUE) QUEUE"
+					+ "                          FROM TBL_RENTAL"
+					+ "                         WHERE 1=1"
+					+ "                           AND STATUS = 'R'"
+					+ "                         GROUP BY BOOKID"
+					+ "                       ) RESERVED"
+					+ "                 WHERE 1=1"
+					+ "                   AND ONGOING.BOOKID = RESERVED.BOOKID"
+					+ "               ) RENTAL"
 					+ "             , TBL_CATEGORY CATEGORY"
 					+ "             , TBL_LOCATION LOCA"
 					+ "             , (SELECT * FROM TBL_MASTER WHERE 1=1 AND TABLE_NAME = 'TBL_BOOK' AND COLUMN_NAME = 'STATUS') BOOK_STATUS"
@@ -144,13 +162,13 @@ public class BookDAO {
 					+ "       )"
 					+ " WHERE 1=1";
 					if(BOOKNM != null && BOOKNM.toString().length() != 0) {
-						query += " AND BOOKNM LIKE '%"+BOOKNM.toString()+"%'";
+						query += " AND UPPER(REPLACE(BOOKNM, ' ' ,'')) LIKE UPPER(REPLACE('%"+BOOKNM.toString()+"%', ' ', ''))";
 					}
 					if(PUBLISHER != null && PUBLISHER.toString().length() != 0) {
-						query += " AND BOOKNM LIKE '%"+PUBLISHER.toString()+"%'";
+						query += " AND UPPER(REPLACE(PUBLISHER, ' ' ,'')) LIKE UPPER(REPLACE('%"+PUBLISHER.toString()+"%', ' ', ''))";
 					}
 					if(AUTHOR != null && AUTHOR.toString().length() != 0) {
-						query += " AND BOOKNM LIKE '%"+AUTHOR.toString()+"%'";
+						query += " AND UPPER(REPLACE(AUTHOR, ' ' ,'')) LIKE UPPER(REPLACE('%"+AUTHOR.toString()+"%', ' ', ''))";
 					}
 					if(CATGID != null && CATGID.toString().length() != 0) {
 						query += " AND CATGID = '"+CATGID.toString()+"'";
@@ -190,6 +208,7 @@ public class BookDAO {
 				book.put("IMAGE_FILE_NAME", rs.getString("IMAGE_FILE_NAME"));
 				book.put("LIBRARY_NAME", rs.getString("LIBRARY_NAME"));
 				book.put("BOOK_STATUS", rs.getString("BOOK_STATUS"));
+				book.put("QUEUE", rs.getString("QUEUE"));
 				bookList.add(book);
 			}
 			rs.close();
