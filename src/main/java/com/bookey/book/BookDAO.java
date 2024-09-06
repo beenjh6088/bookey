@@ -12,8 +12,6 @@ import javax.sql.DataSource;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import com.bookey.utility.UtilityController;
-
 public class BookDAO {
 	private Connection conn;
 	private PreparedStatement pstmt;
@@ -113,8 +111,8 @@ public class BookDAO {
 			Object RENTAL_STATUS_CODE = filterMap.get("RENTAL_STATUS_CODE");
 			Object S_RENTAL_DATE = filterMap.get("S_RENTAL_DATE");
 			Object E_RENTAL_DATE = filterMap.get("E_RENTAL_DATE");
-			Object S_DUE_DATE = filterMap.get("S_DUE_DATE");
-			Object E_DUE_DATE = filterMap.get("E_DUE_DATE");
+			Object S_DUE_DATE = filterMap.get("S_RENTAL_DUE_DATE");
+			Object E_DUE_DATE = filterMap.get("E_RENTAL_DUE_DATE");
 			Object BOOK_STATUS_CODE = filterMap.get("BOOK_STATUS_CODE");
 			
 			String query = "SELECT *"
@@ -209,6 +207,7 @@ public class BookDAO {
 				book.put("LIBRARY_NAME", rs.getString("LIBRARY_NAME"));
 				book.put("BOOK_STATUS", rs.getString("BOOK_STATUS"));
 				book.put("QUEUE", rs.getString("QUEUE"));
+				book.put("PUBLISHED_DATE", rs.getString("PUBLISHED_DATE"));
 				bookList.add(book);
 			}
 			rs.close();

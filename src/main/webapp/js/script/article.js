@@ -1,6 +1,9 @@
+let filledRentalDate = true;
+let filledDueDate = true;
+
 function initArticleEvent() {
 	init_component_fillData();
-	event_submit_search();
+	event_component_act();
 }
 
 function init_component_fillData() {
@@ -58,11 +61,54 @@ function init_component_fillData() {
 	}
 }
 
-function event_submit_search() {
+function event_component_act() {
 	$("#article .frmSearchBook .submit").click(function(event)  {
 		event.preventDefault();
+		search_data();
+	})
+	if(fileName.includes("searchBooks")) {
+		document.addEventListener("keydown", function(event) {
+			if(event.keyCode == 13) {
+				search_data();
+			}
+		})
+	}
+}
+
+function checkValidation() {
+	// for Rental Date
+	filledRentalDate = true;
+	var sRentalDate = $("#S_RENTAL_DATE").val();
+	var eRentalDate = $("#E_RENTAL_DATE").val();
+	if((sRentalDate == "" && eRentalDate != "") || (sRentalDate != "" && eRentalDate == "") ){
+		filledRentalDate = false;
+	}
+	
+	// for Due Date
+	filledDueDate = true;
+	var sDueDate = $("#S_RENTAL_DUE_DATE").val();
+	var eDueDate = $("#E_RENTAL_DUE_DATE").val();
+	if((sDueDate == "" && eDueDate != "") || (sDueDate != "" && eDueDate == "") ){
+		filledDueDate = false;
+	}
+}
+
+
+function search_data() {
 		const _formData = Object.fromEntries(getFormData('frmSearchBook'));
 		const _jsonData = JSON.stringify(_formData);
+		
+		checkValidation();
+		
+		if(filledRentalDate == false) {
+			alert("To specify the Rental Date, both the start date and the end date must be selected.");
+			return;
+		}
+		if(filledDueDate == false) {
+			alert("To specify the Due Date, both the start date and the end date must be selected.");
+			return;
+		}
+		
 		$.ajax({
 			type: "post",
 			async: true,
@@ -73,10 +119,13 @@ function event_submit_search() {
 				articleBookList.innerHTML = "";
 				let bookList = JSON.parse(data).bookList;
 				console.log(bookList);
+				if(bookList.length == 0){
+					alert("There is no Book. \nPlease search it again with other conditions.")
+					return;
+				}
 				for(let i = 0; i < bookList.length; i++) {
 					const li = document.createElement("li");
 					const bookItem = document.createElement("bky-book-item");
-					const $bookItem = $(bookItem);
 					bookItem.setAttribute("src", `${rootURL}/image/book/${bookList[i].IMAGE_FILE_NAME}`);
 					bookItem.setAttribute("title", bookList[i].BOOKNM);
 					bookItem.setAttribute("publisher", bookList[i].PUBLISHER);
@@ -94,5 +143,6 @@ function event_submit_search() {
 				}
 			}
 		})
-	})
 }
+
+
