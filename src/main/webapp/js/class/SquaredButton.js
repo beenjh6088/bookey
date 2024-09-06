@@ -48,7 +48,7 @@ class SquaredButton extends HTMLElement {
     shadow.appendChild(buttonContainer);
   }
 
-  // 속성 변경 감지
+  // Detecting change on Attributes
   static get observedAttributes() {
     return ['background-color', 'border', 'label', 'color', 'width', 'height', 'font-size'];
   }
@@ -79,5 +79,5 @@ class SquaredButton extends HTMLElement {
   }
 }
 
-// 커스텀 태그 등록
+// Registration for customed tag
 customElements.define('bky-squared-button', SquaredButton);

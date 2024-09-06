@@ -40,8 +40,6 @@
 			<jsp:include page="/jsp/common/header.jsp"></jsp:include>
 		</header>
 		<main id="centre">
-<%-- 			<jsp:include page="/jsp/common/aside.jsp"></jsp:include> --%>
-<%-- 			<jsp:include page="/jsp/common/main.jsp"></jsp:include> --%>
 			<section id="background">
 <!-- 				■ main -->
 				<div class="main">

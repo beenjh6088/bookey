@@ -2,25 +2,37 @@
 #background {
 	background: url("../image/background/centre/bg_centre04.jpg");
 	background-repeat: round;
-/* 	background: none; */
+	height: auto;
+/* 	height: 100%; */
+}
+#background .main {
+	height: auto;
+/* 	height: 100%; */
 }
 #background .main .cover {
 	background-color: rgba(230, 230, 230, 0.9);
-/* 	background-color: var(--main-whisper); */
+	height: auto;
+/* 	height: 100%; */
 }
 #background .main .cover .center {
+	height: auto;
+/* 	height: 100%; */
 	padding-top: calc(var(--height-header) + 75px);
 	display: flex;
 	justify-content: flex-start;
 	align-items: stretch;
+/* 	align-items: flex-start; */
 	gap: 36px;
 }
 
 /* aside */
 #aside {
+/* 	height: auto; */
+/* 	height: 100%; */
+	height: calc(100vh - (var(--height-header) + 75px));
 	flex-grow: 0;
 	flex-shrink: 0;
-	position: relative;
+/* 	position: relative; */
 	overflow: hidden;
 }
 #aside > * {
@@ -40,28 +52,28 @@
 	content: '';
 	width: 100%;
 	height: 100%;
-	background-color: rgba(200, 49, 86, 0.6);;
+	background-color: rgba(200, 49, 86, 0.6);
 	position: absolute;
 	left: 0;
 	top: 0;
-	z-index: 1;
+	z-index: 0;
 }
 #aside .mainMenu span {
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	z-index: 2;
+	z-index: 1;
 	color: var(--main-white);
 	font-size: 32px;
 	font-weight: bold;
 }
 #aside .subMenu {
-	background-color: var(--main-whiteSmoke);
 	height: 100%;
 }
 #aside .subMenu > li {
 	border: 1px solid var(--main-lightGray);
+	background-color: var(--main-whiteSmoke);
 }
 #aside .subMenu > li:hover {
 	opacity: 0.6;

@@ -93,5 +93,5 @@ class RoundedButton extends HTMLElement {
   }
 }
 
-// 커스텀 태그 등록
+// Registration for customed tag
 customElements.define('bky-rounded-button', RoundedButton);

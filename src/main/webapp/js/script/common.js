@@ -1,10 +1,13 @@
 const domain = window.location.hostname;
 const port = window.location.port;
 const pathName = window.location.pathname.split("/")[1];
+const fullPath = window.location.pathname;
+const fileName = fullPath.substring(fullPath.lastIndexOf('/') + 1);
 const rootURL = `http://${domain}:${port}/${pathName}`
 let dayOffsMap;
 let keywordsMap;
 let usersMap;
+
 
 
 function initCommonEvent() {
@@ -91,4 +94,18 @@ function setAllKeyword() {
 
 function toCapitalCase(string) {
 	return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function getFormData(formName) {
+	const form = document.getElementsByName(formName)[0];
+	
+	const formData = new FormData(form);
+	
+	const map = new Map();
+	
+	formData.forEach((value, key) => {
+		map.set(key, value);
+	})
+	
+	return map;
 }

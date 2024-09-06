@@ -1,4 +1,4 @@
-const searchArea = document.querySelector("header .searchArea");
+const searchArea = document.querySelector("#header .searchArea");
 
 function initHeaderEvent() {
 	event_mainMenu_upDown();
@@ -9,7 +9,7 @@ function initHeaderEvent() {
 }
 
 function event_mainMenu_upDown() {
-	$("header .mainMenu > li").mouseover(function() {
+	$("#header .mainMenu > li").mouseover(function() {
     $("header .subMenu").show();
     $("header  .navibg").css({
       'height':'200px'
@@ -24,7 +24,7 @@ function event_mainMenu_upDown() {
 
 function event_search_showArea() {
 	// open searchArea
-	$("header .search > .icon").click(function() {
+	$("#header .search > .icon").click(function() {
 		let isShow = !(searchArea.classList.contains("hdd"));
 		if(isShow == false) {
 			searchArea.classList.remove("hdd");
@@ -43,15 +43,15 @@ function event_search_hideArea() {
 }
 
 function event_href_direct() {
-	$("bky-rounded-button.login").click(function() {
+	$("#header bky-rounded-button.login").click(function() {
 		location.href = `${rootURL}/jsp/user/login.jsp`;
 	})
-	$("bky-rounded-button.join").click(function() {
+	$("#header bky-rounded-button.join").click(function() {
 		location.href = `${rootURL}/jsp/user/join.jsp`;
 	})
 	
 	// setting links for all menus
-	$(" .mainMenu > li > a").each(function(idx, obj) {
+	$("#header .bottom .mainMenu > li > a").each(function(idx, obj) {
 		let mainMenu = obj.textContent.toLowerCase();
 		$(".subMenu a", this.parentNode).each(function(index, object) {
 			let rawSubMenu = object.textContent.toLowerCase();
@@ -72,7 +72,7 @@ function event_href_direct() {
 }
 
 function event_logout_disconnect() {
-	$("bky-rounded-button.logout").click(function() {
+	$("#header bky-rounded-button.logout").click(function() {
 		location.href = `${rootURL}/user/logoutUser.do`;	
 	})
 }

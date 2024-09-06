@@ -45,7 +45,7 @@
 					<div class="cover">
 						<div class="center">
 							<jsp:include page="/jsp/apply/instruction/aside.jsp"></jsp:include>
-							<jsp:include page="/jsp/apply/newBooks/article.jsp"></jsp:include>
+							<jsp:include page="/jsp/apply/instruction/article.jsp"></jsp:include>
 						</div>
 					</div>
 				</div>

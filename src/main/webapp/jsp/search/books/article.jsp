@@ -88,7 +88,7 @@
 			</div>
 			<div class="contentPlot indented">
 				<div class="books">
-					<ul class="bookList">
+					<ul class="bookList">	
 <%-- 						<li><bky-book-item src="${contextPath }/image/book/JAVA.jpg" ></bky-book-item></li> --%>
 					</ul>
 				</div>
