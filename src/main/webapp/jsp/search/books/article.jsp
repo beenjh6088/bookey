@@ -66,13 +66,13 @@
 							<input type="date" name="E_RENTAL_DATE" id="E_RENTAL_DATE" max="9999-12-31" />						
 						</li>
 						<li class="filterItem">
-							<label for="S_RENTAL_DUE_DATE">Due Date</label>
+							<label for="S_RENTAL_DUE_DATE">Return Date</label>
 							<input type="date" name="S_RENTAL_DUE_DATE" id="S_RENTAL_DUE_DATE" max="9999-12-31" />						
 							<input type="date" name="E_RENTAL_DUE_DATE" id="E_RENTAL_DUE_DATE" max="9999-12-31" />
 						</li>
 						<li class="filterItem">
-							<label for="BOOK_STATUS_CODE">Book Status</label>
-							<select name="BOOK_STATUS_CODE" id="BOOK_STATUS_CODE"><option></option></select>
+							<label for="BOOK_APPERANCE_CODE">Apperance</label>
+							<select name="BOOK_APPERANCE_CODE" id="BOOK_APPERANCE_CODE"><option></option></select>
 						</li>
 					</ul>
 					<div class="buttons">
