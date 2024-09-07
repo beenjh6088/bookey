@@ -178,6 +178,7 @@
 }
 
 
+/* controller */
 .controller {
 	width: 100%;
 	border-top: 3px ridge rgba(164, 97, 113, 0.2);
@@ -209,4 +210,23 @@
 }
 .controller .operator .operatorList .operatorItem:active {
 	transform: scale(0.9);
+}
+
+
+/* paging */
+#article .paging {
+	width: 100%;
+	padding: 8px 0;
+}
+#article .paging .pageList {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap: 16px;
+}
+#article .paging .pageList .pageItem {
+	font-size: 20px;
+}
+#article .paging .pageList .pageItem.selected a {
+	color: var(--main-dustyRose);
 }

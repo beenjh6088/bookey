@@ -51,7 +51,7 @@ function init_component_fillData() {
 			url:`${rootURL}/book/loadBookStatus.do`,
 			success: function(data, status) {
 				let bookStatusList = JSON.parse(data).bookStatusList;
-				let $bookStatusSelect = document.querySelector("#article #BOOK_STATUS_CODE");
+				let $bookStatusSelect = document.querySelector("#article #BOOK_APPERANCE_CODE");
 				for(let i = 0; i < bookStatusList.length; i++) {
 					let bookStatusOption = document.createElement("option");
 					bookStatusOption.value = bookStatusList[i].CODE;
@@ -79,7 +79,7 @@ function event_component_act() {
 		// dynamically setting event listener
 		$(document).on('click', '.pageItem', function(event) {
 		    event.preventDefault();
-		    PAGENUM = event.target.textContent;
+		    PAGENUM = event.target.getAttribute("data-page");
 		    search_data();
 		});
 	}
@@ -153,13 +153,16 @@ function search_data() {
 					bookItem.setAttribute("title", bookList[i].BOOKNM);
 					bookItem.setAttribute("publisher", bookList[i].PUBLISHER);
 					bookItem.setAttribute("author", bookList[i].AUTHOR);
+					bookItem.setAttribute("category", bookList[i].CATG03);
 					bookItem.setAttribute("publishedDate", bookList[i].PUBLISHED_DATE);
 					bookItem.setAttribute("location", bookList[i].LIBRARY_NAME);
 					bookItem.setAttribute("queue", bookList[i].QUEUE);
+					bookItem.setAttribute("rentalDate", bookList[i].RENTAL_DATE);
 					bookItem.setAttribute("returnDate", bookList[i].RENTAL_DUE_DATE);
 					bookItem.setAttribute("isAvailable", bookList[i].BOOK_STATUS);
+					bookItem.setAttribute("apperance", bookList[i].BOOK_APPERANCE_STATUS);
 					if(bookList[i].BOOK_STATUS != "Available") {
-						bookItem.setAttribute("isDisabled", "disabled");
+						bookItem.setAttribute("buttonValue", "disabled");
 					}
 					li.appendChild(bookItem);
 					articleBookList.appendChild(li);
@@ -167,30 +170,36 @@ function search_data() {
 				
 				
 				// set pages through pageList
-				if(pageList.PREV != null) {
+				if(pageList[0].PREV != null) {
 					const li = document.createElement("li");
 					li.setAttribute("class", "pageItem");
 					const a = document.createElement("a");
+					a.innerText = pageList[0].PREV;
 					a.setAttribute("href", "#");
-					a.innerText = pageList.PREV;
+					a.setAttribute("data-page", (pageList[0].SPAGE - 1));
 					li.appendChild(a);
 					articlePageList.appendChild(li);
 				}
 				for(let i = pageList[0].SPAGE; i <= pageList[0].EPAGE; i++) {
 					const li = document.createElement("li");
 					li.setAttribute("class", "pageItem");
+					if(i == PAGENUM) {
+						li.classList.add("selected");
+					}
 					const a = document.createElement("a");
-					a.setAttribute("href", "#");
 					a.innerText = i;
+					a.setAttribute("href", "#");
+					a.setAttribute("data-page", i);
 					li.appendChild(a);
 					articlePageList.appendChild(li);
 				}
-				if(pageList.NEXT != null) {
+				if(pageList[0].NEXT != null) {
 					const li = document.createElement("li");
 					li.setAttribute("class", "pageItem");
 					const a = document.createElement("a");
+					a.innerText = pageList[0].NEXT;
 					a.setAttribute("href", "#");
-					a.innerText = pageList.NEXT;
+					a.setAttribute("data-page", (pageList[0].EPAGE + 1));
 					li.appendChild(a);
 					articlePageList.appendChild(li);
 				}

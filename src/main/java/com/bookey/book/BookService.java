@@ -21,7 +21,7 @@ public class BookService {
 	}
 	
 	public JSONArray loadBookStatus() {
-		return bookDAO.loadRentalStatus();
+		return bookDAO.loadBookStatus();
 	}
 	
 	public JSONArray searchBooks(Map<String, Object> paramMap) {

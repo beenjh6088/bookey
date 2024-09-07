@@ -9,12 +9,16 @@ class BookItem extends HTMLElement {
 		let queue = this.getAttribute("queue");
 		let returnDate = this.getAttribute("returnDate");
 		let isAvailable = this.getAttribute("isAvailable");
-		let isDisabled = this.getAttribute("isDisabled") || "";
+		let buttonValue = this.getAttribute("buttonValue") || "";
+		let rentalDate = this.getAttribute("rentalDate");
+		let category = this.getAttribute("category");
+		let apperance = this.getAttribute("apperance");
 		
 		let elAvailable = "";
 		if(isAvailable == "Check Out") {
 			elAvailable = `
 				<li class="queue"><label for="">Reservation for</label><span>${queue}</span></li>
+				<li class="rentalDate"><label for="">Rental Date</label><span>${rentalDate}</span></li>
 				<li class="returnDate"><label for="">Return Date</label><span>${returnDate}</span></li>
 			`
 		}
@@ -29,13 +33,15 @@ class BookItem extends HTMLElement {
 			      <li class="title"><label for="">Title</label><span>${title}</span></li>
 			      <li class="bookInfo"><label for="">Publisher</label><span>${publisher}</span></li>
 			      <li class="bookInfo"><label for="">Author</label><span>${author}</span></li>
+			      <li class="category"><label for="">Category</label><span>${category}</span></li>
 			      <li class="publishedDate"><label for="">Published Date</label><span>${publishedDate}</span></li>
 			      <li class="location"><label for="">Location</label><span>${location}</span></li>
 			      ${elAvailable}
 			      <li class="isAvailable"><label for="">Status</label><span>${isAvailable}</span></li>
+			      <li class="apperance"><label for="">Apperance</label><span>${apperance}</span></li>
 			    </ul>
 			    <div class="buttons">
-			    	<input type="button" value="Check Out" ${isDisabled}/>
+			    	<input type="button" value="${buttonValue}" />
 			    </div>
 			  </div>
 		`
