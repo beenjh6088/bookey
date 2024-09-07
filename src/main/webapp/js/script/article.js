@@ -1,5 +1,7 @@
 let filledRentalDate = true;
 let filledDueDate = true;
+let PAGESET = 10;
+let PAGENUM = 1;
 
 function initArticleEvent() {
 	init_component_fillData();
@@ -64,14 +66,22 @@ function init_component_fillData() {
 function event_component_act() {
 	$("#article .frmSearchBook .submit").click(function(event)  {
 		event.preventDefault();
+		PAGENUM = 1;
 		search_data();
 	})
 	if(fileName.includes("searchBooks")) {
 		document.addEventListener("keydown", function(event) {
 			if(event.keyCode == 13) {
+				PAGENUM = 1;
 				search_data();
 			}
 		})
+		// dynamically setting event listener
+		$(document).on('click', '.pageItem', function(event) {
+		    event.preventDefault();
+		    PAGENUM = event.target.textContent;
+		    search_data();
+		});
 	}
 }
 
@@ -96,6 +106,8 @@ function checkValidation() {
 
 function search_data() {
 		const _formData = Object.fromEntries(getFormData('frmSearchBook'));
+		_formData.PAGESET = PAGESET;
+		_formData.PAGENUM = PAGENUM;
 		const _jsonData = JSON.stringify(_formData);
 		
 		checkValidation();
@@ -117,12 +129,23 @@ function search_data() {
 			success: function(data, status) {
 				let articleBookList = document.querySelector("#article .bookList");
 				articleBookList.innerHTML = "";
+				let articlePageList = document.querySelector("#article .pageList");
+				articlePageList.innerHTML = "";
 				let bookList = JSON.parse(data).bookList;
-				console.log(bookList);
+				let pageList = JSON.parse(data).pageList;
+				let bookTotalAmount = JSON.parse(data).bookTotalAmount || 0;
+//				console.log(bookList);
+//				console.log(pageList);
 				if(bookList.length == 0){
 					alert("There is no Book. \nPlease search it again with other conditions.")
+					$("#article .controller .count > span").text(0);
 					return;
 				}
+				
+				// set total amount for books
+				$("#article .controller .count > span").text(bookTotalAmount);
+				
+				// set books through booklist 				
 				for(let i = 0; i < bookList.length; i++) {
 					const li = document.createElement("li");
 					const bookItem = document.createElement("bky-book-item");
@@ -140,6 +163,36 @@ function search_data() {
 					}
 					li.appendChild(bookItem);
 					articleBookList.appendChild(li);
+				}
+				
+				
+				// set pages through pageList
+				if(pageList.PREV != null) {
+					const li = document.createElement("li");
+					li.setAttribute("class", "pageItem");
+					const a = document.createElement("a");
+					a.setAttribute("href", "#");
+					a.innerText = pageList.PREV;
+					li.appendChild(a);
+					articlePageList.appendChild(li);
+				}
+				for(let i = pageList[0].SPAGE; i <= pageList[0].EPAGE; i++) {
+					const li = document.createElement("li");
+					li.setAttribute("class", "pageItem");
+					const a = document.createElement("a");
+					a.setAttribute("href", "#");
+					a.innerText = i;
+					li.appendChild(a);
+					articlePageList.appendChild(li);
+				}
+				if(pageList.NEXT != null) {
+					const li = document.createElement("li");
+					li.setAttribute("class", "pageItem");
+					const a = document.createElement("a");
+					a.setAttribute("href", "#");
+					a.innerText = pageList.NEXT;
+					li.appendChild(a);
+					articlePageList.appendChild(li);
 				}
 			}
 		})

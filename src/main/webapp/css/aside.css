@@ -88,3 +88,18 @@
 	color: var(--main-black);
 	padding: 8px 16px;
 }
+
+/* paging */
+#article .paging {
+	width: 100%;
+	padding: 8px 0;
+}
+#article .paging .pageList {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap: 16px;
+}
+#article .paging .pageList .pageItem {
+	font-size: 20px;
+}

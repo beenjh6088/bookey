@@ -92,10 +92,14 @@ public class BookController extends HttpServlet {
 			}else if(action.equals("/searchBooks.do")) {
 				Map<String, Object> requestParm = UtilityController.getParameterMap(request);
 				String strFrmData = requestParm.get("frmData").toString();
-				JSONObject filterMap = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
-				JSONArray bookList = bookService.searchBooks(filterMap);
+				JSONObject paramMap = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
+				int bookTotalAmount = bookService.getBookTotalAmount(paramMap);
+				JSONArray bookList = bookService.searchBooks(paramMap);
+				JSONArray pageList = bookService.getPageList(paramMap);
 				JSONObject resultMap = new JSONObject();
+				resultMap.put("bookTotalAmount", bookTotalAmount);
 				resultMap.put("bookList", bookList);
+				resultMap.put("pageList", pageList);
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
 				pw.print(strResultMap);
 				return;

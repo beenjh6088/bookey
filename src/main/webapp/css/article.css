@@ -178,5 +178,35 @@
 }
 
 
-
-
+.controller {
+	width: 100%;
+	border-top: 3px ridge rgba(164, 97, 113, 0.2);
+	border-bottom: 3px ridge rgba(164, 97, 113, 0.2);
+	clear: both;
+	overflow: hidden;
+	padding: 4px 8px;
+}
+.controller .info {
+	float: left;
+}
+.controller .operator {
+	float: right;
+}
+.controller .operator .operatorList {
+	width: 100%;
+}
+.controller .operator .operatorList .operatorItem {
+	display: inline-block;
+	cursor: pointer;
+	transition: all 0.3s;
+	margin-right: 16px;
+}
+.controller .operator .operatorList .operatorItem:last-child {
+	margin-right: 0;
+}
+.controller .operator .operatorList .operatorItem:hover {
+	opacity: 0.6;
+}
+.controller .operator .operatorList .operatorItem:active {
+	transform: scale(0.9);
+}

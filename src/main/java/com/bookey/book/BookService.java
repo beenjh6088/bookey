@@ -24,8 +24,16 @@ public class BookService {
 		return bookDAO.loadRentalStatus();
 	}
 	
-	public JSONArray searchBooks(Map<String, Object> filterMap) {
-		return bookDAO.searchBooks(filterMap);
+	public JSONArray searchBooks(Map<String, Object> paramMap) {
+		return bookDAO.searchBooks(paramMap);
+	}
+	
+	public int getBookTotalAmount(Map<String, Object> paramMap) {
+		return bookDAO.getBookTotalAmount(paramMap);
+	}
+	
+	public JSONArray getPageList(Map<String, Object> paramMap) {
+		return bookDAO.getPageList(paramMap);
 	}
 	
 }

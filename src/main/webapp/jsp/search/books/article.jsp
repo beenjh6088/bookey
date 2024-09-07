@@ -88,8 +88,36 @@
 			</div>
 			<div class="contentPlot indented">
 				<div class="books">
+					<div class="controller">
+						<div class="info">
+							<p class="count"><label>the number of book : </label><span></span></p>
+						</div>
+						<div class="operator">
+							<ul class="operatorList">
+								<li class="operatorItem"><img src="${contextPath }/image/icon/excel.png" alt="excel" /></li>
+								<li class="operatorItem"><img src="${contextPath }/image/icon/list.png" alt="list" /></li>
+								<li class="operatorItem"><img src="${contextPath }/image/icon/grid.png" alt="grid" /></li>
+							</ul>
+						</div>
+					</div>
 					<ul class="bookList">	
 <%-- 						<li><bky-book-item src="${contextPath }/image/book/JAVA.jpg" ></bky-book-item></li> --%>
+					</ul>
+				</div>
+				<div class="paging">
+					<ul class="pageList">
+<!-- 						<li class="pageItem"><a href="javascript:;">&lt;</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">1</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">2</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">3</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">4</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">5</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">6</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">7</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">8</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">9</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">10</a></li> -->
+<!-- 						<li class="pageItem"><a href="javascript:;">&gt;</a></li> -->
 					</ul>
 				</div>
 			</div>

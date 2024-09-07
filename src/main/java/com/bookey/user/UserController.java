@@ -20,6 +20,7 @@ import javax.servlet.http.HttpSession;
 import org.json.simple.JSONObject;
 
 import com.bookey.utility.EmailController;
+import com.bookey.utility.UtilityController;
 
 @WebServlet("/user/*")
 public class UserController extends HttpServlet {
@@ -32,7 +33,6 @@ public class UserController extends HttpServlet {
 	private EmailController emailController;
 	private static final UserController user = new UserController();
 	private StringBuilder nextPage = new StringBuilder();
-	private SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 	private ServletContext context;
 //	private HttpSession session;
 	List<String> userList;
@@ -101,7 +101,7 @@ public class UserController extends HttpServlet {
 				String userEmail = request.getParameter("userEmail");
 				String userName = request.getParameter("userName");
 				String userAddress = request.getParameter("userAddress");
-				Date userBirthday = new Date(formatter.parse(request.getParameter("userBirthday")).getTime());
+				Date userBirthday = new Date(UtilityController.formatter.parse(request.getParameter("userBirthday")).getTime());
 				String userGender = request.getParameter("userGender");
 				String userMarketing = request.getParameter("userMarketing");
 				String userAuthentication = request.getParameter("userAuthentication");
