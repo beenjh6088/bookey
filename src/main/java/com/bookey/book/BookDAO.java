@@ -309,7 +309,7 @@ public class BookDAO {
 		try {
 			String bookID = paramMap.get("bookID").toString();
 			conn = dataFactory.getConnection();
-			String query = "UPDATE TBL_BOOK SET STATUS = 'C' WHERE 1=1 AND BOOKID = '"+bookID+"'";
+			String query = "UPDATE TBL_BOOK SET STATUS = 'C', UPDATED_DATE = SYSDATE, UPDATED_USER = 'SYSTEM' WHERE 1=1 AND BOOKID = '"+bookID+"'";
 			pstmt = conn.prepareStatement(query);
 			updateResult = pstmt.executeUpdate();
 			pstmt.close();
@@ -361,5 +361,71 @@ public class BookDAO {
 			e.printStackTrace();
 		}
 		return updateResult;
+	}
+	
+	public int getNextRentalID(Map<String, Object> paramMap) {
+		int rentalID = 0;
+		try {
+			conn = dataFactory.getConnection();
+			String query = "SELECT MAX(RENTALID) + 1 RENTALID FROM TBL_RENTAL";
+			pstmt = conn.prepareStatement(query);
+			System.out.println(query);
+			ResultSet rs = pstmt.executeQuery();
+			rs.next();
+			rentalID = rs.getInt("RENTALID");
+			rs.close();
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return rentalID;
+	}
+	
+	public int reserveBook(Map<String, Object> paramMap) {
+		int insertResult = 0;
+		try {
+			int rentalID = Integer.parseInt(paramMap.get("rentalID").toString());
+			String bookID = paramMap.get("bookID").toString();
+			String userID = paramMap.get("userID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "INSERT INTO TBL_RENTAL"
+					+ "("
+					+ "                          RENTALID,"
+					+ "                          BOOKID,"
+					+ "                          USERID,"
+					+ "                          RENTAL_DATE,"
+					+ "                          DUE_DATE,"
+					+ "                          RETURN_DATE,"
+					+ "                          STATUS,"
+					+ "                          QUEUE,"
+					+ "                          CREATED_DATE,"
+					+ "                          CREATED_USER"
+					+ ")"
+					+ "SELECT "+rentalID+"       AS RENTALID"
+					+ "     , '"+bookID+"'       AS BOOKID"
+					+ "     , '"+userID+"'       AS USERID"
+					+ "     , NULL               AS RENTAL_DATE"
+					+ "     , NULL               AS DUE_DATE"
+					+ "     , NULL               AS RETURN_DATE"
+					+ "     , NULL               AS STATUS"
+					+ "     , MAX(QUEUE) + 1     AS QUEUE"
+					+ "     , SYSDATE            AS CREATED_DATE"
+					+ "     , 'SYSTEM'           AS CREATED_USER"
+					+ "  FROM  TBL_RENTAL"
+					+ " WHERE 1=1"
+					+ "   AND STATUS IS NULL";
+			pstmt = conn.prepareStatement(query);
+			insertResult = pstmt.executeUpdate();
+			System.out.println(query);
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return insertResult;
 	}
 }

@@ -41,4 +41,11 @@ public class BookService {
 		int addRentalResult  = bookDAO.addRental(paramMap);
 		return checkOutResult * addRentalResult;
 	}
+	
+	public int reserveBook(Map<String, Object> paramMap) {
+		int rentalID = bookDAO.getNextRentalID(paramMap);
+		paramMap.put("rentalID", rentalID);
+		int reserveResult = bookDAO.reserveBook(paramMap);
+		return reserveResult;
+	}
 }

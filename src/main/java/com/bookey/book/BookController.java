@@ -113,8 +113,22 @@ public class BookController extends HttpServlet {
 				paramMap.put("bookID", bookID);
 				int checkOutResult = bookService.checkOutBook(paramMap);
 				System.out.println("checkOutResult : "+checkOutResult);
-				nextPage.setLength(0);
-				nextPage.append("/book/searchBooks.do");
+				JSONObject resultMap = new JSONObject();
+				resultMap.put("checkOutResult", checkOutResult);
+				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
+				pw.print(strResultMap);
+			}else if(action.equals("/reserveBook.do")) {
+				String userID = request.getParameter("userID");
+				String bookID = request.getParameter("bookID");
+				Map<String, Object> paramMap = new HashMap<String, Object>();
+				paramMap.put("userID", userID);
+				paramMap.put("bookID", bookID);
+				int reserveResult = bookService.reserveBook(paramMap);
+				System.out.println("reserveResult : "+reserveResult);
+				JSONObject resultMap = new JSONObject();
+				resultMap.put("reserveResult", reserveResult);
+				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
+				pw.print(strResultMap);
 			}
 			
 			RequestDispatcher dispatcher = request.getRequestDispatcher(nextPage.toString());

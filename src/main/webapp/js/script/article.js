@@ -102,7 +102,18 @@ function event_component_act() {
 						}
 					})					
 				}else if (isAvailable == "C" || isAvailable == "R") {
-					
+					$.ajax({
+						type: "post",
+						async: true,
+						data: {'userID': userID, 'bookID': bookID},
+						url:`${rootURL}/book/reserveBook.do`,
+						success: function(data, status) {
+							if(status == "success") {
+								alert("Reservation is completed successfully.")
+							}
+							search_data();
+						}
+					})	
 				}
 
 			}else {
