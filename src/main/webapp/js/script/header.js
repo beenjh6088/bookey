@@ -49,6 +49,9 @@ function event_href_direct() {
 	$("#header bky-rounded-button.join").click(function() {
 		location.href = `${rootURL}/jsp/user/join.jsp`;
 	})
+	$("#header bky-rounded-button.checkout").click(function() {
+		location.href = `${rootURL}/jsp/user/checkout.jsp`;
+	})
 	
 	// setting links for all menus
 	$("#header .bottom .mainMenu > li > a").each(function(idx, obj) {

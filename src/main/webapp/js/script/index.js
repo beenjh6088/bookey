@@ -9,7 +9,7 @@ function initIndexEvent() {
 	event_trending_move(".trending");
 	getAllDayOffs();
 	updateDate();
-	event_dayOff_move();
+	event_component_act();
 }
 
 function event_trending_moveSlide(selector) {
@@ -110,11 +110,14 @@ function showDayOffs(yyyymm) {
 	document.querySelector(".dayOff .dayOffsAmount span").textContent = cnt;
 }
 
-function event_dayOff_move() {
+function event_component_act() {
 	$(".dayOff .controller .prev").click(function() {
 		prevMonth();
 	})
 	$(".dayOff .controller .next").click(function() {
 		nextMonth();
+	})
+	$("bky-rounded-button.checkout").click(function() {
+		location.href = `${rootURL}/jsp/user/checkout.jsp`;
 	})
 }
