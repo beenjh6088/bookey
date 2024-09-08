@@ -159,10 +159,12 @@ function search_data() {
 					bookItem.setAttribute("queue", bookList[i].QUEUE);
 					bookItem.setAttribute("rentalDate", bookList[i].RENTAL_DATE);
 					bookItem.setAttribute("returnDate", bookList[i].RENTAL_DUE_DATE);
-					bookItem.setAttribute("isAvailable", bookList[i].BOOK_STATUS);
+					bookItem.setAttribute("isAvailable", bookList[i].BOOK_STATUS_CODE);
 					bookItem.setAttribute("apperance", bookList[i].BOOK_APPERANCE_STATUS);
-					if(bookList[i].BOOK_STATUS != "Available") {
-						bookItem.setAttribute("buttonValue", "disabled");
+					if(bookList[i].BOOK_STATUS != "A") {
+						bookItem.setAttribute("buttonValue", "Reserve");
+					}else {
+						bookItem.setAttribute("buttonValue", "Check out");
 					}
 					li.appendChild(bookItem);
 					articleBookList.appendChild(li);

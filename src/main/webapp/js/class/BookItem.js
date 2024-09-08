@@ -15,7 +15,7 @@ class BookItem extends HTMLElement {
 		let apperance = this.getAttribute("apperance");
 		
 		let elAvailable = "";
-		if(isAvailable == "Check Out") {
+		if(isAvailable != "A") {
 			elAvailable = `
 				<li class="queue"><label for="">Reservation for</label><span>${queue}</span></li>
 				<li class="rentalDate"><label for="">Rental Date</label><span>${rentalDate}</span></li>
