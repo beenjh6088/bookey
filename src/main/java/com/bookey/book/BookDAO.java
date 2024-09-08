@@ -312,7 +312,7 @@ public class BookDAO {
 				+ "                         GROUP BY BOOKID"
 				+ "                       ) WAITING"
 				+ "                 WHERE 1=1"
-				+ "                   AND ONGOING.BOOKID = WAITING.BOOKID"
+				+ "                   AND ONGOING.BOOKID = WAITING.BOOKID(+)"
 				+ "               ) RENTAL"
 				+ "             , TBL_CATEGORY CATEGORY"
 				+ "             , TBL_LOCATION LOCA"
