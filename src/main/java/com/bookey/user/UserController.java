@@ -34,7 +34,7 @@ public class UserController extends HttpServlet {
 	private static final UserController user = new UserController();
 	private StringBuilder nextPage = new StringBuilder();
 	private ServletContext context;
-	List<String> userList;
+	List<String> userList = new ArrayList<>();
 	
 	public UserController() {
 		getInstance();
@@ -49,7 +49,7 @@ public class UserController extends HttpServlet {
 		userService = new UserService();
 		emailController = new EmailController();
 		context = getServletContext();
-		userList = new ArrayList<>();
+		
 	}
 	
 	@Override
@@ -126,6 +126,7 @@ public class UserController extends HttpServlet {
 				String userPW = request.getParameter("userPW");
 				HttpSession session = request.getSession(false);
 				UserVO userVO = userService.loginUser(userID, userPW);
+				Object rawRedirectPage = session.getAttribute("redirectPage");
 				
 				if(userVO != null) {
 					// Login process completed Successfully
@@ -137,8 +138,13 @@ public class UserController extends HttpServlet {
 //						nextPage.setLength(0);
 //						nextPage.append("/index.jsp");
 						
-						// the Reason why i use sendRedirect is to block requesting by user's mistake. if not, session overflow with same process(/user/loginUser.do)
-						response.sendRedirect(request.getContextPath()+"/index.jsp");
+						if(rawRedirectPage != null) {
+							String redirectPage = rawRedirectPage.toString();
+							response.sendRedirect(request.getContextPath()+redirectPage);
+						}else {
+							// the Reason why i use sendRedirect is to block requesting by user's mistake. if not, session overflow with same process(/user/loginUser.do)
+							response.sendRedirect(request.getContextPath()+"/index.jsp");
+						}
 						return;
 				}else {
 					// Login process completed Unsuccessfully

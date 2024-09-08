@@ -85,15 +85,10 @@ function event_component_act() {
 		$(document).on('click', '.bookItem .button', function(event) {
 	    event.preventDefault();
 			let userID = $("#userID")[0].value;
-			console.log(userID);
 			if(userID != "") {
-				console.log(11)
 				// go and check out
 			}else {
-				console.log(22);
 				if(confirm('You have Not been login.\nWould you like to login?')){
-//					console.log(pathName)
-//					console.log(fullPath.replace("/"+pathName, ""))
 					let redirectPage = fullPath.replace("/"+pathName, "");
 					location.href = `${rootURL}/jsp/user/login.jsp?redirectPage=${redirectPage}`;
 				}
