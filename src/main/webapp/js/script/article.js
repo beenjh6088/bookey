@@ -175,7 +175,7 @@ function search_data() {
 				let bookList = JSON.parse(data).bookList;
 				let pageList = JSON.parse(data).pageList;
 				let bookTotalAmount = JSON.parse(data).bookTotalAmount || 0;
-//				console.log(bookList);
+				console.log(bookList);
 //				console.log(pageList);
 				if(bookList.length == 0){
 					alert("There is no Book. \nPlease search it again with other conditions.")
@@ -200,7 +200,8 @@ function search_data() {
 					bookItem.setAttribute("queue", bookList[i].QUEUE);
 					bookItem.setAttribute("rentalDate", bookList[i].RENTAL_DATE);
 					bookItem.setAttribute("returnDate", bookList[i].RENTAL_DUE_DATE);
-					bookItem.setAttribute("isAvailable", bookList[i].BOOK_STATUS_CODE);
+					bookItem.setAttribute("isAvailableCode", bookList[i].BOOK_STATUS_CODE);
+					bookItem.setAttribute("isAvailableValue", bookList[i].BOOK_STATUS_VALUE);
 					bookItem.setAttribute("apperance", bookList[i].BOOK_APPERANCE_STATUS);
 					bookItem.setAttribute("bookID", bookList[i].BOOKID);
 					if(bookList[i].BOOK_STATUS != "A") {

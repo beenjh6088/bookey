@@ -8,7 +8,8 @@ class BookItem extends HTMLElement {
 		let location = this.getAttribute("location");
 		let queue = this.getAttribute("queue");
 		let returnDate = this.getAttribute("returnDate");
-		let isAvailable = this.getAttribute("isAvailable");
+		let isAvailableCode = this.getAttribute("isAvailableCode");
+		let isAvailableValue = this.getAttribute("isAvailableValue");
 		let buttonValue = this.getAttribute("buttonValue") || "";
 		let rentalDate = this.getAttribute("rentalDate");
 		let category = this.getAttribute("category");
@@ -16,7 +17,7 @@ class BookItem extends HTMLElement {
 		let bookID = this.getAttribute("bookID");
 				
 		let elAvailable = "";
-		if(isAvailable != "A") {
+		if(isAvailableCode != "A") {
 			elAvailable = `
 				<li class="queue"><label for="">Reservation for</label><span>${queue}</span></li>
 				<li class="rentalDate"><label for="">Rental Date</label><span>${rentalDate}</span></li>
@@ -38,11 +39,11 @@ class BookItem extends HTMLElement {
 			      <li class="publishedDate"><label for="">Published Date</label><span>${publishedDate}</span></li>
 			      <li class="location"><label for="">Location</label><span>${location}</span></li>
 			      ${elAvailable}
-			      <li class="isAvailable"><label for="">Status</label><span>${isAvailable}</span></li>
+			      <li class="isAvailable"><label for="">Status</label><span>${isAvailableValue}</span></li>
 			      <li class="apperance"><label for="">Apperance</label><span>${apperance}</span></li>
 			    </ul>
 			    <div class="buttons">
-			    	<input type="button" value="${buttonValue}" class="button" data-isAvailable="${isAvailable}" data-bookID="${bookID}"/>
+			    	<input type="button" value="${buttonValue}" class="button" data-isAvailable="${isAvailableCode}" data-bookID="${bookID}"/>
 			    </div>
 			  </div>
 		`
