@@ -2,6 +2,7 @@ package com.bookey.book;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
 import java.util.Map;
 
 import javax.servlet.RequestDispatcher;
@@ -26,7 +27,7 @@ public class BookController extends HttpServlet {
 	private static final long serialVersionUID = -8318923147672226562L;
 	private BookService bookService;
 	private static final BookController book = new BookController();
-	private StringBuilder nextPage = new StringBuilder();
+	private StringBuilder nextPage = new StringBuilder("/index.jsp");
 	private ServletContext context;
 	
 	public BookController() {
@@ -91,8 +92,9 @@ public class BookController extends HttpServlet {
 				
 			}else if(action.equals("/searchBooks.do")) {
 				Map<String, Object> requestParm = UtilityController.getParameterMap(request);
+				Object rawFrmData = requestParm.get("frmData");
 				String strFrmData = requestParm.get("frmData").toString();
-				JSONObject paramMap = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
+				JSONObject paramMap  = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
 				int bookTotalAmount = bookService.getBookTotalAmount(paramMap);
 				JSONArray bookList = bookService.searchBooks(paramMap);
 				JSONArray pageList = bookService.getPageList(paramMap);
@@ -103,6 +105,16 @@ public class BookController extends HttpServlet {
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
 				pw.print(strResultMap);
 				return;
+			}else if(action.equals("/checkOutBook.do")) {
+				String userID = request.getParameter("userID");
+				String bookID = request.getParameter("bookID");
+				Map<String, Object> paramMap = new HashMap<String, Object>();
+				paramMap.put("userID", userID);
+				paramMap.put("bookID", bookID);
+				int checkOutResult = bookService.checkOutBook(paramMap);
+				System.out.println("checkOutResult : "+checkOutResult);
+				nextPage.setLength(0);
+				nextPage.append("/book/searchBooks.do");
 			}
 			
 			RequestDispatcher dispatcher = request.getRequestDispatcher(nextPage.toString());

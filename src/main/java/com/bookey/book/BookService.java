@@ -36,4 +36,9 @@ public class BookService {
 		return bookDAO.getPageList(paramMap);
 	}
 	
+	public int checkOutBook(Map<String, Object> paramMap) {
+		int checkOutResult = bookDAO.checkOutBookStatus(paramMap);
+		int addRentalResult  = bookDAO.addRental(paramMap);
+		return checkOutResult * addRentalResult;
+	}
 }

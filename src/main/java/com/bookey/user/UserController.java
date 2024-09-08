@@ -34,7 +34,6 @@ public class UserController extends HttpServlet {
 	private static final UserController user = new UserController();
 	private StringBuilder nextPage = new StringBuilder();
 	private ServletContext context;
-	List<String> userList = new ArrayList<>();
 	
 	public UserController() {
 		getInstance();
@@ -49,7 +48,8 @@ public class UserController extends HttpServlet {
 		userService = new UserService();
 		emailController = new EmailController();
 		context = getServletContext();
-		
+		List<String> userList = new ArrayList<>();
+		context.setAttribute("userList", userList);
 	}
 	
 	@Override
@@ -132,6 +132,7 @@ public class UserController extends HttpServlet {
 					// Login process completed Successfully
 //						if(session.isNew()) {
 						session.setAttribute("userVO", userVO);
+						List<String> userList = (ArrayList<String>) context.getAttribute("userList");
 						userList.add(userVO.getUserID());
 						context.setAttribute("userList", userList);
 //						}
@@ -158,7 +159,7 @@ public class UserController extends HttpServlet {
 				HttpSession session = request.getSession(false);
 				if(session != null) {
 					UserVO userVO = (UserVO)session.getAttribute("userVO");
-					userList = (ArrayList<String>) context.getAttribute("userList");
+					List<String> userList = (ArrayList<String>) context.getAttribute("userList");
 					if(userVO!=null) userList.remove(userVO.getUserID());
 					session.invalidate();
 				}

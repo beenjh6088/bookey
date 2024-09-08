@@ -85,17 +85,26 @@ function event_component_act() {
 		$(document).on('click', '.bookItem .button', function(event) {
 	    event.preventDefault();
 			let userID = $("#userID")[0].value;
+			let isAvailable = event.target.getAttribute("data-isAvailable")
+			let bookID = event.target.getAttribute("data-bookID");
+			console.log(`bookID`);
+			console.log(bookID);
 			if(userID != "") {
 				// go and check out
-				$.ajax({
-					type: "post",
-					async: true,
-					data: {'frmData': _jsonData},
-					url:`${rootURL}/book/searchBooks.do`,
-					success: function(data, status) {
-						
-					}
-				})
+				if(isAvailable == "A") {
+					$.ajax({
+						type: "post",
+						async: true,
+						data: {'userID': userID, 'bookID': bookID},
+						url:`${rootURL}/book/checkOutBook.do`,
+						success: function(data, status) {
+							search_data();
+						}
+					})					
+				}else if (isAvailable == "C" || isAvailable == "R") {
+					
+				}
+
 			}else {
 				if(confirm('You have Not been login.\nWould you like to login?')){
 					let redirectPage = fullPath.replace("/"+pathName, "");
@@ -182,6 +191,7 @@ function search_data() {
 					bookItem.setAttribute("returnDate", bookList[i].RENTAL_DUE_DATE);
 					bookItem.setAttribute("isAvailable", bookList[i].BOOK_STATUS_CODE);
 					bookItem.setAttribute("apperance", bookList[i].BOOK_APPERANCE_STATUS);
+					bookItem.setAttribute("bookID", bookList[i].BOOKID);
 					if(bookList[i].BOOK_STATUS != "A") {
 						bookItem.setAttribute("buttonValue", "Reserve");
 					}else {

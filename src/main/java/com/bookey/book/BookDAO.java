@@ -105,16 +105,6 @@ public class BookDAO {
 		JSONArray bookList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
-			Object BOOKNM = paramMap.get("BOOKNM");
-			Object PUBLISHER = paramMap.get("PUBLISHER");
-			Object AUTHOR = paramMap.get("AUTHOR");
-			Object CATGID = paramMap.get("CATGID");
-			Object RENTAL_STATUS_CODE = paramMap.get("RENTAL_STATUS_CODE");
-			Object S_RENTAL_DATE = paramMap.get("S_RENTAL_DATE");
-			Object E_RENTAL_DATE = paramMap.get("E_RENTAL_DATE");
-			Object S_DUE_DATE = paramMap.get("S_RENTAL_DUE_DATE");
-			Object E_DUE_DATE = paramMap.get("E_RENTAL_DUE_DATE");
-			Object BOOK_APPERANCE_CODE = paramMap.get("BOOK_APPERANCE_CODE");
 			Object PAGESET = paramMap.get("PAGESET") == null ? 10 : paramMap.get("PAGESET");
 			Object PAGENUM = paramMap.get("PAGENUM") == null ? 1 : paramMap.get("PAGENUM");
 
@@ -159,6 +149,7 @@ public class BookDAO {
 				book.put("QUEUE", rs.getString("QUEUE"));
 				book.put("PUBLISHED_DATE", rs.getString("PUBLISHED_DATE"));
 				book.put("BOOK_APPERANCE_STATUS", rs.getString("BOOK_APPERANCE_STATUS"));
+				book.put("BOOKID", rs.getString("BOOKID"));
 				bookList.add(book);
 			}
 			rs.close();
@@ -311,5 +302,64 @@ public class BookDAO {
 		}
 		query += "" + ")";
 		return query;
+	}
+	
+	public int checkOutBookStatus(Map<String, Object> paramMap) {
+		int updateResult = -1;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			conn = dataFactory.getConnection();
+			String query = "UPDATE TBL_BOOK SET STATUS = 'C' WHERE 1=1 AND BOOKID = '"+bookID+"'";
+			pstmt = conn.prepareStatement(query);
+			updateResult = pstmt.executeUpdate();
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return updateResult;
+	}
+	
+	public int addRental(Map<String, Object> paramMap) {
+		int updateResult = -1;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			String userID = paramMap.get("userID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "INSERT INTO TBL_RENTAL"
+					+ "("
+					+ "       RENTALID"
+					+ "     , BOOKID"
+					+ "     , USERID"
+					+ "     , RENTAL_DATE"
+					+ "     , DUE_DATE"
+					+ "     , RETURN_DATE"
+					+ "     , STATUS"
+					+ "     , QUEUE"
+					+ "     , CREATED_DATE"
+					+ "     , CREATED_USER"
+					+ ")"
+					+ "SELECT MAX(RENTALID) + 1 AS RENTALID"
+					+ "     , '"+bookID+"'			AS BOOKID"
+					+ "     , '"+userID+"'			AS USERID"
+					+ "     , SYSDATE						AS RENTAL_DATE"
+					+ "     , SYSDATE + 14			AS DUE_DATE"
+					+ "     , NULL 							AS RETURN_DATE"
+					+ "     , 'G' 							AS STATUS"
+					+ "     , NULL 							AS QUEUE"
+					+ "     , SYSDATE 					AS CREATED_DATE"
+					+ "     , 'SYSTEM'					AS CREATED_USER"
+					+ "  FROM TBL_RENTAL";
+			pstmt = conn.prepareStatement(query);
+			updateResult = pstmt.executeUpdate();
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return updateResult;
 	}
 }

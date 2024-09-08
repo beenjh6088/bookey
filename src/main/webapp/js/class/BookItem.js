@@ -13,7 +13,8 @@ class BookItem extends HTMLElement {
 		let rentalDate = this.getAttribute("rentalDate");
 		let category = this.getAttribute("category");
 		let apperance = this.getAttribute("apperance");
-		
+		let bookID = this.getAttribute("bookID");
+				
 		let elAvailable = "";
 		if(isAvailable != "A") {
 			elAvailable = `
@@ -41,7 +42,7 @@ class BookItem extends HTMLElement {
 			      <li class="apperance"><label for="">Apperance</label><span>${apperance}</span></li>
 			    </ul>
 			    <div class="buttons">
-			    	<input type="button" value="${buttonValue}" class="button" data-type="${isAvailable}"/>
+			    	<input type="button" value="${buttonValue}" class="button" data-isAvailable="${isAvailable}" data-bookID="${bookID}"/>
 			    </div>
 			  </div>
 		`
