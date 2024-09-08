@@ -16,16 +16,16 @@ public class BookDAO {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private DataSource dataFactory;
-	
+
 	public BookDAO() {
 		try {
-			Context envContext = (Context)(new InitialContext()).lookup("java:/comp/env");
+			Context envContext = (Context) (new InitialContext()).lookup("java:/comp/env");
 			dataFactory = (DataSource) envContext.lookup("jdbc/oracle");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public JSONArray loadCategory() {
 		JSONArray categoryList = new JSONArray();
 		try {
@@ -33,7 +33,7 @@ public class BookDAO {
 			String query = "SELECT * FROM TBL_CATEGORY";
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
-			while(rs.next()) {
+			while (rs.next()) {
 				JSONObject book = new JSONObject();
 				book.put("CATGID", rs.getString("CATGID"));
 				book.put("CATG01", rs.getString("CATG01"));
@@ -50,10 +50,10 @@ public class BookDAO {
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
-		} 
+		}
 		return categoryList;
 	}
-	
+
 	public JSONArray loadRentalStatus() {
 		JSONArray rentalStatusList = new JSONArray();
 		try {
@@ -61,7 +61,7 @@ public class BookDAO {
 			String query = "SELECT * FROM TBL_MASTER WHERE 1=1 AND TABLE_NAME = 'TBL_RENTAL' AND COLUMN_NAME = 'STATUS'";
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
-			while(rs.next()) {
+			while (rs.next()) {
 				JSONObject rentalStatus = new JSONObject();
 				rentalStatus.put("CODE", rs.getString("CODE"));
 				rentalStatus.put("VALUE", rs.getString("VALUE"));
@@ -76,7 +76,7 @@ public class BookDAO {
 		}
 		return rentalStatusList;
 	}
-	
+
 	public JSONArray loadBookStatus() {
 		JSONArray bookStatusList = new JSONArray();
 		try {
@@ -85,7 +85,7 @@ public class BookDAO {
 			System.out.println(query);
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
-			while(rs.next()) {
+			while (rs.next()) {
 				JSONObject bookStatus = new JSONObject();
 				bookStatus.put("CODE", rs.getString("CODE"));
 				bookStatus.put("VALUE", rs.getString("VALUE"));
@@ -100,7 +100,7 @@ public class BookDAO {
 		}
 		return bookStatusList;
 	}
-	
+
 	public JSONArray searchBooks(Map<String, Object> paramMap) {
 		JSONArray bookList = new JSONArray();
 		try {
@@ -117,38 +117,26 @@ public class BookDAO {
 			Object BOOK_APPERANCE_CODE = paramMap.get("BOOK_APPERANCE_CODE");
 			Object PAGESET = paramMap.get("PAGESET") == null ? 10 : paramMap.get("PAGESET");
 			Object PAGENUM = paramMap.get("PAGENUM") == null ? 1 : paramMap.get("PAGENUM");
-			
-			String query = ""
-					+ getMainQuery(paramMap)
-					+ "SELECT MAIN.*"
-					+ "     , PAGING.PAGENUM, PAGING.SPAGE, PAGING.EPAGE, PAGING.PREV, PAGING.NEXT"
-					+ "  FROM MAIN"
-					+ "     , ("
-					+ "        SELECT RECNUM"
-					+ "             , PAGENUM"
+
+			String query = "" + getMainQuery(paramMap) + "SELECT MAIN.*"
+					+ "     , PAGING.PAGENUM, PAGING.SPAGE, PAGING.EPAGE, PAGING.PREV, PAGING.NEXT" + "  FROM MAIN" + "     , ("
+					+ "        SELECT RECNUM" + "             , PAGENUM"
 					+ "             , CEIL(PAGENUM/PAGESET)*PAGESET - PAGESET + 1 SPAGE"
 					+ "             , CASE WHEN CEIL(PAGENUM/PAGESET)*PAGESET > CEIL(CNT/PAGESET) THEN CEIL(CNT/PAGESET)"
-					+ "                    ELSE CEIL(PAGENUM/PAGESET)*PAGESET"
-					+ "                END EPAGE"
+					+ "                    ELSE CEIL(PAGENUM/PAGESET)*PAGESET" + "                END EPAGE"
 					+ "             , CASE WHEN PAGENUM > PAGESET THEN '<' ELSE NULL END PREV"
 					+ "             , CASE WHEN CEIL(PAGENUM/PAGESET)*PAGESET > CEIL(CNT/PAGESET) THEN NULL ELSE '>' END NEXT"
-					+ "          FROM ("
-					+ "                SELECT LEVEL RECNUM"
-					+ "                     , COUNT(*) OVER(PARTITION BY 1) CNT"
-					+ "                  FROM DUAL"
-					+ "                CONNECT BY LEVEL <= (SELECT COUNT(*) CNT FROM MAIN)"
-					+ "               ) A"
-					+ "             , (SELECT "+PAGENUM+" PAGENUM, "+PAGESET+" PAGESET FROM DUAL) B"
-					+ "         WHERE 1=1"
-					+ "           AND RECNUM > (PAGENUM-1)*PAGESET"
-					+ "           AND RECNUM <= PAGENUM*PAGESET"
-					+ "       ) PAGING"
-					+ " WHERE 1=1"
+					+ "          FROM (" + "                SELECT LEVEL RECNUM"
+					+ "                     , COUNT(*) OVER(PARTITION BY 1) CNT" + "                  FROM DUAL"
+					+ "                CONNECT BY LEVEL <= (SELECT COUNT(*) CNT FROM MAIN)" + "               ) A"
+					+ "             , (SELECT " + PAGENUM + " PAGENUM, " + PAGESET + " PAGESET FROM DUAL) B"
+					+ "         WHERE 1=1" + "           AND RECNUM > (PAGENUM-1)*PAGESET"
+					+ "           AND RECNUM <= PAGENUM*PAGESET" + "       ) PAGING" + " WHERE 1=1"
 					+ "   AND MAIN.RECNUM = PAGING.RECNUM";
 			System.out.println(query);
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
-			while(rs.next()) {
+			while (rs.next()) {
 				JSONObject book = new JSONObject();
 				book.put("RECNUM", rs.getInt("RECNUM"));
 				book.put("BOOKNM", rs.getString("BOOKNM"));
@@ -182,7 +170,7 @@ public class BookDAO {
 		}
 		return bookList;
 	}
-	
+
 	public int getBookTotalAmount(Map<String, Object> paramMap) {
 		int amount = 0;
 		try {
@@ -197,10 +185,7 @@ public class BookDAO {
 			Object S_DUE_DATE = paramMap.get("S_RENTAL_DUE_DATE");
 			Object E_DUE_DATE = paramMap.get("E_RENTAL_DUE_DATE");
 			Object BOOK_APPERANCE_CODE = paramMap.get("BOOK_APPERANCE_CODE");
-			String query = ""
-					+ getMainQuery(paramMap)
-					+ "SELECT COUNT(*) AMOUNT FROM MAIN"
-					;
+			String query = "" + getMainQuery(paramMap) + "SELECT COUNT(*) AMOUNT FROM MAIN";
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
 			rs.next();
@@ -214,43 +199,30 @@ public class BookDAO {
 		}
 		return amount;
 	}
-	
+
 	public JSONArray getPageList(Map<String, Object> paramMap) {
 		JSONArray pageList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
 			Object PAGESET = paramMap.get("PAGESET") == null ? 10 : paramMap.get("PAGESET");
 			Object PAGENUM = paramMap.get("PAGENUM") == null ? 1 : paramMap.get("PAGENUM");
-			
-			String query = ""
-					+ getMainQuery(paramMap)
-					+ "SELECT PAGING.*"
-					+ "  FROM ("
-					+ "        SELECT RECNUM"
-					+ "             , PAGENUM"
-					+ "             , CEIL(PAGENUM/PAGESET)*PAGESET - PAGESET + 1 SPAGE"
+
+			String query = "" + getMainQuery(paramMap) + "SELECT PAGING.*" + "  FROM (" + "        SELECT RECNUM"
+					+ "             , PAGENUM" + "             , CEIL(PAGENUM/PAGESET)*PAGESET - PAGESET + 1 SPAGE"
 					+ "             , CASE WHEN CEIL(PAGENUM/PAGESET)*PAGESET > CEIL(CNT/PAGESET) THEN CEIL(CNT/PAGESET)"
-					+ "                    ELSE CEIL(PAGENUM/PAGESET)*PAGESET"
-					+ "                END EPAGE"
+					+ "                    ELSE CEIL(PAGENUM/PAGESET)*PAGESET" + "                END EPAGE"
 					+ "             , CASE WHEN PAGENUM > PAGESET THEN '<' ELSE NULL END PREV"
 					+ "             , CASE WHEN CEIL(PAGENUM/PAGESET)*PAGESET > CEIL(CNT/PAGESET) THEN NULL ELSE '>' END NEXT"
-					+ "          FROM ("
-					+ "                SELECT LEVEL RECNUM"
-					+ "                     , COUNT(*) OVER(PARTITION BY 1) CNT"
-					+ "                  FROM DUAL"
-					+ "                CONNECT BY LEVEL <= (SELECT COUNT(*) CNT FROM MAIN)"
-					+ "               ) A"
-					+ "             , (SELECT "+PAGENUM+" PAGENUM, "+PAGESET+" PAGESET FROM DUAL) B"
-					+ "         WHERE 1=1"
-					+ "           AND RECNUM > (PAGENUM-1)*PAGESET"
-					+ "           AND RECNUM <= PAGENUM*PAGESET"
-					+ "       ) PAGING"
-					+ " WHERE 1=1"
-					;
+					+ "          FROM (" + "                SELECT LEVEL RECNUM"
+					+ "                     , COUNT(*) OVER(PARTITION BY 1) CNT" + "                  FROM DUAL"
+					+ "                CONNECT BY LEVEL <= (SELECT COUNT(*) CNT FROM MAIN)" + "               ) A"
+					+ "             , (SELECT " + PAGENUM + " PAGENUM, " + PAGESET + " PAGESET FROM DUAL) B"
+					+ "         WHERE 1=1" + "           AND RECNUM > (PAGENUM-1)*PAGESET"
+					+ "           AND RECNUM <= PAGENUM*PAGESET" + "       ) PAGING" + " WHERE 1=1";
 			System.out.println(query);
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
-			while(rs.next()) {
+			while (rs.next()) {
 				JSONObject page = new JSONObject();
 				page.put("RECNUM", rs.getInt("RECNUM"));
 				page.put("PAGENUM", rs.getInt("PAGENUM"));
@@ -269,7 +241,7 @@ public class BookDAO {
 		}
 		return pageList;
 	}
-	
+
 	private String getMainQuery(Map<String, Object> paramMap) {
 		Object BOOKNM = paramMap.get("BOOKNM");
 		Object PUBLISHER = paramMap.get("PUBLISHER");
@@ -281,83 +253,63 @@ public class BookDAO {
 		Object S_DUE_DATE = paramMap.get("S_RENTAL_DUE_DATE");
 		Object E_DUE_DATE = paramMap.get("E_RENTAL_DUE_DATE");
 		Object BOOK_APPERANCE_CODE = paramMap.get("BOOK_APPERANCE_CODE");
-		String query = ""
-				+ "WITH MAIN AS"
-				+ "("
-				+ "SELECT ROWNUM AS RECNUM"
-				+ "     , MAIN.*"
-				+ "  FROM ("
-				+ "        SELECT BOOK.BOOKID"
-				+ "             , BOOK.BOOKNM"
+		String query = "" + "WITH MAIN AS" + "(" + "SELECT ROWNUM AS RECNUM" + "     , MAIN.*" + "  FROM ("
+				+ "        SELECT BOOK.BOOKID" + "             , BOOK.BOOKNM"
 				+ "             , BOOK.PUBLISHER, BOOK.AUTHOR, BOOK.IMAGE_FILE_NAME, BOOK.PUBLISHED_DATE, BOOK.STATUS AS BOOK_STATUS"
 				+ "             , LOCA.LOCATION_ID, LOCA_INFO.VALUE LIBRARY_NAME, LOCA.SHELF_NO, LOCA.ROW_NO"
 				+ "             , CATEGORY.CATGID, CATEGORY.CATG01, CATEGORY.CATG02, CATEGORY.CATG03"
 				+ "             , RENTAL.STATUS AS RENTAL_STATUS_CODE, RENTAL.USERID AS RETAL_USER, RENTAL_STATUS.VALUE AS RENTAL_STATUS_VALUE, RENTAL.RENTAL_DATE, RENTAL.DUE_DATE RENTAL_DUE_DATE, RENTAL.QUEUE"
 				+ "             , BOOK_STATUS.CODE BOOK_STATUS_CODE, BOOK_STATUS.VALUE BOOK_STATUS_VALUE, BOOK_APPERANCE.CODE   AS BOOK_APPERANCE_CODE, BOOK_APPERANCE.VALUE AS BOOK_APPERANCE_STATUS"
-				+ "          FROM TBL_BOOK BOOK"
-				+ "             , ("
+				+ "          FROM TBL_BOOK BOOK" + "             , ("
 				+ "                SELECT ONGOING.RENTALID, ONGOING.BOOKID, ONGOING.USERID, ONGOING.RENTAL_DATE, ONGOING.DUE_DATE, ONGOING.RETURN_DATE, ONGOING.STATUS"
-				+ "                     , WAITING.QUEUE"
-				+ "                  FROM ("
+				+ "                     , WAITING.QUEUE" + "                  FROM ("
 				+ "                        SELECT RENTALID, BOOKID, USERID, RENTAL_DATE, DUE_DATE, RETURN_DATE, STATUS "
 				+ "                          FROM (SELECT RANK() OVER(PARTITION BY BOOKID ORDER BY DUE_DATE DESC) RNK, A.* FROM TBL_RENTAL A WHERE 1=1 AND STATUS = 'G') A"
-				+ "                         WHERE 1=1"
-				+ "                           AND RNK = 1"
-				+ "                       ) ONGOING"
-				+ "                     , ("
-				+ "                        SELECT BOOKID, MAX(QUEUE) QUEUE"
-				+ "                          FROM TBL_RENTAL"
-				+ "                         WHERE 1=1"
-				+ "                           AND STATUS IS NULL"
-				+ "                         GROUP BY BOOKID"
-				+ "                       ) WAITING"
-				+ "                 WHERE 1=1"
-				+ "                   AND ONGOING.BOOKID = WAITING.BOOKID(+)"
-				+ "               ) RENTAL"
-				+ "             , TBL_CATEGORY CATEGORY"
-				+ "             , TBL_LOCATION LOCA"
+				+ "                         WHERE 1=1" + "                           AND RNK = 1"
+				+ "                       ) ONGOING" + "                     , ("
+				+ "                        SELECT BOOKID, MAX(QUEUE) QUEUE" + "                          FROM TBL_RENTAL"
+				+ "                         WHERE 1=1" + "                           AND STATUS IS NULL"
+				+ "                         GROUP BY BOOKID" + "                       ) WAITING" + "                 WHERE 1=1"
+				+ "                   AND ONGOING.BOOKID = WAITING.BOOKID(+)" + "               ) RENTAL"
+				+ "             , TBL_CATEGORY CATEGORY" + "             , TBL_LOCATION LOCA"
 				+ "             , (SELECT * FROM TBL_MASTER WHERE 1=1 AND TABLE_NAME = 'TBL_BOOK' AND COLUMN_NAME = 'STATUS') BOOK_STATUS"
 				+ "             , (SELECT * FROM TBL_MASTER WHERE 1=1 AND TABLE_NAME = 'TBL_RENTAL' AND COLUMN_NAME = 'STATUS') RENTAL_STATUS"
 				+ "             , (SELECT * FROM TBL_MASTER WHERE 1=1 AND TABLE_NAME = 'TBL_LOCATION' AND COLUMN_NAME = 'PLACE_NO') LOCA_INFO"
 				+ "             , (SELECT * FROM TBL_MASTER WHERE 1=1 AND TABLE_NAME = 'TBL_BOOK' AND COLUMN_NAME = 'APPERANCE') BOOK_APPERANCE"
-				+ "         WHERE 1=1"
-				+ "           AND BOOK.BOOKID = RENTAL.BOOKID(+)"
-				+ "           AND BOOK.STATUS = BOOK_STATUS.CODE(+)"
-				+ "           AND BOOK.CATGID = CATEGORY.CATGID(+)"
-				+ "           AND RENTAL.STATUS = RENTAL_STATUS.CODE(+)"
-				+ "           AND BOOK.BOOKID  = LOCA.BOOKID(+)"
-				+ "           AND LOCA.PLACE_NO = LOCA_INFO.CODE(+)"
-				+ "           AND BOOK.APPERANCE = BOOK_APPERANCE.CODE(+)"
-				+ "       ) MAIN"
-				+ " WHERE 1=1"
-				;
-				if(BOOKNM != null && BOOKNM.toString().length() != 0) {
-					query += " AND UPPER(REPLACE(BOOKNM, ' ' ,'')) LIKE UPPER(REPLACE('%"+BOOKNM.toString()+"%', ' ', ''))";
-				}
-				if(PUBLISHER != null && PUBLISHER.toString().length() != 0) {
-					query += " AND UPPER(REPLACE(PUBLISHER, ' ' ,'')) LIKE UPPER(REPLACE('%"+PUBLISHER.toString()+"%', ' ', ''))";
-				}
-				if(AUTHOR != null && AUTHOR.toString().length() != 0) {
-					query += " AND UPPER(REPLACE(AUTHOR, ' ' ,'')) LIKE UPPER(REPLACE('%"+AUTHOR.toString()+"%', ' ', ''))";
-				}
-				if(CATGID != null && CATGID.toString().length() != 0) {
-					query += " AND CATGID = '"+CATGID.toString()+"'";
-				}
-				if(RENTAL_STATUS_CODE != null && RENTAL_STATUS_CODE.toString().length() != 0) {
-					query += " AND RENTAL_STATUS_CODE = '"+RENTAL_STATUS_CODE.toString()+"'";
-				}
-				if(S_RENTAL_DATE != null && S_RENTAL_DATE.toString().length() != 0 && E_RENTAL_DATE != null && E_RENTAL_DATE.toString().length() != 0) {
-					query += " AND RENTAL_DATE BETWEEN TO_DATE('"+S_RENTAL_DATE.toString()+"', 'YYYY-MM-DD') AND TO_DATE('"+E_RENTAL_DATE+"', 'YYYY-MM-DD')";
-				}
-				if(S_DUE_DATE != null && S_DUE_DATE.toString().length() != 0 && E_DUE_DATE != null && E_DUE_DATE.toString().length() != 0) {
-					query += " AND RENTAL_DUE_DATE BETWEEN TO_DATE('"+S_DUE_DATE.toString()+"', 'YYYY-MM-DD') AND TO_DATE('"+E_DUE_DATE+"', 'YYYY-MM-DD')";
-				}
-				if(BOOK_APPERANCE_CODE != null && BOOK_APPERANCE_CODE.toString().length() != 0) {
-					query += " AND BOOK_APPERANCE_CODE = '"+BOOK_APPERANCE_CODE.toString()+"'";
-				}
-				query += ""
-				+ ")"
-				;
-				return query;
+				+ "         WHERE 1=1" + "           AND BOOK.BOOKID = RENTAL.BOOKID(+)"
+				+ "           AND BOOK.STATUS = BOOK_STATUS.CODE(+)" + "           AND BOOK.CATGID = CATEGORY.CATGID(+)"
+				+ "           AND RENTAL.STATUS = RENTAL_STATUS.CODE(+)" + "           AND BOOK.BOOKID  = LOCA.BOOKID(+)"
+				+ "           AND LOCA.PLACE_NO = LOCA_INFO.CODE(+)" + "           AND BOOK.APPERANCE = BOOK_APPERANCE.CODE(+)"
+				+ "       ) MAIN" + " WHERE 1=1";
+		if (BOOKNM != null && BOOKNM.toString().length() != 0) {
+			query += " AND UPPER(REPLACE(BOOKNM, ' ' ,'')) LIKE UPPER(REPLACE('%" + BOOKNM.toString() + "%', ' ', ''))";
+		}
+		if (PUBLISHER != null && PUBLISHER.toString().length() != 0) {
+			query += " AND UPPER(REPLACE(PUBLISHER, ' ' ,'')) LIKE UPPER(REPLACE('%" + PUBLISHER.toString() + "%', ' ', ''))";
+		}
+		if (AUTHOR != null && AUTHOR.toString().length() != 0) {
+			query += " AND UPPER(REPLACE(AUTHOR, ' ' ,'')) LIKE UPPER(REPLACE('%" + AUTHOR.toString() + "%', ' ', ''))";
+		}
+		if (CATGID != null && CATGID.toString().length() != 0) {
+			query += " AND CATGID = '" + CATGID.toString() + "'";
+		}
+		if (RENTAL_STATUS_CODE != null && RENTAL_STATUS_CODE.toString().length() != 0) {
+			query += " AND RENTAL_STATUS_CODE = '" + RENTAL_STATUS_CODE.toString() + "'";
+		}
+		if (S_RENTAL_DATE != null && S_RENTAL_DATE.toString().length() != 0 && E_RENTAL_DATE != null
+				&& E_RENTAL_DATE.toString().length() != 0) {
+			query += " AND RENTAL_DATE BETWEEN TO_DATE('" + S_RENTAL_DATE.toString() + "', 'YYYY-MM-DD') AND TO_DATE('"
+					+ E_RENTAL_DATE + "', 'YYYY-MM-DD')";
+		}
+		if (S_DUE_DATE != null && S_DUE_DATE.toString().length() != 0 && E_DUE_DATE != null
+				&& E_DUE_DATE.toString().length() != 0) {
+			query += " AND RENTAL_DUE_DATE BETWEEN TO_DATE('" + S_DUE_DATE.toString() + "', 'YYYY-MM-DD') AND TO_DATE('"
+					+ E_DUE_DATE + "', 'YYYY-MM-DD')";
+		}
+		if (BOOK_APPERANCE_CODE != null && BOOK_APPERANCE_CODE.toString().length() != 0) {
+			query += " AND BOOK_APPERANCE_CODE = '" + BOOK_APPERANCE_CODE.toString() + "'";
+		}
+		query += "" + ")";
+		return query;
 	}
 }

@@ -87,6 +87,15 @@ function event_component_act() {
 			let userID = $("#userID")[0].value;
 			if(userID != "") {
 				// go and check out
+				$.ajax({
+					type: "post",
+					async: true,
+					data: {'frmData': _jsonData},
+					url:`${rootURL}/book/searchBooks.do`,
+					success: function(data, status) {
+						
+					}
+				})
 			}else {
 				if(confirm('You have Not been login.\nWould you like to login?')){
 					let redirectPage = fullPath.replace("/"+pathName, "");
