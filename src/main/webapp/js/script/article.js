@@ -78,9 +78,26 @@ function event_component_act() {
 		})
 		// dynamically setting event listener
 		$(document).on('click', '.pageItem', function(event) {
-		    event.preventDefault();
-		    PAGENUM = event.target.getAttribute("data-page");
-		    search_data();
+	    event.preventDefault();
+	    PAGENUM = event.target.getAttribute("data-page");
+	    search_data();
+		});
+		$(document).on('click', '.bookItem .button', function(event) {
+	    event.preventDefault();
+			let userID = $("#userID")[0].value;
+			console.log(userID);
+			if(userID != "") {
+				console.log(11)
+				// go and check out
+			}else {
+				console.log(22);
+				if(confirm('You have Not been login.\nWould you like to login?')){
+//					console.log(pathName)
+//					console.log(fullPath.replace("/"+pathName, ""))
+					let redirectPage = fullPath.replace("/"+pathName, "");
+					location.href = `${rootURL}/jsp/user/login.jsp?redirectPage=${redirectPage}`;
+				}
+			}
 		});
 	}
 }

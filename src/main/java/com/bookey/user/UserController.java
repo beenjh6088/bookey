@@ -34,7 +34,6 @@ public class UserController extends HttpServlet {
 	private static final UserController user = new UserController();
 	private StringBuilder nextPage = new StringBuilder();
 	private ServletContext context;
-//	private HttpSession session;
 	List<String> userList;
 	
 	public UserController() {
@@ -125,17 +124,18 @@ public class UserController extends HttpServlet {
 			}else if(action.equals("/loginUser.do")) {
 				String userID = request.getParameter("userID");
 				String userPW = request.getParameter("userPW");
-				HttpSession session = request.getSession();
+				HttpSession session = request.getSession(false);
 				UserVO userVO = userService.loginUser(userID, userPW);
+				
 				if(userVO != null) {
 					// Login process completed Successfully
-//					if(session.isNew()) {
+//						if(session.isNew()) {
 						session.setAttribute("userVO", userVO);
-						userList.add(userID);
+						userList.add(userVO.getUserID());
 						context.setAttribute("userList", userList);
-//					}
-//					nextPage.setLength(0);
-//					nextPage.append("/index.jsp");
+//						}
+//						nextPage.setLength(0);
+//						nextPage.append("/index.jsp");
 						
 						// the Reason why i use sendRedirect is to block requesting by user's mistake. if not, session overflow with same process(/user/loginUser.do)
 						response.sendRedirect(request.getContextPath()+"/index.jsp");

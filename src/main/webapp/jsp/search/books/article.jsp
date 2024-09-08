@@ -13,7 +13,8 @@
     String dept01 = arrFilePath[2].substring(0,1).toUpperCase() + arrFilePath[2].substring(1);
     String dept02 = arrFilePath[3].substring(0,1).toUpperCase() + arrFilePath[3].substring(1);
 %>
-
+<c:set var="userList" value="${applicationScope.userList}"></c:set>
+<c:set var="userVO" value="${sessionScope.userVO}"></c:set> 
 <article id="article">
 	<header class="header">
 		<nav class="navigator">
@@ -103,6 +104,7 @@
 					<ul class="bookList">	
 <%-- 						<li><bky-book-item src="${contextPath }/image/book/JAVA.jpg" ></bky-book-item></li> --%>
 					</ul>
+					<input type='hidden' name='userID' value='${userVO.getUserID() }' id="userID"/>
 				</div>
 				<div class="paging">
 					<ul class="pageList">

@@ -41,7 +41,7 @@ class BookItem extends HTMLElement {
 			      <li class="apperance"><label for="">Apperance</label><span>${apperance}</span></li>
 			    </ul>
 			    <div class="buttons">
-			    	<input type="button" value="${buttonValue}" />
+			    	<input type="button" value="${buttonValue}" class="button"/>
 			    </div>
 			  </div>
 		`
