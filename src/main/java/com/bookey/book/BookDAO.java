@@ -150,6 +150,7 @@ public class BookDAO {
 				book.put("PUBLISHED_DATE", rs.getString("PUBLISHED_DATE"));
 				book.put("BOOK_APPERANCE_STATUS", rs.getString("BOOK_APPERANCE_STATUS"));
 				book.put("BOOKID", rs.getString("BOOKID"));
+				book.put("NEXT_USERID", rs.getString("NEXT_USERID"));
 				bookList.add(book);
 			}
 			rs.close();
@@ -269,7 +270,8 @@ public class BookDAO {
 				+ "             , BOOK.PUBLISHER, BOOK.AUTHOR, BOOK.IMAGE_FILE_NAME, BOOK.PUBLISHED_DATE, BOOK.STATUS AS BOOK_STATUS"
 				+ "             , LOCA.LOCATION_ID, LOCA_INFO.VALUE LIBRARY_NAME, LOCA.SHELF_NO, LOCA.ROW_NO"
 				+ "             , CATEGORY.CATGID, CATEGORY.CATG01, CATEGORY.CATG02, CATEGORY.CATG03"
-				+ "             , RENTAL.STATUS AS RENTAL_STATUS_CODE, RENTAL.USERID AS RETAL_USER, RENTAL_STATUS.VALUE AS RENTAL_STATUS_VALUE, RENTAL.RENTAL_DATE, RENTAL.DUE_DATE RENTAL_DUE_DATE, WAITING.QUEUE"
+				+ "             , RENTAL.STATUS AS RENTAL_STATUS_CODE, RENTAL.USERID AS RETAL_USER, RENTAL_STATUS.VALUE AS RENTAL_STATUS_VALUE, RENTAL.RENTAL_DATE, RENTAL.DUE_DATE RENTAL_DUE_DATE"
+				+ "             , WAITING.QUEUE, WAITING.USERID AS NEXT_USERID"
 				+ "             , BOOK_STATUS.CODE BOOK_STATUS_CODE, BOOK_STATUS.VALUE BOOK_STATUS_VALUE, BOOK_APPERANCE.CODE   AS BOOK_APPERANCE_CODE, BOOK_APPERANCE.VALUE AS BOOK_APPERANCE_STATUS"
 				+ "          FROM TBL_BOOK BOOK" 
 				+ "             , ("
@@ -283,9 +285,12 @@ public class BookDAO {
 				+ "                 WHERE 1=1"
 				+ "               ) RENTAL"
         + "							, ("
-				+ "                SELECT BOOKID, MAX(QUEUE) QUEUE" 
-				+ "                  FROM TBL_RENTAL"
-				+ "                 WHERE 1=1" 
+				+ "                SELECT ''"
+				+ "                     , BOOKID"
+				+ "                     , MAX(QUEUE) QUEUE"
+				+ "                     , MAX(USERID) KEEP(DENSE_RANK FIRST ORDER BY QUEUE) USERID"
+				+ "                  FROM TBL_RENTAL A"
+				+ "                 WHERE 1 = 1 "
 				+ "                   AND STATUS IS NULL"
 				+ "                 GROUP BY BOOKID" 
 				+ "               ) WAITING"
@@ -533,6 +538,7 @@ public class BookDAO {
 			String query = ""
 					+ "UPDATE TBL_RENTAL"
 					+ "   SET STATUS 				= CASE WHEN SYSDATE <= DUE_DATE THEN 'R' ELSE 'D' END"
+					+ "     , RETURN_DATE		= SYSDATE"
 					+ "     , UPDATED_DATE 	= SYSDATE"
 					+ "     , UPDATED_USER 	= 'SYSTEM'"
 					+ " WHERE 1=1"
@@ -595,6 +601,86 @@ public class BookDAO {
 			System.out.println(query);
 			pstmt.close();
 			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return updateResult;
+	}
+	
+	public int updateRentalStatusConfirm(Map<String, Object> paramMap) {
+		int updateResult = 0;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			String userID = paramMap.get("userID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "UPDATE TBL_RENTAL"
+					+ "   SET RENTAL_DATE   = SYSDATE"
+					+ "     , DUE_DATE      = SYSDATE + 14"
+					+ "     , STATUS        = 'G'"
+					+ "     , QUEUE         = NULL"
+					+ "     , UPDATED_DATE	= SYSDATE"
+					+ "     , UPDATED_USER	= 'SYSTEM'"
+					+ " WHERE 1=1"
+					+ "   AND STATUS IS NULL"
+					+ "   AND BOOKID = '"+bookID+"'"
+					+ "   AND USERID = '"+userID+"'"
+					+ "   AND QUEUE = 1";
+			pstmt = conn.prepareStatement(query);
+			updateResult = pstmt.executeUpdate();
+			System.out.println(query);
+			conn.close();
+			pstmt.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return updateResult;
+	}
+	
+	public int updateWaitingRental(Map<String, Object> paramMap) {
+		int updateResult = 0;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "UPDATE TBL_RENTAL"
+					+ "   SET QUEUE        = QUEUE -1"
+					+ "     , UPDATED_DATE = SYSDATE"
+					+ "     , UPDATED_USER = 'SYSTEM'"
+					+ " WHERE 1=1"
+					+ "   AND STATUS IS NULL"
+					+ "   AND BOOKID = '"+bookID+"'";
+			pstmt = conn.prepareStatement(query);
+			updateResult = pstmt.executeUpdate();
+			System.out.println(query);
+			conn.close();
+			pstmt.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return updateResult;
+	}
+	
+	public int updateBookStatusConfirm(Map<String, Object> paramMap) {
+		int updateResult = 0;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "UPDATE TBL_BOOK"
+					+ "   SET STATUS = 'C'"
+					+ "     , UPDATED_DATE = SYSDATE"
+					+ "     , UPDATED_USER = 'SYSTEM'"
+					+ " WHERE 1=1"
+					+ "   AND BOOKID = '"+bookID+"'";
+			pstmt = conn.prepareStatement(query);
+			updateResult = pstmt.executeUpdate();
+			System.out.println(query);
+			conn.close();
+			pstmt.close();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();

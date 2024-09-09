@@ -60,4 +60,11 @@ public class BookService {
 		int updateBookStatusReturnResult = bookDAO.updateBookStatusReturn(paramMap);
 		return updateRentalStatusReturnResult * updateBookStatusReturnResult;
 	}
+	
+	public int confirmBook(Map<String, Object> paramMap) {
+		int updateRentalStatusConfirmResult = bookDAO.updateRentalStatusConfirm(paramMap);
+		int updateWaitingRentalResult = bookDAO.updateWaitingRental(paramMap);
+		int updateBookStatusConfirmResult = bookDAO.updateBookStatusConfirm(paramMap);
+		return updateRentalStatusConfirmResult * updateWaitingRentalResult * updateBookStatusConfirmResult;
+	}
 }

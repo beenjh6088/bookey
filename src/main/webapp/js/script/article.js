@@ -87,8 +87,7 @@ function event_component_act() {
 			let userID = $("#userID")[0].value;
 			let isAvailable = event.target.getAttribute("data-isAvailable")
 			let bookID = event.target.getAttribute("data-bookID");
-			console.log(`bookID`);
-			console.log(bookID);
+			let nextUserID = event.target.getAttribute("data-nextUserID");
 			if(userID != "") {
 				// go and check out
 				if(isAvailable == "A") {
@@ -101,7 +100,7 @@ function event_component_act() {
 							search_data();
 						}
 					})					
-				}else if (isAvailable == "C" || isAvailable == "R") {
+				}else if(isAvailable == "C") {
 					$.ajax({
 						type: "post",
 						async: true,
@@ -114,6 +113,34 @@ function event_component_act() {
 							search_data();
 						}
 					})	
+				}else if(isAvailable == "R") {
+					if(nextUserID == userID) {
+						$.ajax({
+							type: "post",
+							async: true,
+							data: {'userID': userID, 'bookID': bookID},
+							url:`${rootURL}/book/confirmBook.do`,
+							success: function(data, status) {
+								if(status == "success") {
+									alert("Book rental has been successfully completed.")
+								}
+								search_data();
+							}
+						})
+					}else {
+						$.ajax({
+							type: "post",
+							async: true,
+							data: {'userID': userID, 'bookID': bookID},
+							url:`${rootURL}/book/reserveBook.do`,
+							success: function(data, status) {
+								if(status == "success") {
+									alert("Reservation is completed successfully.")
+								}
+								search_data();
+							}
+						})
+					}
 				}
 
 			}else {
@@ -175,6 +202,7 @@ function search_data() {
 				let bookList = JSON.parse(data).bookList;
 				let pageList = JSON.parse(data).pageList;
 				let bookTotalAmount = JSON.parse(data).bookTotalAmount || 0;
+				let userID = $("#userID")[0].value;
 				console.log(bookList);
 //				console.log(pageList);
 				if(bookList.length == 0){
@@ -204,9 +232,12 @@ function search_data() {
 					bookItem.setAttribute("isAvailableValue", bookList[i].BOOK_STATUS_VALUE);
 					bookItem.setAttribute("apperance", bookList[i].BOOK_APPERANCE_STATUS);
 					bookItem.setAttribute("bookID", bookList[i].BOOKID);
+					bookItem.setAttribute("nextUserID", bookList[i].NEXT_USERID);
 					if(bookList[i].BOOK_STATUS != "A") {
 						bookItem.setAttribute("buttonValue", "Reserve");
-//						if(bookList[i].BOOK_STATUS == "R" && )
+						if(bookList[i].BOOK_STATUS == "R" && bookList[i].NEXT_USERID == userID) {
+							bookItem.setAttribute("buttonValue", "Check out");
+						}
 					}else {
 						bookItem.setAttribute("buttonValue", "Check out");
 					}
