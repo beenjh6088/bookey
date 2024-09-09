@@ -206,6 +206,7 @@ function search_data() {
 					bookItem.setAttribute("bookID", bookList[i].BOOKID);
 					if(bookList[i].BOOK_STATUS != "A") {
 						bookItem.setAttribute("buttonValue", "Reserve");
+//						if(bookList[i].BOOK_STATUS == "R" && )
 					}else {
 						bookItem.setAttribute("buttonValue", "Check out");
 					}
