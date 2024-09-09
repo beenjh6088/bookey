@@ -428,4 +428,55 @@ public class BookDAO {
 		}
 		return insertResult;
 	}
+	
+	public JSONArray getCheckoutList(Map<String, Object> paramMap) {
+		JSONArray checkoutList = new JSONArray();
+		try {
+			String  userID = paramMap.get("userID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "SELECT ROWNUM RECNUM"
+					+ "     , A.RENTALID"
+					+ "     , A.BOOKID"
+					+ "     , A.USERID"
+					+ "     , A.RENTAL_DATE"
+					+ "     , A.DUE_DATE"
+					+ "     , A.STATUS   AS RENTAL_CODE"
+					+ "     , C.VALUE    AS RENTAL_VALUE "
+					+ "     , B.BOOKNM"
+					+ "     , B.IMAGE_FILE_NAME"
+					+ "  FROM TBL_RENTAL A"
+					+ "     , TBL_BOOK B"
+					+ "     , (SELECT * FROM TBL_MASTER WHERE TABLE_NAME = 'TBL_RENTAL' AND COLUMN_NAME = 'STATUS') C"
+					+ " WHERE 1=1 "
+					+ "   AND A.USERID = '"+userID+"' "
+					+ "   AND A.STATUS ='G'"
+					+ "   AND A.BOOKID = B.BOOKID"
+					+ "   AND A.STATUS = C.CODE";
+			pstmt = conn.prepareStatement(query);
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				JSONObject checkout = new JSONObject();
+				checkout.put("RECNUM", rs.getInt("RECNUM"));
+				checkout.put("RENTALID", rs.getInt("RENTALID"));
+				checkout.put("BOOKID", rs.getString("BOOKID"));
+				checkout.put("USERID", rs.getString("USERID"));
+				checkout.put("RENTAL_DATE", rs.getString("RENTAL_DATE"));
+				checkout.put("DUE_DATE", rs.getString("DUE_DATE"));
+				checkout.put("RENTAL_CODE", rs.getString("RENTAL_CODE"));
+				checkout.put("RENTAL_VALUE", rs.getString("RENTAL_VALUE"));
+				checkout.put("BOOKNM", rs.getString("BOOKNM"));
+				checkout.put("IMAGE_FILE_NAME", rs.getString("IMAGE_FILE_NAME"));
+				checkoutList.add(checkout);
+			}
+			System.out.println(query);
+			rs.close();
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return checkoutList;
+	}
 }

@@ -48,4 +48,8 @@ public class BookService {
 		int reserveResult = bookDAO.reserveBook(paramMap);
 		return reserveResult;
 	}
+	
+	public JSONArray getCheckoutList(Map<String, Object> paramMap) {
+		return bookDAO.getCheckoutList(paramMap);
+	}
 }

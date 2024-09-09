@@ -129,6 +129,18 @@ public class BookController extends HttpServlet {
 				resultMap.put("reserveResult", reserveResult);
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
 				pw.print(strResultMap);
+			}else if(action.equals("/loadCheckout.do")) {
+				Map<String, Object> requestParm = UtilityController.getParameterMap(request);
+				Object rawFrmData = requestParm.get("frmData");
+				String strFrmData = requestParm.get("frmData").toString();
+				JSONObject paramMap  = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
+				JSONArray checkoutList = bookService.getCheckoutList(paramMap);
+				System.out.println("checkoutList : "+checkoutList);
+				JSONObject resultMap = new JSONObject();
+				resultMap.put("checkoutList", checkoutList);
+				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
+				pw.print(strResultMap);
+				return;
 			}
 			
 			RequestDispatcher dispatcher = request.getRequestDispatcher(nextPage.toString());
