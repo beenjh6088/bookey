@@ -26,7 +26,7 @@ public class BookDAO {
 		}
 	}
 
-	public JSONArray loadCategory() {
+	public JSONArray selectCategory() {
 		JSONArray categoryList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
@@ -54,7 +54,7 @@ public class BookDAO {
 		return categoryList;
 	}
 
-	public JSONArray loadRentalStatus() {
+	public JSONArray selectRentalStatus() {
 		JSONArray rentalStatusList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
@@ -77,7 +77,7 @@ public class BookDAO {
 		return rentalStatusList;
 	}
 
-	public JSONArray loadBookStatus() {
+	public JSONArray selectBookStatus() {
 		JSONArray bookStatusList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
@@ -101,14 +101,14 @@ public class BookDAO {
 		return bookStatusList;
 	}
 
-	public JSONArray searchBooks(Map<String, Object> paramMap) {
+	public JSONArray selectBooks(Map<String, Object> paramMap) {
 		JSONArray bookList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
 			Object PAGESET = paramMap.get("PAGESET") == null ? 10 : paramMap.get("PAGESET");
 			Object PAGENUM = paramMap.get("PAGENUM") == null ? 1 : paramMap.get("PAGENUM");
 
-			String query = "" + getMainQuery(paramMap) + "SELECT MAIN.*"
+			String query = "" + selectMainQuery(paramMap) + "SELECT MAIN.*"
 					+ "     , PAGING.PAGENUM, PAGING.SPAGE, PAGING.EPAGE, PAGING.PREV, PAGING.NEXT" + "  FROM MAIN" + "     , ("
 					+ "        SELECT RECNUM" + "             , PAGENUM"
 					+ "             , CEIL(PAGENUM/PAGESET)*PAGESET - PAGESET + 1 SPAGE"
@@ -162,7 +162,7 @@ public class BookDAO {
 		return bookList;
 	}
 
-	public int getBookTotalAmount(Map<String, Object> paramMap) {
+	public int selectBookTotalAmount(Map<String, Object> paramMap) {
 		int amount = 0;
 		try {
 			conn = dataFactory.getConnection();
@@ -176,7 +176,9 @@ public class BookDAO {
 			Object S_DUE_DATE = paramMap.get("S_RENTAL_DUE_DATE");
 			Object E_DUE_DATE = paramMap.get("E_RENTAL_DUE_DATE");
 			Object BOOK_APPERANCE_CODE = paramMap.get("BOOK_APPERANCE_CODE");
-			String query = "" + getMainQuery(paramMap) + "SELECT COUNT(*) AMOUNT FROM MAIN";
+			String query = ""
+					+ selectMainQuery(paramMap)
+					+ "SELECT COUNT(*) AMOUNT FROM MAIN";
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
 			rs.next();
@@ -191,25 +193,37 @@ public class BookDAO {
 		return amount;
 	}
 
-	public JSONArray getPageList(Map<String, Object> paramMap) {
+	public JSONArray selectPageList(Map<String, Object> paramMap) {
 		JSONArray pageList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
 			Object PAGESET = paramMap.get("PAGESET") == null ? 10 : paramMap.get("PAGESET");
 			Object PAGENUM = paramMap.get("PAGENUM") == null ? 1 : paramMap.get("PAGENUM");
 
-			String query = "" + getMainQuery(paramMap) + "SELECT PAGING.*" + "  FROM (" + "        SELECT RECNUM"
-					+ "             , PAGENUM" + "             , CEIL(PAGENUM/PAGESET)*PAGESET - PAGESET + 1 SPAGE"
+			String query = ""
+					+ selectMainQuery(paramMap)
+					+ "SELECT PAGING.*"
+					+ "  FROM ("
+					+ "        SELECT RECNUM"
+					+ "             , PAGENUM"
+					+ "             , CEIL(PAGENUM/PAGESET)*PAGESET - PAGESET + 1 SPAGE"
 					+ "             , CASE WHEN CEIL(PAGENUM/PAGESET)*PAGESET > CEIL(CNT/PAGESET) THEN CEIL(CNT/PAGESET)"
-					+ "                    ELSE CEIL(PAGENUM/PAGESET)*PAGESET" + "                END EPAGE"
+					+ "                    ELSE CEIL(PAGENUM/PAGESET)*PAGESET"
+					+ "                END EPAGE"
 					+ "             , CASE WHEN PAGENUM > PAGESET THEN '<' ELSE NULL END PREV"
 					+ "             , CASE WHEN CEIL(PAGENUM/PAGESET)*PAGESET > CEIL(CNT/PAGESET) THEN NULL ELSE '>' END NEXT"
-					+ "          FROM (" + "                SELECT LEVEL RECNUM"
-					+ "                     , COUNT(*) OVER(PARTITION BY 1) CNT" + "                  FROM DUAL"
-					+ "                CONNECT BY LEVEL <= (SELECT COUNT(*) CNT FROM MAIN)" + "               ) A"
+					+ "          FROM ("
+					+ "                SELECT LEVEL RECNUM"
+					+ "                     , COUNT(*) OVER(PARTITION BY 1) CNT"
+					+ "                  FROM DUAL"
+					+ "                CONNECT BY LEVEL <= (SELECT COUNT(*) CNT FROM MAIN)"
+					+ "               ) A"
 					+ "             , (SELECT " + PAGENUM + " PAGENUM, " + PAGESET + " PAGESET FROM DUAL) B"
-					+ "         WHERE 1=1" + "           AND RECNUM > (PAGENUM-1)*PAGESET"
-					+ "           AND RECNUM <= PAGENUM*PAGESET" + "       ) PAGING" + " WHERE 1=1";
+					+ "         WHERE 1=1"
+					+ "           AND RECNUM > (PAGENUM-1)*PAGESET"
+					+ "           AND RECNUM <= PAGENUM*PAGESET"
+					+ "       ) PAGING"
+					+ " WHERE 1=1";
 			System.out.println(query);
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
@@ -233,7 +247,7 @@ public class BookDAO {
 		return pageList;
 	}
 
-	private String getMainQuery(Map<String, Object> paramMap) {
+	private String selectMainQuery(Map<String, Object> paramMap) {
 		Object BOOKNM = paramMap.get("BOOKNM");
 		Object PUBLISHER = paramMap.get("PUBLISHER");
 		Object AUTHOR = paramMap.get("AUTHOR");
@@ -304,12 +318,18 @@ public class BookDAO {
 		return query;
 	}
 	
-	public int checkOutBookStatus(Map<String, Object> paramMap) {
+	public int updateBookStatusCheckout(Map<String, Object> paramMap) {
 		int updateResult = -1;
 		try {
 			String bookID = paramMap.get("bookID").toString();
 			conn = dataFactory.getConnection();
-			String query = "UPDATE TBL_BOOK SET STATUS = 'C', UPDATED_DATE = SYSDATE, UPDATED_USER = 'SYSTEM' WHERE 1=1 AND BOOKID = '"+bookID+"'";
+			String query = ""
+					+ "UPDATE TBL_BOOK "
+					+ "   SET STATUS = 'C'"
+					+ "     , UPDATED_DATE = SYSDATE"
+					+ "     , UPDATED_USER = 'SYSTEM'"
+					+ " WHERE 1=1"
+					+ "   AND BOOKID = '"+bookID+"'";
 			pstmt = conn.prepareStatement(query);
 			updateResult = pstmt.executeUpdate();
 			pstmt.close();
@@ -321,7 +341,7 @@ public class BookDAO {
 		return updateResult;
 	}
 	
-	public int addRental(Map<String, Object> paramMap) {
+	public int insertNewRental(Map<String, Object> paramMap) {
 		int updateResult = -1;
 		try {
 			String bookID = paramMap.get("bookID").toString();
@@ -363,11 +383,13 @@ public class BookDAO {
 		return updateResult;
 	}
 	
-	public int getNextRentalID(Map<String, Object> paramMap) {
+	public int selectNextRentalID(Map<String, Object> paramMap) {
 		int rentalID = 0;
 		try {
 			conn = dataFactory.getConnection();
-			String query = "SELECT MAX(RENTALID) + 1 RENTALID FROM TBL_RENTAL";
+			String query = ""
+					+ "SELECT MAX(RENTALID) + 1 RENTALID "
+					+ "  FROM TBL_RENTAL";
 			pstmt = conn.prepareStatement(query);
 			System.out.println(query);
 			ResultSet rs = pstmt.executeQuery();
@@ -383,7 +405,7 @@ public class BookDAO {
 		return rentalID;
 	}
 	
-	public int reserveBook(Map<String, Object> paramMap) {
+	public int insertWaitingRental(Map<String, Object> paramMap) {
 		int insertResult = 0;
 		try {
 			int rentalID = Integer.parseInt(paramMap.get("rentalID").toString());
@@ -393,30 +415,32 @@ public class BookDAO {
 			String query = ""
 					+ "INSERT INTO TBL_RENTAL"
 					+ "("
-					+ "                          RENTALID,"
-					+ "                          BOOKID,"
-					+ "                          USERID,"
-					+ "                          RENTAL_DATE,"
-					+ "                          DUE_DATE,"
-					+ "                          RETURN_DATE,"
-					+ "                          STATUS,"
-					+ "                          QUEUE,"
-					+ "                          CREATED_DATE,"
-					+ "                          CREATED_USER"
+					+ "                          		RENTALID,"
+					+ "                          		BOOKID,"
+					+ "                          		USERID,"
+					+ "                          		RENTAL_DATE,"
+					+ "                          		DUE_DATE,"
+					+ "                          		RETURN_DATE,"
+					+ "                          		STATUS,"
+					+ "                          		QUEUE,"
+					+ "                          		CREATED_DATE,"
+					+ "                          		CREATED_USER"
 					+ ")"
-					+ "SELECT "+rentalID+"       AS RENTALID"
-					+ "     , '"+bookID+"'       AS BOOKID"
-					+ "     , '"+userID+"'       AS USERID"
-					+ "     , NULL               AS RENTAL_DATE"
-					+ "     , NULL               AS DUE_DATE"
-					+ "     , NULL               AS RETURN_DATE"
-					+ "     , NULL               AS STATUS"
-					+ "     , MAX(QUEUE) + 1     AS QUEUE"
-					+ "     , SYSDATE            AS CREATED_DATE"
-					+ "     , 'SYSTEM'           AS CREATED_USER"
+					+ "SELECT "+rentalID+"       		AS RENTALID"
+					+ "     , '"+bookID+"'       		AS BOOKID"
+					+ "     , '"+userID+"'       		AS USERID"
+					+ "     , NULL               		AS RENTAL_DATE"
+					+ "     , NULL               		AS DUE_DATE"
+					+ "     , NULL               		AS RETURN_DATE"
+					+ "     , NULL               		AS STATUS"
+					+ "     , NVL(MAX(QUEUE),0) + 1 AS QUEUE"
+					+ "     , SYSDATE            		AS CREATED_DATE"
+					+ "     , 'SYSTEM'           		AS CREATED_USER"
 					+ "  FROM  TBL_RENTAL"
 					+ " WHERE 1=1"
-					+ "   AND STATUS IS NULL";
+					+ "   AND STATUS IS NULL"
+					+ "   AND BOOKID = '"+bookID+"'"
+					;
 			pstmt = conn.prepareStatement(query);
 			insertResult = pstmt.executeUpdate();
 			System.out.println(query);
@@ -429,7 +453,7 @@ public class BookDAO {
 		return insertResult;
 	}
 	
-	public JSONArray getCheckoutList(Map<String, Object> paramMap) {
+	public JSONArray selectCheckoutList(Map<String, Object> paramMap) {
 		JSONArray checkoutList = new JSONArray();
 		try {
 			String  userID = paramMap.get("userID").toString();
@@ -478,5 +502,83 @@ public class BookDAO {
 			e.printStackTrace();
 		}
 		return checkoutList;
+	}
+	
+	public int updateRentalStatusReturn(Map<String, Object> paramMap) {
+		int updateResult = 0;
+		try {
+			String userID = paramMap.get("userID").toString();
+			String bookID = paramMap.get("bookID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "UPDATE TBL_RENTAL"
+					+ "   SET STATUS 				= CASE WHEN SYSDATE <= DUE_DATE THEN 'R' ELSE 'D' END"
+					+ "     , UPDATED_DATE 	= SYSDATE"
+					+ "     , UPDATED_USER 	= 'SYSTEM'"
+					+ " WHERE 1=1"
+					+ "   AND USERID = '"+userID+"'"
+					+ "   AND BOOKID = '"+bookID+"'"
+					+ "   AND STATUS = 'G'";
+			pstmt = conn.prepareStatement(query);
+			updateResult = pstmt.executeUpdate();
+			System.out.println(query);
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return updateResult;
+	}
+	
+	public int selectQueue(Map<String, Object> paramMap) {
+		int queue = -1;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "SELECT COUNT(*) CNT "
+					+ "  FROM TBL_RENTAL "
+					+ " WHERE 1=1"
+					+ "   AND BOOKID = '"+bookID+"'"
+					+ "   AND STATUS IS NULL";
+			pstmt = conn.prepareStatement(query);
+			ResultSet rs = pstmt.executeQuery();
+			rs.next();
+			queue = rs.getInt("CNT");
+			System.out.println(query);
+			rs.close();
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return queue;
+	}
+	
+	public int updateBookStatusReturn(Map<String, Object> paramMap) {
+		int updateResult = 0;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			int queue = Integer.parseInt(paramMap.get("queue").toString());
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "UPDATE TBL_BOOK"
+					+ "   SET STATUS 				= CASE WHEN "+queue+" > 0 THEN 'R' ELSE 'A' END"
+					+ "     , UPDATED_DATE 	= SYSDATE"
+					+ "     , UPDATED_USER 	= 'SYSTEM'"
+					+ " WHERE 1=1"
+					+ "   AND BOOKID = '"+bookID+"'";
+			pstmt = conn.prepareStatement(query);
+			updateResult = pstmt.executeUpdate();
+			System.out.println(query);
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return updateResult;
 	}
 }

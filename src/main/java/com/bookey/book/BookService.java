@@ -13,43 +13,51 @@ public class BookService {
 	}
 	
 	public JSONArray loadCategory() {
-		return bookDAO.loadCategory();
+		return bookDAO.selectCategory();
 	}
 	
 	public JSONArray loadRentalStatus() {
-		return bookDAO.loadRentalStatus();
+		return bookDAO.selectRentalStatus();
 	}
 	
 	public JSONArray loadBookStatus() {
-		return bookDAO.loadBookStatus();
+		return bookDAO.selectBookStatus();
 	}
 	
 	public JSONArray searchBooks(Map<String, Object> paramMap) {
-		return bookDAO.searchBooks(paramMap);
+		return bookDAO.selectBooks(paramMap);
 	}
 	
 	public int getBookTotalAmount(Map<String, Object> paramMap) {
-		return bookDAO.getBookTotalAmount(paramMap);
+		return bookDAO.selectBookTotalAmount(paramMap);
 	}
 	
 	public JSONArray getPageList(Map<String, Object> paramMap) {
-		return bookDAO.getPageList(paramMap);
+		return bookDAO.selectPageList(paramMap);
 	}
 	
 	public int checkOutBook(Map<String, Object> paramMap) {
-		int checkOutResult = bookDAO.checkOutBookStatus(paramMap);
-		int addRentalResult  = bookDAO.addRental(paramMap);
+		int checkOutResult = bookDAO.updateBookStatusCheckout(paramMap);
+		int addRentalResult  = bookDAO.insertNewRental(paramMap);
 		return checkOutResult * addRentalResult;
 	}
 	
 	public int reserveBook(Map<String, Object> paramMap) {
-		int rentalID = bookDAO.getNextRentalID(paramMap);
+		int rentalID = bookDAO.selectNextRentalID(paramMap);
 		paramMap.put("rentalID", rentalID);
-		int reserveResult = bookDAO.reserveBook(paramMap);
+		int reserveResult = bookDAO.insertWaitingRental(paramMap);
 		return reserveResult;
 	}
 	
 	public JSONArray getCheckoutList(Map<String, Object> paramMap) {
-		return bookDAO.getCheckoutList(paramMap);
+		return bookDAO.selectCheckoutList(paramMap);
+	}
+	
+	public int returnBook(Map<String, Object> paramMap) {
+		int updateRentalStatusReturnResult = bookDAO.updateRentalStatusReturn(paramMap);
+		int queue = bookDAO.selectQueue(paramMap);
+		paramMap.put("queue", queue);
+		int updateBookStatusReturnResult = bookDAO.updateBookStatusReturn(paramMap);
+		return updateRentalStatusReturnResult * updateBookStatusReturnResult;
 	}
 }

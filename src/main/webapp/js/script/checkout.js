@@ -1,10 +1,36 @@
 function initCheckoutEvent() {
 	init_component_fillData();
+	event_component_act();
 }
 
 function init_component_fillData() {
-		const _formData = Object.fromEntries(getFormData('frmCheckout'));
-		const _jsonData = JSON.stringify(_formData);
+	search_data();
+}
+
+function event_component_act() {
+	// dynamically setting event listener
+	$(document).on('click', '.bookItem .button', function(event) {
+		let userID = event.target.getAttribute("data-userID");
+		let bookID = event.target.getAttribute("data-bookID");
+		$.ajax({
+			type: "post",
+			async: true,
+			data: {'userID': userID, 'bookID': bookID},
+			url:`${rootURL}/book/returnBook.do`,
+			success: function(data, status) {
+				if(status == "success") {
+					alert("The book return has been completed successfully.")
+					search_data();
+				}
+			}
+		});
+	});
+}
+
+
+function search_data() {
+	const _formData = Object.fromEntries(getFormData('frmCheckout'));
+	const _jsonData = JSON.stringify(_formData);
 		
 	// Load checkout data
 	$.ajax({
@@ -15,7 +41,12 @@ function init_component_fillData() {
 		success: function(data, status) {
 			let checkoutList = JSON.parse(data).checkoutList;
 			let dataList = document.querySelector(".frmCheckout .dataList")
-			// set books through checkoutList 				
+			dataList.innerHTML = "";
+			if(checkoutList.length == 0) {
+				dataList.innerHTML = "<h3 style='text-align:center;'>Honestly, There are no books you are currently borrowing.</h3>";
+			}
+			
+			// set books through checkoutList
 			for(let i = 0; i < checkoutList.length; i++) {
 				const li = document.createElement("li");
 				li.classList.add("dataItem");

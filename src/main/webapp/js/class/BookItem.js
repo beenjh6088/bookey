@@ -15,8 +15,31 @@ class BookItem extends HTMLElement {
 		let category = this.getAttribute("category");
 		let apperance = this.getAttribute("apperance");
 		let bookID = this.getAttribute("bookID");
-				
+
+		let elImage = "";
+		let elTitle = "";
+		let elPublisher = "";
+		let elAuthor = "";
+		let elCategory = "";
+		let elPublishedDate = "";
+		let elLocation = "";
+		let elAvailableValue = "";
+		let elApperance = "";
+		let elButton = "";
 		let elAvailable = "";
+		
+		if(src != null) elImage = `<img src="${src}" >`;
+		if(title != null) elTitle = `<li class="title"><label for="">Title</label><span>${title}</span></li>`;
+		if(publisher != null) elPublisher = `<li class="bookInfo"><label for="">Publisher</label><span>${publisher}</span></li>`;
+		if(author != null) elAuthor = `<li class="bookInfo"><label for="">Author</label><span>${author}</span></li>`;
+		if(category != null) elCategory  = `<li class="category"><label for="">Category</label><span>${category}</span></li>`;
+		if(publishedDate != null) elPublishedDate = `<li class="publishedDate"><label for="">Published Date</label><span>${publishedDate}</span></li>`;
+		if(location != null) elLocation = `<li class="location"><label for="">Location</label><span>${location}</span></li>`;
+		if(isAvailableValue != null) elAvailableValue = `<li class="isAvailable"><label for="">Status</label><span>${isAvailableValue}</span></li>`;
+		if(apperance != null) elApperance = `<li class="apperance"><label for="">Apperance</label><span>${apperance}</span></li>`;
+				
+		if(buttonValue != null) elButton = `<input type="button" value="${buttonValue}" class="button" data-isAvailable="${isAvailableCode}" data-bookID="${bookID}"/>`;
+
 		if(isAvailableCode != "A") {
 			elAvailable = `
 				<li class="queue"><label for="">Reservation for</label><span>${queue}</span></li>
@@ -28,22 +51,22 @@ class BookItem extends HTMLElement {
 		this.classList.add("bookItem")
 		this.innerHTML = `
 			  <div class="imageArea">
-			    <img src="${src}" >
+			    ${elImage}
 			  </div>
 			  <div class="detailArea">
 			    <ul class="detailList">
-			      <li class="title"><label for="">Title</label><span>${title}</span></li>
-			      <li class="bookInfo"><label for="">Publisher</label><span>${publisher}</span></li>
-			      <li class="bookInfo"><label for="">Author</label><span>${author}</span></li>
-			      <li class="category"><label for="">Category</label><span>${category}</span></li>
-			      <li class="publishedDate"><label for="">Published Date</label><span>${publishedDate}</span></li>
-			      <li class="location"><label for="">Location</label><span>${location}</span></li>
+			      ${elTitle}
+			      ${elPublisher}
+			      ${elAuthor}
+			      ${elCategory}
+			      ${elPublishedDate}
+			      ${elLocation}
 			      ${elAvailable}
-			      <li class="isAvailable"><label for="">Status</label><span>${isAvailableValue}</span></li>
-			      <li class="apperance"><label for="">Apperance</label><span>${apperance}</span></li>
+			      ${elAvailableValue}
+			      ${elApperance}
 			    </ul>
 			    <div class="buttons">
-			    	<input type="button" value="${buttonValue}" class="button" data-isAvailable="${isAvailableCode}" data-bookID="${bookID}"/>
+			    	${elButton}
 			    </div>
 			  </div>
 		`
