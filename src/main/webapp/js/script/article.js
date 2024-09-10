@@ -225,7 +225,6 @@ function search_data() {
 					bookItem.setAttribute("category", bookList[i].CATG03);
 					bookItem.setAttribute("publishedDate", bookList[i].PUBLISHED_DATE);
 					bookItem.setAttribute("location", bookList[i].LIBRARY_NAME);
-					bookItem.setAttribute("queue", bookList[i].QUEUE);
 					bookItem.setAttribute("rentalDate", bookList[i].RENTAL_DATE);
 					bookItem.setAttribute("returnDate", bookList[i].RENTAL_DUE_DATE);
 					bookItem.setAttribute("isAvailableCode", bookList[i].BOOK_STATUS_CODE);
@@ -235,6 +234,7 @@ function search_data() {
 					bookItem.setAttribute("nextUserID", bookList[i].NEXT_USERID);
 					if(bookList[i].BOOK_STATUS != "A") {
 						bookItem.setAttribute("buttonValue", "Reserve");
+						bookItem.setAttribute("queue", bookList[i].QUEUE);
 						if(bookList[i].BOOK_STATUS == "R" && bookList[i].NEXT_USERID == userID) {
 							bookItem.setAttribute("buttonValue", "Check out");
 						}

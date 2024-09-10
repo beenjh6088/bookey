@@ -1,0 +1,46 @@
+/* background */
+#background {
+	background: url("../image/background/centre/bg_centre05.jpg") no-repeat center/cover;
+}
+#background .main .cover {
+	background-color: rgba(237, 188, 200, 0.8);
+}
+
+/* check out */
+#background .cover .center .container {
+	width: 90%;
+	background: var(--main-white);
+	border-radius: 24px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 50%;
+	top: calc(50% + (var(--height-header) / 2));
+	transform: translate(-50%, -50%);
+}
+#background .cover .center .container .title {
+	background-color: var(--main-red);
+	color: var(--main-white);
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	height: 80px;
+	line-height: 80px;
+}
+
+.frmUnderline {
+	width: 100%;
+	padding: 24px;
+}
+.frmUnderline .dataList {
+	width: 100%;
+}
+.frmUnderline .dataList .dataItem {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	gap: 16px;
+	padding: 16px;
+/* 	border-bottom: 1px solid var(--main-lightGray); */
+}

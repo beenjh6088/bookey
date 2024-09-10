@@ -39,7 +39,7 @@ class BookItem extends HTMLElement {
 		if(location != null) elLocation = `<li class="location"><label for="">Location</label><span>${location}</span></li>`;
 		if(isAvailableValue != null) elAvailableValue = `<li class="isAvailable"><label for="">Status</label><span>${isAvailableValue}</span></li>`;
 		if(apperance != null) elApperance = `<li class="apperance"><label for="">Apperance</label><span>${apperance}</span></li>`;
-		if(queue != null) elQueue = `<li class="queue"><label for="">Reservation for</label><span>${queue}</span></li>`;
+		if(queue != null) elQueue = `<li class="queue"><label for="">Queue</label><span>${queue}</span></li>`;
 		if(buttonValue != null) elButton = `<input type="button" value="${buttonValue}" class="button" data-isAvailable="${isAvailableCode}" data-bookID="${bookID}" data-nextUserID="${nextUserID}"/>`;
 
 		if(isAvailableCode == "C") {

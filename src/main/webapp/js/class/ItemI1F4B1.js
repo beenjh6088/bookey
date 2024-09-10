@@ -11,6 +11,7 @@ class ItemI1F4B1 extends HTMLElement {
 		let recNum = this.getAttribute("rectNum");
 		let rentalID = this.getAttribute("rentalID");
 		let rentalCode = this.getAttribute("rentalCode");
+		let queue = this.getAttribute("queue");
 		
 		let elImage = "";
 		let elBookNM = "";
@@ -18,6 +19,7 @@ class ItemI1F4B1 extends HTMLElement {
 		let elDueDate = "";
 		let elRentalValue = "";
 		let elButton = "";
+		let elQueue = "";
 		
 		if(src != null) elImage = `<img src="${src}" >`;
 		if(bookNM != null) elBookNM = `<li class="bookNM"><label for="">Book Name</label><span>${bookNM}</span></li>`;
@@ -25,6 +27,8 @@ class ItemI1F4B1 extends HTMLElement {
 		if(dueDate != null) elDueDate = `<li class="dueDate"><label for="">Due Date</label><span>${dueDate}</span></li>`;
 		if(rentalValue != null) elRentalValue = `<li class="rentalValue"><label for="">Rental</label><span>${rentalValue}</span></li>`;
 		if(buttonValue != null) elButton = `<input type="button" value="${buttonValue}" class="button" data-bookID="${bookID}" data-userID="${userID}"/>`;
+		if(queue != null) elQueue = `<li class="queue"><label for="">Queue</label><span>${queue}</span></li>`;
+		
 				
 		this.classList.add("bookItem")
 		this.innerHTML = `
@@ -37,6 +41,7 @@ class ItemI1F4B1 extends HTMLElement {
 			      ${elRentalDate}
 			      ${elDueDate}
 			      ${elRentalValue}
+			      ${elQueue}
 			    </ul>
 			    <div class="buttons">
 			    	${elButton}
