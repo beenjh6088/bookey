@@ -122,8 +122,8 @@
 												<div class="bottom">
 													<h1 class="userName">hey, ${userVO.getName() }!</h1>
 													<ul class="buttonList">
-														<li class="buttonItem"><bky-rounded-button icon="${contextPath }/image/icon/book-open.png" label="Check out" class="checkout" height="80px" ></bky-rounded-button></li>
-														<li class="buttonItem"><bky-rounded-button icon="${contextPath }/image/icon/flag.png" label="Reservations" class="reservations" height="80px"></bky-rounded-button></li>
+														<li class="buttonItem"><bky-rounded-button icon="${contextPath }/image/icon/book.png" label="Check out" class="checkout" height="80px" ></bky-rounded-button></li>
+														<li class="buttonItem"><bky-rounded-button icon="${contextPath }/image/icon/flag.png" label="Reservation" class="reservations" height="80px"></bky-rounded-button></li>
 														<li class="buttonItem"><bky-rounded-button icon="${contextPath }/image/icon/file-text.png" label="My Articles" class="articles" height="80px"></bky-rounded-button></li>
 													</ul>
 												</div>

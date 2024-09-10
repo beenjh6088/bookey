@@ -44,13 +44,17 @@ function event_search_hideArea() {
 
 function event_href_direct() {
 	$("#header bky-rounded-button.login").click(function() {
-		location.href = `${rootURL}/jsp/user/login.jsp`;
+		let redirectPage = fullPath.replace("/"+pathName, "");
+		location.href = `${rootURL}/jsp/user/login.jsp?redirectPage=${redirectPage}`;
 	})
 	$("#header bky-rounded-button.join").click(function() {
 		location.href = `${rootURL}/jsp/user/join.jsp`;
 	})
 	$("#header bky-rounded-button.checkout").click(function() {
 		location.href = `${rootURL}/jsp/user/checkout.jsp`;
+	})
+	$("#header bky-rounded-button.reservation").click(function() {
+		location.href = `${rootURL}/jsp/user/reservation.jsp`;
 	})
 	
 	// setting links for all menus
