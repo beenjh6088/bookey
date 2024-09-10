@@ -1,6 +1,5 @@
 package com.bookey.listener;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.ServletContext;
@@ -21,10 +20,6 @@ public class SessionListener extends HttpServlet implements HttpSessionListener 
 	@Override
 	public void sessionDestroyed(HttpSessionEvent event) {
 		// TODO Auto-generated method stub
-//		UserVO userVO = (UserVO)event.getSession().getAttribute("userVO");
-//		String userID = userVO.getUserID();
-//		ArrayList<String> userList = (ArrayList<String>) getServletContext().getAttribute("userList");
-//		userList.remove(userID);
 		ServletContext context = event.getSession().getServletContext();
 		List<String> userList = (List<String>)context.getAttribute("userList");
 		String userID = (String) ((UserVO)event.getSession().getAttribute("userVO")).getUserID();

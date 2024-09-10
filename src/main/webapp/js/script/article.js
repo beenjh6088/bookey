@@ -2,6 +2,7 @@ let filledRentalDate = true;
 let filledDueDate = true;
 let PAGESET = 10;
 let PAGENUM = 1;
+let bookList = null;
 
 function initArticleEvent() {
 	init_component_fillData();
@@ -150,6 +151,14 @@ function event_component_act() {
 				}
 			}
 		});
+		
+		$(document).on('click', '.operatorItem .excel', function(event) {
+			if(bookList == null) {
+				alert("Please search for the book first.")
+				return;
+			}
+			location.href = `${rootURL}/book/downloadExcel.do?title=BookList&fileName=BookList.xls`;
+		})
 	}
 }
 
@@ -199,7 +208,7 @@ function search_data() {
 				articleBookList.innerHTML = "";
 				let articlePageList = document.querySelector("#article .pageList");
 				articlePageList.innerHTML = "";
-				let bookList = JSON.parse(data).bookList;
+				bookList = JSON.parse(data).bookList;
 				let pageList = JSON.parse(data).pageList;
 				let bookTotalAmount = JSON.parse(data).bookTotalAmount || 0;
 				let userID = $("#userID")[0].value;

@@ -29,6 +29,7 @@ public class BookController extends HttpServlet {
 	private static final BookController book = new BookController();
 	private StringBuilder nextPage = new StringBuilder("/index.jsp");
 	private ServletContext context;
+	JSONObject paramMap = null;
 	
 	public BookController() {
 		getInstance();
@@ -93,7 +94,7 @@ public class BookController extends HttpServlet {
 			}else if(action.equals("/searchBooks.do")) {
 				Map<String, Object> requestParm = UtilityController.getParameterMap(request);
 				String strFrmData = requestParm.get("frmData").toString();
-				JSONObject paramMap  = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
+				paramMap  = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
 				int bookTotalAmount = bookService.getBookTotalAmount(paramMap);
 				JSONArray bookList = bookService.searchBooks(paramMap);
 				JSONArray pageList = bookService.getPageList(paramMap);
@@ -189,6 +190,14 @@ public class BookController extends HttpServlet {
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
 				pw.print(strResultMap);
 				return;
+			}else if(action.equals("/downloadExcel.do")) {
+				paramMap.put("PAGESET", 1000000);
+				paramMap.put("PAGENUM", 1);
+				JSONArray excelList = bookService.searchBooks(paramMap);
+				System.out.println("exccelList : "+excelList);
+				request.setAttribute("excelList", excelList);
+				nextPage.setLength(0);
+				nextPage.append("/jsp/common/excel.jsp");
 			}
 			RequestDispatcher dispatcher = request.getRequestDispatcher(nextPage.toString());
 			dispatcher.forward(request, response);

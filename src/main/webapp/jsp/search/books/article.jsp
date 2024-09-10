@@ -95,9 +95,9 @@
 						</div>
 						<div class="operator">
 							<ul class="operatorList">
-								<li class="operatorItem"><img src="${contextPath }/image/icon/excel.png" alt="excel" /></li>
-								<li class="operatorItem"><img src="${contextPath }/image/icon/list.png" alt="list" /></li>
-								<li class="operatorItem"><img src="${contextPath }/image/icon/grid.png" alt="grid" /></li>
+								<li class="operatorItem"><img src="${contextPath }/image/icon/excel.png" alt="excel" class="excel" /></li>
+								<li class="operatorItem"><img src="${contextPath }/image/icon/list.png" alt="list" class="list" /></li>
+								<li class="operatorItem"><img src="${contextPath }/image/icon/grid.png" alt="grid" class="grid" /></li>
 							</ul>
 						</div>
 					</div>

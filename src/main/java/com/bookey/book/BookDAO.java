@@ -58,7 +58,13 @@ public class BookDAO {
 		JSONArray rentalStatusList = new JSONArray();
 		try {
 			conn = dataFactory.getConnection();
-			String query = "SELECT * FROM TBL_MASTER WHERE 1=1 AND TABLE_NAME = 'TBL_RENTAL' AND COLUMN_NAME = 'STATUS'";
+			String query = ""
+					+ "SELECT * "
+					+ "  FROM TBL_MASTER "
+					+ " WHERE 1=1 "
+					+ "   AND TABLE_NAME = 'TBL_RENTAL' "
+					+ "   AND COLUMN_NAME = 'STATUS'"
+					+ "   AND CODE = 'G'";
 			pstmt = conn.prepareStatement(query);
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next()) {
@@ -108,20 +114,32 @@ public class BookDAO {
 			Object PAGESET = paramMap.get("PAGESET") == null ? 10 : paramMap.get("PAGESET");
 			Object PAGENUM = paramMap.get("PAGENUM") == null ? 1 : paramMap.get("PAGENUM");
 
-			String query = "" + selectMainQuery(paramMap) + "SELECT MAIN.*"
-					+ "     , PAGING.PAGENUM, PAGING.SPAGE, PAGING.EPAGE, PAGING.PREV, PAGING.NEXT" + "  FROM MAIN" + "     , ("
-					+ "        SELECT RECNUM" + "             , PAGENUM"
+			String query = ""
+					+ selectMainQuery(paramMap) 
+					+ "SELECT MAIN.*"
+					+ "     , PAGING.PAGENUM, PAGING.SPAGE, PAGING.EPAGE, PAGING.PREV, PAGING.NEXT"
+					+ "  FROM MAIN" 
+					+ "     , ("
+					+ "        SELECT RECNUM"
+					+ "             , PAGENUM"
 					+ "             , CEIL(PAGENUM/PAGESET)*PAGESET - PAGESET + 1 SPAGE"
 					+ "             , CASE WHEN CEIL(PAGENUM/PAGESET)*PAGESET > CEIL(CNT/PAGESET) THEN CEIL(CNT/PAGESET)"
-					+ "                    ELSE CEIL(PAGENUM/PAGESET)*PAGESET" + "                END EPAGE"
+					+ "                    ELSE CEIL(PAGENUM/PAGESET)*PAGESET"
+					+ "                END EPAGE"
 					+ "             , CASE WHEN PAGENUM > PAGESET THEN '<' ELSE NULL END PREV"
 					+ "             , CASE WHEN CEIL(PAGENUM/PAGESET)*PAGESET > CEIL(CNT/PAGESET) THEN NULL ELSE '>' END NEXT"
-					+ "          FROM (" + "                SELECT LEVEL RECNUM"
-					+ "                     , COUNT(*) OVER(PARTITION BY 1) CNT" + "                  FROM DUAL"
-					+ "                CONNECT BY LEVEL <= (SELECT COUNT(*) CNT FROM MAIN)" + "               ) A"
+					+ "          FROM ("
+					+ "                SELECT LEVEL RECNUM"
+					+ "                     , COUNT(*) OVER(PARTITION BY 1) CNT"
+					+ "                  FROM DUAL"
+					+ "                CONNECT BY LEVEL <= (SELECT COUNT(*) CNT FROM MAIN)"
+					+ "               ) A"
 					+ "             , (SELECT " + PAGENUM + " PAGENUM, " + PAGESET + " PAGESET FROM DUAL) B"
-					+ "         WHERE 1=1" + "           AND RECNUM > (PAGENUM-1)*PAGESET"
-					+ "           AND RECNUM <= PAGENUM*PAGESET" + "       ) PAGING" + " WHERE 1=1"
+					+ "         WHERE 1=1" 
+					+ "           AND RECNUM > (PAGENUM-1)*PAGESET"
+					+ "           AND RECNUM <= PAGENUM*PAGESET" 
+					+ "       ) PAGING"
+					+ " WHERE 1=1"
 					+ "   AND MAIN.RECNUM = PAGING.RECNUM";
 			System.out.println(query);
 			pstmt = conn.prepareStatement(query);
@@ -328,13 +346,11 @@ public class BookDAO {
 		}
 		if (S_RENTAL_DATE != null && S_RENTAL_DATE.toString().length() != 0 && E_RENTAL_DATE != null
 				&& E_RENTAL_DATE.toString().length() != 0) {
-			query += " AND RENTAL_DATE BETWEEN TO_DATE('" + S_RENTAL_DATE.toString() + "', 'YYYY-MM-DD') AND TO_DATE('"
-					+ E_RENTAL_DATE + "', 'YYYY-MM-DD')";
+			query += " AND RENTAL_DATE BETWEEN TO_DATE('" + S_RENTAL_DATE.toString() + "', 'YYYY-MM-DD') AND TO_DATE('" + E_RENTAL_DATE + "', 'YYYY-MM-DD')";
 		}
 		if (S_DUE_DATE != null && S_DUE_DATE.toString().length() != 0 && E_DUE_DATE != null
 				&& E_DUE_DATE.toString().length() != 0) {
-			query += " AND RENTAL_DUE_DATE BETWEEN TO_DATE('" + S_DUE_DATE.toString() + "', 'YYYY-MM-DD') AND TO_DATE('"
-					+ E_DUE_DATE + "', 'YYYY-MM-DD')";
+			query += " AND RENTAL_DUE_DATE BETWEEN TO_DATE('" + S_DUE_DATE.toString() + "', 'YYYY-MM-DD') AND TO_DATE('" + E_DUE_DATE + "', 'YYYY-MM-DD')";
 		}
 		if (BOOK_APPERANCE_CODE != null && BOOK_APPERANCE_CODE.toString().length() != 0) {
 			query += " AND BOOK_APPERANCE_CODE = '" + BOOK_APPERANCE_CODE.toString() + "'";
