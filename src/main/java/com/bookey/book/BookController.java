@@ -176,6 +176,19 @@ public class BookController extends HttpServlet {
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
 				pw.print(strResultMap);
 				return;
+			}else if(action.equals("/cancelReservation.do")) {
+				String userID = request.getParameter("userID");
+				String bookID = request.getParameter("bookID");
+				Map<String, Object> paramMap = new HashMap<String, Object>();
+				paramMap.put("userID", userID);
+				paramMap.put("bookID", bookID);
+				int cancelResult = bookService.cancelReservation(paramMap);
+				System.out.println("cancelResult : "+cancelResult);
+				JSONObject resultMap = new JSONObject();
+				resultMap.put("cancelResult", cancelResult);
+				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
+				pw.print(strResultMap);
+				return;
 			}
 			RequestDispatcher dispatcher = request.getRequestDispatcher(nextPage.toString());
 			dispatcher.forward(request, response);

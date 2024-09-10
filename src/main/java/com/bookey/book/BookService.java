@@ -71,4 +71,10 @@ public class BookService {
 	public JSONArray loadReservation(Map<String, Object> paramMap) {
 		return bookDAO.selectReservation(paramMap);
 	}
+	
+	public int cancelReservation(Map<String, Object> paramMap) {
+		int updateRentalStatusTerminatedResult = bookDAO.updateRentalStatusTerminated(paramMap);
+		int updateWaitingRentalResult = bookDAO.updateWaitingRental(paramMap);
+		return updateRentalStatusTerminatedResult * updateWaitingRentalResult;
+	}
 }

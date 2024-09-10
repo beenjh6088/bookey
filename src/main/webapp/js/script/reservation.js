@@ -19,7 +19,7 @@ function event_component_act() {
 			url:`${rootURL}/book/cancelReservation.do`,
 			success: function(data, status) {
 				if(status == "success") {
-					alert("The book return has been completed successfully.")
+					alert("The cancellation has been completed successfully.")
 					search_data();
 				}
 			}
@@ -54,6 +54,7 @@ function search_data() {
 				bookItem.setAttribute("recNum", reservationList[i].RECNUM);
 				bookItem.setAttribute("rentalID", reservationList[i].RENTALID);
 				bookItem.setAttribute("bookID", reservationList[i].BOOKID);
+				bookItem.setAttribute("userID", reservationList[i].USERID);
 				bookItem.setAttribute("bookNM", reservationList[i].BOOKNM);
 				bookItem.setAttribute("queue", reservationList[i].QUEUE);
 				bookItem.setAttribute("src", `${rootURL}/image/book/${reservationList[i].IMAGE_FILE_NAME}`);

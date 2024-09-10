@@ -701,6 +701,7 @@ public class BookDAO {
 					+ "     , NVL(A.STATUS, 'NULL') STATUS"
 					+ "     , A.QUEUE"
 					+ "     , B.IMAGE_FILE_NAME"
+					+ "     , A.USERID"
 					+ "  FROM TBL_RENTAL A"
 					+ "     , TBL_BOOK B"
 					+ " WHERE 1=1"
@@ -718,6 +719,7 @@ public class BookDAO {
 				reservation.put("STATUS", rs.getString("STATUS"));
 				reservation.put("QUEUE", rs.getString("QUEUE"));
 				reservation.put("IMAGE_FILE_NAME", rs.getString("IMAGE_FILE_NAME"));
+				reservation.put("USERID", rs.getString("USERID"));
 				reservationList.add(reservation);
 			}
 			System.out.println(query);
@@ -729,5 +731,34 @@ public class BookDAO {
 			e.printStackTrace();
 		}
 		return reservationList;
+	}
+	
+	public int updateRentalStatusTerminated(Map<String, Object> paramMap) {
+		int updateRentalStatusTerminatedResult = -1;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			String userID = paramMap.get("userID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "UPDATE TBL_RENTAL"
+					+ "   SET STATUS        = 'T'"
+					+ "     , QUEUE         = NULL"
+					+ "     , UPDATED_DATE	= SYSDATE"
+					+ "     , UPDATED_USER	= 'SYSTEM'"
+					+ " WHERE 1=1"
+					+ "   AND STATUS IS NULL"
+					+ "   AND BOOKID = '"+bookID+"'"
+					+ "   AND USERID = '"+userID+"'"
+					+ "   AND QUEUE = 1";
+			pstmt = conn.prepareStatement(query);
+			updateRentalStatusTerminatedResult = pstmt.executeUpdate();
+			System.out.println(query);
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return updateRentalStatusTerminatedResult;
 	}
 }
