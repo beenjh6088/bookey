@@ -28,6 +28,7 @@ class ItemI1F4B1 extends HTMLElement {
 		if(rentalValue != null) elRentalValue = `<li class="rentalValue"><label for="">Rental</label><span>${rentalValue}</span></li>`;
 		if(buttonValue != null) elButton = `<input type="button" value="${buttonValue}" class="button" data-bookID="${bookID}" data-userID="${userID}"/>`;
 		if(queue != null) elQueue = `<li class="queue"><label for="">Queue</label><span>${queue}</span></li>`;
+		if(status != null) elQueue = `<li class="queue"><label for="">Queue</label><span>${queue}</span></li>`;
 		
 				
 		this.classList.add("bookItem")

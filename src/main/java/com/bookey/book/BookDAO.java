@@ -238,9 +238,9 @@ public class BookDAO {
 				page.put("NEXT", rs.getString("NEXT"));
 				pageList.add(page);
 			}
-			conn.close();
-			pstmt.close();
 			rs.close();
+			pstmt.close();
+			conn.close();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
@@ -271,7 +271,7 @@ public class BookDAO {
 				+ "             , LOCA.LOCATION_ID, LOCA_INFO.VALUE LIBRARY_NAME, LOCA.SHELF_NO, LOCA.ROW_NO"
 				+ "             , CATEGORY.CATGID, CATEGORY.CATG01, CATEGORY.CATG02, CATEGORY.CATG03"
 				+ "             , RENTAL.STATUS AS RENTAL_STATUS_CODE, RENTAL.USERID AS RETAL_USER, RENTAL_STATUS.VALUE AS RENTAL_STATUS_VALUE, RENTAL.RENTAL_DATE, RENTAL.DUE_DATE RENTAL_DUE_DATE"
-				+ "             , WAITING.QUEUE, WAITING.USERID AS NEXT_USERID"
+				+ "             , NVL(WAITING.QUEUE,0) AS QUEUE, WAITING.USERID AS NEXT_USERID"
 				+ "             , BOOK_STATUS.CODE BOOK_STATUS_CODE, BOOK_STATUS.VALUE BOOK_STATUS_VALUE, BOOK_APPERANCE.CODE   AS BOOK_APPERANCE_CODE, BOOK_APPERANCE.VALUE AS BOOK_APPERANCE_STATUS"
 				+ "          FROM TBL_BOOK BOOK" 
 				+ "             , ("
@@ -630,8 +630,8 @@ public class BookDAO {
 			pstmt = conn.prepareStatement(query);
 			updateResult = pstmt.executeUpdate();
 			System.out.println(query);
-			conn.close();
 			pstmt.close();
+			conn.close();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
@@ -655,8 +655,8 @@ public class BookDAO {
 			pstmt = conn.prepareStatement(query);
 			updateResult = pstmt.executeUpdate();
 			System.out.println(query);
-			conn.close();
 			pstmt.close();
+			conn.close();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
@@ -679,12 +679,55 @@ public class BookDAO {
 			pstmt = conn.prepareStatement(query);
 			updateResult = pstmt.executeUpdate();
 			System.out.println(query);
-			conn.close();
 			pstmt.close();
+			conn.close();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
 		}
 		return updateResult;
+	}
+	
+	public JSONArray selectReservation(Map<String, Object> paramMap) {
+		JSONArray reservationList = new JSONArray();
+		try {
+			String userID = paramMap.get("userID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "SELECT ROWNUM AS RECNUM"
+					+ "     , A.RENTALID"
+					+ "     , A.BOOKID"
+					+ "     , B.BOOKNM "
+					+ "     , NVL(A.STATUS, 'NULL') STATUS"
+					+ "     , A.QUEUE"
+					+ "     , B.IMAGE_FILE_NAME"
+					+ "  FROM TBL_RENTAL A"
+					+ "     , TBL_BOOK B"
+					+ " WHERE 1=1"
+					+ "   AND A.STATUS IS NULL"
+					+ "   AND A.USERID = '"+userID+"'"
+					+ "   AND A.BOOKID = B.BOOKID";
+			pstmt = conn.prepareStatement(query);
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				JSONObject reservation = new JSONObject();
+				reservation.put("RECNUIM", rs.getInt("RECNUM"));
+				reservation.put("RENTALID", rs.getInt("RENTALID"));
+				reservation.put("BOOKID", rs.getString("BOOKID"));
+				reservation.put("BOOKNM", rs.getString("BOOKNM"));
+				reservation.put("STATUS", rs.getString("STATUS"));
+				reservation.put("QUEUE", rs.getString("QUEUE"));
+				reservation.put("IMAGE_FILE_NAME", rs.getString("IMAGE_FILE_NAME"));
+				reservationList.add(reservation);
+			}
+			System.out.println(query);
+			rs.close();
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return reservationList;
 	}
 }

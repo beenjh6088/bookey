@@ -120,4 +120,7 @@ function event_component_act() {
 	$("bky-rounded-button.checkout").click(function() {
 		location.href = `${rootURL}/jsp/user/checkout.jsp`;
 	})
+	$("bky-rounded-button.reservations").click(function() {
+		location.href = `${rootURL}/jsp/user/reservation.jsp`;
+	})
 }

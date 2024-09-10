@@ -92,7 +92,6 @@ public class BookController extends HttpServlet {
 				
 			}else if(action.equals("/searchBooks.do")) {
 				Map<String, Object> requestParm = UtilityController.getParameterMap(request);
-				Object rawFrmData = requestParm.get("frmData");
 				String strFrmData = requestParm.get("frmData").toString();
 				JSONObject paramMap  = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
 				int bookTotalAmount = bookService.getBookTotalAmount(paramMap);
@@ -131,7 +130,6 @@ public class BookController extends HttpServlet {
 				pw.print(strResultMap);
 			}else if(action.equals("/loadCheckout.do")) {
 				Map<String, Object> requestParm = UtilityController.getParameterMap(request);
-				Object rawFrmData = requestParm.get("frmData");
 				String strFrmData = requestParm.get("frmData").toString();
 				JSONObject paramMap  = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
 				JSONArray checkoutList = bookService.getCheckoutList(paramMap);
@@ -164,6 +162,17 @@ public class BookController extends HttpServlet {
 				System.out.println("returnResult : "+returnResult);
 				JSONObject resultMap = new JSONObject();
 				resultMap.put("returnResult", returnResult);
+				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
+				pw.print(strResultMap);
+				return;
+			}else if(action.equals("/loadReservation.do")) {
+				Map<String, Object> requestParm = UtilityController.getParameterMap(request);
+				String strFrmData = requestParm.get("frmData").toString();
+				JSONObject paramMap  = (JSONObject) UtilityController.jsonParser.parse(strFrmData);
+				JSONArray reservationList = bookService.loadReservation(paramMap);
+				System.out.println("reservationList : "+reservationList);
+				JSONObject resultMap = new JSONObject();
+				resultMap.put("reservationList", reservationList);
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
 				pw.print(strResultMap);
 				return;

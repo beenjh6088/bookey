@@ -67,4 +67,8 @@ public class BookService {
 		int updateBookStatusConfirmResult = bookDAO.updateBookStatusConfirm(paramMap);
 		return updateRentalStatusConfirmResult * updateWaitingRentalResult * updateBookStatusConfirmResult;
 	}
+	
+	public JSONArray loadReservation(Map<String, Object> paramMap) {
+		return bookDAO.selectReservation(paramMap);
+	}
 }

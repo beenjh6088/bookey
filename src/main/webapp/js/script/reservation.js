@@ -39,27 +39,24 @@ function search_data() {
 		data: {'frmData': _jsonData},
 		url:`${rootURL}/book/loadReservation.do`,
 		success: function(data, status) {
-			let checkoutList = JSON.parse(data).checkoutList;
-			let dataList = document.querySelector(".frmCheckout .dataList")
+			let reservationList = JSON.parse(data).reservationList;
+			let dataList = document.querySelector(".frmReservation .dataList")
 			dataList.innerHTML = "";
-			if(checkoutList.length == 0) {
+			if(reservationList.length == 0) {
 				dataList.innerHTML = "<h3 style='text-align:center;'>Honestly, There are no books you are currently borrowing.</h3>";
 			}
 			
-			// set books through checkoutList
-			for(let i = 0; i < checkoutList.length; i++) {
+			// set books through reservationList
+			for(let i = 0; i < reservationList.length; i++) {
 				const li = document.createElement("li");
 				li.classList.add("dataItem");
 				const bookItem = document.createElement("bky-item-i1f4b1");
-				bookItem.setAttribute("rentalID", checkoutList[i].RENTALID);
-				bookItem.setAttribute("bookID", checkoutList[i].BOOKID);
-				bookItem.setAttribute("userID", checkoutList[i].USERID);
-				bookItem.setAttribute("rentalID", checkoutList[i].RENTAL_DATE);
-				bookItem.setAttribute("dueDate", checkoutList[i].DUE_DATE);
-				bookItem.setAttribute("rentalCode", checkoutList[i].RENTAL_CODE);
-				bookItem.setAttribute("rentalValue", checkoutList[i].RENTAL_VALUE);
-				bookItem.setAttribute("bookNM", checkoutList[i].BOOKNM);
-				bookItem.setAttribute("src", `${rootURL}/image/book/${checkoutList[i].IMAGE_FILE_NAME}`);
+				bookItem.setAttribute("recNum", reservationList[i].RECNUM);
+				bookItem.setAttribute("rentalID", reservationList[i].RENTALID);
+				bookItem.setAttribute("bookID", reservationList[i].BOOKID);
+				bookItem.setAttribute("bookNM", reservationList[i].BOOKNM);
+				bookItem.setAttribute("queue", reservationList[i].QUEUE);
+				bookItem.setAttribute("src", `${rootURL}/image/book/${reservationList[i].IMAGE_FILE_NAME}`);
 				bookItem.setAttribute("buttonValue", "Cancel")
 				
 				li.appendChild(bookItem);
