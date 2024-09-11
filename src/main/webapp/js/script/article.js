@@ -176,6 +176,24 @@ function event_component_act() {
 			})
 		})
 		
+		// Copy a QR Code
+		$(document).on('click', '.sharing .sharingItem .qrcode', function(event) {
+			let imgURL = `${rootURL}/image/qrcode/qrcode_bookey_qrcode.png`;
+			
+			fetch(imgURL)
+			  .then(response => response.blob())  // 이미지 데이터를 Blob으로 변환
+			  .then(blob => {
+			    const item = new ClipboardItem({ 'image/png': blob });  // Blob을 ClipboardItem에 추가
+			    navigator.clipboard.write([item]).then(() => {
+			      console.log('Image copied to clipboard!');
+			    }).catch(err => {
+			      console.error('Failed to copy image: ', err);
+			    });
+			  }).catch(err => {
+			    console.error('Failed to fetch image: ', err);
+			  });
+		})
+		
 		// Sharing url with line plugins
 		$(document).on('click', '.sharing .sharingItem .line', function(event) {
 			if(domain == "localhost") {
