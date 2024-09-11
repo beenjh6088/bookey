@@ -44,7 +44,7 @@ function event_search_hideArea() {
 
 function event_href_direct() {
 	$("#header bky-rounded-button.login").click(function() {
-		let redirectPage = fullPath.replace("/"+pathName, "");
+		let redirectPage = fullPath;
 		location.href = `${rootURL}/jsp/user/login.jsp?redirectPage=${redirectPage}`;
 	})
 	$("#header bky-rounded-button.join").click(function() {

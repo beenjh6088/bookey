@@ -144,7 +144,7 @@ public class UserController extends HttpServlet {
 							response.sendRedirect(request.getContextPath()+redirectPage);
 						}else {
 							// the Reason why i use sendRedirect is to block requesting by user's mistake. if not, session overflow with same process(/user/loginUser.do)
-							response.sendRedirect(request.getContextPath()+"/index.jsp");
+							response.sendRedirect(request.getContextPath()+"/");
 						}
 						return;
 				}else {
@@ -177,7 +177,7 @@ public class UserController extends HttpServlet {
 //				nextPage.append("/index.jsp");
 				
 				// the Reason why i use sendRedirect is to block requesting by user's mistake. if not, session overflow with same process(/user/loginUser.do)
-				response.sendRedirect(request.getContextPath()+"/index.jsp");
+				response.sendRedirect(request.getContextPath()+"/");
 				return;
 			}
 			

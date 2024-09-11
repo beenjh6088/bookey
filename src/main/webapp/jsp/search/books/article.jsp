@@ -26,10 +26,10 @@
 		</nav>
 		<div class="sharing">
 			<ul class="sharingList">
-				<li class="sharingItem"><img src="${contextPath }/image/icon/link-2.png" alt="url" /></li>
-				<li class="sharingItem"><img src="${contextPath }/image/icon/qr-code.png" alt="qrCode" /></li>
-				<li class="sharingItem"><img src="${contextPath }/image/icon/icon_line 1.png" alt="line" /></li>
-				<li class="sharingItem"><img src="${contextPath }/image/icon/icon_kakao 1.png" alt="kakao" /></li>
+				<li class="sharingItem"><img src="${contextPath }/image/icon/link-2.png" alt="url" class="url" /></li>
+				<li class="sharingItem"><img src="${contextPath }/image/icon/qr-code.png" alt="qrCode" class="qrCode" /></li>
+				<li class="sharingItem"><img src="${contextPath }/image/icon/icon_line 1.png" alt="line" class="line" /></li>
+				<li class="sharingItem"><img src="${contextPath }/image/icon/icon_kakao 1.png" alt="kakao" class="kakao" /></li>
 			</ul>
 		</div>
 	</header>

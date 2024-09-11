@@ -27,7 +27,7 @@ public class BookController extends HttpServlet {
 	private static final long serialVersionUID = -8318923147672226562L;
 	private BookService bookService;
 	private static final BookController book = new BookController();
-	private StringBuilder nextPage = new StringBuilder("/index.jsp");
+	private StringBuilder nextPage = new StringBuilder("");
 	private ServletContext context;
 	JSONObject paramMap = null;
 	

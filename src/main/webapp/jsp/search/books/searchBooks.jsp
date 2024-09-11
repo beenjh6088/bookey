@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="${contextPath }/css/article.css" type="text/css">
 	<link rel="icon" href="${contextPath }/favicon.ico" type="image/x-icon">
 	<script type="text/javascript" src="${contextPath }/js/jquery/jquery-3.7.1.min.js"></script>
+	<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" integrity="sha384-TiCUE00h649CAMonG018J2ujOgDKW/kVWlChEuu4jK2vxfAAD0eZxzCKakxg55G4" crossorigin="anonymous"></script>
 	<script defer src="${contextPath }/js/class/RoundedButton.js"></script>
 	<script defer src="${contextPath }/js/class/BookItem.js"></script>
 	<script defer src="${contextPath }/js/script/common.js"></script>

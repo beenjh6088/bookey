@@ -5,6 +5,7 @@ let PAGENUM = 1;
 let bookList = null;
 
 function initArticleEvent() {
+	Kakao.init('0f434777d81410ff1c3d3ceb43355304');
 	init_component_fillData();
 	event_component_act();
 }
@@ -65,11 +66,13 @@ function init_component_fillData() {
 }
 
 function event_component_act() {
+	// Search books	
 	$("#article .frmSearchBook .submit").click(function(event)  {
 		event.preventDefault();
 		PAGENUM = 1;
 		search_data();
 	})
+	
 	if(fileName.includes("searchBooks")) {
 		document.addEventListener("keydown", function(event) {
 			if(event.keyCode == 13) {
@@ -77,12 +80,14 @@ function event_component_act() {
 				search_data();
 			}
 		})
-		// dynamically setting event listener
+		// Dynamically setting event listener
 		$(document).on('click', '.pageItem', function(event) {
 	    event.preventDefault();
 	    PAGENUM = event.target.getAttribute("data-page");
 	    search_data();
 		});
+		
+		// an Event of buttons in bookList		
 		$(document).on('click', '.bookItem .button', function(event) {
 	    event.preventDefault();
 			let userID = $("#userID")[0].value;
@@ -146,18 +151,90 @@ function event_component_act() {
 
 			}else {
 				if(confirm('You have Not been login.\nWould you like to login?')){
-					let redirectPage = fullPath.replace("/"+pathName, "");
+					let redirectPage = fullPath;
 					location.href = `${rootURL}/jsp/user/login.jsp?redirectPage=${redirectPage}`;
 				}
 			}
 		});
 		
+		// Download a file as Excel
 		$(document).on('click', '.operatorItem .excel', function(event) {
 			if(bookList == null) {
 				alert("Please search for the book first.")
 				return;
 			}
 			location.href = `${rootURL}/book/downloadExcel.do?title=BookList&fileName=BookList.xls`;
+		})
+		
+		// Copy a current URL
+		$(document).on('click', '.sharing .sharingItem .url', function(event) {
+			let currentURL = window.location.href;
+			navigator.clipboard.writeText(currentURL).then(function() {
+				alert("URL copied  to clipboard : "+currentURL);
+			}).catch(function(error) {
+				alert("Failed to copy :"+error);
+			})
+		})
+		
+		// Sharing url with line plugins
+		$(document).on('click', '.sharing .sharingItem .line', function(event) {
+			if(domain == "localhost") {
+				let bookeyURL = `http://192.168.45.115:${port}/${pathName}${fullPath}`
+				window.open(`https://social-plugins.line.me/lineit/share?url=${bookeyURL}`, "_blank");
+			}else {
+				window.open(`https://social-plugins.line.me/lineit/share?url=${rootURL}${fullPath}`, "_blank");	
+			}
+		})
+		
+		// Sharing url with kakao plugins
+		$(document).on('click', '.sharing .sharingItem .kakao', function(event) {
+  	  let bookeyURL = '';
+			if(domain == "localhost") {
+				bookeyURL = `http://192.168.45.115:${port}${fullPath}`
+//				window.open(`https://social-plugins.line.me/lineit/share?url=${bookeyURL}`, "_blank");
+			}else {
+//				window.open(`https://social-plugins.line.me/lineit/share?url=${rootURL}${fullPath}`, "_blank");
+				bookeyURL = `${rootURL}`	
+			}
+	    Kakao.Share.sendDefault({
+	      objectType: 'feed',
+	      content: {
+	        title: 'Bookey',
+	        description: '#bookey #library #book',
+	        imageUrl:
+//	          'http://k.kakaocdn.net/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
+	          `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjI7PciP09tk4kCCNyxOpPDo1cl6ozI1PrUg&s`,
+	        link: {
+	          // [내 애플리케이션] > [플랫폼] 에서 등록한 사이트 도메인과 일치해야 함
+//	          mobileWebUrl: 'https://developers.kakao.com',
+//	          webUrl: 'https://developers.kakao.com',
+	          webUrl: `${bookeyURL}`,
+	        },
+	      },
+	      social: {
+//	        likeCount: 286,
+//	        commentCount: 45,
+//	        sharedCount: 845,
+	      },
+	      buttons: [
+	        {
+	          title: 'See through Web',
+	          link: {
+//	            mobileWebUrl: 'https://developers.kakao.com',
+//	            webUrl: 'https://developers.kakao.com',
+	          	webUrl: `${bookeyURL}`,
+	          },
+	        },
+	        {
+	          title: 'See through App',
+	          link: {
+//	            mobileWebUrl: 'https://developers.kakao.com',
+//	            webUrl: 'https://developers.kakao.com',
+	          	webUrl: `${bookeyURL}`,
+	          },
+	        },
+	      ],
+	    });
 		})
 	}
 }

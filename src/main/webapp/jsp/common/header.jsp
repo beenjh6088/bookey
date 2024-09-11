@@ -7,7 +7,7 @@
 	<div class="top">
 		<div class="left">
 			<h1 class="logo">
-				<a href="${contextPath }/index.jsp"><img src="${contextPath}/image/logo/logo_bookey.png" alt="logo"></a>
+				<a href="${contextPath }/"><img src="${contextPath}/image/logo/logo_bookey.png" alt="logo"></a>
 			</h1>
 		</div>
 		<div class="right">

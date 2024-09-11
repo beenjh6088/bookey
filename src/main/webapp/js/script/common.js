@@ -1,9 +1,10 @@
 const domain = window.location.hostname;
 const port = window.location.port;
 const pathName = window.location.pathname.split("/")[1];
-const fullPath = window.location.pathname;
+const fullPath = window.location.pathname.replace("/"+pathName,"");
 const fileName = fullPath.substring(fullPath.lastIndexOf('/') + 1);
-const rootURL = `http://${domain}:${port}/${pathName}`
+//const rootURL = `http://${domain}:${port}/${pathName}`.replace(/\/$/, '');
+const rootURL = `http://${domain}:${port}`.replace(/\/$/, '');
 let dayOffsMap;
 let keywordsMap;
 let usersMap;
