@@ -1,7 +1,8 @@
 const domain = window.location.hostname;
 const port = window.location.port;
-const pathName = window.location.pathname.split("/")[1];
-const fullPath = window.location.pathname.replace("/"+pathName,"");
+//const pathName = window.location.pathname.split("/")[1];
+//const fullPath = window.location.pathname.replace("/"+pathName,"");
+const fullPath = window.location.pathname;
 const fileName = fullPath.substring(fullPath.lastIndexOf('/') + 1);
 //const rootURL = `http://${domain}:${port}/${pathName}`.replace(/\/$/, '');
 const rootURL = `http://${domain}:${port}`.replace(/\/$/, '');

@@ -130,14 +130,15 @@ public class UserController extends HttpServlet {
 				
 				if(userVO != null) {
 					// Login process completed Successfully
-//						if(session.isNew()) {
 						session.setAttribute("userVO", userVO);
 						List<String> userList = (ArrayList<String>) context.getAttribute("userList");
-						userList.add(userVO.getUserID());
-						context.setAttribute("userList", userList);
-//						}
-//						nextPage.setLength(0);
-//						nextPage.append("/index.jsp");
+						for(int i = 0; i < userList.size(); i++) {
+							String user = userList.get(i);
+							if(!user.equals(userVO.getUserID())) {
+								userList.add(userVO.getUserID());
+								context.setAttribute("userList", userList);
+							}
+						}
 						
 						if(rawRedirectPage != null) {
 							String redirectPage = rawRedirectPage.toString();

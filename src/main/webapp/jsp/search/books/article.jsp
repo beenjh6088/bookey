@@ -101,8 +101,8 @@
 							</ul>
 						</div>
 					</div>
-					<ul class="bookList">	
-<%-- 						<li><bky-book-item src="${contextPath }/image/book/JAVA.jpg" ></bky-book-item></li> --%>
+					<ul class="bookList searchBook">	
+<%-- 						<li><bky-book-item src="${contextPath }/image/book/JAVA.jpg" title="JAVA" publisher="publepuble" author="James Gosling" publishedDate="2022-01-10" location="location01" queue="1" isAvailableCode="C" returnDate="2024-09-30" rentalDate="2024-09-10" isAvailableValue="Check out" category="literature" apperance="Best" buttonValue="Check out"></bky-book-item></li> --%>
 					</ul>
 					<input type='hidden' name='userID' value='${userVO.getUserID() }' id="userID"/>
 				</div>

@@ -166,6 +166,16 @@ function event_component_act() {
 			location.href = `${rootURL}/book/downloadExcel.do?title=BookList&fileName=BookList.xls`;
 		})
 		
+		// Display item as a list
+		$(document).on('click', '.operatorItem .list', function(event) {
+			$(".bookList").removeClass("grid")
+		})
+		
+		// Display item as a grid
+		$(document).on('click', '.operatorItem .grid', function(event) {
+			$(".bookList").addClass("grid")
+		})
+		
 		// Copy a current URL
 		$(document).on('click', '.sharing .sharingItem .url', function(event) {
 			let currentURL = window.location.href;
@@ -181,9 +191,9 @@ function event_component_act() {
 			let imgURL = `${rootURL}/image/qrcode/qrcode_bookey_qrcode.png`;
 			
 			fetch(imgURL)
-			  .then(response => response.blob())  // 이미지 데이터를 Blob으로 변환
+			  .then(response => response.blob())  // return image file as a Blob object 
 			  .then(blob => {
-			    const item = new ClipboardItem({ 'image/png': blob });  // Blob을 ClipboardItem에 추가
+			    const item = new ClipboardItem({ 'image/png': blob });  // add the Blob object on ClipboardItem
 			    navigator.clipboard.write([item]).then(() => {
 			      console.log('Image copied to clipboard!');
 			    }).catch(err => {
