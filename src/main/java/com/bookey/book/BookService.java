@@ -1,5 +1,6 @@
 package com.bookey.book;
 
+import java.util.List;
 import java.util.Map;
 
 import org.json.simple.JSONArray;
@@ -63,7 +64,13 @@ public class BookService {
 	
 	public int confirmBook(Map<String, Object> paramMap) {
 		int updateRentalStatusConfirmResult = bookDAO.updateRentalStatusConfirm(paramMap);
-		int updateWaitingRentalResult = bookDAO.updateWaitingRental(paramMap);
+		List<Integer> queueList = bookDAO.selectQueueList(paramMap);
+		int updateWaitingRentalResult = 0;
+		for(int i = 0; i < queueList.size(); i++) {
+			paramMap.put("NEW_QUEUE", (i+1));
+			paramMap.put("OLD_QUEUE", queueList.get(i));
+			updateWaitingRentalResult += bookDAO.updateWaitingRental(paramMap);
+		}
 		int updateBookStatusConfirmResult = bookDAO.updateBookStatusConfirm(paramMap);
 		return updateRentalStatusConfirmResult * updateWaitingRentalResult * updateBookStatusConfirmResult;
 	}
@@ -74,7 +81,13 @@ public class BookService {
 	
 	public int cancelReservation(Map<String, Object> paramMap) {
 		int updateRentalStatusTerminatedResult = bookDAO.updateRentalStatusTerminated(paramMap);
-		int updateWaitingRentalResult = bookDAO.updateWaitingRental(paramMap);
+		List<Integer> queueList = bookDAO.selectQueueList(paramMap);
+		int updateWaitingRentalResult = 0;
+		for(int i = 0; i < queueList.size(); i++) {
+			paramMap.put("NEW_QUEUE", (i+1));
+			paramMap.put("OLD_QUEUE", queueList.get(i));
+			updateWaitingRentalResult += bookDAO.updateWaitingRental(paramMap);
+		}
 		return updateRentalStatusTerminatedResult * updateWaitingRentalResult;
 	}
 }

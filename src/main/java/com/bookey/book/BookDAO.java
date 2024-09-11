@@ -3,6 +3,8 @@ package com.bookey.book;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import javax.naming.Context;
@@ -655,19 +657,49 @@ public class BookDAO {
 		return updateResult;
 	}
 	
-	public int updateWaitingRental(Map<String, Object> paramMap) {
-		int updateResult = 0;
+	public List<Integer> selectQueueList(Map<String, Object> paramMap) {
+		ArrayList<Integer> queueList = new ArrayList<Integer>();
 		try {
 			String bookID = paramMap.get("bookID").toString();
 			conn = dataFactory.getConnection();
 			String query = ""
+					+ "SELECT QUEUE"
+					+ "  FROM TBL_RENTAL"
+					+ " WHERE 1=1"
+					+ "   AND STATUS IS NULL"
+					+ "   AND BOOKID = '"+bookID+"'";
+			pstmt = conn.prepareStatement(query);
+			ResultSet rs = pstmt.executeQuery();
+			while(rs.next()) {
+				queueList.add(rs.getInt("QUEUE"));
+			}
+			System.out.println(query);
+			rs.close();
+			pstmt.close();
+			conn.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return queueList;
+	}
+	
+	public int updateWaitingRental(Map<String, Object> paramMap) {
+		int updateResult = 0;
+		try {
+			String bookID = paramMap.get("bookID").toString();
+			int NEW_QUEUE = Integer.parseInt(paramMap.get("NEW_QUEUE").toString());
+			int OLD_QUEUE = Integer.parseInt(paramMap.get("OLD_QUEUE").toString());
+			conn = dataFactory.getConnection();
+			String query = ""
 					+ "UPDATE TBL_RENTAL"
-					+ "   SET QUEUE        = QUEUE -1"
+					+ "   SET QUEUE        = "+NEW_QUEUE
 					+ "     , UPDATED_DATE = SYSDATE"
 					+ "     , UPDATED_USER = 'SYSTEM'"
 					+ " WHERE 1=1"
 					+ "   AND STATUS IS NULL"
-					+ "   AND BOOKID = '"+bookID+"'";
+					+ "   AND BOOKID = '"+bookID+"'"
+					+ "   AND QUEUE = "+OLD_QUEUE+"";
 			pstmt = conn.prepareStatement(query);
 			updateResult = pstmt.executeUpdate();
 			System.out.println(query);
@@ -765,7 +797,7 @@ public class BookDAO {
 					+ "   AND STATUS IS NULL"
 					+ "   AND BOOKID = '"+bookID+"'"
 					+ "   AND USERID = '"+userID+"'"
-					+ "   AND QUEUE = 1";
+					;
 			pstmt = conn.prepareStatement(query);
 			updateRentalStatusTerminatedResult = pstmt.executeUpdate();
 			System.out.println(query);

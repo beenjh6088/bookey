@@ -3,9 +3,10 @@ package com.bookey.user;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Date;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -131,14 +132,12 @@ public class UserController extends HttpServlet {
 				if(userVO != null) {
 					// Login process completed Successfully
 						session.setAttribute("userVO", userVO);
-						List<String> userList = (ArrayList<String>) context.getAttribute("userList");
-						for(int i = 0; i < userList.size(); i++) {
-							String user = userList.get(i);
-							if(!user.equals(userVO.getUserID())) {
-								userList.add(userVO.getUserID());
-								context.setAttribute("userList", userList);
-							}
-						}
+						List<String> rawUserList = (ArrayList<String>) context.getAttribute("userList");
+						rawUserList.add(userVO.getUserID());
+						// remove the duplication of userID
+						Set<String> userSet = new HashSet<String>(rawUserList);
+						List<String> userList = new ArrayList<String>(userSet);
+						context.setAttribute("userList", userList);
 						
 						if(rawRedirectPage != null) {
 							String redirectPage = rawRedirectPage.toString();
