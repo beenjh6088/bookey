@@ -23,6 +23,7 @@
 	<script defer src="${contextPath }/js/script/header.js"></script>
 	<script defer src="${contextPath }/js/script/index.js"></script>
 	<script defer src="${contextPath }/js/script/login.js"></script>
+	<script defer src="${contextPath }/js/script/article.js"></script>
   <script>
   	$(function() {
   		initHeaderEvent();
@@ -56,8 +57,8 @@
 										<div class="top">
 											<div class="left">
 												<div class="inputArea">
-													<input type="text" class="searchInput" placeholder="Input your keywords"/>
-													<button class="searchIcon"></button>
+													<input type="text" class="searchInput" id="searchInput02" placeholder="Input your keywords"/>
+													<button class="searchIcon" id="searchIcon" onclick="event_direct('#searchInput02')"></button>
 												</div>
 											</div>
 											<div class="right">

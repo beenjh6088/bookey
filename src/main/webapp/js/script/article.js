@@ -8,6 +8,7 @@ function initArticleEvent() {
 	Kakao.init('0f434777d81410ff1c3d3ceb43355304');
 	init_component_fillData();
 	event_component_act();
+	receiveOrder();
 }
 
 function init_component_fillData() {
@@ -70,21 +71,21 @@ function event_component_act() {
 	$("#article .frmSearchBook .submit").click(function(event)  {
 		event.preventDefault();
 		PAGENUM = 1;
-		search_data();
+		search_data("frmSearchBook");
 	})
 	
 	if(fileName.includes("searchBooks")) {
 		document.addEventListener("keydown", function(event) {
 			if(event.keyCode == 13) {
 				PAGENUM = 1;
-				search_data();
+				search_data("frmSearchBook");
 			}
 		})
 		// Dynamically setting event listener
 		$(document).on('click', '.pageItem', function(event) {
 	    event.preventDefault();
 	    PAGENUM = event.target.getAttribute("data-page");
-	    search_data();
+	    search_data("frmSearchBook");
 		});
 		
 		// an Event of buttons in bookList		
@@ -103,7 +104,7 @@ function event_component_act() {
 						data: {'userID': userID, 'bookID': bookID},
 						url:`${rootURL}/book/checkOutBook.do`,
 						success: function(data, status) {
-							search_data();
+							search_data("frmSearchBook");
 						}
 					})					
 				}else if(isAvailable == "C") {
@@ -116,7 +117,7 @@ function event_component_act() {
 							if(status == "success") {
 								alert("Reservation is completed successfully.")
 							}
-							search_data();
+							search_data("frmSearchBook");
 						}
 					})	
 				}else if(isAvailable == "R") {
@@ -130,7 +131,7 @@ function event_component_act() {
 								if(status == "success") {
 									alert("Book rental has been successfully completed.")
 								}
-								search_data();
+								search_data("frmSearchBook");
 							}
 						})
 					}else {
@@ -143,7 +144,7 @@ function event_component_act() {
 								if(status == "success") {
 									alert("Reservation is completed successfully.")
 								}
-								search_data();
+								search_data("frmSearchBook");
 							}
 						})
 					}
@@ -286,8 +287,8 @@ function checkValidation() {
 }
 
 
-function search_data() {
-		const _formData = Object.fromEntries(getFormData('frmSearchBook'));
+function search_data(frm) {
+		const _formData = Object.fromEntries(getFormData(frm));
 		_formData.PAGESET = PAGESET;
 		_formData.PAGENUM = PAGENUM;
 		const _jsonData = JSON.stringify(_formData);
@@ -310,13 +311,14 @@ function search_data() {
 			url:`${rootURL}/book/searchBooks.do`,
 			success: function(data, status) {
 				let articleBookList = document.querySelector("#article .bookList");
-				articleBookList.innerHTML = "";
+				if(articleBookList != null) articleBookList.innerHTML = "";
 				let articlePageList = document.querySelector("#article .pageList");
-				articlePageList.innerHTML = "";
+				if(articlePageList != null) articlePageList.innerHTML = "";
 				bookList = JSON.parse(data).bookList;
 				let pageList = JSON.parse(data).pageList;
 				let bookTotalAmount = JSON.parse(data).bookTotalAmount || 0;
 				let userID = $("#userID")[0].value;
+				
 				console.log(bookList);
 //				console.log(pageList);
 				if(bookList.length == 0){
@@ -398,4 +400,10 @@ function search_data() {
 		})
 }
 
-
+function receiveOrder() {
+	if(window.location.hash === "#search"){
+		let params = getQueryParams();
+		$("#BOOKNM").val(params.keyword);
+		search_data("frmSearchBook");
+	}
+}

@@ -89,8 +89,8 @@
 			<div class="container">
 				<div class="grouper">
 					<div class="inputArea">
-						<input type="text" name="keyword" class="searchInput">
-						<button class="searchIcon"></button>
+						<input type="text" name="keyword" class="searchInput" id="searchInput01">
+						<button class="searchIcon" onClick="event_direct('#searchInput01')"></button>
 					</div>
 					<div class="trendings">
 						<span class="indicator">Trends</span>

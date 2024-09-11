@@ -34,6 +34,7 @@
   		initCommonEvent();
   		initAsideEvent();
   		initArticleEvent();
+
   	})
   </script>
 </head>

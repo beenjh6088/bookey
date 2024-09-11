@@ -123,4 +123,6 @@ function event_component_act() {
 	$("bky-rounded-button.reservations").click(function() {
 		location.href = `${rootURL}/jsp/user/reservation.jsp`;
 	})
+	
 }
+

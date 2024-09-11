@@ -111,3 +111,24 @@ function getFormData(formName) {
 	
 	return map;
 }
+
+// get parameters from query strings
+function getQueryParams() {
+  let params = {};
+  let queryString = window.location.search;
+  let urlParams = new URLSearchParams(queryString);
+  
+  for (let [key, value] of urlParams.entries()) {
+    params[key] = value;
+  }
+  
+  return params;
+}
+
+function event_direct(selector) {
+	let searchInput = document.querySelector(selector);
+	if(searchInput) {
+		let keyword = searchInput.value;
+		location.href = `${rootURL}/jsp/search/books/searchBooks.jsp?keyword=${keyword}#search`
+	}
+}
