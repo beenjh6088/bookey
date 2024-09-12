@@ -813,4 +813,41 @@ public class BookDAO {
 		}
 		return updateRentalStatusTerminatedResult;
 	}
+	
+	public int insertKeyword(Map<String, Object> paramMap) {
+		int insertResult = -1;
+		try {
+			String bookID = paramMap.get("BOOKID").toString();
+			conn = dataFactory.getConnection();
+			String query = ""
+					+ "INSERT INTO TBL_KEYWORD"
+					+ "("
+					+ "  ID,"
+					+ "  BOOKID,"
+					+ "  KEYWORD,"
+					+ "  CREATED_DATE,"
+					+ "  CREATED_USER"
+					+ ")"
+					+ "SELECT KEYWORD.ID   AS ID"
+					+ "     , BOOK.BOOKID  AS BOOKID"
+					+ "     , BOOK.BOOKNM  AS KEYWORD"
+					+ "     , SYSDATE      AS CREATED_DATE"
+					+ "     , 'SYSTEM'     AS CREATED_USER"
+					+ "  FROM (SELECT MAX(ID) + 1 AS ID FROM TBL_KEYWORD) KEYWORD"
+					+ "     , (SELECT * FROM TBL_BOOK WHERE 1=1 AND BOOKID = '"+bookID+"') BOOK"
+					+ " WHERE 1=1"
+					;
+			pstmt = conn.prepareStatement(query);
+			insertResult = pstmt.executeUpdate();
+			pstmt.close();
+			conn.close();
+			System.out.println(query);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		return insertResult;
+	}
+	
+	
 }

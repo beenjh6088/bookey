@@ -207,6 +207,8 @@ public class BookController extends HttpServlet {
 				paramMap.put("USERID", userID);
 				paramMap.put("BOOKID", bookID);
 				JSONArray detailList = bookService.searchBooks(paramMap);
+				int accumulationResult = bookService.accumulateKeyword(paramMap);
+				System.out.println("accumulationResult : "+accumulationResult);
 				JSONObject resultMap = new JSONObject();
 				resultMap.put("detailList", detailList);
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");

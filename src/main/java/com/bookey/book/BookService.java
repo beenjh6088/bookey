@@ -90,4 +90,8 @@ public class BookService {
 		}
 		return updateRentalStatusTerminatedResult * updateWaitingRentalResult;
 	}
+	
+	public int accumulateKeyword(Map<String, Object> paramMap) {
+		return bookDAO.insertKeyword(paramMap);
+	}
 }
