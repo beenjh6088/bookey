@@ -9,17 +9,38 @@ function initHeaderEvent() {
 }
 
 function event_mainMenu_upDown() {
-	$("#header .mainMenu > li").mouseover(function() {
-    $("header .subMenu").show();
-    $("header  .navibg").css({
+	$("#header .mainMenu.wide > li").mouseover(function() {
+    $("header .mainMenu.wide .subMenu").show();
+    $("header .navibg.wide").css({
       'height':'200px'
     });
 	}).mouseout(function() {
-    $("header  .subMenu").hide();
-    $("header  .navibg").css({
+    $("header .mainMenu.wide .subMenu").hide();
+    $("header .navibg.wide").css({
       'height':'0'
     });
 	})
+	
+	$("#menu .menu").click(function() {
+		$("#menu .accordion").stop().slideToggle();
+	})
+	
+	const acc = document.getElementsByClassName("accordion-btn");
+	let i;
+	// Add event listener to each button
+	for (i = 0; i < acc.length; i++) {
+	    acc[i].addEventListener("click", function() {
+	        // Toggle between hiding and showing the panel
+	        this.classList.toggle("active");
+	
+	        let subMenu = this.nextElementSibling;
+	        if (subMenu.style.display === "block") {
+	            subMenu.style.display = "none";
+	        } else {
+	            subMenu.style.display = "block";
+	        }
+	    });
+	}
 }
 
 function event_search_showArea() {

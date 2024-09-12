@@ -60,6 +60,7 @@ body {
 	position: relative;
 }
 
+
 /* background */
 #background {
 	width: 100%;
@@ -418,4 +419,11 @@ body {
 }
 .frmDetail .infoArea .buttonArea .serviceButton:active {
 	background: rgba(164, 97, 113, 0.6);
+}
+
+
+@media (min-width: 1190px) and (max-width: 1440px) {
+	.center {
+		width: 100%;
+	}
 }

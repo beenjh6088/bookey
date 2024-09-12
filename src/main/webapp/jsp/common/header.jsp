@@ -32,7 +32,7 @@
 		</div>
 	</div>
 	<div class="bottom">
-		<ul class="mainMenu">
+		<ul class="mainMenu wide">
 			<li>
 				<a href="javascript:;">Search</a>
 				<ul class="subMenu">
@@ -80,10 +80,63 @@
 				</ul>
 			</li>
 		</ul>
+		
+		<div class='search' id="menu">
+			<button class='menu'></button>
+			<ul class="mainMenu accordion">
+				<li>
+					<a href="javascript:;" class="accordion-btn">Search</a>
+					<ul class="subMenu">
+						<li><a href="#">Books</a></li>
+						<li><a href="#">Recommended</a></li>
+						<li><a href="#">Trends</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;" class="accordion-btn">Apply</a>
+					<ul class="subMenu">
+						<li><a href="#">Instruction</a></li>
+						<li><a href="#">New books</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;" class="accordion-btn">Event</a>
+					<ul class="subMenu">
+						<li><a href="#">Schedules</a></li>
+						<li><a href="#">Hold</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;" class="accordion-btn">Introduction</a>
+					<ul class="subMenu">
+						<li><a href="#">Greeting</a></li>
+						<li><a href="#">Organization</a></li>
+						<li><a href="#">Directions</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;" class="accordion-btn">Guide</a>
+					<ul class="subMenu">
+						<li><a href="#">Materials</a></li>
+						<li><a href="#">Facilities</a></li>
+						<li><a href="#">Others</a></li>
+						<li><a href="#">Disabled</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;" class="accordion-btn">Information</a>
+					<ul class="subMenu">
+						<li><a href="#">Questions</a></li>
+						<li><a href="#">Notices</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
 		<div class='search'>
 			<button class='icon'></button>
 		</div>
-		<div class="navibg"></div>
+		<div class="navibg wide"></div>
 		
 		<div class="searchArea hdd">
 			<div class="container">
