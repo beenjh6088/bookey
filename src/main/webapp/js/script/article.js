@@ -208,7 +208,7 @@ function event_component_act() {
 		// Sharing url with line plugins
 		$(document).on('click', '.sharing .sharingItem .line', function(event) {
 			if(domain == "localhost") {
-				let bookeyURL = `http://192.168.45.115:${port}/${pathName}${fullPath}`
+				let bookeyURL = `http://192.168.45.115:${port}/${fullPath}`
 				window.open(`https://social-plugins.line.me/lineit/share?url=${bookeyURL}`, "_blank");
 			}else {
 				window.open(`https://social-plugins.line.me/lineit/share?url=${rootURL}${fullPath}`, "_blank");	

@@ -117,6 +117,7 @@ public class BookController extends HttpServlet {
 				resultMap.put("checkOutResult", checkOutResult);
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
 				pw.print(strResultMap);
+				return;
 			}else if(action.equals("/reserveBook.do")) {
 				String userID = request.getParameter("userID");
 				String bookID = request.getParameter("bookID");
@@ -129,6 +130,7 @@ public class BookController extends HttpServlet {
 				resultMap.put("reserveResult", reserveResult);
 				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
 				pw.print(strResultMap);
+				return;
 			}else if(action.equals("/loadCheckout.do")) {
 				Map<String, Object> requestParm = UtilityController.getParameterMap(request);
 				String strFrmData = requestParm.get("frmData").toString();
@@ -198,6 +200,18 @@ public class BookController extends HttpServlet {
 				request.setAttribute("excelList", excelList);
 				nextPage.setLength(0);
 				nextPage.append("/jsp/common/excel.jsp");
+			}else if(action.equals("/detailBook.do")) {
+				String userID = request.getParameter("userID");
+				String bookID = request.getParameter("bookID");
+				Map<String, Object> paramMap = new HashMap<String, Object>();
+				paramMap.put("USERID", userID);
+				paramMap.put("BOOKID", bookID);
+				JSONArray detailList = bookService.searchBooks(paramMap);
+				JSONObject resultMap = new JSONObject();
+				resultMap.put("detailList", detailList);
+				String strResultMap = resultMap.toJSONString().replaceAll("null", "\"\"");
+				pw.print(strResultMap);
+				return;
 			}
 			RequestDispatcher dispatcher = request.getRequestDispatcher(nextPage.toString());
 			dispatcher.forward(request, response);

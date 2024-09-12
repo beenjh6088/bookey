@@ -30,7 +30,7 @@ class BookItem extends HTMLElement {
 		let elAvailable = "";
 		let elQueue = "";
 		
-		if(src != null) elImage = `<img src="${src}" >`;
+		if(src != null) elImage = `<a href="${rootURL}/jsp/search/books/detail/detail.jsp?bookID=${bookID}&nextUserID=${nextUserID}"><img src="${src}"></a>`;
 		if(title != null) elTitle = `<li class="title"><label for="">Title</label><span>${title}</span></li>`;
 		if(publisher != null) elPublisher = `<li class="bookInfo"><label for="">Publisher</label><span>${publisher}</span></li>`;
 		if(author != null) elAuthor = `<li class="bookInfo"><label for="">Author</label><span>${author}</span></li>`;

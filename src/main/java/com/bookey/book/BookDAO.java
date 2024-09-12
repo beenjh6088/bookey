@@ -279,6 +279,7 @@ public class BookDAO {
 		Object S_DUE_DATE = paramMap.get("S_RENTAL_DUE_DATE");
 		Object E_DUE_DATE = paramMap.get("E_RENTAL_DUE_DATE");
 		Object BOOK_APPERANCE_CODE = paramMap.get("BOOK_APPERANCE_CODE");
+		Object BOOKID = paramMap.get("BOOKID");
 		String query = "" 
 				+ "WITH MAIN AS"
 				+ "(" 
@@ -356,6 +357,9 @@ public class BookDAO {
 		}
 		if (BOOK_APPERANCE_CODE != null && BOOK_APPERANCE_CODE.toString().length() != 0) {
 			query += " AND BOOK_APPERANCE_CODE = '" + BOOK_APPERANCE_CODE.toString() + "'";
+		}
+		if (BOOKID != null && BOOKID.toString().length() != 0) {
+			query += " AND BOOKID = '" + BOOKID.toString() + "'";
 		}
 		query += "" + ")";
 		return query;
