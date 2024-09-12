@@ -394,17 +394,20 @@
 	background: rgba(104, 90, 90, 60);
 	padding: 30px;
 }
-#background .frequent .cover .center {
-}
 #background .frequent .cover .center .shortcutList {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	position: relative;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
 }
 #background .frequent .cover .center .shortcutList .shortcutItem {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-content: center;
 	gap: 8px;
 	cursor: pointer;
 	transition: all 0.3s;
@@ -420,4 +423,59 @@
 	font-size: 20px;
 	font-weight: bold;
 	color: var(--main-white);
+}
+
+@media screen and (max-width: 1440px) {
+	#background .cover .grouper > .bottom .utils > .bottom .businessHour section > .right .time {
+		display: none;
+	}
+}
+@media screen and (max-width: 1190px) {
+	#background .cover .grouper > .top {
+		width: 100%;
+	}
+	#background .cover .grouper > .top h1 {
+		font-size: 56px;
+	}
+	#background .cover .grouper > .top h2 {
+		font-size: 28px;
+	}
+	#background .cover .grouper > .bottom {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+	}
+	#background .cover .grouper > .bottom > * {
+		flex-grow: 0;
+		flex-shrink: 0;
+		width: 100%;
+	}
+	#background .cover .grouper > .bottom .utils {
+		width: 100%;
+		border-radius: 24px;
+		overflow: hidden;
+		flex-grow: 1;
+		flex-shrink: 1;
+	}
+	#background .cover .grouper > .bottom .login {
+		width: 100%;
+		border-radius: 24px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		flex-shrink: 1;
+	}
+}
+
+
+
+@media screen and (max-width: 770px) {
+	#background .frequent .cover .center .shortcutList .shortcutItem .icon {
+		width: 55px;
+		margin: 0 auto;
+	}
+	#background .frequent .cover .center .shortcutList .shortcutItem .text {
+		font-size: 16px;
+	}
 }

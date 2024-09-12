@@ -114,3 +114,12 @@
 #background .cover .center .login > .bottom .help .access:last-child {
 	border-right: 0;
 }
+
+
+
+
+@media screen and (max-width: 1190px) {
+	#background .cover .center .login {
+		width: 90%;
+	}
+}

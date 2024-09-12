@@ -28,3 +28,153 @@
 	height: 80px;
 	line-height: 80px;
 }
+
+
+
+
+.frmJoin {
+	width: 100%;
+	padding: 24px;
+}
+.frmJoin .joinList {
+	width: 100%;
+}
+.frmJoin .joinList .joinItem {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	gap: 16px;
+	padding: 16px;
+	border-bottom: 1px solid var(--main-lightGray);
+}
+.frmJoin .joinList .joinItem .question {
+	text-align: right;
+	font-size: 20px;
+	font-weight: normal;
+	width: 40%;
+	word-wrap: break-word;
+}
+.frmJoin .joinList .joinItem .answer {
+	width: 60%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: strech;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+.frmJoin .joinList .joinItem .answer > input:not([type='radio']){
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 8px;
+	background-color: var(--main-white);
+}
+.frmJoin .joinList .joinItem .answer > li {
+	width: 100%;
+	height: 32px;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	gap: 16px;
+}
+.frmJoin .joinList .joinItem .answer > li > input[type='text'], input[type='email'] , input[type='password'] {
+	flex-grow: 1;
+	width: 60%;
+	display: block;
+	height: 100%;
+	padding-left: 8px;
+	background-color: var(--main-white);
+}
+.frmJoin .joinList .joinItem .answer > li > *:not(input[type='text'] ,input[type='email'], input[type='password'], span) {
+	flex-grow: 0.2;
+	padding: 4px 0px;
+}
+.frmJoin .joinList .joinItem .answer > li > input[type='button'] {
+	background-color: var(--main-red);
+	color: var(--main-white);
+}
+.frmJoin .buttons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	padding: 32px;
+}
+.frmJoin .buttons > input {
+	width: 160px;
+	height: 32px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 0.3s;
+	border: 1px solid var(--main-black);
+	display: block;
+}
+.frmJoin .buttons > input:active {
+	transform: scale(0.98);
+}
+.frmJoin .buttons > input.reset {
+	background-color: var(--main-white);
+	color: var(--main-black);
+}
+.frmJoin .buttons > input.submit {
+	background-color: var(--main-red);
+	color: var(--main-white);
+}
+.frmJoin .buttons > input.submit.disabled {
+	background-color: var(--main-lightGray);
+	color: var(--main-lightBlack);
+	cursor: not-allowed;
+}
+.frmJoin .buttons > input.submit.disabled:active {
+	transform: scale(1);
+}
+
+
+
+@media screen and (max-width: 770px) {
+	.frmJoin .joinList .joinItem {
+		overflow: hidden;
+	}
+	.frmJoin .joinList .joinItem .answer {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: strech;
+/* 		gap: 8px; */
+/* 		flex-wrap: wrap; */
+/* 		border: 1px dashed red; */
+/* 		overflow: hidden; */
+	}
+	.frmJoin .joinList .joinItem .answer > li {
+		width: 100%;
+/* 		height: 32px; */
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-content: center;
+		gap: 8px;
+		margin-bottom: 16px;
+/* 		border: 1px dashed blue; */
+	}
+	.frmJoin .joinList .joinItem .answer > li > input[type='text'], input[type='email'] , input[type='password'], input[type='button'] {
+		width: 100%;
+		display: block;
+/* 		height: 28px; */
+		padding-left: 8px;
+		background-color: var(--main-white);
+/* 		border: 1px dashed green; */
+	}
+	.frmJoin .joinList .joinItem .answer > li > *:not(input[type='text'] ,input[type='email'], input[type='password'], span) {
+/* 		flex-grow: 0.2; */
+		padding: 4px 0px;
+		font-size: 16px;
+/* 		padding: 0; */
+	}
+	.frmJoin .joinList .joinItem .answer > li > input[type='button'] {
+		background-color: var(--main-red);
+		color: var(--main-white);
+	}
+	.frmJoin .joinList .joinItem .answer > li > span {
+		padding: 0;
+	}
+}

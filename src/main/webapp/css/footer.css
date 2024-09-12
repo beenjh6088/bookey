@@ -13,6 +13,10 @@ footer .center .container {
 	gap: 48px;
 	justify-content: flex-start;
 	align-items: center;
+	position: relative;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
 }
 footer .center .container .logo {
 	height: 130px;
@@ -20,7 +24,7 @@ footer .center .container .logo {
 footer .center .container .info {
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
+	gap: 4px;
 	font-weight: bold;
 	font-size: 16px;
 }
@@ -34,6 +38,9 @@ footer .center .container .info .contact > li {
 	align-items: center;
 	gap: 8px;
 }
-footer .center .container .info .address {
-	font-size: 20px;
+
+@media screen and (max-width: 770px) {
+	footer .center .container .logo {
+		display: none;
+	}
 }
