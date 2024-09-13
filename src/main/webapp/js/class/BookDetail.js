@@ -32,14 +32,14 @@ class BookDetail extends HTMLElement {
 		
 		if(src != null) elImage = `<img src="${src}" alt="book image" />`;
 		if(title != null) elTitle = `<h3 class="title">${title}</h3>`;
-		if(publisher != null) elPublisher = `<li class="detailItem"><label>Publisher</label><span>${publisher}</span></li>`;
-		if(author != null) elAuthor = `<li class="detailItem"><label>Author</label><span>${author}</span></li>`;
-		if(category != null) elCategory  = `<li class="detailItem"><label>Category</label><span>${category}</span></li>`;
-		if(publishedDate != null) elPublishedDate = `<li class="detailItem"><label>Published Date</label><span>${publishedDate}</span></li>`;
-		if(location != null) elLocation = `<li class="detailItem"><label>Location</label><span>${location}</span></li>`;
-		if(isAvailableValue != null) elAvailableValue = `<li class="detailItem"><label>Status</label><span>${isAvailableValue}</span></li>`;
-		if(apperance != null) elApperance = `<li class="detailItem"><label>Apperance</label><span>${apperance}</span></li>`;
-		if(queue != null) elQueue = `<li class="detailItem"><label>Queue</label><span>${queue}</span></li>`;
+		if(publisher != null) elPublisher = `<li class="detailItem publisher"><label>Publisher</label><span>${publisher}</span></li>`;
+		if(author != null) elAuthor = `<li class="detailItem author"><label>Author</label><span>${author}</span></li>`;
+		if(category != null) elCategory  = `<li class="detailItem category"><label>Category</label><span>${category}</span></li>`;
+		if(publishedDate != null) elPublishedDate = `<li class="detailItem publishedDate"><label>Published Date</label><span>${publishedDate}</span></li>`;
+		if(location != null) elLocation = `<li class="detailItem location"><label>Location</label><span>${location}</span></li>`;
+		if(isAvailableValue != null) elAvailableValue = `<li class="detailItem isAvailableValue"><label>Status</label><span>${isAvailableValue}</span></li>`;
+		if(apperance != null) elApperance = `<li class="detailItem apperance"><label>Apperance</label><span>${apperance}</span></li>`;
+		if(queue != null) elQueue = `<li class="detailItem queue"><label>Queue</label><span>${queue}</span></li>`;
 		if(buttonValue != null) elButton = `<input type="button" value="${buttonValue}" class="serviceButton" data-isAvailable="${isAvailableCode}" data-bookID="${bookID}" data-nextUserID="${nextUserID}" />`;
 
 		if(isAvailableCode == "C") {

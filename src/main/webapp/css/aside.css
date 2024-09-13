@@ -3,36 +3,28 @@
 	background: url("../image/background/centre/bg_centre04.jpg");
 	background-repeat: round;
 	height: auto;
-/* 	height: 100%; */
 }
 #background .main {
 	height: auto;
-/* 	height: 100%; */
 }
 #background .main .cover {
 	background-color: rgba(230, 230, 230, 0.9);
 	height: auto;
-/* 	height: 100%; */
 }
 #background .main .cover .center {
 	height: auto;
-/* 	height: 100%; */
-	padding-top: calc(var(--height-header) + 75px);
+	padding-top: calc(var(--height-header) + 35px);
 	display: flex;
 	justify-content: flex-start;
 	align-items: stretch;
-/* 	align-items: flex-start; */
 	gap: 36px;
 }
 
 /* aside */
 #aside {
-/* 	height: auto; */
-/* 	height: 100%; */
 	height: calc(100vh - (var(--height-header) + 75px));
 	flex-grow: 0;
 	flex-shrink: 0;
-/* 	position: relative; */
 	overflow: hidden;
 }
 #aside > * {
@@ -89,3 +81,11 @@
 	padding: 8px 16px;
 }
 
+@media screen and (max-width: 1440px) {
+	#aside {
+		width: 0;
+	}
+	#background .main .cover .center {
+		gap: 0;
+	}
+}

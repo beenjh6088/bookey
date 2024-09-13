@@ -467,9 +467,6 @@
 		flex-shrink: 1;
 	}
 }
-
-
-
 @media screen and (max-width: 770px) {
 	#background .frequent .cover .center .shortcutList .shortcutItem .icon {
 		width: 55px;

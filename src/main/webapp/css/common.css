@@ -135,16 +135,23 @@ body {
 	justify-content: flex-start;
 	align-content: center;
 	gap: 16px;
+	position: relative;
 }
 .bookList .bookItem > * {
+/* 	width: 167px; */
+/* 	height: 217px; */
+/* 	position: relative; */
+/* 	left: 0; */
+/* 	top: 50%; */
+/* 	transform: translate(0,-50%); */
+}
+.bookList .bookItem .imageArea {
 	width: 167px;
 	height: 217px;
 	position: relative;
 	left: 0;
 	top: 50%;
 	transform: translate(0,-50%);
-}
-.bookList .bookItem .imageArea {
 	border: 1px ridge rgba(211, 211, 211, 1);
 	flex-grow: 0;
 	flex-shrink: 0;
@@ -153,7 +160,7 @@ body {
 	display: block;
 	width: 100%;
 	height: 100%;
-	max-width: 300px;
+/* 	max-width: 300px; */
 }
 .bookList .bookItem .detailArea {
 	flex-grow: 1;
@@ -202,7 +209,7 @@ body {
 	justify-content: center;
 	align-content: center;
 }
-.bookList .bookItem .detailArea .buttons > input{
+.bookList .bookItem .detailArea .buttons > input {
 	width: 100%;
 	flex-grow: 0;
 	height: auto;
@@ -329,5 +336,36 @@ body {
 @media screen and (max-width: 1440px) {
 	.center {
 		width: 100%;
+	}
+}
+@media screen and (max-width: 1190px) {
+	.bookList .bookItem .detailArea {
+		flex-direction: column;
+	}
+	.bookList .bookItem .detailArea .detailList .category ,
+	.bookList .bookItem .detailArea .detailList .publishedDate ,
+	.bookList .bookItem .detailArea .detailList .apperance 
+	{
+		display: none;
+	}
+	
+	.bookList .bookItem .detailArea .detailList > li > label:after {
+		width: 8px;
+	}
+	.bookList .bookItem .detailArea .buttons {
+		width: 100%;
+		height: auto;
+		align-self: flex-end;
+	}
+	.frmDetail .infoArea .textArea .detailList .detailItem label {
+		padding: 0;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.frmDetail .infoArea .textArea .detailList .detailItem.category ,
+	.frmDetail .infoArea .textArea .detailList .detailItem.publishedDate ,
+	.frmDetail .infoArea .textArea .detailList .detailItem.apperance
+	{
+		display: none;
 	}
 }
