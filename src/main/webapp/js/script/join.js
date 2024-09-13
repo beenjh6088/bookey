@@ -85,15 +85,27 @@ function event_PW_check() {
 
 function event_email_sendAuthentication(){
 	$("#sendAuthentication").click(function(event) {
-		let userEmail = $("#userEmail").val();
+		let userEmail = $("#userEmail").val().trim();
+		
+		
+		if (userEmail === "" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(userEmail)) {
+	    alert("Please enter a valid email address to join our site.");
+	    return;
+		}
 		$.ajax({
 			type:"post",
 			async: true,
 			data: {'userEmail': userEmail},
 			url:`${rootURL}/user/authenticateEmail.do`,
 			success: function(data, status) {
-				usersMap = JSON.parse(data);
-				randomNumber = usersMap.randomNumber;
+				if(status == "success") {
+					alert("Check the email you entered.")
+					usersMap = JSON.parse(data);
+					randomNumber = usersMap.randomNumber;
+				}else {
+					alert("Error Occurs!")
+					return;
+				}
 			}
 		})
 	})
