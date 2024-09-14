@@ -1,0 +1,26 @@
+WITH CALENDAR AS (
+    SELECT TO_DATE('20200101', 'YYYYMMDD') + LEVEL - 1 AS DT
+    FROM DUAL
+    CONNECT BY LEVEL <= TO_DATE('20291231', 'YYYYMMDD') - TO_DATE('20200101', 'YYYYMMDD') + 1
+)
+SELECT A.*
+  FROM (
+        SELECT DT
+             , TO_CHAR(DT, 'YYYYMMDD') DATEID
+             , TO_CHAR(DT, 'd') DAYNUM
+             , DECODE(TO_CHAR(DT, 'd'), 1, 'SUN'
+                                      , 2, 'MON'
+                                      , 3, 'TUE'
+                                      , 4, 'WED'
+                                      , 5, 'THU'
+                                      , 6, 'FRI'
+                                      , 7, 'SAT'
+                                      ) DAYCHA
+                                      , TO_CHAR(DT, 'yyyy') YYYY
+                                      , TO_CHAR(DT, 'MM') MM
+                                      , TO_CHAR(DT, 'DD') DD
+        FROM CALENDAR
+         WHERE 1=1
+       ) A
+ WHERE 1=1
+ORDER BY DT 

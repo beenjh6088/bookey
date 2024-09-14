@@ -1,0 +1,21925 @@
+﻿SET DEFINE OFF;
+--SQL Statement which produced this data:
+--
+--  SELECT *
+--    FROM TBL_CALENDAR;
+--
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200101', TO_DATE('2020/01/01', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200102', TO_DATE('2020/01/02', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200103', TO_DATE('2020/01/03', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200104', TO_DATE('2020/01/04', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200105', TO_DATE('2020/01/05', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200106', TO_DATE('2020/01/06', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200107', TO_DATE('2020/01/07', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200108', TO_DATE('2020/01/08', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200109', TO_DATE('2020/01/09', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200110', TO_DATE('2020/01/10', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '01', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200111', TO_DATE('2020/01/11', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '01', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200112', TO_DATE('2020/01/12', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200113', TO_DATE('2020/01/13', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '01', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200114', TO_DATE('2020/01/14', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200115', TO_DATE('2020/01/15', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '01', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200116', TO_DATE('2020/01/16', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200117', TO_DATE('2020/01/17', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200118', TO_DATE('2020/01/18', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200119', TO_DATE('2020/01/19', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200120', TO_DATE('2020/01/20', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200121', TO_DATE('2020/01/21', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200122', TO_DATE('2020/01/22', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200123', TO_DATE('2020/01/23', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200124', TO_DATE('2020/01/24', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '01', '24', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200125', TO_DATE('2020/01/25', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '01', '25', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200126', TO_DATE('2020/01/26', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '01', '26', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200127', TO_DATE('2020/01/27', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '01', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200128', TO_DATE('2020/01/28', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '01', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200129', TO_DATE('2020/01/29', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '01', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200130', TO_DATE('2020/01/30', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200131', TO_DATE('2020/01/31', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200201', TO_DATE('2020/02/01', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200202', TO_DATE('2020/02/02', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200203', TO_DATE('2020/02/03', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200204', TO_DATE('2020/02/04', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200205', TO_DATE('2020/02/05', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200206', TO_DATE('2020/02/06', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200207', TO_DATE('2020/02/07', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200208', TO_DATE('2020/02/08', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200209', TO_DATE('2020/02/09', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '02', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200210', TO_DATE('2020/02/10', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '02', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200211', TO_DATE('2020/02/11', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '02', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200212', TO_DATE('2020/02/12', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '02', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200213', TO_DATE('2020/02/13', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '02', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200214', TO_DATE('2020/02/14', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '02', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200215', TO_DATE('2020/02/15', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '02', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200216', TO_DATE('2020/02/16', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200217', TO_DATE('2020/02/17', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200218', TO_DATE('2020/02/18', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200219', TO_DATE('2020/02/19', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200220', TO_DATE('2020/02/20', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200221', TO_DATE('2020/02/21', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200222', TO_DATE('2020/02/22', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200223', TO_DATE('2020/02/23', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200224', TO_DATE('2020/02/24', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '02', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200225', TO_DATE('2020/02/25', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200226', TO_DATE('2020/02/26', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '02', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200227', TO_DATE('2020/02/27', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200228', TO_DATE('2020/02/28', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '02', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200229', TO_DATE('2020/02/29', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '02', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200301', TO_DATE('2020/03/01', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200302', TO_DATE('2020/03/02', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200303', TO_DATE('2020/03/03', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200304', TO_DATE('2020/03/04', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200305', TO_DATE('2020/03/05', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200306', TO_DATE('2020/03/06', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200307', TO_DATE('2020/03/07', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200308', TO_DATE('2020/03/08', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200309', TO_DATE('2020/03/09', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '03', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200310', TO_DATE('2020/03/10', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200311', TO_DATE('2020/03/11', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200312', TO_DATE('2020/03/12', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200313', TO_DATE('2020/03/13', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '03', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200314', TO_DATE('2020/03/14', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200315', TO_DATE('2020/03/15', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '03', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200316', TO_DATE('2020/03/16', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200317', TO_DATE('2020/03/17', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200318', TO_DATE('2020/03/18', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200319', TO_DATE('2020/03/19', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200320', TO_DATE('2020/03/20', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200321', TO_DATE('2020/03/21', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200322', TO_DATE('2020/03/22', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200323', TO_DATE('2020/03/23', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '03', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200324', TO_DATE('2020/03/24', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200325', TO_DATE('2020/03/25', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200326', TO_DATE('2020/03/26', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200327', TO_DATE('2020/03/27', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '03', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200328', TO_DATE('2020/03/28', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200329', TO_DATE('2020/03/29', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '03', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200330', TO_DATE('2020/03/30', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200331', TO_DATE('2020/03/31', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200401', TO_DATE('2020/04/01', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200402', TO_DATE('2020/04/02', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200403', TO_DATE('2020/04/03', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200404', TO_DATE('2020/04/04', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200405', TO_DATE('2020/04/05', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200406', TO_DATE('2020/04/06', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200407', TO_DATE('2020/04/07', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200408', TO_DATE('2020/04/08', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200409', TO_DATE('2020/04/09', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200410', TO_DATE('2020/04/10', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '04', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200411', TO_DATE('2020/04/11', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200412', TO_DATE('2020/04/12', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '04', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200413', TO_DATE('2020/04/13', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '04', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200414', TO_DATE('2020/04/14', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200415', TO_DATE('2020/04/15', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200416', TO_DATE('2020/04/16', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200417', TO_DATE('2020/04/17', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200418', TO_DATE('2020/04/18', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200419', TO_DATE('2020/04/19', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200420', TO_DATE('2020/04/20', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200421', TO_DATE('2020/04/21', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200422', TO_DATE('2020/04/22', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200423', TO_DATE('2020/04/23', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200424', TO_DATE('2020/04/24', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '04', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200425', TO_DATE('2020/04/25', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200426', TO_DATE('2020/04/26', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '04', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200427', TO_DATE('2020/04/27', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '04', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200428', TO_DATE('2020/04/28', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200429', TO_DATE('2020/04/29', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200430', TO_DATE('2020/04/30', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200501', TO_DATE('2020/05/01', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200502', TO_DATE('2020/05/02', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200503', TO_DATE('2020/05/03', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200504', TO_DATE('2020/05/04', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200505', TO_DATE('2020/05/05', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200506', TO_DATE('2020/05/06', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200507', TO_DATE('2020/05/07', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200508', TO_DATE('2020/05/08', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200509', TO_DATE('2020/05/09', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200510', TO_DATE('2020/05/10', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '05', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200511', TO_DATE('2020/05/11', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '05', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200512', TO_DATE('2020/05/12', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200513', TO_DATE('2020/05/13', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200514', TO_DATE('2020/05/14', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200515', TO_DATE('2020/05/15', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '05', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200516', TO_DATE('2020/05/16', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200517', TO_DATE('2020/05/17', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200518', TO_DATE('2020/05/18', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200519', TO_DATE('2020/05/19', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200520', TO_DATE('2020/05/20', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200521', TO_DATE('2020/05/21', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200522', TO_DATE('2020/05/22', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200523', TO_DATE('2020/05/23', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200524', TO_DATE('2020/05/24', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '05', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200525', TO_DATE('2020/05/25', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '05', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200526', TO_DATE('2020/05/26', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200527', TO_DATE('2020/05/27', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200528', TO_DATE('2020/05/28', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200529', TO_DATE('2020/05/29', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '05', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200530', TO_DATE('2020/05/30', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200531', TO_DATE('2020/05/31', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200601', TO_DATE('2020/06/01', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200602', TO_DATE('2020/06/02', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200603', TO_DATE('2020/06/03', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200604', TO_DATE('2020/06/04', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200605', TO_DATE('2020/06/05', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200606', TO_DATE('2020/06/06', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200607', TO_DATE('2020/06/07', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200608', TO_DATE('2020/06/08', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200609', TO_DATE('2020/06/09', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200610', TO_DATE('2020/06/10', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200611', TO_DATE('2020/06/11', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200612', TO_DATE('2020/06/12', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '06', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200613', TO_DATE('2020/06/13', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200614', TO_DATE('2020/06/14', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '06', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200615', TO_DATE('2020/06/15', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '06', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200616', TO_DATE('2020/06/16', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200617', TO_DATE('2020/06/17', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200618', TO_DATE('2020/06/18', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200619', TO_DATE('2020/06/19', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200620', TO_DATE('2020/06/20', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200621', TO_DATE('2020/06/21', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200622', TO_DATE('2020/06/22', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200623', TO_DATE('2020/06/23', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200624', TO_DATE('2020/06/24', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200625', TO_DATE('2020/06/25', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200626', TO_DATE('2020/06/26', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '06', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200627', TO_DATE('2020/06/27', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200628', TO_DATE('2020/06/28', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '06', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200629', TO_DATE('2020/06/29', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '06', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200630', TO_DATE('2020/06/30', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200701', TO_DATE('2020/07/01', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200702', TO_DATE('2020/07/02', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200703', TO_DATE('2020/07/03', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200704', TO_DATE('2020/07/04', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200705', TO_DATE('2020/07/05', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200706', TO_DATE('2020/07/06', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200707', TO_DATE('2020/07/07', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200708', TO_DATE('2020/07/08', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200709', TO_DATE('2020/07/09', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200710', TO_DATE('2020/07/10', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '07', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200711', TO_DATE('2020/07/11', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200712', TO_DATE('2020/07/12', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '07', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200713', TO_DATE('2020/07/13', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '07', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200714', TO_DATE('2020/07/14', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200715', TO_DATE('2020/07/15', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200716', TO_DATE('2020/07/16', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200717', TO_DATE('2020/07/17', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200718', TO_DATE('2020/07/18', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200719', TO_DATE('2020/07/19', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200720', TO_DATE('2020/07/20', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200721', TO_DATE('2020/07/21', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200722', TO_DATE('2020/07/22', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200723', TO_DATE('2020/07/23', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200724', TO_DATE('2020/07/24', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '07', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200725', TO_DATE('2020/07/25', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200726', TO_DATE('2020/07/26', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '07', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200727', TO_DATE('2020/07/27', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '07', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200728', TO_DATE('2020/07/28', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200729', TO_DATE('2020/07/29', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200730', TO_DATE('2020/07/30', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200731', TO_DATE('2020/07/31', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200801', TO_DATE('2020/08/01', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200802', TO_DATE('2020/08/02', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200803', TO_DATE('2020/08/03', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200804', TO_DATE('2020/08/04', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200805', TO_DATE('2020/08/05', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200806', TO_DATE('2020/08/06', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200807', TO_DATE('2020/08/07', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200808', TO_DATE('2020/08/08', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200809', TO_DATE('2020/08/09', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '08', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200810', TO_DATE('2020/08/10', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '08', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200811', TO_DATE('2020/08/11', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200812', TO_DATE('2020/08/12', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200813', TO_DATE('2020/08/13', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200814', TO_DATE('2020/08/14', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '08', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200815', TO_DATE('2020/08/15', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200816', TO_DATE('2020/08/16', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200817', TO_DATE('2020/08/17', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200818', TO_DATE('2020/08/18', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200819', TO_DATE('2020/08/19', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200820', TO_DATE('2020/08/20', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200821', TO_DATE('2020/08/21', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200822', TO_DATE('2020/08/22', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200823', TO_DATE('2020/08/23', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '08', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200824', TO_DATE('2020/08/24', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '08', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200825', TO_DATE('2020/08/25', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200826', TO_DATE('2020/08/26', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200827', TO_DATE('2020/08/27', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200828', TO_DATE('2020/08/28', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '08', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200829', TO_DATE('2020/08/29', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200830', TO_DATE('2020/08/30', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200831', TO_DATE('2020/08/31', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200901', TO_DATE('2020/09/01', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200902', TO_DATE('2020/09/02', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200903', TO_DATE('2020/09/03', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200904', TO_DATE('2020/09/04', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200905', TO_DATE('2020/09/05', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200906', TO_DATE('2020/09/06', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200907', TO_DATE('2020/09/07', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200908', TO_DATE('2020/09/08', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200909', TO_DATE('2020/09/09', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '09', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200910', TO_DATE('2020/09/10', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '09', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200911', TO_DATE('2020/09/11', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '09', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200912', TO_DATE('2020/09/12', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200913', TO_DATE('2020/09/13', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '09', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200914', TO_DATE('2020/09/14', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '09', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200915', TO_DATE('2020/09/15', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '09', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200916', TO_DATE('2020/09/16', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '09', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200917', TO_DATE('2020/09/17', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200918', TO_DATE('2020/09/18', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200919', TO_DATE('2020/09/19', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200920', TO_DATE('2020/09/20', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200921', TO_DATE('2020/09/21', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '09', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200922', TO_DATE('2020/09/22', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '09', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200923', TO_DATE('2020/09/23', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '09', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200924', TO_DATE('2020/09/24', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '09', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200925', TO_DATE('2020/09/25', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '09', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200926', TO_DATE('2020/09/26', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '09', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200927', TO_DATE('2020/09/27', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '09', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200928', TO_DATE('2020/09/28', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '09', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20200929', TO_DATE('2020/09/29', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '09', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20200930', TO_DATE('2020/09/30', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '09', '30', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20201001', TO_DATE('2020/10/01', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '10', '01', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20201002', TO_DATE('2020/10/02', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '10', '02', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201003', TO_DATE('2020/10/03', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201004', TO_DATE('2020/10/04', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201005', TO_DATE('2020/10/05', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201006', TO_DATE('2020/10/06', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201007', TO_DATE('2020/10/07', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201008', TO_DATE('2020/10/08', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201009', TO_DATE('2020/10/09', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '10', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201010', TO_DATE('2020/10/10', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201011', TO_DATE('2020/10/11', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '10', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20201012', TO_DATE('2020/10/12', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '10', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201013', TO_DATE('2020/10/13', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201014', TO_DATE('2020/10/14', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201015', TO_DATE('2020/10/15', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201016', TO_DATE('2020/10/16', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201017', TO_DATE('2020/10/17', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201018', TO_DATE('2020/10/18', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201019', TO_DATE('2020/10/19', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201020', TO_DATE('2020/10/20', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201021', TO_DATE('2020/10/21', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201022', TO_DATE('2020/10/22', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201023', TO_DATE('2020/10/23', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '10', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201024', TO_DATE('2020/10/24', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201025', TO_DATE('2020/10/25', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '10', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20201026', TO_DATE('2020/10/26', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '10', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201027', TO_DATE('2020/10/27', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201028', TO_DATE('2020/10/28', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201029', TO_DATE('2020/10/29', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201030', TO_DATE('2020/10/30', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201031', TO_DATE('2020/10/31', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201101', TO_DATE('2020/11/01', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201102', TO_DATE('2020/11/02', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201103', TO_DATE('2020/11/03', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201104', TO_DATE('2020/11/04', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201105', TO_DATE('2020/11/05', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201106', TO_DATE('2020/11/06', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201107', TO_DATE('2020/11/07', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201108', TO_DATE('2020/11/08', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20201109', TO_DATE('2020/11/09', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '11', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201110', TO_DATE('2020/11/10', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201111', TO_DATE('2020/11/11', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201112', TO_DATE('2020/11/12', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201113', TO_DATE('2020/11/13', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '11', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201114', TO_DATE('2020/11/14', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201115', TO_DATE('2020/11/15', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '11', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201116', TO_DATE('2020/11/16', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201117', TO_DATE('2020/11/17', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201118', TO_DATE('2020/11/18', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201119', TO_DATE('2020/11/19', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201120', TO_DATE('2020/11/20', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201121', TO_DATE('2020/11/21', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201122', TO_DATE('2020/11/22', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20201123', TO_DATE('2020/11/23', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '11', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201124', TO_DATE('2020/11/24', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201125', TO_DATE('2020/11/25', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201126', TO_DATE('2020/11/26', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201127', TO_DATE('2020/11/27', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '11', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201128', TO_DATE('2020/11/28', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201129', TO_DATE('2020/11/29', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '11', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201130', TO_DATE('2020/11/30', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201201', TO_DATE('2020/12/01', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201202', TO_DATE('2020/12/02', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201203', TO_DATE('2020/12/03', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201204', TO_DATE('2020/12/04', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201205', TO_DATE('2020/12/05', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201206', TO_DATE('2020/12/06', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201207', TO_DATE('2020/12/07', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201208', TO_DATE('2020/12/08', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201209', TO_DATE('2020/12/09', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201210', TO_DATE('2020/12/10', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201211', TO_DATE('2020/12/11', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '12', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201212', TO_DATE('2020/12/12', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201213', TO_DATE('2020/12/13', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '12', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20201214', TO_DATE('2020/12/14', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '12', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201215', TO_DATE('2020/12/15', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201216', TO_DATE('2020/12/16', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201217', TO_DATE('2020/12/17', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201218', TO_DATE('2020/12/18', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201219', TO_DATE('2020/12/19', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201220', TO_DATE('2020/12/20', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201221', TO_DATE('2020/12/21', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201222', TO_DATE('2020/12/22', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201223', TO_DATE('2020/12/23', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201224', TO_DATE('2020/12/24', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201225', TO_DATE('2020/12/25', 'YYYY/MM/DD'), 6, 'FRI', '2020', 
+    '12', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201226', TO_DATE('2020/12/26', 'YYYY/MM/DD'), 7, 'SAT', '2020', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201227', TO_DATE('2020/12/27', 'YYYY/MM/DD'), 1, 'SUN', '2020', 
+    '12', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20201228', TO_DATE('2020/12/28', 'YYYY/MM/DD'), 2, 'MON', '2020', 
+    '12', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201229', TO_DATE('2020/12/29', 'YYYY/MM/DD'), 3, 'TUE', '2020', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201230', TO_DATE('2020/12/30', 'YYYY/MM/DD'), 4, 'WED', '2020', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20201231', TO_DATE('2020/12/31', 'YYYY/MM/DD'), 5, 'THU', '2020', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210101', TO_DATE('2021/01/01', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210102', TO_DATE('2021/01/02', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210103', TO_DATE('2021/01/03', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210104', TO_DATE('2021/01/04', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210105', TO_DATE('2021/01/05', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210106', TO_DATE('2021/01/06', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210107', TO_DATE('2021/01/07', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210108', TO_DATE('2021/01/08', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210109', TO_DATE('2021/01/09', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210110', TO_DATE('2021/01/10', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '01', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210111', TO_DATE('2021/01/11', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '01', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210112', TO_DATE('2021/01/12', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210113', TO_DATE('2021/01/13', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '01', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210114', TO_DATE('2021/01/14', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210115', TO_DATE('2021/01/15', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '01', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210116', TO_DATE('2021/01/16', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210117', TO_DATE('2021/01/17', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210118', TO_DATE('2021/01/18', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210119', TO_DATE('2021/01/19', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210120', TO_DATE('2021/01/20', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210121', TO_DATE('2021/01/21', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210122', TO_DATE('2021/01/22', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210123', TO_DATE('2021/01/23', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210124', TO_DATE('2021/01/24', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '01', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210125', TO_DATE('2021/01/25', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '01', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210126', TO_DATE('2021/01/26', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '01', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210127', TO_DATE('2021/01/27', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '01', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210128', TO_DATE('2021/01/28', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '01', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210129', TO_DATE('2021/01/29', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '01', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210130', TO_DATE('2021/01/30', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210131', TO_DATE('2021/01/31', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210201', TO_DATE('2021/02/01', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210202', TO_DATE('2021/02/02', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210203', TO_DATE('2021/02/03', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210204', TO_DATE('2021/02/04', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210205', TO_DATE('2021/02/05', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210206', TO_DATE('2021/02/06', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210207', TO_DATE('2021/02/07', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210208', TO_DATE('2021/02/08', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210209', TO_DATE('2021/02/09', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '02', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210210', TO_DATE('2021/02/10', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '02', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210211', TO_DATE('2021/02/11', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '02', '11', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210212', TO_DATE('2021/02/12', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '02', '12', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210213', TO_DATE('2021/02/13', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '02', '13', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210214', TO_DATE('2021/02/14', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '02', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210215', TO_DATE('2021/02/15', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '02', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210216', TO_DATE('2021/02/16', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210217', TO_DATE('2021/02/17', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210218', TO_DATE('2021/02/18', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210219', TO_DATE('2021/02/19', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210220', TO_DATE('2021/02/20', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210221', TO_DATE('2021/02/21', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210222', TO_DATE('2021/02/22', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210223', TO_DATE('2021/02/23', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210224', TO_DATE('2021/02/24', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '02', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210225', TO_DATE('2021/02/25', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210226', TO_DATE('2021/02/26', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '02', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210227', TO_DATE('2021/02/27', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210228', TO_DATE('2021/02/28', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '02', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210301', TO_DATE('2021/03/01', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210302', TO_DATE('2021/03/02', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210303', TO_DATE('2021/03/03', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210304', TO_DATE('2021/03/04', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210305', TO_DATE('2021/03/05', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210306', TO_DATE('2021/03/06', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210307', TO_DATE('2021/03/07', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210308', TO_DATE('2021/03/08', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210309', TO_DATE('2021/03/09', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '03', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210310', TO_DATE('2021/03/10', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210311', TO_DATE('2021/03/11', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210312', TO_DATE('2021/03/12', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210313', TO_DATE('2021/03/13', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '03', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210314', TO_DATE('2021/03/14', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210315', TO_DATE('2021/03/15', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '03', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210316', TO_DATE('2021/03/16', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210317', TO_DATE('2021/03/17', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210318', TO_DATE('2021/03/18', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210319', TO_DATE('2021/03/19', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210320', TO_DATE('2021/03/20', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210321', TO_DATE('2021/03/21', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210322', TO_DATE('2021/03/22', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210323', TO_DATE('2021/03/23', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '03', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210324', TO_DATE('2021/03/24', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210325', TO_DATE('2021/03/25', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210326', TO_DATE('2021/03/26', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210327', TO_DATE('2021/03/27', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '03', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210328', TO_DATE('2021/03/28', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210329', TO_DATE('2021/03/29', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '03', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210330', TO_DATE('2021/03/30', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210331', TO_DATE('2021/03/31', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210401', TO_DATE('2021/04/01', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210402', TO_DATE('2021/04/02', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210403', TO_DATE('2021/04/03', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210404', TO_DATE('2021/04/04', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210405', TO_DATE('2021/04/05', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210406', TO_DATE('2021/04/06', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210407', TO_DATE('2021/04/07', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210408', TO_DATE('2021/04/08', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210409', TO_DATE('2021/04/09', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210410', TO_DATE('2021/04/10', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '04', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210411', TO_DATE('2021/04/11', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210412', TO_DATE('2021/04/12', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '04', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210413', TO_DATE('2021/04/13', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '04', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210414', TO_DATE('2021/04/14', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210415', TO_DATE('2021/04/15', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210416', TO_DATE('2021/04/16', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210417', TO_DATE('2021/04/17', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210418', TO_DATE('2021/04/18', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210419', TO_DATE('2021/04/19', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210420', TO_DATE('2021/04/20', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210421', TO_DATE('2021/04/21', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210422', TO_DATE('2021/04/22', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210423', TO_DATE('2021/04/23', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210424', TO_DATE('2021/04/24', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '04', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210425', TO_DATE('2021/04/25', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210426', TO_DATE('2021/04/26', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '04', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210427', TO_DATE('2021/04/27', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '04', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210428', TO_DATE('2021/04/28', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210429', TO_DATE('2021/04/29', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210430', TO_DATE('2021/04/30', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210501', TO_DATE('2021/05/01', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210502', TO_DATE('2021/05/02', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210503', TO_DATE('2021/05/03', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210504', TO_DATE('2021/05/04', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210505', TO_DATE('2021/05/05', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210506', TO_DATE('2021/05/06', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210507', TO_DATE('2021/05/07', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210508', TO_DATE('2021/05/08', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210509', TO_DATE('2021/05/09', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210510', TO_DATE('2021/05/10', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '05', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210511', TO_DATE('2021/05/11', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '05', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210512', TO_DATE('2021/05/12', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210513', TO_DATE('2021/05/13', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210514', TO_DATE('2021/05/14', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210515', TO_DATE('2021/05/15', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '05', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210516', TO_DATE('2021/05/16', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210517', TO_DATE('2021/05/17', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210518', TO_DATE('2021/05/18', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210519', TO_DATE('2021/05/19', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210520', TO_DATE('2021/05/20', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210521', TO_DATE('2021/05/21', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210522', TO_DATE('2021/05/22', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210523', TO_DATE('2021/05/23', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210524', TO_DATE('2021/05/24', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '05', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210525', TO_DATE('2021/05/25', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '05', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210526', TO_DATE('2021/05/26', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210527', TO_DATE('2021/05/27', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210528', TO_DATE('2021/05/28', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210529', TO_DATE('2021/05/29', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '05', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210530', TO_DATE('2021/05/30', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210531', TO_DATE('2021/05/31', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210601', TO_DATE('2021/06/01', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210602', TO_DATE('2021/06/02', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210603', TO_DATE('2021/06/03', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210604', TO_DATE('2021/06/04', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210605', TO_DATE('2021/06/05', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210606', TO_DATE('2021/06/06', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210607', TO_DATE('2021/06/07', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210608', TO_DATE('2021/06/08', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210609', TO_DATE('2021/06/09', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210610', TO_DATE('2021/06/10', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210611', TO_DATE('2021/06/11', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210612', TO_DATE('2021/06/12', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '06', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210613', TO_DATE('2021/06/13', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210614', TO_DATE('2021/06/14', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '06', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210615', TO_DATE('2021/06/15', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '06', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210616', TO_DATE('2021/06/16', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210617', TO_DATE('2021/06/17', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210618', TO_DATE('2021/06/18', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210619', TO_DATE('2021/06/19', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210620', TO_DATE('2021/06/20', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210621', TO_DATE('2021/06/21', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210622', TO_DATE('2021/06/22', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210623', TO_DATE('2021/06/23', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210624', TO_DATE('2021/06/24', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210625', TO_DATE('2021/06/25', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210626', TO_DATE('2021/06/26', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '06', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210627', TO_DATE('2021/06/27', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210628', TO_DATE('2021/06/28', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '06', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210629', TO_DATE('2021/06/29', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '06', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210630', TO_DATE('2021/06/30', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210701', TO_DATE('2021/07/01', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210702', TO_DATE('2021/07/02', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210703', TO_DATE('2021/07/03', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210704', TO_DATE('2021/07/04', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210705', TO_DATE('2021/07/05', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210706', TO_DATE('2021/07/06', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210707', TO_DATE('2021/07/07', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210708', TO_DATE('2021/07/08', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210709', TO_DATE('2021/07/09', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210710', TO_DATE('2021/07/10', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '07', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210711', TO_DATE('2021/07/11', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210712', TO_DATE('2021/07/12', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '07', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210713', TO_DATE('2021/07/13', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '07', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210714', TO_DATE('2021/07/14', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210715', TO_DATE('2021/07/15', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210716', TO_DATE('2021/07/16', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210717', TO_DATE('2021/07/17', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210718', TO_DATE('2021/07/18', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210719', TO_DATE('2021/07/19', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210720', TO_DATE('2021/07/20', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210721', TO_DATE('2021/07/21', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210722', TO_DATE('2021/07/22', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210723', TO_DATE('2021/07/23', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210724', TO_DATE('2021/07/24', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '07', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210725', TO_DATE('2021/07/25', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210726', TO_DATE('2021/07/26', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '07', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210727', TO_DATE('2021/07/27', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '07', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210728', TO_DATE('2021/07/28', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210729', TO_DATE('2021/07/29', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210730', TO_DATE('2021/07/30', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210731', TO_DATE('2021/07/31', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210801', TO_DATE('2021/08/01', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210802', TO_DATE('2021/08/02', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210803', TO_DATE('2021/08/03', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210804', TO_DATE('2021/08/04', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210805', TO_DATE('2021/08/05', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210806', TO_DATE('2021/08/06', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210807', TO_DATE('2021/08/07', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210808', TO_DATE('2021/08/08', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210809', TO_DATE('2021/08/09', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '08', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210810', TO_DATE('2021/08/10', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '08', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210811', TO_DATE('2021/08/11', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210812', TO_DATE('2021/08/12', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210813', TO_DATE('2021/08/13', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210814', TO_DATE('2021/08/14', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '08', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210815', TO_DATE('2021/08/15', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210816', TO_DATE('2021/08/16', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210817', TO_DATE('2021/08/17', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210818', TO_DATE('2021/08/18', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210819', TO_DATE('2021/08/19', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210820', TO_DATE('2021/08/20', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210821', TO_DATE('2021/08/21', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210822', TO_DATE('2021/08/22', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210823', TO_DATE('2021/08/23', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '08', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210824', TO_DATE('2021/08/24', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '08', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210825', TO_DATE('2021/08/25', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210826', TO_DATE('2021/08/26', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210827', TO_DATE('2021/08/27', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210828', TO_DATE('2021/08/28', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '08', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210829', TO_DATE('2021/08/29', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210830', TO_DATE('2021/08/30', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210831', TO_DATE('2021/08/31', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210901', TO_DATE('2021/09/01', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210902', TO_DATE('2021/09/02', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210903', TO_DATE('2021/09/03', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210904', TO_DATE('2021/09/04', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210905', TO_DATE('2021/09/05', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210906', TO_DATE('2021/09/06', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210907', TO_DATE('2021/09/07', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210908', TO_DATE('2021/09/08', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210909', TO_DATE('2021/09/09', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '09', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210910', TO_DATE('2021/09/10', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '09', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210911', TO_DATE('2021/09/11', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '09', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210912', TO_DATE('2021/09/12', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210913', TO_DATE('2021/09/13', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '09', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210914', TO_DATE('2021/09/14', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '09', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210915', TO_DATE('2021/09/15', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '09', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210916', TO_DATE('2021/09/16', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '09', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210917', TO_DATE('2021/09/17', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210918', TO_DATE('2021/09/18', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210919', TO_DATE('2021/09/19', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210920', TO_DATE('2021/09/20', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '09', '20', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210921', TO_DATE('2021/09/21', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '09', '21', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210922', TO_DATE('2021/09/22', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '09', '22', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210923', TO_DATE('2021/09/23', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '09', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210924', TO_DATE('2021/09/24', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '09', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210925', TO_DATE('2021/09/25', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '09', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210926', TO_DATE('2021/09/26', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '09', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20210927', TO_DATE('2021/09/27', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '09', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210928', TO_DATE('2021/09/28', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '09', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210929', TO_DATE('2021/09/29', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '09', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20210930', TO_DATE('2021/09/30', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '09', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211001', TO_DATE('2021/10/01', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211002', TO_DATE('2021/10/02', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '10', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211003', TO_DATE('2021/10/03', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211004', TO_DATE('2021/10/04', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211005', TO_DATE('2021/10/05', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211006', TO_DATE('2021/10/06', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211007', TO_DATE('2021/10/07', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211008', TO_DATE('2021/10/08', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211009', TO_DATE('2021/10/09', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '10', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211010', TO_DATE('2021/10/10', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20211011', TO_DATE('2021/10/11', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '10', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211012', TO_DATE('2021/10/12', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '10', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211013', TO_DATE('2021/10/13', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211014', TO_DATE('2021/10/14', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211015', TO_DATE('2021/10/15', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211016', TO_DATE('2021/10/16', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211017', TO_DATE('2021/10/17', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211018', TO_DATE('2021/10/18', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211019', TO_DATE('2021/10/19', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211020', TO_DATE('2021/10/20', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211021', TO_DATE('2021/10/21', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211022', TO_DATE('2021/10/22', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211023', TO_DATE('2021/10/23', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '10', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211024', TO_DATE('2021/10/24', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20211025', TO_DATE('2021/10/25', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '10', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211026', TO_DATE('2021/10/26', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '10', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211027', TO_DATE('2021/10/27', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211028', TO_DATE('2021/10/28', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211029', TO_DATE('2021/10/29', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211030', TO_DATE('2021/10/30', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211031', TO_DATE('2021/10/31', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211101', TO_DATE('2021/11/01', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211102', TO_DATE('2021/11/02', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211103', TO_DATE('2021/11/03', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211104', TO_DATE('2021/11/04', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211105', TO_DATE('2021/11/05', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211106', TO_DATE('2021/11/06', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211107', TO_DATE('2021/11/07', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211108', TO_DATE('2021/11/08', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211109', TO_DATE('2021/11/09', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '11', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211110', TO_DATE('2021/11/10', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211111', TO_DATE('2021/11/11', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211112', TO_DATE('2021/11/12', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211113', TO_DATE('2021/11/13', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '11', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211114', TO_DATE('2021/11/14', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20211115', TO_DATE('2021/11/15', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '11', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211116', TO_DATE('2021/11/16', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211117', TO_DATE('2021/11/17', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211118', TO_DATE('2021/11/18', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211119', TO_DATE('2021/11/19', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211120', TO_DATE('2021/11/20', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211121', TO_DATE('2021/11/21', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211122', TO_DATE('2021/11/22', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211123', TO_DATE('2021/11/23', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '11', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211124', TO_DATE('2021/11/24', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211125', TO_DATE('2021/11/25', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211126', TO_DATE('2021/11/26', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211127', TO_DATE('2021/11/27', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '11', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211128', TO_DATE('2021/11/28', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20211129', TO_DATE('2021/11/29', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '11', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211130', TO_DATE('2021/11/30', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211201', TO_DATE('2021/12/01', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211202', TO_DATE('2021/12/02', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211203', TO_DATE('2021/12/03', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211204', TO_DATE('2021/12/04', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211205', TO_DATE('2021/12/05', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211206', TO_DATE('2021/12/06', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211207', TO_DATE('2021/12/07', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211208', TO_DATE('2021/12/08', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211209', TO_DATE('2021/12/09', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211210', TO_DATE('2021/12/10', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211211', TO_DATE('2021/12/11', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '12', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211212', TO_DATE('2021/12/12', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20211213', TO_DATE('2021/12/13', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '12', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211214', TO_DATE('2021/12/14', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '12', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211215', TO_DATE('2021/12/15', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211216', TO_DATE('2021/12/16', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211217', TO_DATE('2021/12/17', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211218', TO_DATE('2021/12/18', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211219', TO_DATE('2021/12/19', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211220', TO_DATE('2021/12/20', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211221', TO_DATE('2021/12/21', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211222', TO_DATE('2021/12/22', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211223', TO_DATE('2021/12/23', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211224', TO_DATE('2021/12/24', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211225', TO_DATE('2021/12/25', 'YYYY/MM/DD'), 7, 'SAT', '2021', 
+    '12', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211226', TO_DATE('2021/12/26', 'YYYY/MM/DD'), 1, 'SUN', '2021', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20211227', TO_DATE('2021/12/27', 'YYYY/MM/DD'), 2, 'MON', '2021', 
+    '12', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211228', TO_DATE('2021/12/28', 'YYYY/MM/DD'), 3, 'TUE', '2021', 
+    '12', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211229', TO_DATE('2021/12/29', 'YYYY/MM/DD'), 4, 'WED', '2021', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211230', TO_DATE('2021/12/30', 'YYYY/MM/DD'), 5, 'THU', '2021', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20211231', TO_DATE('2021/12/31', 'YYYY/MM/DD'), 6, 'FRI', '2021', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220101', TO_DATE('2022/01/01', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220102', TO_DATE('2022/01/02', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220103', TO_DATE('2022/01/03', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220104', TO_DATE('2022/01/04', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220105', TO_DATE('2022/01/05', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220106', TO_DATE('2022/01/06', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220107', TO_DATE('2022/01/07', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220108', TO_DATE('2022/01/08', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220109', TO_DATE('2022/01/09', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220110', TO_DATE('2022/01/10', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '01', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220111', TO_DATE('2022/01/11', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '01', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220112', TO_DATE('2022/01/12', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220113', TO_DATE('2022/01/13', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '01', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220114', TO_DATE('2022/01/14', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220115', TO_DATE('2022/01/15', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '01', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220116', TO_DATE('2022/01/16', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220117', TO_DATE('2022/01/17', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220118', TO_DATE('2022/01/18', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220119', TO_DATE('2022/01/19', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220120', TO_DATE('2022/01/20', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220121', TO_DATE('2022/01/21', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220122', TO_DATE('2022/01/22', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220123', TO_DATE('2022/01/23', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220124', TO_DATE('2022/01/24', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '01', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220125', TO_DATE('2022/01/25', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '01', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220126', TO_DATE('2022/01/26', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '01', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220127', TO_DATE('2022/01/27', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '01', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220128', TO_DATE('2022/01/28', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '01', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220129', TO_DATE('2022/01/29', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '01', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220130', TO_DATE('2022/01/30', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220131', TO_DATE('2022/01/31', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '01', '31', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220201', TO_DATE('2022/02/01', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '02', '01', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220202', TO_DATE('2022/02/02', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '02', '02', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220203', TO_DATE('2022/02/03', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220204', TO_DATE('2022/02/04', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220205', TO_DATE('2022/02/05', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220206', TO_DATE('2022/02/06', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220207', TO_DATE('2022/02/07', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220208', TO_DATE('2022/02/08', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220209', TO_DATE('2022/02/09', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '02', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220210', TO_DATE('2022/02/10', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '02', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220211', TO_DATE('2022/02/11', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '02', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220212', TO_DATE('2022/02/12', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '02', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220213', TO_DATE('2022/02/13', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '02', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220214', TO_DATE('2022/02/14', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '02', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220215', TO_DATE('2022/02/15', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '02', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220216', TO_DATE('2022/02/16', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220217', TO_DATE('2022/02/17', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220218', TO_DATE('2022/02/18', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220219', TO_DATE('2022/02/19', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220220', TO_DATE('2022/02/20', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220221', TO_DATE('2022/02/21', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220222', TO_DATE('2022/02/22', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220223', TO_DATE('2022/02/23', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220224', TO_DATE('2022/02/24', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '02', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220225', TO_DATE('2022/02/25', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220226', TO_DATE('2022/02/26', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '02', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220227', TO_DATE('2022/02/27', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220228', TO_DATE('2022/02/28', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '02', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220301', TO_DATE('2022/03/01', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220302', TO_DATE('2022/03/02', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220303', TO_DATE('2022/03/03', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220304', TO_DATE('2022/03/04', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220305', TO_DATE('2022/03/05', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220306', TO_DATE('2022/03/06', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220307', TO_DATE('2022/03/07', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220308', TO_DATE('2022/03/08', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220309', TO_DATE('2022/03/09', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '03', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220310', TO_DATE('2022/03/10', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220311', TO_DATE('2022/03/11', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220312', TO_DATE('2022/03/12', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220313', TO_DATE('2022/03/13', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '03', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220314', TO_DATE('2022/03/14', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '03', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220315', TO_DATE('2022/03/15', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '03', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220316', TO_DATE('2022/03/16', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220317', TO_DATE('2022/03/17', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220318', TO_DATE('2022/03/18', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220319', TO_DATE('2022/03/19', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220320', TO_DATE('2022/03/20', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220321', TO_DATE('2022/03/21', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220322', TO_DATE('2022/03/22', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220323', TO_DATE('2022/03/23', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '03', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220324', TO_DATE('2022/03/24', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220325', TO_DATE('2022/03/25', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220326', TO_DATE('2022/03/26', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220327', TO_DATE('2022/03/27', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '03', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220328', TO_DATE('2022/03/28', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '03', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220329', TO_DATE('2022/03/29', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '03', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220330', TO_DATE('2022/03/30', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220331', TO_DATE('2022/03/31', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220401', TO_DATE('2022/04/01', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220402', TO_DATE('2022/04/02', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220403', TO_DATE('2022/04/03', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220404', TO_DATE('2022/04/04', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220405', TO_DATE('2022/04/05', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220406', TO_DATE('2022/04/06', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220407', TO_DATE('2022/04/07', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220408', TO_DATE('2022/04/08', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220409', TO_DATE('2022/04/09', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220410', TO_DATE('2022/04/10', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '04', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220411', TO_DATE('2022/04/11', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '04', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220412', TO_DATE('2022/04/12', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '04', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220413', TO_DATE('2022/04/13', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '04', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220414', TO_DATE('2022/04/14', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220415', TO_DATE('2022/04/15', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220416', TO_DATE('2022/04/16', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220417', TO_DATE('2022/04/17', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220418', TO_DATE('2022/04/18', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220419', TO_DATE('2022/04/19', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220420', TO_DATE('2022/04/20', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220421', TO_DATE('2022/04/21', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220422', TO_DATE('2022/04/22', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220423', TO_DATE('2022/04/23', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220424', TO_DATE('2022/04/24', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '04', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220425', TO_DATE('2022/04/25', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '04', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220426', TO_DATE('2022/04/26', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '04', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220427', TO_DATE('2022/04/27', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '04', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220428', TO_DATE('2022/04/28', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220429', TO_DATE('2022/04/29', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220430', TO_DATE('2022/04/30', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220501', TO_DATE('2022/05/01', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220502', TO_DATE('2022/05/02', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220503', TO_DATE('2022/05/03', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220504', TO_DATE('2022/05/04', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220505', TO_DATE('2022/05/05', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220506', TO_DATE('2022/05/06', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220507', TO_DATE('2022/05/07', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220508', TO_DATE('2022/05/08', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220509', TO_DATE('2022/05/09', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '05', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220510', TO_DATE('2022/05/10', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '05', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220511', TO_DATE('2022/05/11', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '05', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220512', TO_DATE('2022/05/12', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220513', TO_DATE('2022/05/13', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220514', TO_DATE('2022/05/14', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220515', TO_DATE('2022/05/15', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '05', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220516', TO_DATE('2022/05/16', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220517', TO_DATE('2022/05/17', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220518', TO_DATE('2022/05/18', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220519', TO_DATE('2022/05/19', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220520', TO_DATE('2022/05/20', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220521', TO_DATE('2022/05/21', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220522', TO_DATE('2022/05/22', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220523', TO_DATE('2022/05/23', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '05', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220524', TO_DATE('2022/05/24', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '05', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220525', TO_DATE('2022/05/25', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '05', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220526', TO_DATE('2022/05/26', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220527', TO_DATE('2022/05/27', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220528', TO_DATE('2022/05/28', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220529', TO_DATE('2022/05/29', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '05', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220530', TO_DATE('2022/05/30', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220531', TO_DATE('2022/05/31', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220601', TO_DATE('2022/06/01', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220602', TO_DATE('2022/06/02', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220603', TO_DATE('2022/06/03', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220604', TO_DATE('2022/06/04', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220605', TO_DATE('2022/06/05', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220606', TO_DATE('2022/06/06', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220607', TO_DATE('2022/06/07', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220608', TO_DATE('2022/06/08', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220609', TO_DATE('2022/06/09', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220610', TO_DATE('2022/06/10', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220611', TO_DATE('2022/06/11', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220612', TO_DATE('2022/06/12', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '06', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220613', TO_DATE('2022/06/13', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '06', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220614', TO_DATE('2022/06/14', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '06', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220615', TO_DATE('2022/06/15', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '06', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220616', TO_DATE('2022/06/16', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220617', TO_DATE('2022/06/17', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220618', TO_DATE('2022/06/18', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220619', TO_DATE('2022/06/19', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220620', TO_DATE('2022/06/20', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220621', TO_DATE('2022/06/21', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220622', TO_DATE('2022/06/22', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220623', TO_DATE('2022/06/23', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220624', TO_DATE('2022/06/24', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220625', TO_DATE('2022/06/25', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220626', TO_DATE('2022/06/26', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '06', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220627', TO_DATE('2022/06/27', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '06', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220628', TO_DATE('2022/06/28', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '06', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220629', TO_DATE('2022/06/29', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '06', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220630', TO_DATE('2022/06/30', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220701', TO_DATE('2022/07/01', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220702', TO_DATE('2022/07/02', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220703', TO_DATE('2022/07/03', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220704', TO_DATE('2022/07/04', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220705', TO_DATE('2022/07/05', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220706', TO_DATE('2022/07/06', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220707', TO_DATE('2022/07/07', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220708', TO_DATE('2022/07/08', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220709', TO_DATE('2022/07/09', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220710', TO_DATE('2022/07/10', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '07', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220711', TO_DATE('2022/07/11', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '07', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220712', TO_DATE('2022/07/12', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '07', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220713', TO_DATE('2022/07/13', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '07', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220714', TO_DATE('2022/07/14', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220715', TO_DATE('2022/07/15', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220716', TO_DATE('2022/07/16', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220717', TO_DATE('2022/07/17', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220718', TO_DATE('2022/07/18', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220719', TO_DATE('2022/07/19', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220720', TO_DATE('2022/07/20', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220721', TO_DATE('2022/07/21', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220722', TO_DATE('2022/07/22', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220723', TO_DATE('2022/07/23', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220724', TO_DATE('2022/07/24', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '07', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220725', TO_DATE('2022/07/25', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '07', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220726', TO_DATE('2022/07/26', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '07', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220727', TO_DATE('2022/07/27', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '07', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220728', TO_DATE('2022/07/28', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220729', TO_DATE('2022/07/29', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220730', TO_DATE('2022/07/30', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220731', TO_DATE('2022/07/31', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220801', TO_DATE('2022/08/01', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220802', TO_DATE('2022/08/02', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220803', TO_DATE('2022/08/03', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220804', TO_DATE('2022/08/04', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220805', TO_DATE('2022/08/05', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220806', TO_DATE('2022/08/06', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220807', TO_DATE('2022/08/07', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220808', TO_DATE('2022/08/08', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220809', TO_DATE('2022/08/09', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '08', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220810', TO_DATE('2022/08/10', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '08', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220811', TO_DATE('2022/08/11', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220812', TO_DATE('2022/08/12', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220813', TO_DATE('2022/08/13', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220814', TO_DATE('2022/08/14', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '08', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220815', TO_DATE('2022/08/15', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '08', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220816', TO_DATE('2022/08/16', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220817', TO_DATE('2022/08/17', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220818', TO_DATE('2022/08/18', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220819', TO_DATE('2022/08/19', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220820', TO_DATE('2022/08/20', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220821', TO_DATE('2022/08/21', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220822', TO_DATE('2022/08/22', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220823', TO_DATE('2022/08/23', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '08', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220824', TO_DATE('2022/08/24', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '08', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220825', TO_DATE('2022/08/25', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220826', TO_DATE('2022/08/26', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220827', TO_DATE('2022/08/27', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220828', TO_DATE('2022/08/28', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '08', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220829', TO_DATE('2022/08/29', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '08', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220830', TO_DATE('2022/08/30', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220831', TO_DATE('2022/08/31', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220901', TO_DATE('2022/09/01', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220902', TO_DATE('2022/09/02', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220903', TO_DATE('2022/09/03', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220904', TO_DATE('2022/09/04', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220905', TO_DATE('2022/09/05', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220906', TO_DATE('2022/09/06', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220907', TO_DATE('2022/09/07', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220908', TO_DATE('2022/09/08', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220909', TO_DATE('2022/09/09', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '09', '09', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220910', TO_DATE('2022/09/10', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '09', '10', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220911', TO_DATE('2022/09/11', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '09', '11', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220912', TO_DATE('2022/09/12', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '09', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220913', TO_DATE('2022/09/13', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '09', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220914', TO_DATE('2022/09/14', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '09', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220915', TO_DATE('2022/09/15', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '09', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220916', TO_DATE('2022/09/16', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '09', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220917', TO_DATE('2022/09/17', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220918', TO_DATE('2022/09/18', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220919', TO_DATE('2022/09/19', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220920', TO_DATE('2022/09/20', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220921', TO_DATE('2022/09/21', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '09', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220922', TO_DATE('2022/09/22', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '09', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220923', TO_DATE('2022/09/23', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '09', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220924', TO_DATE('2022/09/24', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '09', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220925', TO_DATE('2022/09/25', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '09', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20220926', TO_DATE('2022/09/26', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '09', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220927', TO_DATE('2022/09/27', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '09', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220928', TO_DATE('2022/09/28', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '09', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220929', TO_DATE('2022/09/29', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '09', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20220930', TO_DATE('2022/09/30', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '09', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221001', TO_DATE('2022/10/01', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221002', TO_DATE('2022/10/02', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '10', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221003', TO_DATE('2022/10/03', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221004', TO_DATE('2022/10/04', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221005', TO_DATE('2022/10/05', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221006', TO_DATE('2022/10/06', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221007', TO_DATE('2022/10/07', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221008', TO_DATE('2022/10/08', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221009', TO_DATE('2022/10/09', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '10', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20221010', TO_DATE('2022/10/10', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '10', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221011', TO_DATE('2022/10/11', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '10', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221012', TO_DATE('2022/10/12', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '10', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221013', TO_DATE('2022/10/13', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221014', TO_DATE('2022/10/14', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221015', TO_DATE('2022/10/15', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221016', TO_DATE('2022/10/16', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221017', TO_DATE('2022/10/17', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221018', TO_DATE('2022/10/18', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221019', TO_DATE('2022/10/19', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221020', TO_DATE('2022/10/20', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221021', TO_DATE('2022/10/21', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221022', TO_DATE('2022/10/22', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221023', TO_DATE('2022/10/23', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '10', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20221024', TO_DATE('2022/10/24', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '10', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221025', TO_DATE('2022/10/25', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '10', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221026', TO_DATE('2022/10/26', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '10', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221027', TO_DATE('2022/10/27', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221028', TO_DATE('2022/10/28', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221029', TO_DATE('2022/10/29', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221030', TO_DATE('2022/10/30', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221031', TO_DATE('2022/10/31', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221101', TO_DATE('2022/11/01', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221102', TO_DATE('2022/11/02', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221103', TO_DATE('2022/11/03', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221104', TO_DATE('2022/11/04', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221105', TO_DATE('2022/11/05', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221106', TO_DATE('2022/11/06', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221107', TO_DATE('2022/11/07', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221108', TO_DATE('2022/11/08', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221109', TO_DATE('2022/11/09', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '11', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221110', TO_DATE('2022/11/10', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221111', TO_DATE('2022/11/11', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221112', TO_DATE('2022/11/12', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221113', TO_DATE('2022/11/13', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '11', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20221114', TO_DATE('2022/11/14', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '11', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221115', TO_DATE('2022/11/15', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '11', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221116', TO_DATE('2022/11/16', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221117', TO_DATE('2022/11/17', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221118', TO_DATE('2022/11/18', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221119', TO_DATE('2022/11/19', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221120', TO_DATE('2022/11/20', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221121', TO_DATE('2022/11/21', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221122', TO_DATE('2022/11/22', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221123', TO_DATE('2022/11/23', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '11', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221124', TO_DATE('2022/11/24', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221125', TO_DATE('2022/11/25', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221126', TO_DATE('2022/11/26', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221127', TO_DATE('2022/11/27', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '11', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20221128', TO_DATE('2022/11/28', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '11', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221129', TO_DATE('2022/11/29', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '11', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221130', TO_DATE('2022/11/30', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221201', TO_DATE('2022/12/01', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221202', TO_DATE('2022/12/02', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221203', TO_DATE('2022/12/03', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221204', TO_DATE('2022/12/04', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221205', TO_DATE('2022/12/05', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221206', TO_DATE('2022/12/06', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221207', TO_DATE('2022/12/07', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221208', TO_DATE('2022/12/08', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221209', TO_DATE('2022/12/09', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221210', TO_DATE('2022/12/10', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221211', TO_DATE('2022/12/11', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '12', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20221212', TO_DATE('2022/12/12', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '12', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221213', TO_DATE('2022/12/13', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '12', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221214', TO_DATE('2022/12/14', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '12', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221215', TO_DATE('2022/12/15', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221216', TO_DATE('2022/12/16', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221217', TO_DATE('2022/12/17', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221218', TO_DATE('2022/12/18', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221219', TO_DATE('2022/12/19', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221220', TO_DATE('2022/12/20', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221221', TO_DATE('2022/12/21', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221222', TO_DATE('2022/12/22', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221223', TO_DATE('2022/12/23', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221224', TO_DATE('2022/12/24', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221225', TO_DATE('2022/12/25', 'YYYY/MM/DD'), 1, 'SUN', '2022', 
+    '12', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20221226', TO_DATE('2022/12/26', 'YYYY/MM/DD'), 2, 'MON', '2022', 
+    '12', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221227', TO_DATE('2022/12/27', 'YYYY/MM/DD'), 3, 'TUE', '2022', 
+    '12', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221228', TO_DATE('2022/12/28', 'YYYY/MM/DD'), 4, 'WED', '2022', 
+    '12', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221229', TO_DATE('2022/12/29', 'YYYY/MM/DD'), 5, 'THU', '2022', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221230', TO_DATE('2022/12/30', 'YYYY/MM/DD'), 6, 'FRI', '2022', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20221231', TO_DATE('2022/12/31', 'YYYY/MM/DD'), 7, 'SAT', '2022', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230101', TO_DATE('2023/01/01', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230102', TO_DATE('2023/01/02', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230103', TO_DATE('2023/01/03', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230104', TO_DATE('2023/01/04', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230105', TO_DATE('2023/01/05', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230106', TO_DATE('2023/01/06', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230107', TO_DATE('2023/01/07', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230108', TO_DATE('2023/01/08', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230109', TO_DATE('2023/01/09', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '01', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230110', TO_DATE('2023/01/10', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '01', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230111', TO_DATE('2023/01/11', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '01', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230112', TO_DATE('2023/01/12', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230113', TO_DATE('2023/01/13', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '01', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230114', TO_DATE('2023/01/14', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230115', TO_DATE('2023/01/15', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '01', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230116', TO_DATE('2023/01/16', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230117', TO_DATE('2023/01/17', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230118', TO_DATE('2023/01/18', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230119', TO_DATE('2023/01/19', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230120', TO_DATE('2023/01/20', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230121', TO_DATE('2023/01/21', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '01', '21', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230122', TO_DATE('2023/01/22', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '01', '22', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230123', TO_DATE('2023/01/23', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '01', '23', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230124', TO_DATE('2023/01/24', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '01', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230125', TO_DATE('2023/01/25', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '01', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230126', TO_DATE('2023/01/26', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '01', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230127', TO_DATE('2023/01/27', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '01', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230128', TO_DATE('2023/01/28', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '01', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230129', TO_DATE('2023/01/29', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '01', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230130', TO_DATE('2023/01/30', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230131', TO_DATE('2023/01/31', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230201', TO_DATE('2023/02/01', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230202', TO_DATE('2023/02/02', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230203', TO_DATE('2023/02/03', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230204', TO_DATE('2023/02/04', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230205', TO_DATE('2023/02/05', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230206', TO_DATE('2023/02/06', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230207', TO_DATE('2023/02/07', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230208', TO_DATE('2023/02/08', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230209', TO_DATE('2023/02/09', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '02', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230210', TO_DATE('2023/02/10', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '02', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230211', TO_DATE('2023/02/11', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '02', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230212', TO_DATE('2023/02/12', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '02', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230213', TO_DATE('2023/02/13', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '02', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230214', TO_DATE('2023/02/14', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '02', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230215', TO_DATE('2023/02/15', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '02', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230216', TO_DATE('2023/02/16', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230217', TO_DATE('2023/02/17', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230218', TO_DATE('2023/02/18', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230219', TO_DATE('2023/02/19', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230220', TO_DATE('2023/02/20', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230221', TO_DATE('2023/02/21', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230222', TO_DATE('2023/02/22', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230223', TO_DATE('2023/02/23', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230224', TO_DATE('2023/02/24', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '02', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230225', TO_DATE('2023/02/25', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230226', TO_DATE('2023/02/26', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '02', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230227', TO_DATE('2023/02/27', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '02', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230228', TO_DATE('2023/02/28', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '02', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230301', TO_DATE('2023/03/01', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230302', TO_DATE('2023/03/02', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230303', TO_DATE('2023/03/03', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230304', TO_DATE('2023/03/04', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230305', TO_DATE('2023/03/05', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230306', TO_DATE('2023/03/06', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230307', TO_DATE('2023/03/07', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230308', TO_DATE('2023/03/08', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230309', TO_DATE('2023/03/09', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '03', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230310', TO_DATE('2023/03/10', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230311', TO_DATE('2023/03/11', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230312', TO_DATE('2023/03/12', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230313', TO_DATE('2023/03/13', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '03', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230314', TO_DATE('2023/03/14', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230315', TO_DATE('2023/03/15', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '03', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230316', TO_DATE('2023/03/16', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230317', TO_DATE('2023/03/17', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230318', TO_DATE('2023/03/18', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230319', TO_DATE('2023/03/19', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230320', TO_DATE('2023/03/20', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230321', TO_DATE('2023/03/21', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230322', TO_DATE('2023/03/22', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230323', TO_DATE('2023/03/23', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '03', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230324', TO_DATE('2023/03/24', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230325', TO_DATE('2023/03/25', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230326', TO_DATE('2023/03/26', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230327', TO_DATE('2023/03/27', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '03', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230328', TO_DATE('2023/03/28', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230329', TO_DATE('2023/03/29', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '03', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230330', TO_DATE('2023/03/30', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230331', TO_DATE('2023/03/31', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230401', TO_DATE('2023/04/01', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230402', TO_DATE('2023/04/02', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230403', TO_DATE('2023/04/03', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230404', TO_DATE('2023/04/04', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230405', TO_DATE('2023/04/05', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230406', TO_DATE('2023/04/06', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230407', TO_DATE('2023/04/07', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230408', TO_DATE('2023/04/08', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230409', TO_DATE('2023/04/09', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230410', TO_DATE('2023/04/10', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '04', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230411', TO_DATE('2023/04/11', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230412', TO_DATE('2023/04/12', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '04', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230413', TO_DATE('2023/04/13', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '04', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230414', TO_DATE('2023/04/14', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230415', TO_DATE('2023/04/15', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230416', TO_DATE('2023/04/16', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230417', TO_DATE('2023/04/17', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230418', TO_DATE('2023/04/18', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230419', TO_DATE('2023/04/19', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230420', TO_DATE('2023/04/20', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230421', TO_DATE('2023/04/21', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230422', TO_DATE('2023/04/22', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230423', TO_DATE('2023/04/23', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230424', TO_DATE('2023/04/24', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '04', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230425', TO_DATE('2023/04/25', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230426', TO_DATE('2023/04/26', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '04', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230427', TO_DATE('2023/04/27', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '04', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230428', TO_DATE('2023/04/28', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230429', TO_DATE('2023/04/29', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230430', TO_DATE('2023/04/30', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230501', TO_DATE('2023/05/01', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230502', TO_DATE('2023/05/02', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230503', TO_DATE('2023/05/03', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230504', TO_DATE('2023/05/04', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230505', TO_DATE('2023/05/05', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230506', TO_DATE('2023/05/06', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230507', TO_DATE('2023/05/07', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230508', TO_DATE('2023/05/08', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230509', TO_DATE('2023/05/09', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230510', TO_DATE('2023/05/10', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '05', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230511', TO_DATE('2023/05/11', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '05', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230512', TO_DATE('2023/05/12', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230513', TO_DATE('2023/05/13', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230514', TO_DATE('2023/05/14', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230515', TO_DATE('2023/05/15', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '05', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230516', TO_DATE('2023/05/16', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230517', TO_DATE('2023/05/17', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230518', TO_DATE('2023/05/18', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230519', TO_DATE('2023/05/19', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230520', TO_DATE('2023/05/20', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230521', TO_DATE('2023/05/21', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230522', TO_DATE('2023/05/22', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230523', TO_DATE('2023/05/23', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230524', TO_DATE('2023/05/24', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '05', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230525', TO_DATE('2023/05/25', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '05', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230526', TO_DATE('2023/05/26', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230527', TO_DATE('2023/05/27', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230528', TO_DATE('2023/05/28', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230529', TO_DATE('2023/05/29', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '05', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230530', TO_DATE('2023/05/30', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230531', TO_DATE('2023/05/31', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230601', TO_DATE('2023/06/01', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230602', TO_DATE('2023/06/02', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230603', TO_DATE('2023/06/03', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230604', TO_DATE('2023/06/04', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230605', TO_DATE('2023/06/05', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230606', TO_DATE('2023/06/06', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230607', TO_DATE('2023/06/07', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230608', TO_DATE('2023/06/08', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230609', TO_DATE('2023/06/09', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230610', TO_DATE('2023/06/10', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230611', TO_DATE('2023/06/11', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230612', TO_DATE('2023/06/12', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '06', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230613', TO_DATE('2023/06/13', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230614', TO_DATE('2023/06/14', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '06', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230615', TO_DATE('2023/06/15', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '06', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230616', TO_DATE('2023/06/16', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230617', TO_DATE('2023/06/17', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230618', TO_DATE('2023/06/18', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230619', TO_DATE('2023/06/19', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230620', TO_DATE('2023/06/20', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230621', TO_DATE('2023/06/21', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230622', TO_DATE('2023/06/22', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230623', TO_DATE('2023/06/23', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230624', TO_DATE('2023/06/24', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230625', TO_DATE('2023/06/25', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230626', TO_DATE('2023/06/26', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '06', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230627', TO_DATE('2023/06/27', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230628', TO_DATE('2023/06/28', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '06', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230629', TO_DATE('2023/06/29', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '06', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230630', TO_DATE('2023/06/30', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230701', TO_DATE('2023/07/01', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230702', TO_DATE('2023/07/02', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230703', TO_DATE('2023/07/03', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230704', TO_DATE('2023/07/04', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230705', TO_DATE('2023/07/05', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230706', TO_DATE('2023/07/06', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230707', TO_DATE('2023/07/07', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230708', TO_DATE('2023/07/08', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230709', TO_DATE('2023/07/09', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230710', TO_DATE('2023/07/10', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '07', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230711', TO_DATE('2023/07/11', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230712', TO_DATE('2023/07/12', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '07', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230713', TO_DATE('2023/07/13', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '07', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230714', TO_DATE('2023/07/14', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230715', TO_DATE('2023/07/15', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230716', TO_DATE('2023/07/16', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230717', TO_DATE('2023/07/17', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230718', TO_DATE('2023/07/18', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230719', TO_DATE('2023/07/19', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230720', TO_DATE('2023/07/20', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230721', TO_DATE('2023/07/21', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230722', TO_DATE('2023/07/22', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230723', TO_DATE('2023/07/23', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230724', TO_DATE('2023/07/24', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '07', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230725', TO_DATE('2023/07/25', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230726', TO_DATE('2023/07/26', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '07', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230727', TO_DATE('2023/07/27', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '07', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230728', TO_DATE('2023/07/28', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230729', TO_DATE('2023/07/29', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230730', TO_DATE('2023/07/30', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230731', TO_DATE('2023/07/31', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230801', TO_DATE('2023/08/01', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230802', TO_DATE('2023/08/02', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230803', TO_DATE('2023/08/03', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230804', TO_DATE('2023/08/04', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230805', TO_DATE('2023/08/05', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230806', TO_DATE('2023/08/06', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230807', TO_DATE('2023/08/07', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230808', TO_DATE('2023/08/08', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230809', TO_DATE('2023/08/09', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '08', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230810', TO_DATE('2023/08/10', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '08', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230811', TO_DATE('2023/08/11', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230812', TO_DATE('2023/08/12', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230813', TO_DATE('2023/08/13', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230814', TO_DATE('2023/08/14', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '08', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230815', TO_DATE('2023/08/15', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230816', TO_DATE('2023/08/16', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230817', TO_DATE('2023/08/17', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230818', TO_DATE('2023/08/18', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230819', TO_DATE('2023/08/19', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230820', TO_DATE('2023/08/20', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230821', TO_DATE('2023/08/21', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230822', TO_DATE('2023/08/22', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230823', TO_DATE('2023/08/23', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '08', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230824', TO_DATE('2023/08/24', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '08', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230825', TO_DATE('2023/08/25', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230826', TO_DATE('2023/08/26', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230827', TO_DATE('2023/08/27', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230828', TO_DATE('2023/08/28', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '08', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230829', TO_DATE('2023/08/29', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230830', TO_DATE('2023/08/30', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230831', TO_DATE('2023/08/31', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230901', TO_DATE('2023/09/01', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230902', TO_DATE('2023/09/02', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230903', TO_DATE('2023/09/03', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230904', TO_DATE('2023/09/04', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230905', TO_DATE('2023/09/05', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230906', TO_DATE('2023/09/06', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230907', TO_DATE('2023/09/07', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230908', TO_DATE('2023/09/08', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230909', TO_DATE('2023/09/09', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '09', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230910', TO_DATE('2023/09/10', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '09', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230911', TO_DATE('2023/09/11', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '09', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230912', TO_DATE('2023/09/12', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230913', TO_DATE('2023/09/13', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '09', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230914', TO_DATE('2023/09/14', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '09', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230915', TO_DATE('2023/09/15', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '09', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230916', TO_DATE('2023/09/16', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '09', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230917', TO_DATE('2023/09/17', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230918', TO_DATE('2023/09/18', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230919', TO_DATE('2023/09/19', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230920', TO_DATE('2023/09/20', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230921', TO_DATE('2023/09/21', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '09', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230922', TO_DATE('2023/09/22', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '09', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230923', TO_DATE('2023/09/23', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '09', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230924', TO_DATE('2023/09/24', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '09', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230925', TO_DATE('2023/09/25', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '09', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230926', TO_DATE('2023/09/26', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '09', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20230927', TO_DATE('2023/09/27', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '09', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230928', TO_DATE('2023/09/28', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '09', '28', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230929', TO_DATE('2023/09/29', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '09', '29', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20230930', TO_DATE('2023/09/30', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '09', '30', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231001', TO_DATE('2023/10/01', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231002', TO_DATE('2023/10/02', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '10', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231003', TO_DATE('2023/10/03', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231004', TO_DATE('2023/10/04', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231005', TO_DATE('2023/10/05', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231006', TO_DATE('2023/10/06', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231007', TO_DATE('2023/10/07', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231008', TO_DATE('2023/10/08', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20231009', TO_DATE('2023/10/09', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '10', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231010', TO_DATE('2023/10/10', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231011', TO_DATE('2023/10/11', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '10', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231012', TO_DATE('2023/10/12', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '10', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231013', TO_DATE('2023/10/13', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231014', TO_DATE('2023/10/14', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231015', TO_DATE('2023/10/15', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231016', TO_DATE('2023/10/16', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231017', TO_DATE('2023/10/17', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231018', TO_DATE('2023/10/18', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231019', TO_DATE('2023/10/19', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231020', TO_DATE('2023/10/20', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231021', TO_DATE('2023/10/21', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231022', TO_DATE('2023/10/22', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20231023', TO_DATE('2023/10/23', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '10', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231024', TO_DATE('2023/10/24', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231025', TO_DATE('2023/10/25', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '10', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231026', TO_DATE('2023/10/26', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '10', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231027', TO_DATE('2023/10/27', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231028', TO_DATE('2023/10/28', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231029', TO_DATE('2023/10/29', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231030', TO_DATE('2023/10/30', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231031', TO_DATE('2023/10/31', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231101', TO_DATE('2023/11/01', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231102', TO_DATE('2023/11/02', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231103', TO_DATE('2023/11/03', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231104', TO_DATE('2023/11/04', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231105', TO_DATE('2023/11/05', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231106', TO_DATE('2023/11/06', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231107', TO_DATE('2023/11/07', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231108', TO_DATE('2023/11/08', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231109', TO_DATE('2023/11/09', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '11', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231110', TO_DATE('2023/11/10', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231111', TO_DATE('2023/11/11', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231112', TO_DATE('2023/11/12', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20231113', TO_DATE('2023/11/13', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '11', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231114', TO_DATE('2023/11/14', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231115', TO_DATE('2023/11/15', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '11', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231116', TO_DATE('2023/11/16', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231117', TO_DATE('2023/11/17', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231118', TO_DATE('2023/11/18', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231119', TO_DATE('2023/11/19', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231120', TO_DATE('2023/11/20', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231121', TO_DATE('2023/11/21', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231122', TO_DATE('2023/11/22', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231123', TO_DATE('2023/11/23', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '11', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231124', TO_DATE('2023/11/24', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231125', TO_DATE('2023/11/25', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231126', TO_DATE('2023/11/26', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20231127', TO_DATE('2023/11/27', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '11', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231128', TO_DATE('2023/11/28', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231129', TO_DATE('2023/11/29', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '11', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231130', TO_DATE('2023/11/30', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231201', TO_DATE('2023/12/01', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231202', TO_DATE('2023/12/02', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231203', TO_DATE('2023/12/03', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231204', TO_DATE('2023/12/04', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231205', TO_DATE('2023/12/05', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231206', TO_DATE('2023/12/06', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231207', TO_DATE('2023/12/07', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231208', TO_DATE('2023/12/08', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231209', TO_DATE('2023/12/09', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231210', TO_DATE('2023/12/10', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20231211', TO_DATE('2023/12/11', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '12', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231212', TO_DATE('2023/12/12', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231213', TO_DATE('2023/12/13', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '12', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231214', TO_DATE('2023/12/14', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '12', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231215', TO_DATE('2023/12/15', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231216', TO_DATE('2023/12/16', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231217', TO_DATE('2023/12/17', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231218', TO_DATE('2023/12/18', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231219', TO_DATE('2023/12/19', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231220', TO_DATE('2023/12/20', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231221', TO_DATE('2023/12/21', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231222', TO_DATE('2023/12/22', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231223', TO_DATE('2023/12/23', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231224', TO_DATE('2023/12/24', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20231225', TO_DATE('2023/12/25', 'YYYY/MM/DD'), 2, 'MON', '2023', 
+    '12', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231226', TO_DATE('2023/12/26', 'YYYY/MM/DD'), 3, 'TUE', '2023', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231227', TO_DATE('2023/12/27', 'YYYY/MM/DD'), 4, 'WED', '2023', 
+    '12', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231228', TO_DATE('2023/12/28', 'YYYY/MM/DD'), 5, 'THU', '2023', 
+    '12', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231229', TO_DATE('2023/12/29', 'YYYY/MM/DD'), 6, 'FRI', '2023', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231230', TO_DATE('2023/12/30', 'YYYY/MM/DD'), 7, 'SAT', '2023', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20231231', TO_DATE('2023/12/31', 'YYYY/MM/DD'), 1, 'SUN', '2023', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240101', TO_DATE('2024/01/01', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240102', TO_DATE('2024/01/02', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240103', TO_DATE('2024/01/03', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240104', TO_DATE('2024/01/04', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240105', TO_DATE('2024/01/05', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240106', TO_DATE('2024/01/06', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240107', TO_DATE('2024/01/07', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240108', TO_DATE('2024/01/08', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240109', TO_DATE('2024/01/09', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240110', TO_DATE('2024/01/10', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '01', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240111', TO_DATE('2024/01/11', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '01', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240112', TO_DATE('2024/01/12', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240113', TO_DATE('2024/01/13', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '01', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240114', TO_DATE('2024/01/14', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240115', TO_DATE('2024/01/15', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '01', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240116', TO_DATE('2024/01/16', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240117', TO_DATE('2024/01/17', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240118', TO_DATE('2024/01/18', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240119', TO_DATE('2024/01/19', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240120', TO_DATE('2024/01/20', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240121', TO_DATE('2024/01/21', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240122', TO_DATE('2024/01/22', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240123', TO_DATE('2024/01/23', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240124', TO_DATE('2024/01/24', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '01', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240125', TO_DATE('2024/01/25', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '01', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240126', TO_DATE('2024/01/26', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '01', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240127', TO_DATE('2024/01/27', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '01', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240128', TO_DATE('2024/01/28', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '01', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240129', TO_DATE('2024/01/29', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '01', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240130', TO_DATE('2024/01/30', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240131', TO_DATE('2024/01/31', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240201', TO_DATE('2024/02/01', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240202', TO_DATE('2024/02/02', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240203', TO_DATE('2024/02/03', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240204', TO_DATE('2024/02/04', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240205', TO_DATE('2024/02/05', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240206', TO_DATE('2024/02/06', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240207', TO_DATE('2024/02/07', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240208', TO_DATE('2024/02/08', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240209', TO_DATE('2024/02/09', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '02', '09', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240210', TO_DATE('2024/02/10', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '02', '10', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240211', TO_DATE('2024/02/11', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '02', '11', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240212', TO_DATE('2024/02/12', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '02', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240213', TO_DATE('2024/02/13', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '02', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240214', TO_DATE('2024/02/14', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '02', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240215', TO_DATE('2024/02/15', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '02', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240216', TO_DATE('2024/02/16', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240217', TO_DATE('2024/02/17', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240218', TO_DATE('2024/02/18', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240219', TO_DATE('2024/02/19', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240220', TO_DATE('2024/02/20', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240221', TO_DATE('2024/02/21', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240222', TO_DATE('2024/02/22', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240223', TO_DATE('2024/02/23', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240224', TO_DATE('2024/02/24', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '02', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240225', TO_DATE('2024/02/25', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240226', TO_DATE('2024/02/26', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '02', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240227', TO_DATE('2024/02/27', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240228', TO_DATE('2024/02/28', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '02', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240229', TO_DATE('2024/02/29', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '02', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240301', TO_DATE('2024/03/01', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240302', TO_DATE('2024/03/02', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240303', TO_DATE('2024/03/03', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240304', TO_DATE('2024/03/04', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240305', TO_DATE('2024/03/05', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240306', TO_DATE('2024/03/06', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240307', TO_DATE('2024/03/07', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240308', TO_DATE('2024/03/08', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240309', TO_DATE('2024/03/09', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '03', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240310', TO_DATE('2024/03/10', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240311', TO_DATE('2024/03/11', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '03', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240312', TO_DATE('2024/03/12', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240313', TO_DATE('2024/03/13', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '03', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240314', TO_DATE('2024/03/14', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240315', TO_DATE('2024/03/15', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '03', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240316', TO_DATE('2024/03/16', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240317', TO_DATE('2024/03/17', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240318', TO_DATE('2024/03/18', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240319', TO_DATE('2024/03/19', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240320', TO_DATE('2024/03/20', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240321', TO_DATE('2024/03/21', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240322', TO_DATE('2024/03/22', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240323', TO_DATE('2024/03/23', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '03', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240324', TO_DATE('2024/03/24', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240325', TO_DATE('2024/03/25', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '03', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240326', TO_DATE('2024/03/26', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240327', TO_DATE('2024/03/27', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '03', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240328', TO_DATE('2024/03/28', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240329', TO_DATE('2024/03/29', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '03', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240330', TO_DATE('2024/03/30', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240331', TO_DATE('2024/03/31', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240401', TO_DATE('2024/04/01', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240402', TO_DATE('2024/04/02', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240403', TO_DATE('2024/04/03', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240404', TO_DATE('2024/04/04', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240405', TO_DATE('2024/04/05', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240406', TO_DATE('2024/04/06', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240407', TO_DATE('2024/04/07', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240408', TO_DATE('2024/04/08', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240409', TO_DATE('2024/04/09', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240410', TO_DATE('2024/04/10', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '04', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240411', TO_DATE('2024/04/11', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240412', TO_DATE('2024/04/12', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '04', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240413', TO_DATE('2024/04/13', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '04', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240414', TO_DATE('2024/04/14', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240415', TO_DATE('2024/04/15', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '04', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240416', TO_DATE('2024/04/16', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240417', TO_DATE('2024/04/17', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240418', TO_DATE('2024/04/18', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240419', TO_DATE('2024/04/19', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240420', TO_DATE('2024/04/20', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240421', TO_DATE('2024/04/21', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240422', TO_DATE('2024/04/22', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240423', TO_DATE('2024/04/23', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240424', TO_DATE('2024/04/24', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '04', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240425', TO_DATE('2024/04/25', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240426', TO_DATE('2024/04/26', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '04', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240427', TO_DATE('2024/04/27', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '04', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240428', TO_DATE('2024/04/28', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240429', TO_DATE('2024/04/29', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '04', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240430', TO_DATE('2024/04/30', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240501', TO_DATE('2024/05/01', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240502', TO_DATE('2024/05/02', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240503', TO_DATE('2024/05/03', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240504', TO_DATE('2024/05/04', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240505', TO_DATE('2024/05/05', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240506', TO_DATE('2024/05/06', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240507', TO_DATE('2024/05/07', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240508', TO_DATE('2024/05/08', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240509', TO_DATE('2024/05/09', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240510', TO_DATE('2024/05/10', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '05', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240511', TO_DATE('2024/05/11', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '05', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240512', TO_DATE('2024/05/12', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240513', TO_DATE('2024/05/13', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '05', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240514', TO_DATE('2024/05/14', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240515', TO_DATE('2024/05/15', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '05', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240516', TO_DATE('2024/05/16', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240517', TO_DATE('2024/05/17', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240518', TO_DATE('2024/05/18', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240519', TO_DATE('2024/05/19', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240520', TO_DATE('2024/05/20', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240521', TO_DATE('2024/05/21', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240522', TO_DATE('2024/05/22', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240523', TO_DATE('2024/05/23', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240524', TO_DATE('2024/05/24', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '05', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240525', TO_DATE('2024/05/25', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '05', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240526', TO_DATE('2024/05/26', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240527', TO_DATE('2024/05/27', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '05', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240528', TO_DATE('2024/05/28', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240529', TO_DATE('2024/05/29', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '05', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240530', TO_DATE('2024/05/30', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240531', TO_DATE('2024/05/31', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240601', TO_DATE('2024/06/01', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240602', TO_DATE('2024/06/02', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240603', TO_DATE('2024/06/03', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240604', TO_DATE('2024/06/04', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240605', TO_DATE('2024/06/05', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240606', TO_DATE('2024/06/06', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240607', TO_DATE('2024/06/07', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240608', TO_DATE('2024/06/08', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240609', TO_DATE('2024/06/09', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240610', TO_DATE('2024/06/10', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '06', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240611', TO_DATE('2024/06/11', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240612', TO_DATE('2024/06/12', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '06', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240613', TO_DATE('2024/06/13', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240614', TO_DATE('2024/06/14', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '06', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240615', TO_DATE('2024/06/15', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '06', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240616', TO_DATE('2024/06/16', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240617', TO_DATE('2024/06/17', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240618', TO_DATE('2024/06/18', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240619', TO_DATE('2024/06/19', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240620', TO_DATE('2024/06/20', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240621', TO_DATE('2024/06/21', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240622', TO_DATE('2024/06/22', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240623', TO_DATE('2024/06/23', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240624', TO_DATE('2024/06/24', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '06', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240625', TO_DATE('2024/06/25', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240626', TO_DATE('2024/06/26', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '06', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240627', TO_DATE('2024/06/27', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240628', TO_DATE('2024/06/28', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '06', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240629', TO_DATE('2024/06/29', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '06', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240630', TO_DATE('2024/06/30', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240701', TO_DATE('2024/07/01', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240702', TO_DATE('2024/07/02', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240703', TO_DATE('2024/07/03', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240704', TO_DATE('2024/07/04', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240705', TO_DATE('2024/07/05', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240706', TO_DATE('2024/07/06', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240707', TO_DATE('2024/07/07', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240708', TO_DATE('2024/07/08', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240709', TO_DATE('2024/07/09', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240710', TO_DATE('2024/07/10', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '07', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240711', TO_DATE('2024/07/11', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240712', TO_DATE('2024/07/12', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '07', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240713', TO_DATE('2024/07/13', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '07', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240714', TO_DATE('2024/07/14', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240715', TO_DATE('2024/07/15', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '07', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240716', TO_DATE('2024/07/16', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240717', TO_DATE('2024/07/17', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240718', TO_DATE('2024/07/18', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240719', TO_DATE('2024/07/19', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240720', TO_DATE('2024/07/20', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240721', TO_DATE('2024/07/21', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240722', TO_DATE('2024/07/22', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240723', TO_DATE('2024/07/23', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240724', TO_DATE('2024/07/24', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '07', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240725', TO_DATE('2024/07/25', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240726', TO_DATE('2024/07/26', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '07', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240727', TO_DATE('2024/07/27', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '07', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240728', TO_DATE('2024/07/28', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240729', TO_DATE('2024/07/29', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '07', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240730', TO_DATE('2024/07/30', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240731', TO_DATE('2024/07/31', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240801', TO_DATE('2024/08/01', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240802', TO_DATE('2024/08/02', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240803', TO_DATE('2024/08/03', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240804', TO_DATE('2024/08/04', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240805', TO_DATE('2024/08/05', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240806', TO_DATE('2024/08/06', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240807', TO_DATE('2024/08/07', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240808', TO_DATE('2024/08/08', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240809', TO_DATE('2024/08/09', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '08', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240810', TO_DATE('2024/08/10', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '08', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240811', TO_DATE('2024/08/11', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240812', TO_DATE('2024/08/12', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '08', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240813', TO_DATE('2024/08/13', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240814', TO_DATE('2024/08/14', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '08', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240815', TO_DATE('2024/08/15', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240816', TO_DATE('2024/08/16', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240817', TO_DATE('2024/08/17', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240818', TO_DATE('2024/08/18', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240819', TO_DATE('2024/08/19', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240820', TO_DATE('2024/08/20', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240821', TO_DATE('2024/08/21', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240822', TO_DATE('2024/08/22', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240823', TO_DATE('2024/08/23', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '08', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240824', TO_DATE('2024/08/24', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '08', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240825', TO_DATE('2024/08/25', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240826', TO_DATE('2024/08/26', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '08', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240827', TO_DATE('2024/08/27', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240828', TO_DATE('2024/08/28', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '08', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240829', TO_DATE('2024/08/29', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240830', TO_DATE('2024/08/30', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240831', TO_DATE('2024/08/31', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240901', TO_DATE('2024/09/01', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240902', TO_DATE('2024/09/02', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240903', TO_DATE('2024/09/03', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240904', TO_DATE('2024/09/04', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240905', TO_DATE('2024/09/05', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240906', TO_DATE('2024/09/06', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240907', TO_DATE('2024/09/07', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240908', TO_DATE('2024/09/08', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240909', TO_DATE('2024/09/09', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '09', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240910', TO_DATE('2024/09/10', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '09', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240911', TO_DATE('2024/09/11', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '09', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240912', TO_DATE('2024/09/12', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240913', TO_DATE('2024/09/13', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '09', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240914', TO_DATE('2024/09/14', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '09', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240915', TO_DATE('2024/09/15', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '09', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240916', TO_DATE('2024/09/16', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '09', '16', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240917', TO_DATE('2024/09/17', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '09', '17', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240918', TO_DATE('2024/09/18', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '09', '18', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240919', TO_DATE('2024/09/19', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240920', TO_DATE('2024/09/20', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240921', TO_DATE('2024/09/21', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '09', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240922', TO_DATE('2024/09/22', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '09', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20240923', TO_DATE('2024/09/23', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '09', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240924', TO_DATE('2024/09/24', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '09', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240925', TO_DATE('2024/09/25', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '09', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240926', TO_DATE('2024/09/26', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '09', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240927', TO_DATE('2024/09/27', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '09', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240928', TO_DATE('2024/09/28', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '09', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240929', TO_DATE('2024/09/29', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '09', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20240930', TO_DATE('2024/09/30', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '09', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241001', TO_DATE('2024/10/01', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241002', TO_DATE('2024/10/02', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '10', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241003', TO_DATE('2024/10/03', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241004', TO_DATE('2024/10/04', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241005', TO_DATE('2024/10/05', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241006', TO_DATE('2024/10/06', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241007', TO_DATE('2024/10/07', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241008', TO_DATE('2024/10/08', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241009', TO_DATE('2024/10/09', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '10', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241010', TO_DATE('2024/10/10', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241011', TO_DATE('2024/10/11', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '10', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241012', TO_DATE('2024/10/12', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '10', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241013', TO_DATE('2024/10/13', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20241014', TO_DATE('2024/10/14', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '10', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241015', TO_DATE('2024/10/15', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241016', TO_DATE('2024/10/16', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241017', TO_DATE('2024/10/17', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241018', TO_DATE('2024/10/18', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241019', TO_DATE('2024/10/19', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241020', TO_DATE('2024/10/20', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241021', TO_DATE('2024/10/21', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241022', TO_DATE('2024/10/22', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241023', TO_DATE('2024/10/23', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '10', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241024', TO_DATE('2024/10/24', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241025', TO_DATE('2024/10/25', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '10', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241026', TO_DATE('2024/10/26', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '10', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241027', TO_DATE('2024/10/27', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20241028', TO_DATE('2024/10/28', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '10', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241029', TO_DATE('2024/10/29', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241030', TO_DATE('2024/10/30', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241031', TO_DATE('2024/10/31', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241101', TO_DATE('2024/11/01', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241102', TO_DATE('2024/11/02', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241103', TO_DATE('2024/11/03', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241104', TO_DATE('2024/11/04', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241105', TO_DATE('2024/11/05', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241106', TO_DATE('2024/11/06', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241107', TO_DATE('2024/11/07', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241108', TO_DATE('2024/11/08', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241109', TO_DATE('2024/11/09', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '11', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241110', TO_DATE('2024/11/10', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20241111', TO_DATE('2024/11/11', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '11', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241112', TO_DATE('2024/11/12', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241113', TO_DATE('2024/11/13', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '11', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241114', TO_DATE('2024/11/14', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241115', TO_DATE('2024/11/15', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '11', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241116', TO_DATE('2024/11/16', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241117', TO_DATE('2024/11/17', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241118', TO_DATE('2024/11/18', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241119', TO_DATE('2024/11/19', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241120', TO_DATE('2024/11/20', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241121', TO_DATE('2024/11/21', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241122', TO_DATE('2024/11/22', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241123', TO_DATE('2024/11/23', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '11', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241124', TO_DATE('2024/11/24', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20241125', TO_DATE('2024/11/25', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '11', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241126', TO_DATE('2024/11/26', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241127', TO_DATE('2024/11/27', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '11', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241128', TO_DATE('2024/11/28', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241129', TO_DATE('2024/11/29', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '11', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241130', TO_DATE('2024/11/30', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241201', TO_DATE('2024/12/01', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241202', TO_DATE('2024/12/02', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241203', TO_DATE('2024/12/03', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241204', TO_DATE('2024/12/04', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241205', TO_DATE('2024/12/05', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241206', TO_DATE('2024/12/06', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241207', TO_DATE('2024/12/07', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241208', TO_DATE('2024/12/08', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20241209', TO_DATE('2024/12/09', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '12', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241210', TO_DATE('2024/12/10', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241211', TO_DATE('2024/12/11', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '12', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241212', TO_DATE('2024/12/12', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241213', TO_DATE('2024/12/13', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '12', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241214', TO_DATE('2024/12/14', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '12', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241215', TO_DATE('2024/12/15', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241216', TO_DATE('2024/12/16', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241217', TO_DATE('2024/12/17', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241218', TO_DATE('2024/12/18', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241219', TO_DATE('2024/12/19', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241220', TO_DATE('2024/12/20', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241221', TO_DATE('2024/12/21', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241222', TO_DATE('2024/12/22', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20241223', TO_DATE('2024/12/23', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '12', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241224', TO_DATE('2024/12/24', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241225', TO_DATE('2024/12/25', 'YYYY/MM/DD'), 4, 'WED', '2024', 
+    '12', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241226', TO_DATE('2024/12/26', 'YYYY/MM/DD'), 5, 'THU', '2024', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241227', TO_DATE('2024/12/27', 'YYYY/MM/DD'), 6, 'FRI', '2024', 
+    '12', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241228', TO_DATE('2024/12/28', 'YYYY/MM/DD'), 7, 'SAT', '2024', 
+    '12', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241229', TO_DATE('2024/12/29', 'YYYY/MM/DD'), 1, 'SUN', '2024', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241230', TO_DATE('2024/12/30', 'YYYY/MM/DD'), 2, 'MON', '2024', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20241231', TO_DATE('2024/12/31', 'YYYY/MM/DD'), 3, 'TUE', '2024', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250101', TO_DATE('2025/01/01', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250102', TO_DATE('2025/01/02', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250103', TO_DATE('2025/01/03', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250104', TO_DATE('2025/01/04', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250105', TO_DATE('2025/01/05', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250106', TO_DATE('2025/01/06', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250107', TO_DATE('2025/01/07', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250108', TO_DATE('2025/01/08', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250109', TO_DATE('2025/01/09', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250110', TO_DATE('2025/01/10', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '01', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250111', TO_DATE('2025/01/11', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '01', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250112', TO_DATE('2025/01/12', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250113', TO_DATE('2025/01/13', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '01', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250114', TO_DATE('2025/01/14', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250115', TO_DATE('2025/01/15', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '01', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250116', TO_DATE('2025/01/16', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250117', TO_DATE('2025/01/17', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250118', TO_DATE('2025/01/18', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250119', TO_DATE('2025/01/19', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250120', TO_DATE('2025/01/20', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250121', TO_DATE('2025/01/21', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250122', TO_DATE('2025/01/22', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250123', TO_DATE('2025/01/23', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250124', TO_DATE('2025/01/24', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '01', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250125', TO_DATE('2025/01/25', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '01', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250126', TO_DATE('2025/01/26', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '01', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250127', TO_DATE('2025/01/27', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '01', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250128', TO_DATE('2025/01/28', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '01', '28', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250129', TO_DATE('2025/01/29', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '01', '29', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250130', TO_DATE('2025/01/30', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '01', '30', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250131', TO_DATE('2025/01/31', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250201', TO_DATE('2025/02/01', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250202', TO_DATE('2025/02/02', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250203', TO_DATE('2025/02/03', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250204', TO_DATE('2025/02/04', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250205', TO_DATE('2025/02/05', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250206', TO_DATE('2025/02/06', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250207', TO_DATE('2025/02/07', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250208', TO_DATE('2025/02/08', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250209', TO_DATE('2025/02/09', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '02', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250210', TO_DATE('2025/02/10', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '02', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250211', TO_DATE('2025/02/11', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '02', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250212', TO_DATE('2025/02/12', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '02', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250213', TO_DATE('2025/02/13', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '02', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250214', TO_DATE('2025/02/14', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '02', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250215', TO_DATE('2025/02/15', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '02', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250216', TO_DATE('2025/02/16', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250217', TO_DATE('2025/02/17', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250218', TO_DATE('2025/02/18', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250219', TO_DATE('2025/02/19', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250220', TO_DATE('2025/02/20', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250221', TO_DATE('2025/02/21', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250222', TO_DATE('2025/02/22', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250223', TO_DATE('2025/02/23', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250224', TO_DATE('2025/02/24', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '02', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250225', TO_DATE('2025/02/25', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250226', TO_DATE('2025/02/26', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '02', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250227', TO_DATE('2025/02/27', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250228', TO_DATE('2025/02/28', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '02', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250301', TO_DATE('2025/03/01', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250302', TO_DATE('2025/03/02', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250303', TO_DATE('2025/03/03', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250304', TO_DATE('2025/03/04', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250305', TO_DATE('2025/03/05', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250306', TO_DATE('2025/03/06', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250307', TO_DATE('2025/03/07', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250308', TO_DATE('2025/03/08', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250309', TO_DATE('2025/03/09', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '03', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250310', TO_DATE('2025/03/10', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '03', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250311', TO_DATE('2025/03/11', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250312', TO_DATE('2025/03/12', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250313', TO_DATE('2025/03/13', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '03', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250314', TO_DATE('2025/03/14', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250315', TO_DATE('2025/03/15', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '03', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250316', TO_DATE('2025/03/16', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250317', TO_DATE('2025/03/17', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250318', TO_DATE('2025/03/18', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250319', TO_DATE('2025/03/19', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250320', TO_DATE('2025/03/20', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250321', TO_DATE('2025/03/21', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250322', TO_DATE('2025/03/22', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250323', TO_DATE('2025/03/23', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '03', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250324', TO_DATE('2025/03/24', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '03', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250325', TO_DATE('2025/03/25', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250326', TO_DATE('2025/03/26', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250327', TO_DATE('2025/03/27', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '03', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250328', TO_DATE('2025/03/28', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250329', TO_DATE('2025/03/29', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '03', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250330', TO_DATE('2025/03/30', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250331', TO_DATE('2025/03/31', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250401', TO_DATE('2025/04/01', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250402', TO_DATE('2025/04/02', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250403', TO_DATE('2025/04/03', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250404', TO_DATE('2025/04/04', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250405', TO_DATE('2025/04/05', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250406', TO_DATE('2025/04/06', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250407', TO_DATE('2025/04/07', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250408', TO_DATE('2025/04/08', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250409', TO_DATE('2025/04/09', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250410', TO_DATE('2025/04/10', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '04', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250411', TO_DATE('2025/04/11', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250412', TO_DATE('2025/04/12', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '04', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250413', TO_DATE('2025/04/13', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '04', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250414', TO_DATE('2025/04/14', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '04', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250415', TO_DATE('2025/04/15', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250416', TO_DATE('2025/04/16', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250417', TO_DATE('2025/04/17', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250418', TO_DATE('2025/04/18', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250419', TO_DATE('2025/04/19', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250420', TO_DATE('2025/04/20', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250421', TO_DATE('2025/04/21', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250422', TO_DATE('2025/04/22', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250423', TO_DATE('2025/04/23', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250424', TO_DATE('2025/04/24', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '04', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250425', TO_DATE('2025/04/25', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250426', TO_DATE('2025/04/26', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '04', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250427', TO_DATE('2025/04/27', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '04', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250428', TO_DATE('2025/04/28', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '04', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250429', TO_DATE('2025/04/29', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250430', TO_DATE('2025/04/30', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250501', TO_DATE('2025/05/01', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250502', TO_DATE('2025/05/02', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250503', TO_DATE('2025/05/03', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250504', TO_DATE('2025/05/04', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250505', TO_DATE('2025/05/05', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250506', TO_DATE('2025/05/06', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250507', TO_DATE('2025/05/07', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250508', TO_DATE('2025/05/08', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250509', TO_DATE('2025/05/09', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250510', TO_DATE('2025/05/10', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '05', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250511', TO_DATE('2025/05/11', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '05', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250512', TO_DATE('2025/05/12', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '05', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250513', TO_DATE('2025/05/13', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250514', TO_DATE('2025/05/14', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250515', TO_DATE('2025/05/15', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '05', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250516', TO_DATE('2025/05/16', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250517', TO_DATE('2025/05/17', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250518', TO_DATE('2025/05/18', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250519', TO_DATE('2025/05/19', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250520', TO_DATE('2025/05/20', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250521', TO_DATE('2025/05/21', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250522', TO_DATE('2025/05/22', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250523', TO_DATE('2025/05/23', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250524', TO_DATE('2025/05/24', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '05', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250525', TO_DATE('2025/05/25', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '05', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250526', TO_DATE('2025/05/26', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '05', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250527', TO_DATE('2025/05/27', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250528', TO_DATE('2025/05/28', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250529', TO_DATE('2025/05/29', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '05', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250530', TO_DATE('2025/05/30', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250531', TO_DATE('2025/05/31', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250601', TO_DATE('2025/06/01', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250602', TO_DATE('2025/06/02', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250603', TO_DATE('2025/06/03', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250604', TO_DATE('2025/06/04', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250605', TO_DATE('2025/06/05', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250606', TO_DATE('2025/06/06', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250607', TO_DATE('2025/06/07', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250608', TO_DATE('2025/06/08', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250609', TO_DATE('2025/06/09', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '06', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250610', TO_DATE('2025/06/10', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250611', TO_DATE('2025/06/11', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250612', TO_DATE('2025/06/12', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '06', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250613', TO_DATE('2025/06/13', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250614', TO_DATE('2025/06/14', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '06', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250615', TO_DATE('2025/06/15', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '06', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250616', TO_DATE('2025/06/16', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250617', TO_DATE('2025/06/17', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250618', TO_DATE('2025/06/18', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250619', TO_DATE('2025/06/19', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250620', TO_DATE('2025/06/20', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250621', TO_DATE('2025/06/21', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250622', TO_DATE('2025/06/22', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250623', TO_DATE('2025/06/23', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '06', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250624', TO_DATE('2025/06/24', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250625', TO_DATE('2025/06/25', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250626', TO_DATE('2025/06/26', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '06', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250627', TO_DATE('2025/06/27', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250628', TO_DATE('2025/06/28', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '06', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250629', TO_DATE('2025/06/29', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '06', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250630', TO_DATE('2025/06/30', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250701', TO_DATE('2025/07/01', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250702', TO_DATE('2025/07/02', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250703', TO_DATE('2025/07/03', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250704', TO_DATE('2025/07/04', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250705', TO_DATE('2025/07/05', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250706', TO_DATE('2025/07/06', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250707', TO_DATE('2025/07/07', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250708', TO_DATE('2025/07/08', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250709', TO_DATE('2025/07/09', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250710', TO_DATE('2025/07/10', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '07', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250711', TO_DATE('2025/07/11', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250712', TO_DATE('2025/07/12', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '07', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250713', TO_DATE('2025/07/13', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '07', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250714', TO_DATE('2025/07/14', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '07', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250715', TO_DATE('2025/07/15', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250716', TO_DATE('2025/07/16', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250717', TO_DATE('2025/07/17', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250718', TO_DATE('2025/07/18', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250719', TO_DATE('2025/07/19', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250720', TO_DATE('2025/07/20', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250721', TO_DATE('2025/07/21', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250722', TO_DATE('2025/07/22', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250723', TO_DATE('2025/07/23', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250724', TO_DATE('2025/07/24', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '07', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250725', TO_DATE('2025/07/25', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250726', TO_DATE('2025/07/26', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '07', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250727', TO_DATE('2025/07/27', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '07', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250728', TO_DATE('2025/07/28', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '07', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250729', TO_DATE('2025/07/29', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250730', TO_DATE('2025/07/30', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250731', TO_DATE('2025/07/31', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250801', TO_DATE('2025/08/01', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250802', TO_DATE('2025/08/02', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250803', TO_DATE('2025/08/03', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250804', TO_DATE('2025/08/04', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250805', TO_DATE('2025/08/05', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250806', TO_DATE('2025/08/06', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250807', TO_DATE('2025/08/07', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250808', TO_DATE('2025/08/08', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250809', TO_DATE('2025/08/09', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '08', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250810', TO_DATE('2025/08/10', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '08', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250811', TO_DATE('2025/08/11', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '08', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250812', TO_DATE('2025/08/12', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250813', TO_DATE('2025/08/13', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250814', TO_DATE('2025/08/14', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '08', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250815', TO_DATE('2025/08/15', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250816', TO_DATE('2025/08/16', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250817', TO_DATE('2025/08/17', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250818', TO_DATE('2025/08/18', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250819', TO_DATE('2025/08/19', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250820', TO_DATE('2025/08/20', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250821', TO_DATE('2025/08/21', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250822', TO_DATE('2025/08/22', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250823', TO_DATE('2025/08/23', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '08', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250824', TO_DATE('2025/08/24', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '08', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250825', TO_DATE('2025/08/25', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '08', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250826', TO_DATE('2025/08/26', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250827', TO_DATE('2025/08/27', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250828', TO_DATE('2025/08/28', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '08', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250829', TO_DATE('2025/08/29', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250830', TO_DATE('2025/08/30', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250831', TO_DATE('2025/08/31', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250901', TO_DATE('2025/09/01', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250902', TO_DATE('2025/09/02', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250903', TO_DATE('2025/09/03', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250904', TO_DATE('2025/09/04', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250905', TO_DATE('2025/09/05', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250906', TO_DATE('2025/09/06', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250907', TO_DATE('2025/09/07', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250908', TO_DATE('2025/09/08', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250909', TO_DATE('2025/09/09', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '09', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250910', TO_DATE('2025/09/10', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '09', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250911', TO_DATE('2025/09/11', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '09', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250912', TO_DATE('2025/09/12', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250913', TO_DATE('2025/09/13', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '09', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250914', TO_DATE('2025/09/14', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '09', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250915', TO_DATE('2025/09/15', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '09', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250916', TO_DATE('2025/09/16', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '09', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250917', TO_DATE('2025/09/17', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250918', TO_DATE('2025/09/18', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250919', TO_DATE('2025/09/19', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250920', TO_DATE('2025/09/20', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250921', TO_DATE('2025/09/21', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '09', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250922', TO_DATE('2025/09/22', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '09', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250923', TO_DATE('2025/09/23', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '09', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250924', TO_DATE('2025/09/24', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '09', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250925', TO_DATE('2025/09/25', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '09', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250926', TO_DATE('2025/09/26', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '09', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250927', TO_DATE('2025/09/27', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '09', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250928', TO_DATE('2025/09/28', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '09', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20250929', TO_DATE('2025/09/29', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '09', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20250930', TO_DATE('2025/09/30', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '09', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251001', TO_DATE('2025/10/01', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251002', TO_DATE('2025/10/02', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '10', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251003', TO_DATE('2025/10/03', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251004', TO_DATE('2025/10/04', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251005', TO_DATE('2025/10/05', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '10', '05', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251006', TO_DATE('2025/10/06', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '10', '06', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251007', TO_DATE('2025/10/07', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '10', '07', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251008', TO_DATE('2025/10/08', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251009', TO_DATE('2025/10/09', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '10', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251010', TO_DATE('2025/10/10', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251011', TO_DATE('2025/10/11', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '10', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251012', TO_DATE('2025/10/12', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '10', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251013', TO_DATE('2025/10/13', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '10', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251014', TO_DATE('2025/10/14', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251015', TO_DATE('2025/10/15', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251016', TO_DATE('2025/10/16', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251017', TO_DATE('2025/10/17', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251018', TO_DATE('2025/10/18', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251019', TO_DATE('2025/10/19', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251020', TO_DATE('2025/10/20', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251021', TO_DATE('2025/10/21', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251022', TO_DATE('2025/10/22', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251023', TO_DATE('2025/10/23', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '10', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251024', TO_DATE('2025/10/24', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251025', TO_DATE('2025/10/25', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '10', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251026', TO_DATE('2025/10/26', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '10', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251027', TO_DATE('2025/10/27', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '10', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251028', TO_DATE('2025/10/28', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251029', TO_DATE('2025/10/29', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251030', TO_DATE('2025/10/30', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251031', TO_DATE('2025/10/31', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251101', TO_DATE('2025/11/01', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251102', TO_DATE('2025/11/02', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251103', TO_DATE('2025/11/03', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251104', TO_DATE('2025/11/04', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251105', TO_DATE('2025/11/05', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251106', TO_DATE('2025/11/06', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251107', TO_DATE('2025/11/07', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251108', TO_DATE('2025/11/08', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251109', TO_DATE('2025/11/09', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '11', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251110', TO_DATE('2025/11/10', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '11', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251111', TO_DATE('2025/11/11', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251112', TO_DATE('2025/11/12', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251113', TO_DATE('2025/11/13', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '11', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251114', TO_DATE('2025/11/14', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251115', TO_DATE('2025/11/15', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '11', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251116', TO_DATE('2025/11/16', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251117', TO_DATE('2025/11/17', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251118', TO_DATE('2025/11/18', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251119', TO_DATE('2025/11/19', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251120', TO_DATE('2025/11/20', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251121', TO_DATE('2025/11/21', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251122', TO_DATE('2025/11/22', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251123', TO_DATE('2025/11/23', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '11', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251124', TO_DATE('2025/11/24', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '11', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251125', TO_DATE('2025/11/25', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251126', TO_DATE('2025/11/26', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251127', TO_DATE('2025/11/27', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '11', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251128', TO_DATE('2025/11/28', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251129', TO_DATE('2025/11/29', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '11', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251130', TO_DATE('2025/11/30', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251201', TO_DATE('2025/12/01', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251202', TO_DATE('2025/12/02', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251203', TO_DATE('2025/12/03', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251204', TO_DATE('2025/12/04', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251205', TO_DATE('2025/12/05', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251206', TO_DATE('2025/12/06', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251207', TO_DATE('2025/12/07', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251208', TO_DATE('2025/12/08', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251209', TO_DATE('2025/12/09', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251210', TO_DATE('2025/12/10', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251211', TO_DATE('2025/12/11', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '12', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251212', TO_DATE('2025/12/12', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251213', TO_DATE('2025/12/13', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '12', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251214', TO_DATE('2025/12/14', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '12', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251215', TO_DATE('2025/12/15', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '12', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251216', TO_DATE('2025/12/16', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251217', TO_DATE('2025/12/17', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251218', TO_DATE('2025/12/18', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251219', TO_DATE('2025/12/19', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251220', TO_DATE('2025/12/20', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251221', TO_DATE('2025/12/21', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251222', TO_DATE('2025/12/22', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251223', TO_DATE('2025/12/23', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251224', TO_DATE('2025/12/24', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251225', TO_DATE('2025/12/25', 'YYYY/MM/DD'), 5, 'THU', '2025', 
+    '12', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251226', TO_DATE('2025/12/26', 'YYYY/MM/DD'), 6, 'FRI', '2025', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251227', TO_DATE('2025/12/27', 'YYYY/MM/DD'), 7, 'SAT', '2025', 
+    '12', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251228', TO_DATE('2025/12/28', 'YYYY/MM/DD'), 1, 'SUN', '2025', 
+    '12', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20251229', TO_DATE('2025/12/29', 'YYYY/MM/DD'), 2, 'MON', '2025', 
+    '12', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251230', TO_DATE('2025/12/30', 'YYYY/MM/DD'), 3, 'TUE', '2025', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20251231', TO_DATE('2025/12/31', 'YYYY/MM/DD'), 4, 'WED', '2025', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260101', TO_DATE('2026/01/01', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260102', TO_DATE('2026/01/02', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260103', TO_DATE('2026/01/03', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260104', TO_DATE('2026/01/04', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260105', TO_DATE('2026/01/05', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260106', TO_DATE('2026/01/06', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260107', TO_DATE('2026/01/07', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260108', TO_DATE('2026/01/08', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260109', TO_DATE('2026/01/09', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260110', TO_DATE('2026/01/10', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '01', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260111', TO_DATE('2026/01/11', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '01', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260112', TO_DATE('2026/01/12', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '01', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260113', TO_DATE('2026/01/13', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '01', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260114', TO_DATE('2026/01/14', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260115', TO_DATE('2026/01/15', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '01', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260116', TO_DATE('2026/01/16', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260117', TO_DATE('2026/01/17', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260118', TO_DATE('2026/01/18', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260119', TO_DATE('2026/01/19', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260120', TO_DATE('2026/01/20', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260121', TO_DATE('2026/01/21', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260122', TO_DATE('2026/01/22', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260123', TO_DATE('2026/01/23', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260124', TO_DATE('2026/01/24', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '01', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260125', TO_DATE('2026/01/25', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '01', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260126', TO_DATE('2026/01/26', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '01', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260127', TO_DATE('2026/01/27', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '01', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260128', TO_DATE('2026/01/28', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '01', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260129', TO_DATE('2026/01/29', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '01', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260130', TO_DATE('2026/01/30', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260131', TO_DATE('2026/01/31', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260201', TO_DATE('2026/02/01', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260202', TO_DATE('2026/02/02', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260203', TO_DATE('2026/02/03', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260204', TO_DATE('2026/02/04', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260205', TO_DATE('2026/02/05', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260206', TO_DATE('2026/02/06', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260207', TO_DATE('2026/02/07', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260208', TO_DATE('2026/02/08', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260209', TO_DATE('2026/02/09', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '02', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260210', TO_DATE('2026/02/10', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '02', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260211', TO_DATE('2026/02/11', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '02', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260212', TO_DATE('2026/02/12', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '02', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260213', TO_DATE('2026/02/13', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '02', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260214', TO_DATE('2026/02/14', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '02', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260215', TO_DATE('2026/02/15', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '02', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260216', TO_DATE('2026/02/16', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '02', '16', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260217', TO_DATE('2026/02/17', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '02', '17', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260218', TO_DATE('2026/02/18', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '02', '18', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260219', TO_DATE('2026/02/19', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260220', TO_DATE('2026/02/20', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260221', TO_DATE('2026/02/21', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260222', TO_DATE('2026/02/22', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260223', TO_DATE('2026/02/23', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '02', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260224', TO_DATE('2026/02/24', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '02', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260225', TO_DATE('2026/02/25', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260226', TO_DATE('2026/02/26', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '02', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260227', TO_DATE('2026/02/27', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260228', TO_DATE('2026/02/28', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '02', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260301', TO_DATE('2026/03/01', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260302', TO_DATE('2026/03/02', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260303', TO_DATE('2026/03/03', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260304', TO_DATE('2026/03/04', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260305', TO_DATE('2026/03/05', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260306', TO_DATE('2026/03/06', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260307', TO_DATE('2026/03/07', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260308', TO_DATE('2026/03/08', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260309', TO_DATE('2026/03/09', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '03', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260310', TO_DATE('2026/03/10', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260311', TO_DATE('2026/03/11', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260312', TO_DATE('2026/03/12', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260313', TO_DATE('2026/03/13', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '03', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260314', TO_DATE('2026/03/14', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260315', TO_DATE('2026/03/15', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '03', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260316', TO_DATE('2026/03/16', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260317', TO_DATE('2026/03/17', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260318', TO_DATE('2026/03/18', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260319', TO_DATE('2026/03/19', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260320', TO_DATE('2026/03/20', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260321', TO_DATE('2026/03/21', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260322', TO_DATE('2026/03/22', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260323', TO_DATE('2026/03/23', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '03', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260324', TO_DATE('2026/03/24', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260325', TO_DATE('2026/03/25', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260326', TO_DATE('2026/03/26', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260327', TO_DATE('2026/03/27', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '03', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260328', TO_DATE('2026/03/28', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260329', TO_DATE('2026/03/29', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '03', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260330', TO_DATE('2026/03/30', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260331', TO_DATE('2026/03/31', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260401', TO_DATE('2026/04/01', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260402', TO_DATE('2026/04/02', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260403', TO_DATE('2026/04/03', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260404', TO_DATE('2026/04/04', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260405', TO_DATE('2026/04/05', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260406', TO_DATE('2026/04/06', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260407', TO_DATE('2026/04/07', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260408', TO_DATE('2026/04/08', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260409', TO_DATE('2026/04/09', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260410', TO_DATE('2026/04/10', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '04', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260411', TO_DATE('2026/04/11', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260412', TO_DATE('2026/04/12', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '04', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260413', TO_DATE('2026/04/13', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '04', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260414', TO_DATE('2026/04/14', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260415', TO_DATE('2026/04/15', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260416', TO_DATE('2026/04/16', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260417', TO_DATE('2026/04/17', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260418', TO_DATE('2026/04/18', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260419', TO_DATE('2026/04/19', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260420', TO_DATE('2026/04/20', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260421', TO_DATE('2026/04/21', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260422', TO_DATE('2026/04/22', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260423', TO_DATE('2026/04/23', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260424', TO_DATE('2026/04/24', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '04', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260425', TO_DATE('2026/04/25', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260426', TO_DATE('2026/04/26', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '04', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260427', TO_DATE('2026/04/27', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '04', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260428', TO_DATE('2026/04/28', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260429', TO_DATE('2026/04/29', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260430', TO_DATE('2026/04/30', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260501', TO_DATE('2026/05/01', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260502', TO_DATE('2026/05/02', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260503', TO_DATE('2026/05/03', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260504', TO_DATE('2026/05/04', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260505', TO_DATE('2026/05/05', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260506', TO_DATE('2026/05/06', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260507', TO_DATE('2026/05/07', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260508', TO_DATE('2026/05/08', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260509', TO_DATE('2026/05/09', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260510', TO_DATE('2026/05/10', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '05', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260511', TO_DATE('2026/05/11', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '05', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260512', TO_DATE('2026/05/12', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260513', TO_DATE('2026/05/13', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260514', TO_DATE('2026/05/14', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260515', TO_DATE('2026/05/15', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '05', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260516', TO_DATE('2026/05/16', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260517', TO_DATE('2026/05/17', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260518', TO_DATE('2026/05/18', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260519', TO_DATE('2026/05/19', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260520', TO_DATE('2026/05/20', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260521', TO_DATE('2026/05/21', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260522', TO_DATE('2026/05/22', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260523', TO_DATE('2026/05/23', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260524', TO_DATE('2026/05/24', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '05', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260525', TO_DATE('2026/05/25', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '05', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260526', TO_DATE('2026/05/26', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260527', TO_DATE('2026/05/27', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260528', TO_DATE('2026/05/28', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260529', TO_DATE('2026/05/29', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '05', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260530', TO_DATE('2026/05/30', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260531', TO_DATE('2026/05/31', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260601', TO_DATE('2026/06/01', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260602', TO_DATE('2026/06/02', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260603', TO_DATE('2026/06/03', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260604', TO_DATE('2026/06/04', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260605', TO_DATE('2026/06/05', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260606', TO_DATE('2026/06/06', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260607', TO_DATE('2026/06/07', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260608', TO_DATE('2026/06/08', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260609', TO_DATE('2026/06/09', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260610', TO_DATE('2026/06/10', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260611', TO_DATE('2026/06/11', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260612', TO_DATE('2026/06/12', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '06', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260613', TO_DATE('2026/06/13', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260614', TO_DATE('2026/06/14', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '06', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260615', TO_DATE('2026/06/15', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '06', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260616', TO_DATE('2026/06/16', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260617', TO_DATE('2026/06/17', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260618', TO_DATE('2026/06/18', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260619', TO_DATE('2026/06/19', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260620', TO_DATE('2026/06/20', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260621', TO_DATE('2026/06/21', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260622', TO_DATE('2026/06/22', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260623', TO_DATE('2026/06/23', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260624', TO_DATE('2026/06/24', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260625', TO_DATE('2026/06/25', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260626', TO_DATE('2026/06/26', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '06', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260627', TO_DATE('2026/06/27', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260628', TO_DATE('2026/06/28', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '06', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260629', TO_DATE('2026/06/29', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '06', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260630', TO_DATE('2026/06/30', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260701', TO_DATE('2026/07/01', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260702', TO_DATE('2026/07/02', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260703', TO_DATE('2026/07/03', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260704', TO_DATE('2026/07/04', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260705', TO_DATE('2026/07/05', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260706', TO_DATE('2026/07/06', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260707', TO_DATE('2026/07/07', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260708', TO_DATE('2026/07/08', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260709', TO_DATE('2026/07/09', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260710', TO_DATE('2026/07/10', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '07', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260711', TO_DATE('2026/07/11', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260712', TO_DATE('2026/07/12', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '07', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260713', TO_DATE('2026/07/13', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '07', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260714', TO_DATE('2026/07/14', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260715', TO_DATE('2026/07/15', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260716', TO_DATE('2026/07/16', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260717', TO_DATE('2026/07/17', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260718', TO_DATE('2026/07/18', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260719', TO_DATE('2026/07/19', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260720', TO_DATE('2026/07/20', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260721', TO_DATE('2026/07/21', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260722', TO_DATE('2026/07/22', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260723', TO_DATE('2026/07/23', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260724', TO_DATE('2026/07/24', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '07', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260725', TO_DATE('2026/07/25', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260726', TO_DATE('2026/07/26', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '07', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260727', TO_DATE('2026/07/27', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '07', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260728', TO_DATE('2026/07/28', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260729', TO_DATE('2026/07/29', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260730', TO_DATE('2026/07/30', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260731', TO_DATE('2026/07/31', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260801', TO_DATE('2026/08/01', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260802', TO_DATE('2026/08/02', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260803', TO_DATE('2026/08/03', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260804', TO_DATE('2026/08/04', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260805', TO_DATE('2026/08/05', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260806', TO_DATE('2026/08/06', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260807', TO_DATE('2026/08/07', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260808', TO_DATE('2026/08/08', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260809', TO_DATE('2026/08/09', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '08', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260810', TO_DATE('2026/08/10', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '08', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260811', TO_DATE('2026/08/11', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260812', TO_DATE('2026/08/12', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260813', TO_DATE('2026/08/13', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260814', TO_DATE('2026/08/14', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '08', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260815', TO_DATE('2026/08/15', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260816', TO_DATE('2026/08/16', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260817', TO_DATE('2026/08/17', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260818', TO_DATE('2026/08/18', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260819', TO_DATE('2026/08/19', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260820', TO_DATE('2026/08/20', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260821', TO_DATE('2026/08/21', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260822', TO_DATE('2026/08/22', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260823', TO_DATE('2026/08/23', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '08', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260824', TO_DATE('2026/08/24', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '08', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260825', TO_DATE('2026/08/25', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260826', TO_DATE('2026/08/26', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260827', TO_DATE('2026/08/27', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260828', TO_DATE('2026/08/28', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '08', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260829', TO_DATE('2026/08/29', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260830', TO_DATE('2026/08/30', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260831', TO_DATE('2026/08/31', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260901', TO_DATE('2026/09/01', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260902', TO_DATE('2026/09/02', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260903', TO_DATE('2026/09/03', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260904', TO_DATE('2026/09/04', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260905', TO_DATE('2026/09/05', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260906', TO_DATE('2026/09/06', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260907', TO_DATE('2026/09/07', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260908', TO_DATE('2026/09/08', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260909', TO_DATE('2026/09/09', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '09', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260910', TO_DATE('2026/09/10', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '09', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260911', TO_DATE('2026/09/11', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '09', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260912', TO_DATE('2026/09/12', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260913', TO_DATE('2026/09/13', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '09', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260914', TO_DATE('2026/09/14', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '09', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260915', TO_DATE('2026/09/15', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '09', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260916', TO_DATE('2026/09/16', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '09', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260917', TO_DATE('2026/09/17', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260918', TO_DATE('2026/09/18', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260919', TO_DATE('2026/09/19', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260920', TO_DATE('2026/09/20', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260921', TO_DATE('2026/09/21', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '09', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260922', TO_DATE('2026/09/22', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '09', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260923', TO_DATE('2026/09/23', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '09', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260924', TO_DATE('2026/09/24', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '09', '24', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260925', TO_DATE('2026/09/25', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '09', '25', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260926', TO_DATE('2026/09/26', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '09', '26', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260927', TO_DATE('2026/09/27', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '09', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20260928', TO_DATE('2026/09/28', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '09', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260929', TO_DATE('2026/09/29', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '09', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20260930', TO_DATE('2026/09/30', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '09', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261001', TO_DATE('2026/10/01', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261002', TO_DATE('2026/10/02', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '10', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261003', TO_DATE('2026/10/03', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261004', TO_DATE('2026/10/04', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261005', TO_DATE('2026/10/05', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261006', TO_DATE('2026/10/06', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261007', TO_DATE('2026/10/07', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261008', TO_DATE('2026/10/08', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261009', TO_DATE('2026/10/09', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '10', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261010', TO_DATE('2026/10/10', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261011', TO_DATE('2026/10/11', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '10', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20261012', TO_DATE('2026/10/12', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '10', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261013', TO_DATE('2026/10/13', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261014', TO_DATE('2026/10/14', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261015', TO_DATE('2026/10/15', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261016', TO_DATE('2026/10/16', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261017', TO_DATE('2026/10/17', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261018', TO_DATE('2026/10/18', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261019', TO_DATE('2026/10/19', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261020', TO_DATE('2026/10/20', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261021', TO_DATE('2026/10/21', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261022', TO_DATE('2026/10/22', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261023', TO_DATE('2026/10/23', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '10', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261024', TO_DATE('2026/10/24', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261025', TO_DATE('2026/10/25', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '10', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20261026', TO_DATE('2026/10/26', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '10', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261027', TO_DATE('2026/10/27', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261028', TO_DATE('2026/10/28', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261029', TO_DATE('2026/10/29', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261030', TO_DATE('2026/10/30', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261031', TO_DATE('2026/10/31', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261101', TO_DATE('2026/11/01', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261102', TO_DATE('2026/11/02', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261103', TO_DATE('2026/11/03', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261104', TO_DATE('2026/11/04', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261105', TO_DATE('2026/11/05', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261106', TO_DATE('2026/11/06', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261107', TO_DATE('2026/11/07', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261108', TO_DATE('2026/11/08', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20261109', TO_DATE('2026/11/09', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '11', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261110', TO_DATE('2026/11/10', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261111', TO_DATE('2026/11/11', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261112', TO_DATE('2026/11/12', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261113', TO_DATE('2026/11/13', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '11', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261114', TO_DATE('2026/11/14', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261115', TO_DATE('2026/11/15', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '11', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261116', TO_DATE('2026/11/16', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261117', TO_DATE('2026/11/17', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261118', TO_DATE('2026/11/18', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261119', TO_DATE('2026/11/19', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261120', TO_DATE('2026/11/20', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261121', TO_DATE('2026/11/21', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261122', TO_DATE('2026/11/22', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20261123', TO_DATE('2026/11/23', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '11', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261124', TO_DATE('2026/11/24', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261125', TO_DATE('2026/11/25', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261126', TO_DATE('2026/11/26', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261127', TO_DATE('2026/11/27', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '11', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261128', TO_DATE('2026/11/28', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261129', TO_DATE('2026/11/29', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '11', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261130', TO_DATE('2026/11/30', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261201', TO_DATE('2026/12/01', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261202', TO_DATE('2026/12/02', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261203', TO_DATE('2026/12/03', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261204', TO_DATE('2026/12/04', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261205', TO_DATE('2026/12/05', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261206', TO_DATE('2026/12/06', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261207', TO_DATE('2026/12/07', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261208', TO_DATE('2026/12/08', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261209', TO_DATE('2026/12/09', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261210', TO_DATE('2026/12/10', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261211', TO_DATE('2026/12/11', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '12', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261212', TO_DATE('2026/12/12', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261213', TO_DATE('2026/12/13', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '12', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20261214', TO_DATE('2026/12/14', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '12', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261215', TO_DATE('2026/12/15', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261216', TO_DATE('2026/12/16', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261217', TO_DATE('2026/12/17', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261218', TO_DATE('2026/12/18', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261219', TO_DATE('2026/12/19', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261220', TO_DATE('2026/12/20', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261221', TO_DATE('2026/12/21', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261222', TO_DATE('2026/12/22', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261223', TO_DATE('2026/12/23', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261224', TO_DATE('2026/12/24', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261225', TO_DATE('2026/12/25', 'YYYY/MM/DD'), 6, 'FRI', '2026', 
+    '12', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261226', TO_DATE('2026/12/26', 'YYYY/MM/DD'), 7, 'SAT', '2026', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261227', TO_DATE('2026/12/27', 'YYYY/MM/DD'), 1, 'SUN', '2026', 
+    '12', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20261228', TO_DATE('2026/12/28', 'YYYY/MM/DD'), 2, 'MON', '2026', 
+    '12', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261229', TO_DATE('2026/12/29', 'YYYY/MM/DD'), 3, 'TUE', '2026', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261230', TO_DATE('2026/12/30', 'YYYY/MM/DD'), 4, 'WED', '2026', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20261231', TO_DATE('2026/12/31', 'YYYY/MM/DD'), 5, 'THU', '2026', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270101', TO_DATE('2027/01/01', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270102', TO_DATE('2027/01/02', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270103', TO_DATE('2027/01/03', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270104', TO_DATE('2027/01/04', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270105', TO_DATE('2027/01/05', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270106', TO_DATE('2027/01/06', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270107', TO_DATE('2027/01/07', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270108', TO_DATE('2027/01/08', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270109', TO_DATE('2027/01/09', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270110', TO_DATE('2027/01/10', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '01', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270111', TO_DATE('2027/01/11', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '01', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270112', TO_DATE('2027/01/12', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270113', TO_DATE('2027/01/13', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '01', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270114', TO_DATE('2027/01/14', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270115', TO_DATE('2027/01/15', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '01', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270116', TO_DATE('2027/01/16', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270117', TO_DATE('2027/01/17', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270118', TO_DATE('2027/01/18', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270119', TO_DATE('2027/01/19', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270120', TO_DATE('2027/01/20', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270121', TO_DATE('2027/01/21', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270122', TO_DATE('2027/01/22', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270123', TO_DATE('2027/01/23', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270124', TO_DATE('2027/01/24', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '01', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270125', TO_DATE('2027/01/25', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '01', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270126', TO_DATE('2027/01/26', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '01', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270127', TO_DATE('2027/01/27', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '01', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270128', TO_DATE('2027/01/28', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '01', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270129', TO_DATE('2027/01/29', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '01', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270130', TO_DATE('2027/01/30', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270131', TO_DATE('2027/01/31', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270201', TO_DATE('2027/02/01', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270202', TO_DATE('2027/02/02', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270203', TO_DATE('2027/02/03', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270204', TO_DATE('2027/02/04', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270205', TO_DATE('2027/02/05', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270206', TO_DATE('2027/02/06', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '02', '06', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270207', TO_DATE('2027/02/07', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '02', '07', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270208', TO_DATE('2027/02/08', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '02', '08', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270209', TO_DATE('2027/02/09', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '02', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270210', TO_DATE('2027/02/10', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '02', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270211', TO_DATE('2027/02/11', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '02', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270212', TO_DATE('2027/02/12', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '02', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270213', TO_DATE('2027/02/13', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '02', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270214', TO_DATE('2027/02/14', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '02', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270215', TO_DATE('2027/02/15', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '02', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270216', TO_DATE('2027/02/16', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270217', TO_DATE('2027/02/17', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270218', TO_DATE('2027/02/18', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270219', TO_DATE('2027/02/19', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270220', TO_DATE('2027/02/20', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270221', TO_DATE('2027/02/21', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270222', TO_DATE('2027/02/22', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270223', TO_DATE('2027/02/23', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270224', TO_DATE('2027/02/24', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '02', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270225', TO_DATE('2027/02/25', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270226', TO_DATE('2027/02/26', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '02', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270227', TO_DATE('2027/02/27', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270228', TO_DATE('2027/02/28', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '02', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270301', TO_DATE('2027/03/01', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270302', TO_DATE('2027/03/02', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270303', TO_DATE('2027/03/03', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270304', TO_DATE('2027/03/04', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270305', TO_DATE('2027/03/05', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270306', TO_DATE('2027/03/06', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270307', TO_DATE('2027/03/07', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270308', TO_DATE('2027/03/08', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270309', TO_DATE('2027/03/09', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '03', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270310', TO_DATE('2027/03/10', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270311', TO_DATE('2027/03/11', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270312', TO_DATE('2027/03/12', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270313', TO_DATE('2027/03/13', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '03', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270314', TO_DATE('2027/03/14', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270315', TO_DATE('2027/03/15', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '03', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270316', TO_DATE('2027/03/16', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270317', TO_DATE('2027/03/17', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270318', TO_DATE('2027/03/18', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270319', TO_DATE('2027/03/19', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270320', TO_DATE('2027/03/20', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270321', TO_DATE('2027/03/21', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270322', TO_DATE('2027/03/22', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270323', TO_DATE('2027/03/23', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '03', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270324', TO_DATE('2027/03/24', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270325', TO_DATE('2027/03/25', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270326', TO_DATE('2027/03/26', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270327', TO_DATE('2027/03/27', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '03', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270328', TO_DATE('2027/03/28', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270329', TO_DATE('2027/03/29', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '03', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270330', TO_DATE('2027/03/30', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270331', TO_DATE('2027/03/31', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270401', TO_DATE('2027/04/01', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270402', TO_DATE('2027/04/02', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270403', TO_DATE('2027/04/03', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270404', TO_DATE('2027/04/04', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270405', TO_DATE('2027/04/05', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270406', TO_DATE('2027/04/06', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270407', TO_DATE('2027/04/07', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270408', TO_DATE('2027/04/08', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270409', TO_DATE('2027/04/09', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270410', TO_DATE('2027/04/10', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '04', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270411', TO_DATE('2027/04/11', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270412', TO_DATE('2027/04/12', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '04', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270413', TO_DATE('2027/04/13', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '04', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270414', TO_DATE('2027/04/14', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270415', TO_DATE('2027/04/15', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270416', TO_DATE('2027/04/16', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270417', TO_DATE('2027/04/17', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270418', TO_DATE('2027/04/18', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270419', TO_DATE('2027/04/19', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270420', TO_DATE('2027/04/20', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270421', TO_DATE('2027/04/21', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270422', TO_DATE('2027/04/22', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270423', TO_DATE('2027/04/23', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270424', TO_DATE('2027/04/24', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '04', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270425', TO_DATE('2027/04/25', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270426', TO_DATE('2027/04/26', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '04', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270427', TO_DATE('2027/04/27', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '04', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270428', TO_DATE('2027/04/28', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270429', TO_DATE('2027/04/29', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270430', TO_DATE('2027/04/30', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270501', TO_DATE('2027/05/01', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270502', TO_DATE('2027/05/02', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270503', TO_DATE('2027/05/03', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270504', TO_DATE('2027/05/04', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270505', TO_DATE('2027/05/05', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270506', TO_DATE('2027/05/06', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270507', TO_DATE('2027/05/07', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270508', TO_DATE('2027/05/08', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270509', TO_DATE('2027/05/09', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270510', TO_DATE('2027/05/10', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '05', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270511', TO_DATE('2027/05/11', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '05', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270512', TO_DATE('2027/05/12', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270513', TO_DATE('2027/05/13', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270514', TO_DATE('2027/05/14', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270515', TO_DATE('2027/05/15', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '05', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270516', TO_DATE('2027/05/16', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270517', TO_DATE('2027/05/17', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270518', TO_DATE('2027/05/18', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270519', TO_DATE('2027/05/19', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270520', TO_DATE('2027/05/20', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270521', TO_DATE('2027/05/21', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270522', TO_DATE('2027/05/22', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270523', TO_DATE('2027/05/23', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270524', TO_DATE('2027/05/24', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '05', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270525', TO_DATE('2027/05/25', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '05', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270526', TO_DATE('2027/05/26', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270527', TO_DATE('2027/05/27', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270528', TO_DATE('2027/05/28', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270529', TO_DATE('2027/05/29', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '05', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270530', TO_DATE('2027/05/30', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270531', TO_DATE('2027/05/31', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270601', TO_DATE('2027/06/01', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270602', TO_DATE('2027/06/02', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270603', TO_DATE('2027/06/03', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270604', TO_DATE('2027/06/04', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270605', TO_DATE('2027/06/05', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270606', TO_DATE('2027/06/06', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270607', TO_DATE('2027/06/07', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270608', TO_DATE('2027/06/08', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270609', TO_DATE('2027/06/09', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270610', TO_DATE('2027/06/10', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270611', TO_DATE('2027/06/11', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270612', TO_DATE('2027/06/12', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '06', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270613', TO_DATE('2027/06/13', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270614', TO_DATE('2027/06/14', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '06', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270615', TO_DATE('2027/06/15', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '06', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270616', TO_DATE('2027/06/16', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270617', TO_DATE('2027/06/17', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270618', TO_DATE('2027/06/18', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270619', TO_DATE('2027/06/19', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270620', TO_DATE('2027/06/20', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270621', TO_DATE('2027/06/21', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270622', TO_DATE('2027/06/22', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270623', TO_DATE('2027/06/23', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270624', TO_DATE('2027/06/24', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270625', TO_DATE('2027/06/25', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270626', TO_DATE('2027/06/26', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '06', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270627', TO_DATE('2027/06/27', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270628', TO_DATE('2027/06/28', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '06', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270629', TO_DATE('2027/06/29', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '06', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270630', TO_DATE('2027/06/30', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270701', TO_DATE('2027/07/01', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270702', TO_DATE('2027/07/02', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270703', TO_DATE('2027/07/03', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270704', TO_DATE('2027/07/04', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270705', TO_DATE('2027/07/05', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270706', TO_DATE('2027/07/06', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270707', TO_DATE('2027/07/07', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270708', TO_DATE('2027/07/08', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270709', TO_DATE('2027/07/09', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270710', TO_DATE('2027/07/10', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '07', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270711', TO_DATE('2027/07/11', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270712', TO_DATE('2027/07/12', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '07', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270713', TO_DATE('2027/07/13', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '07', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270714', TO_DATE('2027/07/14', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270715', TO_DATE('2027/07/15', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270716', TO_DATE('2027/07/16', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270717', TO_DATE('2027/07/17', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270718', TO_DATE('2027/07/18', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270719', TO_DATE('2027/07/19', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270720', TO_DATE('2027/07/20', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270721', TO_DATE('2027/07/21', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270722', TO_DATE('2027/07/22', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270723', TO_DATE('2027/07/23', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270724', TO_DATE('2027/07/24', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '07', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270725', TO_DATE('2027/07/25', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270726', TO_DATE('2027/07/26', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '07', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270727', TO_DATE('2027/07/27', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '07', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270728', TO_DATE('2027/07/28', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270729', TO_DATE('2027/07/29', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270730', TO_DATE('2027/07/30', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270731', TO_DATE('2027/07/31', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270801', TO_DATE('2027/08/01', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270802', TO_DATE('2027/08/02', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270803', TO_DATE('2027/08/03', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270804', TO_DATE('2027/08/04', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270805', TO_DATE('2027/08/05', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270806', TO_DATE('2027/08/06', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270807', TO_DATE('2027/08/07', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270808', TO_DATE('2027/08/08', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270809', TO_DATE('2027/08/09', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '08', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270810', TO_DATE('2027/08/10', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '08', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270811', TO_DATE('2027/08/11', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270812', TO_DATE('2027/08/12', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270813', TO_DATE('2027/08/13', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270814', TO_DATE('2027/08/14', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '08', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270815', TO_DATE('2027/08/15', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270816', TO_DATE('2027/08/16', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270817', TO_DATE('2027/08/17', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270818', TO_DATE('2027/08/18', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270819', TO_DATE('2027/08/19', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270820', TO_DATE('2027/08/20', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270821', TO_DATE('2027/08/21', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270822', TO_DATE('2027/08/22', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270823', TO_DATE('2027/08/23', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '08', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270824', TO_DATE('2027/08/24', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '08', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270825', TO_DATE('2027/08/25', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270826', TO_DATE('2027/08/26', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270827', TO_DATE('2027/08/27', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270828', TO_DATE('2027/08/28', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '08', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270829', TO_DATE('2027/08/29', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270830', TO_DATE('2027/08/30', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270831', TO_DATE('2027/08/31', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270901', TO_DATE('2027/09/01', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270902', TO_DATE('2027/09/02', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270903', TO_DATE('2027/09/03', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270904', TO_DATE('2027/09/04', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270905', TO_DATE('2027/09/05', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270906', TO_DATE('2027/09/06', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270907', TO_DATE('2027/09/07', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270908', TO_DATE('2027/09/08', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270909', TO_DATE('2027/09/09', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '09', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270910', TO_DATE('2027/09/10', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '09', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270911', TO_DATE('2027/09/11', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '09', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270912', TO_DATE('2027/09/12', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270913', TO_DATE('2027/09/13', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '09', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270914', TO_DATE('2027/09/14', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '09', '14', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270915', TO_DATE('2027/09/15', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '09', '15', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270916', TO_DATE('2027/09/16', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '09', '16', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270917', TO_DATE('2027/09/17', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270918', TO_DATE('2027/09/18', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270919', TO_DATE('2027/09/19', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270920', TO_DATE('2027/09/20', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270921', TO_DATE('2027/09/21', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '09', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270922', TO_DATE('2027/09/22', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '09', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270923', TO_DATE('2027/09/23', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '09', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270924', TO_DATE('2027/09/24', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '09', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270925', TO_DATE('2027/09/25', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '09', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270926', TO_DATE('2027/09/26', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '09', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20270927', TO_DATE('2027/09/27', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '09', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270928', TO_DATE('2027/09/28', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '09', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270929', TO_DATE('2027/09/29', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '09', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20270930', TO_DATE('2027/09/30', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '09', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271001', TO_DATE('2027/10/01', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271002', TO_DATE('2027/10/02', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '10', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271003', TO_DATE('2027/10/03', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271004', TO_DATE('2027/10/04', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271005', TO_DATE('2027/10/05', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271006', TO_DATE('2027/10/06', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271007', TO_DATE('2027/10/07', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271008', TO_DATE('2027/10/08', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271009', TO_DATE('2027/10/09', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '10', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271010', TO_DATE('2027/10/10', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20271011', TO_DATE('2027/10/11', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '10', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271012', TO_DATE('2027/10/12', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '10', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271013', TO_DATE('2027/10/13', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271014', TO_DATE('2027/10/14', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271015', TO_DATE('2027/10/15', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271016', TO_DATE('2027/10/16', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271017', TO_DATE('2027/10/17', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271018', TO_DATE('2027/10/18', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271019', TO_DATE('2027/10/19', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271020', TO_DATE('2027/10/20', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271021', TO_DATE('2027/10/21', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271022', TO_DATE('2027/10/22', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271023', TO_DATE('2027/10/23', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '10', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271024', TO_DATE('2027/10/24', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20271025', TO_DATE('2027/10/25', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '10', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271026', TO_DATE('2027/10/26', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '10', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271027', TO_DATE('2027/10/27', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271028', TO_DATE('2027/10/28', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271029', TO_DATE('2027/10/29', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271030', TO_DATE('2027/10/30', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271031', TO_DATE('2027/10/31', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271101', TO_DATE('2027/11/01', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271102', TO_DATE('2027/11/02', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271103', TO_DATE('2027/11/03', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271104', TO_DATE('2027/11/04', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271105', TO_DATE('2027/11/05', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271106', TO_DATE('2027/11/06', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271107', TO_DATE('2027/11/07', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271108', TO_DATE('2027/11/08', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271109', TO_DATE('2027/11/09', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '11', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271110', TO_DATE('2027/11/10', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271111', TO_DATE('2027/11/11', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271112', TO_DATE('2027/11/12', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271113', TO_DATE('2027/11/13', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '11', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271114', TO_DATE('2027/11/14', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20271115', TO_DATE('2027/11/15', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '11', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271116', TO_DATE('2027/11/16', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271117', TO_DATE('2027/11/17', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271118', TO_DATE('2027/11/18', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271119', TO_DATE('2027/11/19', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271120', TO_DATE('2027/11/20', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271121', TO_DATE('2027/11/21', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271122', TO_DATE('2027/11/22', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271123', TO_DATE('2027/11/23', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '11', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271124', TO_DATE('2027/11/24', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271125', TO_DATE('2027/11/25', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271126', TO_DATE('2027/11/26', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271127', TO_DATE('2027/11/27', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '11', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271128', TO_DATE('2027/11/28', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20271129', TO_DATE('2027/11/29', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '11', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271130', TO_DATE('2027/11/30', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271201', TO_DATE('2027/12/01', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271202', TO_DATE('2027/12/02', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271203', TO_DATE('2027/12/03', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271204', TO_DATE('2027/12/04', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271205', TO_DATE('2027/12/05', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271206', TO_DATE('2027/12/06', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271207', TO_DATE('2027/12/07', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271208', TO_DATE('2027/12/08', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271209', TO_DATE('2027/12/09', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271210', TO_DATE('2027/12/10', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271211', TO_DATE('2027/12/11', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '12', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271212', TO_DATE('2027/12/12', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20271213', TO_DATE('2027/12/13', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '12', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271214', TO_DATE('2027/12/14', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '12', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271215', TO_DATE('2027/12/15', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271216', TO_DATE('2027/12/16', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271217', TO_DATE('2027/12/17', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271218', TO_DATE('2027/12/18', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271219', TO_DATE('2027/12/19', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271220', TO_DATE('2027/12/20', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271221', TO_DATE('2027/12/21', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271222', TO_DATE('2027/12/22', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271223', TO_DATE('2027/12/23', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271224', TO_DATE('2027/12/24', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271225', TO_DATE('2027/12/25', 'YYYY/MM/DD'), 7, 'SAT', '2027', 
+    '12', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271226', TO_DATE('2027/12/26', 'YYYY/MM/DD'), 1, 'SUN', '2027', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20271227', TO_DATE('2027/12/27', 'YYYY/MM/DD'), 2, 'MON', '2027', 
+    '12', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271228', TO_DATE('2027/12/28', 'YYYY/MM/DD'), 3, 'TUE', '2027', 
+    '12', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271229', TO_DATE('2027/12/29', 'YYYY/MM/DD'), 4, 'WED', '2027', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271230', TO_DATE('2027/12/30', 'YYYY/MM/DD'), 5, 'THU', '2027', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20271231', TO_DATE('2027/12/31', 'YYYY/MM/DD'), 6, 'FRI', '2027', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280101', TO_DATE('2028/01/01', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280102', TO_DATE('2028/01/02', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280103', TO_DATE('2028/01/03', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280104', TO_DATE('2028/01/04', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280105', TO_DATE('2028/01/05', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280106', TO_DATE('2028/01/06', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280107', TO_DATE('2028/01/07', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280108', TO_DATE('2028/01/08', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280109', TO_DATE('2028/01/09', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280110', TO_DATE('2028/01/10', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '01', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280111', TO_DATE('2028/01/11', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '01', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280112', TO_DATE('2028/01/12', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280113', TO_DATE('2028/01/13', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '01', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280114', TO_DATE('2028/01/14', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280115', TO_DATE('2028/01/15', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '01', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280116', TO_DATE('2028/01/16', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280117', TO_DATE('2028/01/17', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280118', TO_DATE('2028/01/18', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280119', TO_DATE('2028/01/19', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280120', TO_DATE('2028/01/20', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280121', TO_DATE('2028/01/21', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280122', TO_DATE('2028/01/22', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280123', TO_DATE('2028/01/23', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280124', TO_DATE('2028/01/24', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '01', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280125', TO_DATE('2028/01/25', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '01', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280126', TO_DATE('2028/01/26', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '01', '26', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280127', TO_DATE('2028/01/27', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '01', '27', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280128', TO_DATE('2028/01/28', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '01', '28', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280129', TO_DATE('2028/01/29', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '01', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280130', TO_DATE('2028/01/30', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280131', TO_DATE('2028/01/31', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280201', TO_DATE('2028/02/01', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280202', TO_DATE('2028/02/02', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280203', TO_DATE('2028/02/03', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280204', TO_DATE('2028/02/04', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280205', TO_DATE('2028/02/05', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280206', TO_DATE('2028/02/06', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280207', TO_DATE('2028/02/07', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280208', TO_DATE('2028/02/08', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280209', TO_DATE('2028/02/09', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '02', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280210', TO_DATE('2028/02/10', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '02', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280211', TO_DATE('2028/02/11', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '02', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280212', TO_DATE('2028/02/12', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '02', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280213', TO_DATE('2028/02/13', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '02', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280214', TO_DATE('2028/02/14', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '02', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280215', TO_DATE('2028/02/15', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '02', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280216', TO_DATE('2028/02/16', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280217', TO_DATE('2028/02/17', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280218', TO_DATE('2028/02/18', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280219', TO_DATE('2028/02/19', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280220', TO_DATE('2028/02/20', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280221', TO_DATE('2028/02/21', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280222', TO_DATE('2028/02/22', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280223', TO_DATE('2028/02/23', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280224', TO_DATE('2028/02/24', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '02', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280225', TO_DATE('2028/02/25', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280226', TO_DATE('2028/02/26', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '02', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280227', TO_DATE('2028/02/27', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280228', TO_DATE('2028/02/28', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '02', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280229', TO_DATE('2028/02/29', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '02', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280301', TO_DATE('2028/03/01', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280302', TO_DATE('2028/03/02', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280303', TO_DATE('2028/03/03', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280304', TO_DATE('2028/03/04', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280305', TO_DATE('2028/03/05', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280306', TO_DATE('2028/03/06', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280307', TO_DATE('2028/03/07', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280308', TO_DATE('2028/03/08', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280309', TO_DATE('2028/03/09', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '03', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280310', TO_DATE('2028/03/10', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280311', TO_DATE('2028/03/11', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280312', TO_DATE('2028/03/12', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '03', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280313', TO_DATE('2028/03/13', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '03', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280314', TO_DATE('2028/03/14', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280315', TO_DATE('2028/03/15', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '03', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280316', TO_DATE('2028/03/16', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280317', TO_DATE('2028/03/17', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280318', TO_DATE('2028/03/18', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280319', TO_DATE('2028/03/19', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280320', TO_DATE('2028/03/20', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280321', TO_DATE('2028/03/21', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280322', TO_DATE('2028/03/22', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280323', TO_DATE('2028/03/23', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '03', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280324', TO_DATE('2028/03/24', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280325', TO_DATE('2028/03/25', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280326', TO_DATE('2028/03/26', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '03', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280327', TO_DATE('2028/03/27', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '03', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280328', TO_DATE('2028/03/28', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280329', TO_DATE('2028/03/29', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '03', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280330', TO_DATE('2028/03/30', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280331', TO_DATE('2028/03/31', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280401', TO_DATE('2028/04/01', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280402', TO_DATE('2028/04/02', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280403', TO_DATE('2028/04/03', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280404', TO_DATE('2028/04/04', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280405', TO_DATE('2028/04/05', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280406', TO_DATE('2028/04/06', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280407', TO_DATE('2028/04/07', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280408', TO_DATE('2028/04/08', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280409', TO_DATE('2028/04/09', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '04', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280410', TO_DATE('2028/04/10', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '04', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280411', TO_DATE('2028/04/11', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280412', TO_DATE('2028/04/12', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '04', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280413', TO_DATE('2028/04/13', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '04', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280414', TO_DATE('2028/04/14', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280415', TO_DATE('2028/04/15', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280416', TO_DATE('2028/04/16', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280417', TO_DATE('2028/04/17', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280418', TO_DATE('2028/04/18', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280419', TO_DATE('2028/04/19', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280420', TO_DATE('2028/04/20', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280421', TO_DATE('2028/04/21', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280422', TO_DATE('2028/04/22', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280423', TO_DATE('2028/04/23', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '04', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280424', TO_DATE('2028/04/24', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '04', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280425', TO_DATE('2028/04/25', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280426', TO_DATE('2028/04/26', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '04', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280427', TO_DATE('2028/04/27', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '04', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280428', TO_DATE('2028/04/28', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280429', TO_DATE('2028/04/29', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280430', TO_DATE('2028/04/30', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280501', TO_DATE('2028/05/01', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280502', TO_DATE('2028/05/02', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280503', TO_DATE('2028/05/03', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280504', TO_DATE('2028/05/04', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280505', TO_DATE('2028/05/05', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280506', TO_DATE('2028/05/06', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280507', TO_DATE('2028/05/07', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280508', TO_DATE('2028/05/08', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280509', TO_DATE('2028/05/09', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280510', TO_DATE('2028/05/10', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '05', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280511', TO_DATE('2028/05/11', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '05', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280512', TO_DATE('2028/05/12', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280513', TO_DATE('2028/05/13', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280514', TO_DATE('2028/05/14', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '05', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280515', TO_DATE('2028/05/15', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '05', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280516', TO_DATE('2028/05/16', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280517', TO_DATE('2028/05/17', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280518', TO_DATE('2028/05/18', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280519', TO_DATE('2028/05/19', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280520', TO_DATE('2028/05/20', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280521', TO_DATE('2028/05/21', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280522', TO_DATE('2028/05/22', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280523', TO_DATE('2028/05/23', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280524', TO_DATE('2028/05/24', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '05', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280525', TO_DATE('2028/05/25', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '05', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280526', TO_DATE('2028/05/26', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280527', TO_DATE('2028/05/27', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280528', TO_DATE('2028/05/28', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '05', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280529', TO_DATE('2028/05/29', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '05', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280530', TO_DATE('2028/05/30', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280531', TO_DATE('2028/05/31', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280601', TO_DATE('2028/06/01', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280602', TO_DATE('2028/06/02', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280603', TO_DATE('2028/06/03', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280604', TO_DATE('2028/06/04', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280605', TO_DATE('2028/06/05', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280606', TO_DATE('2028/06/06', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280607', TO_DATE('2028/06/07', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280608', TO_DATE('2028/06/08', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280609', TO_DATE('2028/06/09', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280610', TO_DATE('2028/06/10', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280611', TO_DATE('2028/06/11', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '06', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280612', TO_DATE('2028/06/12', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '06', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280613', TO_DATE('2028/06/13', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280614', TO_DATE('2028/06/14', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '06', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280615', TO_DATE('2028/06/15', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '06', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280616', TO_DATE('2028/06/16', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280617', TO_DATE('2028/06/17', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280618', TO_DATE('2028/06/18', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280619', TO_DATE('2028/06/19', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280620', TO_DATE('2028/06/20', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280621', TO_DATE('2028/06/21', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280622', TO_DATE('2028/06/22', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280623', TO_DATE('2028/06/23', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280624', TO_DATE('2028/06/24', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280625', TO_DATE('2028/06/25', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '06', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280626', TO_DATE('2028/06/26', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '06', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280627', TO_DATE('2028/06/27', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280628', TO_DATE('2028/06/28', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '06', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280629', TO_DATE('2028/06/29', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '06', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280630', TO_DATE('2028/06/30', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280701', TO_DATE('2028/07/01', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280702', TO_DATE('2028/07/02', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280703', TO_DATE('2028/07/03', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280704', TO_DATE('2028/07/04', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280705', TO_DATE('2028/07/05', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280706', TO_DATE('2028/07/06', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280707', TO_DATE('2028/07/07', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280708', TO_DATE('2028/07/08', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280709', TO_DATE('2028/07/09', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '07', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280710', TO_DATE('2028/07/10', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '07', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280711', TO_DATE('2028/07/11', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280712', TO_DATE('2028/07/12', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '07', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280713', TO_DATE('2028/07/13', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '07', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280714', TO_DATE('2028/07/14', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280715', TO_DATE('2028/07/15', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280716', TO_DATE('2028/07/16', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280717', TO_DATE('2028/07/17', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280718', TO_DATE('2028/07/18', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280719', TO_DATE('2028/07/19', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280720', TO_DATE('2028/07/20', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280721', TO_DATE('2028/07/21', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280722', TO_DATE('2028/07/22', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280723', TO_DATE('2028/07/23', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '07', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280724', TO_DATE('2028/07/24', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '07', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280725', TO_DATE('2028/07/25', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280726', TO_DATE('2028/07/26', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '07', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280727', TO_DATE('2028/07/27', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '07', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280728', TO_DATE('2028/07/28', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280729', TO_DATE('2028/07/29', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280730', TO_DATE('2028/07/30', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280731', TO_DATE('2028/07/31', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280801', TO_DATE('2028/08/01', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280802', TO_DATE('2028/08/02', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280803', TO_DATE('2028/08/03', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280804', TO_DATE('2028/08/04', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280805', TO_DATE('2028/08/05', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280806', TO_DATE('2028/08/06', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280807', TO_DATE('2028/08/07', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280808', TO_DATE('2028/08/08', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280809', TO_DATE('2028/08/09', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '08', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280810', TO_DATE('2028/08/10', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '08', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280811', TO_DATE('2028/08/11', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280812', TO_DATE('2028/08/12', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280813', TO_DATE('2028/08/13', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '08', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280814', TO_DATE('2028/08/14', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '08', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280815', TO_DATE('2028/08/15', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280816', TO_DATE('2028/08/16', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280817', TO_DATE('2028/08/17', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280818', TO_DATE('2028/08/18', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280819', TO_DATE('2028/08/19', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280820', TO_DATE('2028/08/20', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280821', TO_DATE('2028/08/21', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280822', TO_DATE('2028/08/22', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280823', TO_DATE('2028/08/23', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '08', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280824', TO_DATE('2028/08/24', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '08', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280825', TO_DATE('2028/08/25', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280826', TO_DATE('2028/08/26', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280827', TO_DATE('2028/08/27', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '08', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280828', TO_DATE('2028/08/28', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '08', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280829', TO_DATE('2028/08/29', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280830', TO_DATE('2028/08/30', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280831', TO_DATE('2028/08/31', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280901', TO_DATE('2028/09/01', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280902', TO_DATE('2028/09/02', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280903', TO_DATE('2028/09/03', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280904', TO_DATE('2028/09/04', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280905', TO_DATE('2028/09/05', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280906', TO_DATE('2028/09/06', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280907', TO_DATE('2028/09/07', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280908', TO_DATE('2028/09/08', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280909', TO_DATE('2028/09/09', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '09', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280910', TO_DATE('2028/09/10', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '09', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280911', TO_DATE('2028/09/11', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '09', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280912', TO_DATE('2028/09/12', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280913', TO_DATE('2028/09/13', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '09', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280914', TO_DATE('2028/09/14', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '09', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280915', TO_DATE('2028/09/15', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '09', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280916', TO_DATE('2028/09/16', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '09', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280917', TO_DATE('2028/09/17', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280918', TO_DATE('2028/09/18', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280919', TO_DATE('2028/09/19', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280920', TO_DATE('2028/09/20', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280921', TO_DATE('2028/09/21', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '09', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280922', TO_DATE('2028/09/22', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '09', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280923', TO_DATE('2028/09/23', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '09', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280924', TO_DATE('2028/09/24', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '09', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20280925', TO_DATE('2028/09/25', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '09', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280926', TO_DATE('2028/09/26', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '09', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280927', TO_DATE('2028/09/27', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '09', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280928', TO_DATE('2028/09/28', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '09', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280929', TO_DATE('2028/09/29', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '09', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20280930', TO_DATE('2028/09/30', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '09', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281001', TO_DATE('2028/10/01', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281002', TO_DATE('2028/10/02', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '10', '02', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281003', TO_DATE('2028/10/03', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '10', '03', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281004', TO_DATE('2028/10/04', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '10', '04', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281005', TO_DATE('2028/10/05', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281006', TO_DATE('2028/10/06', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281007', TO_DATE('2028/10/07', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281008', TO_DATE('2028/10/08', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281009', TO_DATE('2028/10/09', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '10', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281010', TO_DATE('2028/10/10', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281011', TO_DATE('2028/10/11', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '10', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281012', TO_DATE('2028/10/12', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '10', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281013', TO_DATE('2028/10/13', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281014', TO_DATE('2028/10/14', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281015', TO_DATE('2028/10/15', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '10', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281016', TO_DATE('2028/10/16', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281017', TO_DATE('2028/10/17', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281018', TO_DATE('2028/10/18', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281019', TO_DATE('2028/10/19', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281020', TO_DATE('2028/10/20', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281021', TO_DATE('2028/10/21', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281022', TO_DATE('2028/10/22', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281023', TO_DATE('2028/10/23', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '10', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281024', TO_DATE('2028/10/24', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281025', TO_DATE('2028/10/25', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '10', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281026', TO_DATE('2028/10/26', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '10', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281027', TO_DATE('2028/10/27', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281028', TO_DATE('2028/10/28', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281029', TO_DATE('2028/10/29', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '10', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281030', TO_DATE('2028/10/30', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281031', TO_DATE('2028/10/31', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281101', TO_DATE('2028/11/01', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281102', TO_DATE('2028/11/02', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281103', TO_DATE('2028/11/03', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281104', TO_DATE('2028/11/04', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281105', TO_DATE('2028/11/05', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281106', TO_DATE('2028/11/06', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281107', TO_DATE('2028/11/07', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281108', TO_DATE('2028/11/08', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281109', TO_DATE('2028/11/09', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '11', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281110', TO_DATE('2028/11/10', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281111', TO_DATE('2028/11/11', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281112', TO_DATE('2028/11/12', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '11', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281113', TO_DATE('2028/11/13', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '11', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281114', TO_DATE('2028/11/14', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281115', TO_DATE('2028/11/15', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '11', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281116', TO_DATE('2028/11/16', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281117', TO_DATE('2028/11/17', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281118', TO_DATE('2028/11/18', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281119', TO_DATE('2028/11/19', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281120', TO_DATE('2028/11/20', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281121', TO_DATE('2028/11/21', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281122', TO_DATE('2028/11/22', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281123', TO_DATE('2028/11/23', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '11', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281124', TO_DATE('2028/11/24', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281125', TO_DATE('2028/11/25', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281126', TO_DATE('2028/11/26', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '11', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281127', TO_DATE('2028/11/27', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '11', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281128', TO_DATE('2028/11/28', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281129', TO_DATE('2028/11/29', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '11', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281130', TO_DATE('2028/11/30', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281201', TO_DATE('2028/12/01', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281202', TO_DATE('2028/12/02', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281203', TO_DATE('2028/12/03', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281204', TO_DATE('2028/12/04', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281205', TO_DATE('2028/12/05', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281206', TO_DATE('2028/12/06', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281207', TO_DATE('2028/12/07', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281208', TO_DATE('2028/12/08', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281209', TO_DATE('2028/12/09', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281210', TO_DATE('2028/12/10', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '12', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281211', TO_DATE('2028/12/11', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '12', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281212', TO_DATE('2028/12/12', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281213', TO_DATE('2028/12/13', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '12', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281214', TO_DATE('2028/12/14', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '12', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281215', TO_DATE('2028/12/15', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281216', TO_DATE('2028/12/16', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281217', TO_DATE('2028/12/17', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281218', TO_DATE('2028/12/18', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281219', TO_DATE('2028/12/19', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281220', TO_DATE('2028/12/20', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281221', TO_DATE('2028/12/21', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281222', TO_DATE('2028/12/22', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281223', TO_DATE('2028/12/23', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281224', TO_DATE('2028/12/24', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '12', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20281225', TO_DATE('2028/12/25', 'YYYY/MM/DD'), 2, 'MON', '2028', 
+    '12', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281226', TO_DATE('2028/12/26', 'YYYY/MM/DD'), 3, 'TUE', '2028', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281227', TO_DATE('2028/12/27', 'YYYY/MM/DD'), 4, 'WED', '2028', 
+    '12', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281228', TO_DATE('2028/12/28', 'YYYY/MM/DD'), 5, 'THU', '2028', 
+    '12', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281229', TO_DATE('2028/12/29', 'YYYY/MM/DD'), 6, 'FRI', '2028', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281230', TO_DATE('2028/12/30', 'YYYY/MM/DD'), 7, 'SAT', '2028', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20281231', TO_DATE('2028/12/31', 'YYYY/MM/DD'), 1, 'SUN', '2028', 
+    '12', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290101', TO_DATE('2029/01/01', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '01', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290102', TO_DATE('2029/01/02', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '01', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290103', TO_DATE('2029/01/03', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '01', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290104', TO_DATE('2029/01/04', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '01', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290105', TO_DATE('2029/01/05', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '01', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290106', TO_DATE('2029/01/06', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '01', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290107', TO_DATE('2029/01/07', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '01', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290108', TO_DATE('2029/01/08', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '01', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290109', TO_DATE('2029/01/09', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '01', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290110', TO_DATE('2029/01/10', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '01', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290111', TO_DATE('2029/01/11', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '01', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290112', TO_DATE('2029/01/12', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '01', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290113', TO_DATE('2029/01/13', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '01', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290114', TO_DATE('2029/01/14', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '01', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290115', TO_DATE('2029/01/15', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '01', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290116', TO_DATE('2029/01/16', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '01', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290117', TO_DATE('2029/01/17', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '01', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290118', TO_DATE('2029/01/18', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '01', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290119', TO_DATE('2029/01/19', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '01', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290120', TO_DATE('2029/01/20', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '01', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290121', TO_DATE('2029/01/21', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '01', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290122', TO_DATE('2029/01/22', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '01', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290123', TO_DATE('2029/01/23', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '01', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290124', TO_DATE('2029/01/24', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '01', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290125', TO_DATE('2029/01/25', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '01', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290126', TO_DATE('2029/01/26', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '01', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290127', TO_DATE('2029/01/27', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '01', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290128', TO_DATE('2029/01/28', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '01', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290129', TO_DATE('2029/01/29', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '01', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290130', TO_DATE('2029/01/30', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '01', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290131', TO_DATE('2029/01/31', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '01', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290201', TO_DATE('2029/02/01', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '02', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290202', TO_DATE('2029/02/02', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '02', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290203', TO_DATE('2029/02/03', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '02', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290204', TO_DATE('2029/02/04', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '02', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290205', TO_DATE('2029/02/05', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '02', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290206', TO_DATE('2029/02/06', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '02', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290207', TO_DATE('2029/02/07', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '02', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290208', TO_DATE('2029/02/08', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '02', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290209', TO_DATE('2029/02/09', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '02', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290210', TO_DATE('2029/02/10', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '02', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290211', TO_DATE('2029/02/11', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '02', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290212', TO_DATE('2029/02/12', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '02', '12', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290213', TO_DATE('2029/02/13', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '02', '13', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290214', TO_DATE('2029/02/14', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '02', '14', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290215', TO_DATE('2029/02/15', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '02', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290216', TO_DATE('2029/02/16', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '02', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290217', TO_DATE('2029/02/17', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '02', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290218', TO_DATE('2029/02/18', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '02', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290219', TO_DATE('2029/02/19', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '02', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290220', TO_DATE('2029/02/20', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '02', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290221', TO_DATE('2029/02/21', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '02', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290222', TO_DATE('2029/02/22', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '02', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290223', TO_DATE('2029/02/23', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '02', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290224', TO_DATE('2029/02/24', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '02', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290225', TO_DATE('2029/02/25', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '02', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290226', TO_DATE('2029/02/26', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '02', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290227', TO_DATE('2029/02/27', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '02', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290228', TO_DATE('2029/02/28', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '02', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290301', TO_DATE('2029/03/01', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '03', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290302', TO_DATE('2029/03/02', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '03', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290303', TO_DATE('2029/03/03', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '03', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290304', TO_DATE('2029/03/04', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '03', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290305', TO_DATE('2029/03/05', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '03', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290306', TO_DATE('2029/03/06', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '03', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290307', TO_DATE('2029/03/07', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '03', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290308', TO_DATE('2029/03/08', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '03', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290309', TO_DATE('2029/03/09', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '03', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290310', TO_DATE('2029/03/10', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '03', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290311', TO_DATE('2029/03/11', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '03', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290312', TO_DATE('2029/03/12', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '03', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290313', TO_DATE('2029/03/13', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '03', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290314', TO_DATE('2029/03/14', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '03', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290315', TO_DATE('2029/03/15', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '03', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290316', TO_DATE('2029/03/16', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '03', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290317', TO_DATE('2029/03/17', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '03', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290318', TO_DATE('2029/03/18', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '03', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290319', TO_DATE('2029/03/19', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '03', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290320', TO_DATE('2029/03/20', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '03', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290321', TO_DATE('2029/03/21', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '03', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290322', TO_DATE('2029/03/22', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '03', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290323', TO_DATE('2029/03/23', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '03', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290324', TO_DATE('2029/03/24', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '03', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290325', TO_DATE('2029/03/25', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '03', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290326', TO_DATE('2029/03/26', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '03', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290327', TO_DATE('2029/03/27', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '03', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290328', TO_DATE('2029/03/28', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '03', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290329', TO_DATE('2029/03/29', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '03', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290330', TO_DATE('2029/03/30', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '03', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290331', TO_DATE('2029/03/31', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '03', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290401', TO_DATE('2029/04/01', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '04', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290402', TO_DATE('2029/04/02', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '04', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290403', TO_DATE('2029/04/03', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '04', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290404', TO_DATE('2029/04/04', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '04', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290405', TO_DATE('2029/04/05', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '04', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290406', TO_DATE('2029/04/06', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '04', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290407', TO_DATE('2029/04/07', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '04', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290408', TO_DATE('2029/04/08', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '04', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290409', TO_DATE('2029/04/09', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '04', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290410', TO_DATE('2029/04/10', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '04', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290411', TO_DATE('2029/04/11', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '04', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290412', TO_DATE('2029/04/12', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '04', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290413', TO_DATE('2029/04/13', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '04', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290414', TO_DATE('2029/04/14', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '04', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290415', TO_DATE('2029/04/15', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '04', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290416', TO_DATE('2029/04/16', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '04', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290417', TO_DATE('2029/04/17', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '04', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290418', TO_DATE('2029/04/18', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '04', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290419', TO_DATE('2029/04/19', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '04', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290420', TO_DATE('2029/04/20', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '04', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290421', TO_DATE('2029/04/21', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '04', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290422', TO_DATE('2029/04/22', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '04', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290423', TO_DATE('2029/04/23', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '04', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290424', TO_DATE('2029/04/24', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '04', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290425', TO_DATE('2029/04/25', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '04', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290426', TO_DATE('2029/04/26', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '04', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290427', TO_DATE('2029/04/27', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '04', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290428', TO_DATE('2029/04/28', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '04', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290429', TO_DATE('2029/04/29', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '04', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290430', TO_DATE('2029/04/30', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '04', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290501', TO_DATE('2029/05/01', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '05', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290502', TO_DATE('2029/05/02', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '05', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290503', TO_DATE('2029/05/03', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '05', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290504', TO_DATE('2029/05/04', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '05', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290505', TO_DATE('2029/05/05', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '05', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290506', TO_DATE('2029/05/06', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '05', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290507', TO_DATE('2029/05/07', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '05', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290508', TO_DATE('2029/05/08', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '05', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290509', TO_DATE('2029/05/09', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '05', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290510', TO_DATE('2029/05/10', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '05', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290511', TO_DATE('2029/05/11', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '05', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290512', TO_DATE('2029/05/12', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '05', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290513', TO_DATE('2029/05/13', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '05', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290514', TO_DATE('2029/05/14', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '05', '14', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290515', TO_DATE('2029/05/15', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '05', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290516', TO_DATE('2029/05/16', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '05', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290517', TO_DATE('2029/05/17', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '05', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290518', TO_DATE('2029/05/18', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '05', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290519', TO_DATE('2029/05/19', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '05', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290520', TO_DATE('2029/05/20', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '05', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290521', TO_DATE('2029/05/21', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '05', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290522', TO_DATE('2029/05/22', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '05', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290523', TO_DATE('2029/05/23', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '05', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290524', TO_DATE('2029/05/24', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '05', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290525', TO_DATE('2029/05/25', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '05', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290526', TO_DATE('2029/05/26', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '05', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290527', TO_DATE('2029/05/27', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '05', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290528', TO_DATE('2029/05/28', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '05', '28', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290529', TO_DATE('2029/05/29', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '05', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290530', TO_DATE('2029/05/30', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '05', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290531', TO_DATE('2029/05/31', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '05', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290601', TO_DATE('2029/06/01', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '06', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290602', TO_DATE('2029/06/02', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '06', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290603', TO_DATE('2029/06/03', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '06', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290604', TO_DATE('2029/06/04', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '06', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290605', TO_DATE('2029/06/05', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '06', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290606', TO_DATE('2029/06/06', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '06', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290607', TO_DATE('2029/06/07', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '06', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290608', TO_DATE('2029/06/08', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '06', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290609', TO_DATE('2029/06/09', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '06', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290610', TO_DATE('2029/06/10', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '06', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290611', TO_DATE('2029/06/11', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '06', '11', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290612', TO_DATE('2029/06/12', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '06', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290613', TO_DATE('2029/06/13', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '06', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290614', TO_DATE('2029/06/14', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '06', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290615', TO_DATE('2029/06/15', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '06', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290616', TO_DATE('2029/06/16', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '06', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290617', TO_DATE('2029/06/17', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '06', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290618', TO_DATE('2029/06/18', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '06', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290619', TO_DATE('2029/06/19', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '06', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290620', TO_DATE('2029/06/20', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '06', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290621', TO_DATE('2029/06/21', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '06', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290622', TO_DATE('2029/06/22', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '06', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290623', TO_DATE('2029/06/23', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '06', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290624', TO_DATE('2029/06/24', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '06', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290625', TO_DATE('2029/06/25', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '06', '25', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290626', TO_DATE('2029/06/26', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '06', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290627', TO_DATE('2029/06/27', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '06', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290628', TO_DATE('2029/06/28', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '06', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290629', TO_DATE('2029/06/29', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '06', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290630', TO_DATE('2029/06/30', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '06', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290701', TO_DATE('2029/07/01', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '07', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290702', TO_DATE('2029/07/02', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '07', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290703', TO_DATE('2029/07/03', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '07', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290704', TO_DATE('2029/07/04', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '07', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290705', TO_DATE('2029/07/05', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '07', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290706', TO_DATE('2029/07/06', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '07', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290707', TO_DATE('2029/07/07', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '07', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290708', TO_DATE('2029/07/08', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '07', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290709', TO_DATE('2029/07/09', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '07', '09', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290710', TO_DATE('2029/07/10', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '07', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290711', TO_DATE('2029/07/11', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '07', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290712', TO_DATE('2029/07/12', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '07', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290713', TO_DATE('2029/07/13', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '07', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290714', TO_DATE('2029/07/14', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '07', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290715', TO_DATE('2029/07/15', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '07', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290716', TO_DATE('2029/07/16', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '07', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290717', TO_DATE('2029/07/17', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '07', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290718', TO_DATE('2029/07/18', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '07', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290719', TO_DATE('2029/07/19', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '07', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290720', TO_DATE('2029/07/20', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '07', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290721', TO_DATE('2029/07/21', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '07', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290722', TO_DATE('2029/07/22', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '07', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290723', TO_DATE('2029/07/23', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '07', '23', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290724', TO_DATE('2029/07/24', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '07', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290725', TO_DATE('2029/07/25', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '07', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290726', TO_DATE('2029/07/26', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '07', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290727', TO_DATE('2029/07/27', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '07', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290728', TO_DATE('2029/07/28', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '07', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290729', TO_DATE('2029/07/29', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '07', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290730', TO_DATE('2029/07/30', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '07', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290731', TO_DATE('2029/07/31', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '07', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290801', TO_DATE('2029/08/01', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '08', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290802', TO_DATE('2029/08/02', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '08', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290803', TO_DATE('2029/08/03', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '08', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290804', TO_DATE('2029/08/04', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '08', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290805', TO_DATE('2029/08/05', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '08', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290806', TO_DATE('2029/08/06', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '08', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290807', TO_DATE('2029/08/07', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '08', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290808', TO_DATE('2029/08/08', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '08', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290809', TO_DATE('2029/08/09', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '08', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290810', TO_DATE('2029/08/10', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '08', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290811', TO_DATE('2029/08/11', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '08', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290812', TO_DATE('2029/08/12', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '08', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290813', TO_DATE('2029/08/13', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '08', '13', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290814', TO_DATE('2029/08/14', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '08', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290815', TO_DATE('2029/08/15', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '08', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290816', TO_DATE('2029/08/16', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '08', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290817', TO_DATE('2029/08/17', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '08', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290818', TO_DATE('2029/08/18', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '08', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290819', TO_DATE('2029/08/19', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '08', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290820', TO_DATE('2029/08/20', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '08', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290821', TO_DATE('2029/08/21', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '08', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290822', TO_DATE('2029/08/22', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '08', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290823', TO_DATE('2029/08/23', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '08', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290824', TO_DATE('2029/08/24', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '08', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290825', TO_DATE('2029/08/25', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '08', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290826', TO_DATE('2029/08/26', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '08', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290827', TO_DATE('2029/08/27', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '08', '27', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290828', TO_DATE('2029/08/28', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '08', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290829', TO_DATE('2029/08/29', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '08', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290830', TO_DATE('2029/08/30', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '08', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290831', TO_DATE('2029/08/31', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '08', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290901', TO_DATE('2029/09/01', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '09', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290902', TO_DATE('2029/09/02', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '09', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290903', TO_DATE('2029/09/03', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '09', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290904', TO_DATE('2029/09/04', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '09', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290905', TO_DATE('2029/09/05', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '09', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290906', TO_DATE('2029/09/06', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '09', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290907', TO_DATE('2029/09/07', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '09', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290908', TO_DATE('2029/09/08', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '09', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290909', TO_DATE('2029/09/09', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '09', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290910', TO_DATE('2029/09/10', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '09', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290911', TO_DATE('2029/09/11', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '09', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290912', TO_DATE('2029/09/12', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '09', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290913', TO_DATE('2029/09/13', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '09', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290914', TO_DATE('2029/09/14', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '09', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290915', TO_DATE('2029/09/15', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '09', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290916', TO_DATE('2029/09/16', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '09', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290917', TO_DATE('2029/09/17', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '09', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290918', TO_DATE('2029/09/18', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '09', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290919', TO_DATE('2029/09/19', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '09', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290920', TO_DATE('2029/09/20', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '09', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290921', TO_DATE('2029/09/21', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '09', '21', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290922', TO_DATE('2029/09/22', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '09', '22', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290923', TO_DATE('2029/09/23', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '09', '23', 'Y', 'HOLIDAY');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20290924', TO_DATE('2029/09/24', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '09', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290925', TO_DATE('2029/09/25', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '09', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290926', TO_DATE('2029/09/26', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '09', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290927', TO_DATE('2029/09/27', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '09', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290928', TO_DATE('2029/09/28', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '09', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290929', TO_DATE('2029/09/29', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '09', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20290930', TO_DATE('2029/09/30', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '09', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291001', TO_DATE('2029/10/01', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '10', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291002', TO_DATE('2029/10/02', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '10', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291003', TO_DATE('2029/10/03', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '10', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291004', TO_DATE('2029/10/04', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '10', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291005', TO_DATE('2029/10/05', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '10', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291006', TO_DATE('2029/10/06', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '10', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291007', TO_DATE('2029/10/07', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '10', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291008', TO_DATE('2029/10/08', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '10', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291009', TO_DATE('2029/10/09', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '10', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291010', TO_DATE('2029/10/10', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '10', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291011', TO_DATE('2029/10/11', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '10', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291012', TO_DATE('2029/10/12', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '10', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291013', TO_DATE('2029/10/13', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '10', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291014', TO_DATE('2029/10/14', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '10', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20291015', TO_DATE('2029/10/15', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '10', '15', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291016', TO_DATE('2029/10/16', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '10', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291017', TO_DATE('2029/10/17', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '10', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291018', TO_DATE('2029/10/18', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '10', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291019', TO_DATE('2029/10/19', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '10', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291020', TO_DATE('2029/10/20', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '10', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291021', TO_DATE('2029/10/21', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '10', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291022', TO_DATE('2029/10/22', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '10', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291023', TO_DATE('2029/10/23', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '10', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291024', TO_DATE('2029/10/24', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '10', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291025', TO_DATE('2029/10/25', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '10', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291026', TO_DATE('2029/10/26', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '10', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291027', TO_DATE('2029/10/27', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '10', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291028', TO_DATE('2029/10/28', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '10', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20291029', TO_DATE('2029/10/29', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '10', '29', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291030', TO_DATE('2029/10/30', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '10', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291031', TO_DATE('2029/10/31', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '10', '31', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291101', TO_DATE('2029/11/01', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '11', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291102', TO_DATE('2029/11/02', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '11', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291103', TO_DATE('2029/11/03', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '11', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291104', TO_DATE('2029/11/04', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '11', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291105', TO_DATE('2029/11/05', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '11', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291106', TO_DATE('2029/11/06', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '11', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291107', TO_DATE('2029/11/07', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '11', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291108', TO_DATE('2029/11/08', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '11', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291109', TO_DATE('2029/11/09', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '11', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291110', TO_DATE('2029/11/10', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '11', '10', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291111', TO_DATE('2029/11/11', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '11', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20291112', TO_DATE('2029/11/12', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '11', '12', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291113', TO_DATE('2029/11/13', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '11', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291114', TO_DATE('2029/11/14', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '11', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291115', TO_DATE('2029/11/15', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '11', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291116', TO_DATE('2029/11/16', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '11', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291117', TO_DATE('2029/11/17', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '11', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291118', TO_DATE('2029/11/18', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '11', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291119', TO_DATE('2029/11/19', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '11', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291120', TO_DATE('2029/11/20', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '11', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291121', TO_DATE('2029/11/21', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '11', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291122', TO_DATE('2029/11/22', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '11', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291123', TO_DATE('2029/11/23', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '11', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291124', TO_DATE('2029/11/24', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '11', '24', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291125', TO_DATE('2029/11/25', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '11', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20291126', TO_DATE('2029/11/26', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '11', '26', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291127', TO_DATE('2029/11/27', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '11', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291128', TO_DATE('2029/11/28', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '11', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291129', TO_DATE('2029/11/29', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '11', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291130', TO_DATE('2029/11/30', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '11', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291201', TO_DATE('2029/12/01', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '12', '01', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291202', TO_DATE('2029/12/02', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '12', '02', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291203', TO_DATE('2029/12/03', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '12', '03', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291204', TO_DATE('2029/12/04', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '12', '04', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291205', TO_DATE('2029/12/05', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '12', '05', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291206', TO_DATE('2029/12/06', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '12', '06', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291207', TO_DATE('2029/12/07', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '12', '07', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291208', TO_DATE('2029/12/08', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '12', '08', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291209', TO_DATE('2029/12/09', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '12', '09', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20291210', TO_DATE('2029/12/10', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '12', '10', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291211', TO_DATE('2029/12/11', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '12', '11', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291212', TO_DATE('2029/12/12', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '12', '12', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291213', TO_DATE('2029/12/13', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '12', '13', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291214', TO_DATE('2029/12/14', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '12', '14', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291215', TO_DATE('2029/12/15', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '12', '15', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291216', TO_DATE('2029/12/16', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '12', '16', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291217', TO_DATE('2029/12/17', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '12', '17', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291218', TO_DATE('2029/12/18', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '12', '18', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291219', TO_DATE('2029/12/19', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '12', '19', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291220', TO_DATE('2029/12/20', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '12', '20', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291221', TO_DATE('2029/12/21', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '12', '21', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291222', TO_DATE('2029/12/22', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '12', '22', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291223', TO_DATE('2029/12/23', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '12', '23', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF, REMARK)
+ Values
+   ('20291224', TO_DATE('2029/12/24', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '12', '24', 'Y', 'REGULAR');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291225', TO_DATE('2029/12/25', 'YYYY/MM/DD'), 3, 'TUE', '2029', 
+    '12', '25', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291226', TO_DATE('2029/12/26', 'YYYY/MM/DD'), 4, 'WED', '2029', 
+    '12', '26', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291227', TO_DATE('2029/12/27', 'YYYY/MM/DD'), 5, 'THU', '2029', 
+    '12', '27', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291228', TO_DATE('2029/12/28', 'YYYY/MM/DD'), 6, 'FRI', '2029', 
+    '12', '28', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291229', TO_DATE('2029/12/29', 'YYYY/MM/DD'), 7, 'SAT', '2029', 
+    '12', '29', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291230', TO_DATE('2029/12/30', 'YYYY/MM/DD'), 1, 'SUN', '2029', 
+    '12', '30', 'N');
+Insert into BOOKEY.TBL_CALENDAR
+   (DATEID, DT, DAYNUM, DAYCHA, YYYY, 
+    MM, DD, ISDAYOFF)
+ Values
+   ('20291231', TO_DATE('2029/12/31', 'YYYY/MM/DD'), 2, 'MON', '2029', 
+    '12', '31', 'N');
+COMMIT;
