@@ -9,7 +9,7 @@ function initIndexEvent() {
 	event_trending_move(".trending");
 	getAllDayOffs();
 	updateDate();
-	event_component_act();
+	event_component_act_index();
 }
 
 function event_trending_moveSlide(selector) {
@@ -110,7 +110,7 @@ function showDayOffs(yyyymm) {
 	document.querySelector(".dayOff .dayOffsAmount span").textContent = cnt;
 }
 
-function event_component_act() {
+function event_component_act_index() {
 	$(".dayOff .controller .prev").click(function() {
 		prevMonth();
 	})

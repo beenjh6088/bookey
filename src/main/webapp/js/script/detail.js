@@ -4,7 +4,7 @@ let bookID;
 function initDetailEvent() {
 	Kakao.init('0f434777d81410ff1c3d3ceb43355304');
 	init_component_fillData();
-	event_component_act();
+	event_component_act_detail();
 }
 
 function init_component_fillData() {
@@ -57,7 +57,7 @@ function init_component_fillData() {
 	}
 }
 
-function event_component_act() {
+function event_component_act_detail() {
 	
 	if(fileName.includes("detail")) {
 		$(document).ready(function() {

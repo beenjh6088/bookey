@@ -1,13 +1,13 @@
 function initReservationEvent() {
 	init_component_fillData();
-	event_component_act();
+	event_component_act_reservation();
 }
 
 function init_component_fillData() {
 	search_data();
 }
 
-function event_component_act() {
+function event_component_act_reservation() {
 	// dynamically setting event listener
 	$(document).on('click', '.bookItem .button', function(event) {
 		let userID = event.target.getAttribute("data-userID");

@@ -7,7 +7,7 @@ let bookList = null;
 function initArticleEvent() {
 	Kakao.init('0f434777d81410ff1c3d3ceb43355304');
 	init_component_fillData();
-	event_component_act();
+	event_component_act_article();
 	receiveOrder();
 }
 
@@ -66,7 +66,7 @@ function init_component_fillData() {
 	}
 }
 
-function event_component_act() {
+function event_component_act_article() {
 	// Search books	
 	$("#article .frmSearchBook .submit").click(function(event)  {
 		event.preventDefault();
