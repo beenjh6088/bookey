@@ -326,7 +326,7 @@ public class BookDAO {
 				+ "           AND BOOK.STATUS = BOOK_STATUS.CODE(+)" 
 				+ "           AND BOOK.CATGID = CATEGORY.CATGID(+)"
 				+ "           AND RENTAL.STATUS = RENTAL_STATUS.CODE(+)"
-				+ "           AND BOOK.BOOKID  = LOCA.BOOKID(+)"
+				+ "           AND BOOK.LOCATION_ID  = LOCA.LOCATION_ID(+)"
 				+ "           AND LOCA.PLACE_NO = LOCA_INFO.CODE(+)" 
 				+ "           AND BOOK.APPERANCE = BOOK_APPERANCE.CODE(+)"
 				+ "						AND BOOK.BOOKID = WAITING.BOOKID(+)"
